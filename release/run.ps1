@@ -1,5 +1,5 @@
 # ==============================================================================
-# Zero-Friction One-Click PowerShell Launcher for STM32 Karpathy-Wiki Generator
+# Zero-Friction One-Click PowerShell Launcher for STM32 Structured Wiki Generator
 # Compatible with PowerShell 5.1 & PowerShell Core 7+ on Windows, Linux, and macOS
 # ==============================================================================
 
@@ -14,7 +14,7 @@ $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 Set-Location $ScriptDir
 
 Write-Host "======================================================================" -ForegroundColor Cyan
-Write-Host "🚀 Launching STM32 Karpathy-Wiki Generator & Multi-View Graph Engine" -ForegroundColor Cyan
+Write-Host "🚀 Launching STM32 Structured Wiki Generator & Multi-View Graph Engine" -ForegroundColor Cyan
 Write-Host "======================================================================" -ForegroundColor Cyan
 
 # 1. Determine platform and venv Python path

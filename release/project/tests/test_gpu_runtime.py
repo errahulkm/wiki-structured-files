@@ -106,3 +106,36 @@ def test_run_gpu_diagnostics_schema():
     assert "recommended_launch_strategy" in diag
     assert "chromium_flags_tier1" in diag
     assert "chromium_flags_tier2" in diag
+
+
+def test_browser_preference_resolution(tmp_path):
+    """Verifies that KnowledgeGraphVisualizer resolves browser targets accurately."""
+    from src.visualizer.graph_visualizer import KnowledgeGraphVisualizer
+    viz = KnowledgeGraphVisualizer(output_root=str(tmp_path))
+
+    # Auto / Default should delegate to system handler
+    auto_exe, auto_name = viz._find_browser_executable("⚙️ Auto / System Default Browser")
+    assert auto_exe is None
+    assert "Default" in auto_name
+
+    # Chrome preference should resolve to Chrome/Chromium if installed
+    chrome_exe, chrome_name = viz._find_browser_executable("🌐 Google Chrome Browser")
+    if chrome_exe:
+        assert any(k in chrome_name for k in ["Chrome", "Chromium"])
+        assert os.path.exists(chrome_exe)
+
+    # Firefox preference should resolve to Firefox if installed
+    firefox_exe, firefox_name = viz._find_browser_executable("🦊 Mozilla Firefox Browser")
+    if firefox_exe:
+        assert "Firefox" in firefox_name
+        assert os.path.exists(firefox_exe)
+
+
+def test_qt6_native_viewer_support():
+    """Verifies that PyQt6 WebEngine is fully available for native desktop graph viewing."""
+    import PyQt6.QtWebEngineWidgets
+    from src.visualizer.native_viewer import launch_native_window
+
+    assert PyQt6.QtWebEngineWidgets is not None
+    assert callable(launch_native_window)
+

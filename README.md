@@ -108,6 +108,23 @@ The visualizer provides 5 distinct perspectives on your MCU silicon architecture
 
 ---
 
+## 🎮 Supported Graphics Cards & GPU Hardware Acceleration
+
+The application features an **Adaptive Multi-Tier Hardware Acceleration Engine** (`src/core/gpu_runtime.py`) that detects your system's exact GPU configuration at launch and configures optimal shader offloading, memory allocation, and Chromium rendering flags:
+
+| Vendor & Architecture | Supported Graphics Card Families | Acceleration Technology & APIs |
+| :--- | :--- | :--- |
+| **NVIDIA Dedicated GPUs** | • GeForce RTX 4090, 4080, 4070, 4060<br>• GeForce RTX 3090, 3080, 3070, 3060<br>• GeForce RTX 2080, 2070, 2060<br>• RTX Ada Generation & Laptop GPUs (RTX 5000, 4000, 3500, 3000, 2000 Ada)<br>• GTX 1660, 1650, 1080, 1070, 1060<br>• Professional Quadro & Tesla (A100, H100, L40S, T4) | **NVIDIA CUDA 11/12**, NV-PRIME, Hardware WebGL2, Vulkan Direct Offload, TensorRT. |
+| **Intel Integrated & Discrete** | • Intel Iris Xe Graphics (11th, 12th, 13th, 14th Gen Core i5/i7/i9 & Core Ultra)<br>• Intel Arc A-Series Discrete (Arc A770, A750, A580, A380, A370M)<br>• Intel UHD Graphics (UHD 770, 750, 730, 630, 620) | **Intel OpenVINO**, Intel oneAPI, Vulkan / Direct3D12 via ANGLE, WebGL2. |
+| **AMD Radeon & APUs** | • Radeon RX 7900, 7800, 7700, 7600 (RDNA 3)<br>• Radeon RX 6950, 6900, 6800, 6700, 6600 (RDNA 2)<br>• Radeon RX 5700, 5600, 5500 (RDNA 1)<br>• Ryzen 5000 / 6000 / 7000 / 8000 Series Integrated Radeon APUs | **AMD ROCm / HIP**, Mesa RADV / DRI_PRIME, Vulkan, Direct3D12, WebGL2. |
+| **Apple Silicon (macOS)** | • Apple M1, M1 Pro, M1 Max, M1 Ultra<br>• Apple M2, M2 Pro, M2 Max, M2 Ultra<br>• Apple M3, M3 Pro, M3 Max<br>• Apple M4 Series | **Apple Metal API**, Metal-accelerated WebGL2, Unified Memory Architecture (zero-copy VRAM). |
+| **CPU Fallback (Universal)** | • Any x86_64 or ARM64 CPU (Intel Core, AMD Ryzen, Xeon, EPYC, Ampere) | **Google SwiftShader / Mesa LLVMpipe** Software 3D Rasterizer. Ideal for headless CI/CD, air-gapped servers, and VMs. |
+
+> [!TIP]
+> **Zero GPU Driver Headaches**: The visualizer automatically opens in your default browser (**Google Chrome, Microsoft Edge, Mozilla Firefox, or Brave**) or Native Desktop Window. If dedicated GPU drivers are unavailable, the self-healing pipeline seamlessly drops back to Intel Iris or SwiftShader without crashing.
+
+---
+
 ## 🗺️ 12-Layer Silicon Virtual Taxonomy
 
 ```

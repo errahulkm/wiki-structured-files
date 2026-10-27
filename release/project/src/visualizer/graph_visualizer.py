@@ -2737,6 +2737,10 @@ class KnowledgeGraphVisualizer:
         import shutil
         pref_upper = (browser_preference or "AUTO").upper()
 
+        if "AUTO" in pref_upper or "DEFAULT" in pref_upper:
+            # System default browser delegated to platform handler / webbrowser module
+            return None, "System Default Browser"
+
         if "CHROME" in pref_upper:
             candidates = [("google-chrome", "Google Chrome"), ("google-chrome-stable", "Google Chrome"), ("chrome.exe", "Google Chrome"), ("chrome", "Google Chrome"), ("chromium-browser", "Chromium"), ("chromium", "Chromium")]
         elif "FIREFOX" in pref_upper:
@@ -2811,7 +2815,14 @@ class KnowledgeGraphVisualizer:
         # 2. Check if Native Qt6 Desktop Window is requested
         if "NATIVE" in target_upper or "QT" in target_upper or "LOCAL" in target_upper:
             viewer_script = os.path.join(os.path.dirname(__file__), "native_viewer.py")
-            if os.path.exists(viewer_script):
+            qt_supported = False
+            try:
+                import PyQt6.QtWebEngineWidgets  # noqa: F401
+                qt_supported = True
+            except (ImportError, Exception):
+                qt_supported = False
+
+            if qt_supported and os.path.exists(viewer_script):
                 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
                 log_path = os.path.join(self.output_root, "native_viewer.log")
 
@@ -2831,26 +2842,49 @@ class KnowledgeGraphVisualizer:
                     popen_kwargs["start_new_session"] = True
                 else:
                     popen_kwargs["creationflags"] = 0x00000200  # CREATE_NEW_PROCESS_GROUP
-                with open(log_path, "w", encoding="utf-8") as log_f:
-                    subprocess.Popen(cmd, env=tier_env, stdout=log_f, stderr=log_f, **popen_kwargs)
+                try:
+                    with open(log_path, "w", encoding="utf-8") as log_f:
+                        subprocess.Popen(cmd, env=tier_env, stdout=log_f, stderr=log_f, **popen_kwargs)
+                    launched = True
+                    self.logger.info(f"🚀 Launched 100% Native Qt6 Desktop Window -> {html_path}")
+                    return html_path
+                except Exception as e:
+                    self.logger.warning(f"Native Qt6 process launch failed: {e}. Falling back to browser...")
+            else:
+                self.logger.info("ℹ️ Native Qt6 WebEngine not installed; seamlessly falling back to hardware-accelerated Web Browser...")
 
-                launched = True
-                self.logger.info(f"🚀 Launched 100% Native Qt6 Desktop Window -> {html_path}")
-                return html_path
-
-        # 2. Direct web browser launch (Chrome / Firefox)
+        # 3. Direct web browser launch (Chrome / Firefox / Edge / Brave)
         if not launched:
             browser_exe, browser_name = self._find_browser_executable(browser_preference)
             if browser_exe:
-                try:
+                popen_kwargs = {}
+                if sys.platform != "win32":
+                    popen_kwargs["start_new_session"] = True
+                else:
+                    popen_kwargs["creationflags"] = 0x00000200
+
+                # Chromium-based browsers support dedicated desktop app window mode
+                is_chromium = any(k in browser_name for k in ["Chrome", "Chromium", "Brave", "Edge"])
+                if is_chromium and window_mode == "STANDALONE":
+                    cmd = [browser_exe, f"--app={file_url}"]
+                else:
                     cmd = [browser_exe, "--new-window", file_url]
-                    subprocess.Popen(cmd, env=env)
+
+                try:
+                    subprocess.Popen(cmd, env=env, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, **popen_kwargs)
                     launched = True
                     self.logger.info(f"🚀 Launched {browser_name} executable [{browser_exe}] with GPU offload environment.")
                 except Exception as e:
                     self.logger.warning(f"Direct browser launch ({browser_exe}) failed: {e}")
+                    if is_chromium and window_mode == "STANDALONE":
+                        try:
+                            fallback_cmd = [browser_exe, "--new-window", file_url]
+                            subprocess.Popen(fallback_cmd, env=env, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, **popen_kwargs)
+                            launched = True
+                        except Exception as e2:
+                            self.logger.warning(f"Fallback browser launch failed: {e2}")
 
-        # 3. Fallback to webbrowser module
+        # 4. Fallback to webbrowser module
         if not launched:
             try:
                 import webbrowser
@@ -2859,7 +2893,7 @@ class KnowledgeGraphVisualizer:
             except Exception as e:
                 self.logger.warning(f"Webbrowser module launch failed: {e}")
 
-        # 4. Final fallback to xdg-open / open / startfile
+        # 5. Final fallback to xdg-open / open / startfile
         if not launched:
             try:
                 if sys.platform.startswith("linux"):

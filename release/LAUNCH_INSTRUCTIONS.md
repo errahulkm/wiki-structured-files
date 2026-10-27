@@ -1,6 +1,6 @@
 # 🚀 One-Click Launch Instructions (Windows, Linux & macOS)
 
-Launching the **STM32 Karpathy-Wiki Generator & Multi-View Knowledge Graph Engine** requires zero installation hassle. It runs seamlessly out-of-the-box on all PCs, laptops, and operating systems.
+Launching the **STM32 Structured Wiki Generator & Multi-View Knowledge Graph Engine** requires zero installation hassle. It runs seamlessly out-of-the-box on all PCs, laptops, and operating systems.
 
 ---
 
