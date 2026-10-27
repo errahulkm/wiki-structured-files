@@ -14,7 +14,7 @@
   "file_statuses": {
     "ref_manual": {
       "file_type": "Reference Manual",
-      "file_path": "/home/rahul/Antigravity/karpathy-wiki-file-ref-man/artifacts/st/STM32G4xx/rm0440-stm32g4-series-advanced-armbased-32bit-mcus-stmicroelectronics.pdf",
+      "file_path": "artifacts/st/STM32G4xx/rm0440-stm32g4-series-advanced-armbased-32bit-mcus-stmicroelectronics.pdf",
       "file_name": "rm0440-stm32g4-series-advanced-armbased-32bit-mcus-stmicroelectronics.pdf",
       "status": "completed",
       "progress_percentage": 100.0,

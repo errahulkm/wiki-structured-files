@@ -9,7 +9,7 @@
       "page_number": 80,
       "is_multi_page": false,
       "svg_filename": "fig_bus_matrix_p80.svg",
-      "svg_path": "/home/rahul/Antigravity/karpathy-wiki-file-ref-man/artifacts/output/STM32L5/figures/fig_bus_matrix_p80.svg",
+      "svg_path": "artifacts/output/STM32L5/figures/fig_bus_matrix_p80.svg",
       "relative_path": "figures/fig_bus_matrix_p80.svg",
       "validation": {
         "status": "PASSED",
@@ -32,7 +32,7 @@
       "page_number": 87,
       "is_multi_page": false,
       "svg_filename": "fig_memory_map_fig_p87.svg",
-      "svg_path": "/home/rahul/Antigravity/karpathy-wiki-file-ref-man/artifacts/output/STM32L5/figures/fig_memory_map_fig_p87.svg",
+      "svg_path": "artifacts/output/STM32L5/figures/fig_memory_map_fig_p87.svg",
       "relative_path": "figures/fig_memory_map_fig_p87.svg",
       "validation": {
         "status": "PASSED",
@@ -55,7 +55,7 @@
       "page_number": 105,
       "is_multi_page": false,
       "svg_filename": "fig_memory_map_fig_p105.svg",
-      "svg_path": "/home/rahul/Antigravity/karpathy-wiki-file-ref-man/artifacts/output/STM32L5/figures/fig_memory_map_fig_p105.svg",
+      "svg_path": "artifacts/output/STM32L5/figures/fig_memory_map_fig_p105.svg",
       "relative_path": "figures/fig_memory_map_fig_p105.svg",
       "validation": {
         "status": "PASSED",
@@ -78,7 +78,7 @@
       "page_number": 261,
       "is_multi_page": false,
       "svg_filename": "fig_power_tree_p261.svg",
-      "svg_path": "/home/rahul/Antigravity/karpathy-wiki-file-ref-man/artifacts/output/STM32L5/figures/fig_power_tree_p261.svg",
+      "svg_path": "artifacts/output/STM32L5/figures/fig_power_tree_p261.svg",
       "relative_path": "figures/fig_power_tree_p261.svg",
       "validation": {
         "status": "PASSED",
@@ -101,7 +101,7 @@
       "page_number": 262,
       "is_multi_page": false,
       "svg_filename": "fig_power_tree_p262.svg",
-      "svg_path": "/home/rahul/Antigravity/karpathy-wiki-file-ref-man/artifacts/output/STM32L5/figures/fig_power_tree_p262.svg",
+      "svg_path": "artifacts/output/STM32L5/figures/fig_power_tree_p262.svg",
       "relative_path": "figures/fig_power_tree_p262.svg",
       "validation": {
         "status": "PASSED",
@@ -124,7 +124,7 @@
       "page_number": 263,
       "is_multi_page": false,
       "svg_filename": "fig_power_tree_p263.svg",
-      "svg_path": "/home/rahul/Antigravity/karpathy-wiki-file-ref-man/artifacts/output/STM32L5/figures/fig_power_tree_p263.svg",
+      "svg_path": "artifacts/output/STM32L5/figures/fig_power_tree_p263.svg",
       "relative_path": "figures/fig_power_tree_p263.svg",
       "validation": {
         "status": "PASSED",
@@ -147,7 +147,7 @@
       "page_number": 269,
       "is_multi_page": false,
       "svg_filename": "fig_power_tree_p269.svg",
-      "svg_path": "/home/rahul/Antigravity/karpathy-wiki-file-ref-man/artifacts/output/STM32L5/figures/fig_power_tree_p269.svg",
+      "svg_path": "artifacts/output/STM32L5/figures/fig_power_tree_p269.svg",
       "relative_path": "figures/fig_power_tree_p269.svg",
       "validation": {
         "status": "PASSED",
@@ -170,7 +170,7 @@
       "page_number": 328,
       "is_multi_page": false,
       "svg_filename": "fig_clock_tree_p328.svg",
-      "svg_path": "/home/rahul/Antigravity/karpathy-wiki-file-ref-man/artifacts/output/STM32L5/figures/fig_clock_tree_p328.svg",
+      "svg_path": "artifacts/output/STM32L5/figures/fig_clock_tree_p328.svg",
       "relative_path": "figures/fig_clock_tree_p328.svg",
       "validation": {
         "status": "PASSED",
@@ -193,7 +193,7 @@
       "page_number": 480,
       "is_multi_page": false,
       "svg_filename": "fig_dma_block_p480.svg",
-      "svg_path": "/home/rahul/Antigravity/karpathy-wiki-file-ref-man/artifacts/output/STM32L5/figures/fig_dma_block_p480.svg",
+      "svg_path": "artifacts/output/STM32L5/figures/fig_dma_block_p480.svg",
       "relative_path": "figures/fig_dma_block_p480.svg",
       "validation": {
         "status": "PASSED",
@@ -216,7 +216,7 @@
       "page_number": 511,
       "is_multi_page": false,
       "svg_filename": "fig_dma_block_p511.svg",
-      "svg_path": "/home/rahul/Antigravity/karpathy-wiki-file-ref-man/artifacts/output/STM32L5/figures/fig_dma_block_p511.svg",
+      "svg_path": "artifacts/output/STM32L5/figures/fig_dma_block_p511.svg",
       "relative_path": "figures/fig_dma_block_p511.svg",
       "validation": {
         "status": "PASSED",
@@ -239,7 +239,7 @@
       "page_number": 686,
       "is_multi_page": false,
       "svg_filename": "fig_adc_block_p686.svg",
-      "svg_path": "/home/rahul/Antigravity/karpathy-wiki-file-ref-man/artifacts/output/STM32L5/figures/fig_adc_block_p686.svg",
+      "svg_path": "artifacts/output/STM32L5/figures/fig_adc_block_p686.svg",
       "relative_path": "figures/fig_adc_block_p686.svg",
       "validation": {
         "status": "PASSED",
@@ -262,7 +262,7 @@
       "page_number": 743,
       "is_multi_page": false,
       "svg_filename": "fig_adc_block_p743.svg",
-      "svg_path": "/home/rahul/Antigravity/karpathy-wiki-file-ref-man/artifacts/output/STM32L5/figures/fig_adc_block_p743.svg",
+      "svg_path": "artifacts/output/STM32L5/figures/fig_adc_block_p743.svg",
       "relative_path": "figures/fig_adc_block_p743.svg",
       "validation": {
         "status": "PASSED",
@@ -285,7 +285,7 @@
       "page_number": 986,
       "is_multi_page": false,
       "svg_filename": "fig_dma_block_p986.svg",
-      "svg_path": "/home/rahul/Antigravity/karpathy-wiki-file-ref-man/artifacts/output/STM32L5/figures/fig_dma_block_p986.svg",
+      "svg_path": "artifacts/output/STM32L5/figures/fig_dma_block_p986.svg",
       "relative_path": "figures/fig_dma_block_p986.svg",
       "validation": {
         "status": "PASSED",
@@ -308,7 +308,7 @@
       "page_number": 987,
       "is_multi_page": false,
       "svg_filename": "fig_dma_block_p987.svg",
-      "svg_path": "/home/rahul/Antigravity/karpathy-wiki-file-ref-man/artifacts/output/STM32L5/figures/fig_dma_block_p987.svg",
+      "svg_path": "artifacts/output/STM32L5/figures/fig_dma_block_p987.svg",
       "relative_path": "figures/fig_dma_block_p987.svg",
       "validation": {
         "status": "PASSED",
@@ -331,7 +331,7 @@
       "page_number": 1098,
       "is_multi_page": false,
       "svg_filename": "fig_timer_waveform_p1098.svg",
-      "svg_path": "/home/rahul/Antigravity/karpathy-wiki-file-ref-man/artifacts/output/STM32L5/figures/fig_timer_waveform_p1098.svg",
+      "svg_path": "artifacts/output/STM32L5/figures/fig_timer_waveform_p1098.svg",
       "relative_path": "figures/fig_timer_waveform_p1098.svg",
       "validation": {
         "status": "PASSED",
@@ -354,7 +354,7 @@
       "page_number": 1199,
       "is_multi_page": false,
       "svg_filename": "fig_timer_waveform_p1199.svg",
-      "svg_path": "/home/rahul/Antigravity/karpathy-wiki-file-ref-man/artifacts/output/STM32L5/figures/fig_timer_waveform_p1199.svg",
+      "svg_path": "artifacts/output/STM32L5/figures/fig_timer_waveform_p1199.svg",
       "relative_path": "figures/fig_timer_waveform_p1199.svg",
       "validation": {
         "status": "PASSED",
@@ -377,7 +377,7 @@
       "page_number": 1267,
       "is_multi_page": false,
       "svg_filename": "fig_timer_waveform_p1267.svg",
-      "svg_path": "/home/rahul/Antigravity/karpathy-wiki-file-ref-man/artifacts/output/STM32L5/figures/fig_timer_waveform_p1267.svg",
+      "svg_path": "artifacts/output/STM32L5/figures/fig_timer_waveform_p1267.svg",
       "relative_path": "figures/fig_timer_waveform_p1267.svg",
       "validation": {
         "status": "PASSED",
@@ -400,7 +400,7 @@
       "page_number": 1552,
       "is_multi_page": false,
       "svg_filename": "fig_usart_block_p1552.svg",
-      "svg_path": "/home/rahul/Antigravity/karpathy-wiki-file-ref-man/artifacts/output/STM32L5/figures/fig_usart_block_p1552.svg",
+      "svg_path": "artifacts/output/STM32L5/figures/fig_usart_block_p1552.svg",
       "relative_path": "figures/fig_usart_block_p1552.svg",
       "validation": {
         "status": "PASSED",
@@ -423,7 +423,7 @@
       "page_number": 1564,
       "is_multi_page": false,
       "svg_filename": "fig_usart_block_p1564.svg",
-      "svg_path": "/home/rahul/Antigravity/karpathy-wiki-file-ref-man/artifacts/output/STM32L5/figures/fig_usart_block_p1564.svg",
+      "svg_path": "artifacts/output/STM32L5/figures/fig_usart_block_p1564.svg",
       "relative_path": "figures/fig_usart_block_p1564.svg",
       "validation": {
         "status": "PASSED",

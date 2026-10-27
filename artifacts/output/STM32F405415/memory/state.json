@@ -14,7 +14,7 @@
   "file_statuses": {
     "ref_manual": {
       "file_type": "Reference Manual",
-      "file_path": "/home/rahul/Antigravity/karpathy-wiki-file-ref-man/artifacts/st/STM32F4xx/rm0090-stm32f405415-stm32f407417-stm32f427437-and-stm32f429439-advanced-armbased-32bit-mcus-stmicroelectronics.pdf",
+      "file_path": "artifacts/st/STM32F4xx/rm0090-stm32f405415-stm32f407417-stm32f427437-and-stm32f429439-advanced-armbased-32bit-mcus-stmicroelectronics.pdf",
       "file_name": "rm0090-stm32f405415-stm32f407417-stm32f427437-and-stm32f429439-advanced-armbased-32bit-mcus-stmicroelectronics.pdf",
       "status": "completed",
       "progress_percentage": 100.0,
