@@ -1,0 +1,19 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_TSTR",
+  "long_name": "RTC timestamp time register (RTC_TSTR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RTC timestamp time register specification",
+  "bit_fields": [
+    {
+      "name": "RTC_TSTR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "RTC timestamp time register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

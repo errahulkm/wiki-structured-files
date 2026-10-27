@@ -1,0 +1,19 @@
+{
+  "peripheral": "IWDG",
+  "register_name": "IWDG_WINR",
+  "long_name": "IWDG window register (IWDG_WINR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "IWDG window register specification",
+  "bit_fields": [
+    {
+      "name": "IWDG_WINR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "IWDG window register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

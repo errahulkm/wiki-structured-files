@@ -1,0 +1,19 @@
+{
+  "peripheral": "EXTI",
+  "register_name": "EXTI_FTSR2",
+  "long_name": "EXTI falling trigger sele ction register 2 (EXTI_FTSR2)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "EXTI falling trigger sele ction register 2 specification",
+  "bit_fields": [
+    {
+      "name": "EXTI_FTSR2",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "EXTI falling trigger sele ction register 2 full-width value"
+    }
+  ],
+  "errata_notes": []
+}

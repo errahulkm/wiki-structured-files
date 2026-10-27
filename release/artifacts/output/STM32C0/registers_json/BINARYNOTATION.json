@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "BINARYNOTATION",
+  "long_name": "3 Register reset value Bits (BINARYNOTATION)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "3 Register reset value Bits specification",
+  "bit_fields": [
+    {
+      "name": "BINARYNOTATION",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "3 Register reset value Bits full-width value"
+    }
+  ],
+  "errata_notes": []
+}

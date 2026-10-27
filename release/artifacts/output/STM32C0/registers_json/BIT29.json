@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "BIT29",
+  "long_name": "The FIFO mode is enabled by setting FIFOEN in USART_CR1 register (BIT29)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "The FIFO mode is enabled by setting FIFOEN in USART_CR1 register specification",
+  "bit_fields": [
+    {
+      "name": "BIT29",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "The FIFO mode is enabled by setting FIFOEN in USART_CR1 register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_AWD1TR",
+  "long_name": "ADC watchdog threshold register (ADC_AWD1TR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "ADC watchdog threshold register specification",
+  "bit_fields": [
+    {
+      "name": "ADC_AWD1TR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "ADC watchdog threshold register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

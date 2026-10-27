@@ -23,7 +23,7 @@ def detect_mcu_metadata(source_hint: Optional[str] = None, wiki_root: Optional[s
             - target_device: e.g. "STM32U3C5ZI", "STM32H723VE"
             - display_title: e.g. "STM32U3 Series (RM0487)"
             - graph_title: e.g. "STM32U3 Knowledge Graph"
-            - audit_title: e.g. "STM32U3 Karpathy Wiki Corpus Independent Audit"
+            - audit_title: e.g. "STM32U3 Structured Wiki Corpus Independent Audit"
             - audit_subtitle: e.g. "Multi-Algorithmic Cross-Verification against STMicroelectronics RM0487 PDF"
     """
     # 1. Gather all clues
@@ -44,7 +44,7 @@ def detect_mcu_metadata(source_hint: Optional[str] = None, wiki_root: Optional[s
                     "target_device": tgt_dev,
                     "display_title": f"{mcu_fam} Series ({rm_num})",
                     "graph_title": f"{mcu_fam} Knowledge Graph",
-                    "audit_title": f"{mcu_fam} Karpathy Wiki Corpus Independent Audit",
+                    "audit_title": f"{mcu_fam} Structured Wiki Corpus Independent Audit",
                     "audit_subtitle": f"Multi-Algorithmic Cross-Verification against STMicroelectronics {rm_num} PDF"
                 }
             except Exception:
@@ -110,7 +110,7 @@ def detect_mcu_metadata(source_hint: Optional[str] = None, wiki_root: Optional[s
     # 4. Construct human-readable titles
     display_title = f"{mcu_family} Series ({rm_number})" if rm_number != "Reference Manual" else f"{mcu_family} Series Reference Manual"
     graph_title = f"{mcu_family} Knowledge Graph"
-    audit_title = f"{mcu_family} Karpathy Wiki Corpus Independent Audit"
+    audit_title = f"{mcu_family} Structured Wiki Corpus Independent Audit"
     audit_subtitle = f"Multi-Algorithmic Cross-Verification against STMicroelectronics {rm_number} PDF"
 
     return {
@@ -242,6 +242,6 @@ def validate_reference_manual(file_path: str) -> Tuple[bool, str, Optional[str]]
     parent_dir = os.path.dirname(os.path.abspath(file_path))
     sibling_rm = find_reference_manual_in_directory(parent_dir)
 
-    msg = f"Rejected: '{os.path.basename(file_path)}' is classified as an ST {classification['doc_type']} ({classification['description']}). Karpathy Wiki requires an official Reference Manual (RMxxxx) with complete peripheral register maps."
+    msg = f"Rejected: '{os.path.basename(file_path)}' is classified as an ST {classification['doc_type']} ({classification['description']}). Structured Wiki requires an official Reference Manual (RMxxxx) with complete peripheral register maps."
     return False, msg, sibling_rm
 

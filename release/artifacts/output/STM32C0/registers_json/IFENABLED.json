@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "IFENABLED",
+  "long_name": "The RXFT flag is set in the USART_ISR register and the corresponding interrupt (IFENABLED)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "The RXFT flag is set in the USART_ISR register and the corresponding interrupt specification",
+  "bit_fields": [
+    {
+      "name": "IFENABLED",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "The RXFT flag is set in the USART_ISR register and the corresponding interrupt full-width value"
+    }
+  ],
+  "errata_notes": []
+}

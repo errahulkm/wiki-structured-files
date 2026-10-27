@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "CHARACTERGUARDTIME",
+  "long_name": "register must be programmed to the desired CGT (CHARACTERGUARDTIME)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "register must be programmed to the desired CGT specification",
+  "bit_fields": [
+    {
+      "name": "CHARACTERGUARDTIME",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "register must be programmed to the desired CGT full-width value"
+    }
+  ],
+  "errata_notes": []
+}

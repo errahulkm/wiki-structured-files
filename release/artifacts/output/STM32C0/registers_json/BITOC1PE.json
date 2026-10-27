@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "BITOC1PE",
+  "long_name": "It is loaded permanently if the preload feature is not selected in the TIMx_CCMR1 register (BITOC1PE)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "It is loaded permanently if the preload feature is not selected in the TIMx_CCMR1 register specification",
+  "bit_fields": [
+    {
+      "name": "BITOC1PE",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "It is loaded permanently if the preload feature is not selected in the TIMx_CCMR1 register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "NOTACCESSIBLEBYSOFTWARE",
+  "long_name": "The content of these locations is stored in its internal 16-bit registers ADDR and COUNT (NOTACCESSIBLEBYSOFTWARE)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "The content of these locations is stored in its internal 16-bit registers ADDR and COUNT specification",
+  "bit_fields": [
+    {
+      "name": "OF",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB_CHEPnR register) for ‘reception’ double-buffered bulk endpoints or DTOGTX (bit 6 of"
+    }
+  ],
+  "errata_notes": []
+}

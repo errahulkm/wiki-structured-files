@@ -1,0 +1,19 @@
+{
+  "peripheral": "TIM3",
+  "register_name": "TIM3_TISEL",
+  "long_name": "TIM3 timer input selection register (TIM3_TISEL)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "TIM3 timer input selection register specification",
+  "bit_fields": [
+    {
+      "name": "TIM3_TISEL",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "TIM3 timer input selection register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

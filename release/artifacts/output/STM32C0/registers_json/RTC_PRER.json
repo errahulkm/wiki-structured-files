@@ -1,0 +1,19 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_PRER",
+  "long_name": "RTC prescaler register (RTC_PRER)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RTC prescaler register specification",
+  "bit_fields": [
+    {
+      "name": "RTC_PRER",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "RTC prescaler register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

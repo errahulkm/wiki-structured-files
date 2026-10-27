@@ -1,0 +1,43 @@
+{
+  "peripheral": "TIMERS",
+  "register_name": "TIM1_DMAR",
+  "long_name": "Timers (TIM) TIM1_DMAR Register",
+  "address_offset": "0x4C",
+  "reset_value": "0x00000000",
+  "description": "Timers (TIM) TIM1_DMAR hardware register",
+  "bit_fields": [
+    {
+      "name": "DBA[4",
+      "bit_offset": 0,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DMA base address"
+    },
+    {
+      "name": "OC5CE",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output compare 5 clear enable"
+    },
+    {
+      "name": "DBL[4",
+      "bit_offset": 8,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DMA burst length"
+    },
+    {
+      "name": "OC6CE",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output compare 6 clear enable"
+    }
+  ],
+  "errata_notes": []
+}

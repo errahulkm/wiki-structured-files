@@ -1,0 +1,19 @@
+{
+  "peripheral": "TIM15",
+  "register_name": "TIM15_CCER",
+  "long_name": "TIM15 capture/compare enable register (TIM15_CCER)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "TIM15 capture/compare enable register specification",
+  "bit_fields": [
+    {
+      "name": "TIM15_CCER",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "TIM15 capture/compare enable register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

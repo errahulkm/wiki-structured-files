@@ -1,0 +1,19 @@
+{
+  "peripheral": "TIMX",
+  "register_name": "TIMX_CR1",
+  "long_name": "TIMx control register 1 (TIMX_CR1)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "TIMx control register 1 specification",
+  "bit_fields": [
+    {
+      "name": "TIMX_CR1",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "TIMx control register 1 full-width value"
+    }
+  ],
+  "errata_notes": []
+}

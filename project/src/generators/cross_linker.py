@@ -14,7 +14,7 @@ from ..core.logger import WikiLogger
 class CrossLinkerEngine:
     """Scans wiki markdown and register JSONs to construct bidirectional link topologies."""
 
-    def __init__(self, output_root: str = "artifacts/output/karpathy-wiki",
+    def __init__(self, output_root: str = "artifacts/output/structured-wiki",
                  logger: Optional[WikiLogger] = None) -> None:
         """Initializes cross linker with root output directory."""
         self.output_root = os.path.abspath(output_root)
@@ -88,7 +88,7 @@ class CrossLinkerEngine:
                         continue
 
         lines = [
-            "# Karpathy-Wiki Bidirectional Backlinks Map\n",
+            "# Structured Wiki Bidirectional Backlinks Map\n",
             "This document tracks incoming cross-references across all knowledge base nodes.\n"
         ]
 

@@ -1,6 +1,6 @@
 """
 Obsidian-Style Interactive Knowledge Graph Visualizer.
-Parses all Markdown relative links and [[WikiLinks]] across any Karpathy Wiki directory tree.
+Parses all Markdown relative links and [[WikiLinks]] across any Structured Wiki directory tree.
 Generates a 100% self-contained HTML5 Canvas & WebGL 3D interactive multi-view architecture engine (graph_view.html)
 with:
 1. 🌐 Force Mesh (Physics simulation with speed multiplier slider 1x-5x, concentric orbital rings, hard zero-overlap collision physics & satellite register clustering)
@@ -36,7 +36,7 @@ from ..core.gpu_runtime import (
 class KnowledgeGraphVisualizer:
     """Generates a 100% self-contained HTML5 Canvas & WebGL 3D multi-view architecture graph of all interlinked STM32 IP blocks."""
 
-    def __init__(self, output_root: str = "artifacts/output/karpathy-wiki",
+    def __init__(self, output_root: str = "artifacts/output/structured-wiki",
                  wiki_root: Optional[str] = None,
                  logger: Optional[WikiLogger] = None) -> None:
         """Initializes visualizer with target output directory."""

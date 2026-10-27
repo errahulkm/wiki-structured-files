@@ -1,0 +1,19 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHBENR",
+  "long_name": "RCC AHB peripheral clock enable register (RCC_AHBENR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RCC AHB peripheral clock enable register specification",
+  "bit_fields": [
+    {
+      "name": "RCC_AHBENR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "RCC AHB peripheral clock enable register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

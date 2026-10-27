@@ -1,0 +1,19 @@
+{
+  "peripheral": "TIM17",
+  "register_name": "TIM17_TISEL",
+  "long_name": "TIM17 input selection register (TIM17_TISEL)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "TIM17 input selection register specification",
+  "bit_fields": [
+    {
+      "name": "TIM17_TISEL",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "TIM17 input selection register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "USB",
+  "register_name": "USB_CHEP_RXTXBD_1",
+  "long_name": "Universal Serial Bus (USB) USB_CHEP_RXTXBD_1 Register",
+  "address_offset": "0x10",
+  "reset_value": "0x00000000",
+  "description": "Universal Serial Bus (USB) USB_CHEP_RXTXBD_1 hardware register",
+  "bit_fields": [
+    {
+      "name": "USB_CHEP_RXTXBD_1",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "USB_CHEP_RXTXBD_1 register value"
+    }
+  ],
+  "errata_notes": []
+}

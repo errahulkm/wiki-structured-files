@@ -1,0 +1,83 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "BITOC4PE",
+  "long_name": "It is loaded permanently if the preload feature is not selected in the TIMx_CCMR2 register (BITOC4PE)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "It is loaded permanently if the preload feature is not selected in the TIMx_CCMR2 register specification",
+  "bit_fields": [
+    {
+      "name": "MOE",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Main output enable"
+    },
+    {
+      "name": "BKF[3",
+      "bit_offset": 16,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Break filter"
+    },
+    {
+      "name": "BK2F[3",
+      "bit_offset": 20,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Break 2 filter"
+    },
+    {
+      "name": "BK2E",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Break 2 enable"
+    },
+    {
+      "name": "BK2P",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Break 2 polarity"
+    },
+    {
+      "name": "BKDSRM",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Break Disarm"
+    },
+    {
+      "name": "BK2DSRM",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Break2 Disarm"
+    },
+    {
+      "name": "BKBID",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Break Bidirectional"
+    },
+    {
+      "name": "BK2BID",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Break2 bidirectional"
+    }
+  ],
+  "errata_notes": []
+}

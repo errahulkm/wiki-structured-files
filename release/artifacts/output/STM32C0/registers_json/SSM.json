@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "SSM",
+  "long_name": "NSS management is also specific to the TI protocol which makes the configuration of NSS management through the SPIx_CR1 and SPIx_CR2 registers (SSM)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "NSS management is also specific to the TI protocol which makes the configuration of NSS management through the SPIx_CR1 and SPIx_CR2 registers specification",
+  "bit_fields": [
+    {
+      "name": "SSM",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "NSS management is also specific to the TI protocol which makes the configuration of NSS management through the SPIx_CR1 and SPIx_CR2 registers full-width value"
+    }
+  ],
+  "errata_notes": []
+}

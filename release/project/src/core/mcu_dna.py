@@ -296,7 +296,7 @@ def extract_mcu_dna(pdf_path: str, wiki_root: Optional[str] = None) -> MCUDNA:
                 "end_page": total_pages + 1
             })
 
-    # 3. Classify and map chapters to Karpathy Wiki architecture
+    # 3. Classify and map chapters to Structured Wiki architecture
     processed_chapters: List[Dict[str, Any]] = []
     active_ips: Dict[str, Dict[str, Any]] = {}
     has_security = False

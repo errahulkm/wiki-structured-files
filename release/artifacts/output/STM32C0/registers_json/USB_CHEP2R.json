@@ -1,0 +1,19 @@
+{
+  "peripheral": "USB",
+  "register_name": "USB_CHEP2R",
+  "long_name": "Universal Serial Bus (USB) USB_CHEP2R Register",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "Universal Serial Bus (USB) USB_CHEP2R hardware register",
+  "bit_fields": [
+    {
+      "name": "USB_CHEP2R",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "USB_CHEP2R register value"
+    }
+  ],
+  "errata_notes": []
+}

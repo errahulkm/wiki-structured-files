@@ -1,0 +1,19 @@
+{
+  "peripheral": "DWT",
+  "register_name": "DWT_PCSR",
+  "long_name": "DWT Program counter sample register A processor that implements the data watchpoint unit also implements the Armv6-M optional DWT Program Counter Sample Register (DWT_PCSR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "DWT Program counter sample register A processor that implements the data watchpoint unit also implements the Armv6-M optional DWT Program Counter Sample Register specification",
+  "bit_fields": [
+    {
+      "name": "DWT_PCSR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "DWT Program counter sample register A processor that implements the data watchpoint unit also implements the Armv6-M optional DWT Program Counter Sample Register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

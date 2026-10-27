@@ -1,0 +1,19 @@
+{
+  "peripheral": "TIM1",
+  "register_name": "TIM1_CCR3",
+  "long_name": "TIM1 capture/compare register 3 (TIM1_CCR3)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "TIM1 capture/compare register 3 specification",
+  "bit_fields": [
+    {
+      "name": "TIM1_CCR3",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "TIM1 capture/compare register 3 full-width value"
+    }
+  ],
+  "errata_notes": []
+}

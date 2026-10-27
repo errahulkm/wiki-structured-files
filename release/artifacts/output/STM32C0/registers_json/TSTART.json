@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "TSTART",
+  "long_name": "Set the TSEN bit in the ADC_CCR register to wake up the temperature sensor from power down mode and wait for its stabilization time (TSTART)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Set the TSEN bit in the ADC_CCR register to wake up the temperature sensor from power down mode and wait for its stabilization time specification",
+  "bit_fields": [
+    {
+      "name": "TSTART",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "Set the TSEN bit in the ADC_CCR register to wake up the temperature sensor from power down mode and wait for its stabilization time full-width value"
+    }
+  ],
+  "errata_notes": []
+}

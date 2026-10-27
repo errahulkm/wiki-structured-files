@@ -1,0 +1,19 @@
+{
+  "peripheral": "I2C",
+  "register_name": "I2C_ICR",
+  "long_name": "I2C interrupt clear register (I2C_ICR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "I2C interrupt clear register specification",
+  "bit_fields": [
+    {
+      "name": "I2C_ICR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "I2C interrupt clear register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

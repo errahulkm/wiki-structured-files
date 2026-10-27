@@ -1,5 +1,5 @@
 """
-Native Qt6 Desktop Window Viewer for STM32 Karpathy-Wiki Knowledge Graph.
+Native Qt6 Desktop Window Viewer for STM32 Structured Wiki Knowledge Graph.
 Runs as a 100% standalone, GPU-accelerated native desktop window with zero browser tabs or URL bars.
 Includes universal adaptive graphics runtime detection and self-healing Safe Mode.
 """
@@ -121,7 +121,7 @@ if __name__ == "__main__":
     clean_args = [a for a in sys.argv[1:] if not a.startswith("--")]
 
     if len(clean_args) < 1:
-        default_path = os.path.abspath("artifacts/output/karpathy-wiki/graph_view.html")
+        default_path = os.path.abspath("artifacts/output/structured-wiki/graph_view.html")
         if os.path.exists(default_path):
             launch_native_window(default_path)
         else:

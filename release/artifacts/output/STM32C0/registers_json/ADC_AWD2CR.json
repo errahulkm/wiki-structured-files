@@ -1,0 +1,19 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_AWD2CR",
+  "long_name": "ADC analog watchdog 2 configuration register (ADC_AWD2CR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "ADC analog watchdog 2 configuration register specification",
+  "bit_fields": [
+    {
+      "name": "ADC_AWD2CR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "ADC analog watchdog 2 configuration register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

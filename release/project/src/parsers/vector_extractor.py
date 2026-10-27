@@ -352,7 +352,7 @@ class VectorArtworkExtractor:
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Karpathy-Wiki Vector SVG Artwork Validation Report</title>
+    <title>Structured Wiki Vector SVG Artwork Validation Report</title>
     <style>
         body {{
             background-color: #0b1120;

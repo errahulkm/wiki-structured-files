@@ -1,5 +1,5 @@
 """
-Core infrastructure package for STM32 Karpathy-Wiki Generator.
+Core infrastructure package for STM32 Structured Wiki Generator.
 Contains persistent state checkpoint manager and multi-verbose append-only logger.
 """
 

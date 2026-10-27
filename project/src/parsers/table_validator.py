@@ -1,5 +1,5 @@
 """
-Table Self-Validation Engine for STM32H7 Karpathy-Wiki Pipeline (RM0468).
+Table Self-Validation Engine for STM32H7 Structured Wiki Pipeline (RM0468).
 Performs a 4-Stage Verification & Self-Correction Audit on extracted GFM markdown tables
 against original PDF source page text to guarantee 100% semantic fidelity for LLMs.
 """

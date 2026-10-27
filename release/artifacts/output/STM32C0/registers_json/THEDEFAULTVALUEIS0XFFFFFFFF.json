@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "THEDEFAULTVALUEIS0XFFFFFFFF",
+  "long_name": "The CRC calculator can be initialized to a programmable value using the RESET control bit in the CRC_CR register (THEDEFAULTVALUEIS0XFFFFFFFF)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "The CRC calculator can be initialized to a programmable value using the RESET control bit in the CRC_CR register specification",
+  "bit_fields": [
+    {
+      "name": "THEDEFAULTVALUEIS0XFFFFFFFF",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "The CRC calculator can be initialized to a programmable value using the RESET control bit in the CRC_CR register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "DMA",
+  "register_name": "DMA_CPARXANDDMA_CMARX",
+  "long_name": "The DMA channel registers (DMA_CPARXANDDMA_CMARX)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "The DMA channel registers specification",
+  "bit_fields": [
+    {
+      "name": "DMA_CPARXANDDMA_CMARX",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "The DMA channel registers full-width value"
+    }
+  ],
+  "errata_notes": []
+}

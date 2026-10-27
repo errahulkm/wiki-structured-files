@@ -1,0 +1,19 @@
+{
+  "peripheral": "I2C",
+  "register_name": "I2C_TXDR",
+  "long_name": "I2C transmit data register (I2C_TXDR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "I2C transmit data register specification",
+  "bit_fields": [
+    {
+      "name": "I2C_TXDR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "I2C transmit data register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "INSRAM",
+  "long_name": "Endpoint initialization The first step to initialize an endpoint is to write appropriate values to the ADDRn_TX/ADDRn_RX fields in the CHEP_TXBD_n and CHEP_RXBD_n registers (INSRAM)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Endpoint initialization The first step to initialize an endpoint is to write appropriate values to the ADDRn_TX/ADDRn_RX fields in the CHEP_TXBD_n and CHEP_RXBD_n registers specification",
+  "bit_fields": [
+    {
+      "name": "INSRAM",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "Endpoint initialization The first step to initialize an endpoint is to write appropriate values to the ADDRn_TX/ADDRn_RX fields in the CHEP_TXBD_n and CHEP_RXBD_n registers full-width value"
+    }
+  ],
+  "errata_notes": []
+}

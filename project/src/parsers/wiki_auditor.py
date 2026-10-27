@@ -1,7 +1,7 @@
 """
-Independent Karpathy-Wiki Corpus Auditor & Executive Engineering Report Generator.
+Independent Structured Wiki Corpus Auditor & Executive Engineering Report Generator.
 Performs multi-algorithmic cross-verification between STM32 Reference Manuals (PDF ground-truth)
-and the generated Karpathy Wiki Corpus, generating an interactive HTML5 audit dashboard
+and the generated Structured Wiki Corpus, generating an interactive HTML5 audit dashboard
 tailored for Tech Leads, Firmware Architects, and Embedded Software Engineers.
 """
 
@@ -47,7 +47,7 @@ class StructuredWikiAuditor:
     def run_full_audit(self, progress_callback: Optional[Any] = None) -> Dict[str, Any]:
         """Runs 6 independent audit algorithms and returns detailed metrics dictionary."""
         start_time = time.time()
-        self.logger.info("Initializing Independent Karpathy-Wiki Corpus Audit...")
+        self.logger.info("Initializing Independent Structured Wiki Corpus Audit...")
 
         # Detect active MCU and reference manual
         mcu_info = detect_mcu_metadata(wiki_root=self.wiki_root)
@@ -631,7 +631,7 @@ class StructuredWikiAuditor:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{mcu_family} Karpathy Wiki Corpus Technical Audit Report ({rm_number})</title>
+    <title>{mcu_family} Structured Wiki Corpus Technical Audit Report ({rm_number})</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         * {{ box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }}

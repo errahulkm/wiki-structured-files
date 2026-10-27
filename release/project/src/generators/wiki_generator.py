@@ -1,5 +1,5 @@
 """
-Karpathy-Style Wiki Corpus Generator for MCU Reference Manuals.
+Structured Wiki Corpus Generator for MCU Reference Manuals.
 Generates an exhaustive 7-layer Virtual Directory structure with 100% IP coverage,
 dedicated Markdown figure files, dedicated Markdown table files, and non-lossy full chapter technical ingestion.
 All chapters, IP allocations, and topology layers are driven dynamically at runtime by the reference manual PDF's MCUDNA.
@@ -105,9 +105,9 @@ class StructuredWikiGenerator:
         """Generates initial skeleton index.md instantly without heavy PDF reading."""
         index_path = os.path.join(self.output_root, "index.md")
         mcu_info = detect_mcu_metadata(wiki_root=self.output_root)
-        content = f"""# {mcu_info['display_title']} Karpathy Wiki
+        content = f"""# {mcu_info['display_title']} Structured Wiki
 
-Welcome to the automated 7-Layer Karpathy-Style Interlinked Documentation Wiki for {mcu_info['mcu_family']} microcontrollers ({mcu_info['rm_number']} Engine).
+Welcome to the automated 7-Layer Structured Interlinked Documentation Wiki for {mcu_info['mcu_family']} microcontrollers ({mcu_info['rm_number']} Engine).
 
 * **Schema & Specification**: [SCHEMA.md](SCHEMA.md)
 * **Virtual Directory Structure**:
@@ -126,10 +126,10 @@ Welcome to the automated 7-Layer Karpathy-Style Interlinked Documentation Wiki f
         return index_path
 
     def build_directory_structure(self) -> None:
-        """Creates exact 7-layer Karpathy virtual directory tree recursively."""
+        """Creates exact 7-layer Structured virtual directory tree recursively."""
         for path in self.dirs.values():
             os.makedirs(path, exist_ok=True)
-        self.logger.info("Initialized Karpathy-Style Virtual Directory Structure (/memory, /system, /core, /peripherals, /security, /figures, /tables, /chapters, /registers_json, /assets).")
+        self.logger.info("Initialized Structured Virtual Directory Structure (/memory, /system, /core, /peripherals, /security, /figures, /tables, /chapters, /registers_json, /assets).")
 
     def copy_raw_documents(self, file_map: Dict[str, str]) -> None:
         """Copies Reference Manual PDF into raw/ directory for immutable local inspection after validating authenticity."""
@@ -158,10 +158,10 @@ Welcome to the automated 7-Layer Karpathy-Style Interlinked Documentation Wiki f
                 self.logger.error(f"Could not copy raw document {ref_path}: {e}")
 
     def create_schema_md(self) -> str:
-        """Generates SCHEMA.md detailing Karpathy Wiki rules and virtual directory layout."""
+        """Generates SCHEMA.md detailing Structured Wiki rules and virtual directory layout."""
         mcu_info = detect_mcu_metadata(wiki_root=self.output_root)
         schema_path = os.path.join(self.output_root, "SCHEMA.md")
-        content = f"""# Karpathy-Wiki Directory & Linking Schema ({mcu_info['display_title']})
+        content = f"""# Structured Wiki Directory & Linking Schema ({mcu_info['display_title']})
 
 ## 1. Virtual Directory Taxonomy (8-Layer Loss-Less Architecture)
 - `/index.md`: Master Map of Content (MOC Entry Dashboard interlinking Chapters, IPs, Figures, and Tables).
@@ -240,7 +240,7 @@ Every node across the 8-layer virtual directory has zero dangling references:
     def populate_initial_markdown_pages(self, ref_pdf_path: Optional[str] = None, progress_callback=None) -> None:
         """
         Dynamically extracts MCU Architectural DNA from active PDF and generates
-        the complete Karpathy Wiki structure matching physical silicon truth.
+        the complete Structured Wiki structure matching physical silicon truth.
         """
         self.build_directory_structure()
         self.create_schema_md()
@@ -612,7 +612,7 @@ Extracted configuration table from STMicroelectronics {self.dna.mcu_family if se
         self.logger.info(f"Generated configuration table markdown files under /tables/ for active IPs and referenced matrices.")
 
     def _generate_ip_pages(self, progress_callback=None) -> None:
-        """Generates dedicated Karpathy Wiki IP pages ONLY for hardware blocks discovered in this MCU."""
+        """Generates dedicated Structured Wiki IP pages ONLY for hardware blocks discovered in this MCU."""
         active_ips = self.dna.active_ips if self.dna else {}
         mcu_family = self.dna.mcu_family if self.dna else "STM32"
         rm_num = self.dna.rm_number if self.dna else "RM"
@@ -714,7 +714,7 @@ The Master System Memory Map block provides complete physical boundary addresses
             with open(mem_map_path, "w", encoding="utf-8") as f:
                 f.write(mem_content.strip())
 
-        self.logger.info(f"Generated {len(active_ips)} Karpathy Wiki IP pages across {list(set(i['category'] for i in active_ips.values()))}.")
+        self.logger.info(f"Generated {len(active_ips)} Structured Wiki IP pages across {list(set(i['category'] for i in active_ips.values()))}.")
 
     def _generate_moc_index(self) -> None:
         """Writes Master Map of Content (index.md) linking dynamically to only discovered chapters and IPs."""
@@ -738,9 +738,9 @@ The Master System Memory Map block provides complete physical boundary addresses
 
         chap_links = "\n".join([f"* [{c['title']}](chapters/{c['file']})" for c in chaps])
 
-        content = f"""# {mcu_family} Series ({rm_num}) Karpathy Wiki
+        content = f"""# {mcu_family} Series ({rm_num}) Structured Wiki
 
-Welcome to the automated 7-Layer Karpathy-Style Interlinked Documentation Wiki for {mcu_family} microcontrollers ({rm_num} Engine).
+Welcome to the automated 7-Layer Structured Interlinked Documentation Wiki for {mcu_family} microcontrollers ({rm_num} Engine).
 
 * **CPU Architecture**: {core_arch}
 * **Total Ingested Chapters**: {len(chaps)} Chapters

@@ -1,0 +1,19 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_TSTRANDRTC_TSDR",
+  "long_name": "flag is set and the timestamp registers (RTC_TSTRANDRTC_TSDR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "flag is set and the timestamp registers specification",
+  "bit_fields": [
+    {
+      "name": "RTC_TSTRANDRTC_TSDR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "flag is set and the timestamp registers full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "REFERTODATASHEETFORMOREDETAILS",
+  "long_name": "ADC_DR register write latency (REFERTODATASHEETFORMOREDETAILS)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "ADC_DR register write latency specification",
+  "bit_fields": [
+    {
+      "name": "REFERTODATASHEETFORMOREDETAILS",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "ADC_DR register write latency full-width value"
+    }
+  ],
+  "errata_notes": []
+}

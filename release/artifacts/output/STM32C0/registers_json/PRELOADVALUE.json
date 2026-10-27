@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "PRELOADVALUE",
+  "long_name": "CCR1 is the value to be loaded in the actual capture/compare 1 register (PRELOADVALUE)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "CCR1 is the value to be loaded in the actual capture/compare 1 register specification",
+  "bit_fields": [
+    {
+      "name": "PRELOADVALUE",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "CCR1 is the value to be loaded in the actual capture/compare 1 register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

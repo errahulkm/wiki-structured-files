@@ -1,0 +1,27 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "PSC",
+  "long_name": "shadow registers keep their value (PSC)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "shadow registers keep their value specification",
+  "bit_fields": [
+    {
+      "name": "CEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Counter enable"
+    },
+    {
+      "name": "MMS2[3",
+      "bit_offset": 20,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Master mode selection 2"
+    }
+  ],
+  "errata_notes": []
+}

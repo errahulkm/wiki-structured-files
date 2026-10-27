@@ -1,0 +1,19 @@
+{
+  "peripheral": "I2C",
+  "register_name": "I2C_TIMEOUTR",
+  "long_name": "I2C timeout register (I2C_TIMEOUTR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "I2C timeout register specification",
+  "bit_fields": [
+    {
+      "name": "I2C_TIMEOUTR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "I2C timeout register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -18,7 +18,7 @@ from .logger import WikiLogger
 class CheckpointManager:
     """Atomic state manager tracking per-file status, overall percentage, elapsed time, and ETA."""
 
-    def __init__(self, output_root: str = "artifacts/output/karpathy-wiki",
+    def __init__(self, output_root: str = "artifacts/output/structured-wiki",
                  logger: Optional[WikiLogger] = None) -> None:
         """Initializes checkpoint manager with output directory root."""
         self.output_root = os.path.abspath(output_root)

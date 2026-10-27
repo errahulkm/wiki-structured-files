@@ -1,0 +1,27 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_CALFACT",
+  "long_name": "Analog-to-Digital Converter (ADC) ADC_CALFACT Register",
+  "address_offset": "0xB4",
+  "reset_value": "0x00000000",
+  "description": "Analog-to-Digital Converter (ADC) ADC_CALFACT hardware register",
+  "bit_fields": [
+    {
+      "name": "AWD3CH[22",
+      "bit_offset": 0,
+      "bit_width": 23,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Analog watchdog channel selection"
+    },
+    {
+      "name": "TSEN",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Temperature sensor buffer enable"
+    }
+  ],
+  "errata_notes": []
+}

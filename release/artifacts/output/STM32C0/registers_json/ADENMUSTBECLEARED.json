@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "ADENMUSTBECLEARED",
+  "long_name": "Configuring the ADC The software must write the ADCAL and ADEN bits in the ADC_CR register and configure the ADC_CFGR1 and ADC_CFGR2 registers only when the ADC is disabled (ADENMUSTBECLEARED)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Configuring the ADC The software must write the ADCAL and ADEN bits in the ADC_CR register and configure the ADC_CFGR1 and ADC_CFGR2 registers only when the ADC is disabled specification",
+  "bit_fields": [
+    {
+      "name": "ADENMUSTBECLEARED",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "Configuring the ADC The software must write the ADCAL and ADEN bits in the ADC_CR register and configure the ADC_CFGR1 and ADC_CFGR2 registers only when the ADC is disabled full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,67 @@
+{
+  "peripheral": "USB",
+  "register_name": "USB_BCDR",
+  "long_name": "Universal Serial Bus (USB) USB_BCDR Register",
+  "address_offset": "0x58",
+  "reset_value": "0x00000000",
+  "description": "Universal Serial Bus (USB) USB_BCDR hardware register",
+  "bit_fields": [
+    {
+      "name": "BCDEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Battery charging detector (BCD) enable"
+    },
+    {
+      "name": "PDEN",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Primary detection (PD) mode enable"
+    },
+    {
+      "name": "SDEN",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Secondary detection (SD) mode enable"
+    },
+    {
+      "name": "PDET",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Primary detection (PD) status"
+    },
+    {
+      "name": "SDET",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Secondary detection (SD) status"
+    },
+    {
+      "name": "PS2DET",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DM pull-up detection status"
+    },
+    {
+      "name": "DPPU_DPD",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DP pull-up / DPDM pull-down"
+    }
+  ],
+  "errata_notes": []
+}

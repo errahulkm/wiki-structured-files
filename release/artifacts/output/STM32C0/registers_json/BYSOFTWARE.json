@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "BYSOFTWARE",
+  "long_name": "Setting the UG bit in the TIMx_EGR register (BYSOFTWARE)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Setting the UG bit in the TIMx_EGR register specification",
+  "bit_fields": [
+    {
+      "name": "BYSOFTWARE",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "Setting the UG bit in the TIMx_EGR register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

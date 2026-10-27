@@ -10,7 +10,7 @@ from datetime import datetime, timezone
 class WikiLogger:
     """Thread-safe append-only logger writing structured Markdown logs to wiki/log.md."""
 
-    def __init__(self, log_file_path: str = "artifacts/output/karpathy-wiki/wiki/log.md") -> None:
+    def __init__(self, log_file_path: str = "artifacts/output/structured-wiki/wiki/log.md") -> None:
         """Initializes logger with destination log.md path."""
         self.log_file_path = os.path.abspath(log_file_path)
         os.makedirs(os.path.dirname(self.log_file_path), exist_ok=True)
@@ -20,7 +20,7 @@ class WikiLogger:
         """Writes Markdown header if file does not exist."""
         if not os.path.exists(self.log_file_path):
             with open(self.log_file_path, "w", encoding="utf-8") as f:
-                f.write("# STM32 Karpathy-Wiki Ingestion Log\n\n")
+                f.write("# STM32 Structured Wiki Ingestion Log\n\n")
                 f.write("| Timestamp (UTC) | Level | Operational Message |\n")
                 f.write("|---|---|---|\n")
 

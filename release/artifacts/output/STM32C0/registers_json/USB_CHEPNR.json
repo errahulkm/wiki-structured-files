@@ -1,0 +1,19 @@
+{
+  "peripheral": "USB",
+  "register_name": "USB_CHEPNR",
+  "long_name": "USB endpoint/channel n register (USB_CHEPNR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "USB endpoint/channel n register specification",
+  "bit_fields": [
+    {
+      "name": "USB_CHEPNR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "USB endpoint/channel n register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

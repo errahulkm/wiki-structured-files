@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "SEEFIGURE258ANDFIGURE259",
+  "long_name": "The oversampling method can be selected by programming the OVER8 bit in the USART_CR1 register either to 16 or 8 times the baud rate clock (SEEFIGURE258ANDFIGURE259)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "The oversampling method can be selected by programming the OVER8 bit in the USART_CR1 register either to 16 or 8 times the baud rate clock specification",
+  "bit_fields": [
+    {
+      "name": "SEEFIGURE258ANDFIGURE259",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "The oversampling method can be selected by programming the OVER8 bit in the USART_CR1 register either to 16 or 8 times the baud rate clock full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,27 @@
+{
+  "peripheral": "USB",
+  "register_name": "USB_CHEP7R",
+  "long_name": "Universal Serial Bus (USB) USB_CHEP7R Register",
+  "address_offset": "0x1C",
+  "reset_value": "0x00000000",
+  "description": "Universal Serial Bus (USB) USB_CHEP7R hardware register",
+  "bit_fields": [
+    {
+      "name": "ADDR_TX[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Transmission buf"
+    },
+    {
+      "name": "COUNT_TX[9",
+      "bit_offset": 16,
+      "bit_width": 10,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Transmission byte count"
+    }
+  ],
+  "errata_notes": []
+}

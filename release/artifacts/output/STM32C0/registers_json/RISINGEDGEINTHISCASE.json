@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "RISINGEDGEINTHISCASE",
+  "long_name": "Select the edge of the active transitio n on the TI1 channel by writing CC1P and CC1NP bits to 0 in the TIMx_CCER register (RISINGEDGEINTHISCASE)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Select the edge of the active transitio n on the TI1 channel by writing CC1P and CC1NP bits to 0 in the TIMx_CCER register specification",
+  "bit_fields": [
+    {
+      "name": "RISINGEDGEINTHISCASE",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "Select the edge of the active transitio n on the TI1 channel by writing CC1P and CC1NP bits to 0 in the TIMx_CCER register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "SPIX",
+  "register_name": "SPIX_SR",
+  "long_name": "SPI status register (SPIX_SR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "SPI status register specification",
+  "bit_fields": [
+    {
+      "name": "SPIX_SR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "SPI status register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

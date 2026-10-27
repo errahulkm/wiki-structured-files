@@ -1,5 +1,5 @@
 """
-Parsers package for STM32 Karpathy-Wiki Generator.
+Parsers package for STM32 Structured Wiki Generator.
 Contains Docling PDF document loader and hardware register bitfield extractor.
 """
 

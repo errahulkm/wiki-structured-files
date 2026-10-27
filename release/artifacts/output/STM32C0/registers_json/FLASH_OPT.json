@@ -1,0 +1,19 @@
+{
+  "peripheral": "FLASH",
+  "register_name": "FLASH_OPT",
+  "long_name": "Embedded Flash Memory FLASH_OPT Register",
+  "address_offset": "0x00C",
+  "reset_value": "0x00000000",
+  "description": "Embedded Flash Memory FLASH_OPT hardware register",
+  "bit_fields": [
+    {
+      "name": "FLASH_OPT",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "FLASH_OPT register value"
+    }
+  ],
+  "errata_notes": []
+}

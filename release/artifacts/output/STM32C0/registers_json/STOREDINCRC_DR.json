@@ -1,0 +1,19 @@
+{
+  "peripheral": "STOREDINCRC",
+  "register_name": "STOREDINCRC_DR",
+  "long_name": "Each write operation to the data register creates a combination of the previous CRC value (STOREDINCRC_DR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Each write operation to the data register creates a combination of the previous CRC value specification",
+  "bit_fields": [
+    {
+      "name": "STOREDINCRC_DR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "Each write operation to the data register creates a combination of the previous CRC value full-width value"
+    }
+  ],
+  "errata_notes": []
+}

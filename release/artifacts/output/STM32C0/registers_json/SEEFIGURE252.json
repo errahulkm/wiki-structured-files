@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "SEEFIGURE252",
+  "long_name": "The RDR register provides the parallel interface between the input shift register and the internal bus (SEEFIGURE252)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "The RDR register provides the parallel interface between the input shift register and the internal bus specification",
+  "bit_fields": [
+    {
+      "name": "TDR[8",
+      "bit_offset": 0,
+      "bit_width": 9,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Transmit data value"
+    }
+  ],
+  "errata_notes": []
+}

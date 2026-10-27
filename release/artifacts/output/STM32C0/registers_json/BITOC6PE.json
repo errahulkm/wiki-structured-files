@@ -1,0 +1,27 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "BITOC6PE",
+  "long_name": "It is loaded permanently if the preload feature is not selected in the TIMx_CCMR3 register (BITOC6PE)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "It is loaded permanently if the preload feature is not selected in the TIMx_CCMR3 register specification",
+  "bit_fields": [
+    {
+      "name": "BKINP",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "BRK BKIN input polarity"
+    },
+    {
+      "name": "ETRSEL[3",
+      "bit_offset": 14,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ETR source selection"
+    }
+  ],
+  "errata_notes": []
+}

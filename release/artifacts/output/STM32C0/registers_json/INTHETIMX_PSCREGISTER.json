@@ -1,0 +1,19 @@
+{
+  "peripheral": "INTHETIMX",
+  "register_name": "INTHETIMX_PSCREGISTER",
+  "long_name": "It is based on a 16-bit counter controlled through a 16-bit register (INTHETIMX_PSCREGISTER)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "It is based on a 16-bit counter controlled through a 16-bit register specification",
+  "bit_fields": [
+    {
+      "name": "INTHETIMX_PSCREGISTER",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "It is based on a 16-bit counter controlled through a 16-bit register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

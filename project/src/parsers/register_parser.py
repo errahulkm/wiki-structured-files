@@ -16,7 +16,7 @@ from ..core.logger import WikiLogger
 class RegisterParser:
     """Zero-AI Regex Register Engine parsing peripheral register definitions into rigid JSON schemas."""
 
-    def __init__(self, output_root: str = "artifacts/output/karpathy-wiki",
+    def __init__(self, output_root: str = "artifacts/output/structured-wiki",
                  logger: Optional[WikiLogger] = None) -> None:
         """Initializes parser with target output directory."""
         self.output_root = os.path.abspath(output_root)

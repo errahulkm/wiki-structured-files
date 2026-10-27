@@ -446,7 +446,7 @@ def run_gpu_diagnostics() -> Dict[str, Any]:
 if __name__ == "__main__":
     diag = run_gpu_diagnostics()
     print("=" * 70)
-    print("🛠  STM32 Karpathy-Wiki Universal GPU Diagnostics")
+    print("🛠  STM32 Structured Wiki Universal GPU Diagnostics")
     print("=" * 70)
     for k, v in diag.items():
         if isinstance(v, list):

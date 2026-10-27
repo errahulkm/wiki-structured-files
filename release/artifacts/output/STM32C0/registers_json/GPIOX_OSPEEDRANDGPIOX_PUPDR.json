@@ -1,0 +1,19 @@
+{
+  "peripheral": "GPIOX",
+  "register_name": "GPIOX_OSPEEDRANDGPIOX_PUPDR",
+  "long_name": "Introduction Each general-purpose I/O port has four 32-bit configuration registers (GPIOX_OSPEEDRANDGPIOX_PUPDR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Introduction Each general-purpose I/O port has four 32-bit configuration registers specification",
+  "bit_fields": [
+    {
+      "name": "GPIOX_OSPEEDRANDGPIOX_PUPDR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "Introduction Each general-purpose I/O port has four 32-bit configuration registers full-width value"
+    }
+  ],
+  "errata_notes": []
+}

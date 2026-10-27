@@ -1,0 +1,19 @@
+{
+  "peripheral": "PWR",
+  "register_name": "PWR_PUCRF",
+  "long_name": "PWR Port F pull-up control register (PWR_PUCRF)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "PWR Port F pull-up control register specification",
+  "bit_fields": [
+    {
+      "name": "PWR_PUCRF",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "PWR Port F pull-up control register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "MASTERMODE",
+  "long_name": "One is linked to the clock generator configuration SPIx_I2SPR and the other one is a generic I2S configuration register SPIx_I2SCFGR (MASTERMODE)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "One is linked to the clock generator configuration SPIx_I2SPR and the other one is a generic I2S configuration register SPIx_I2SCFGR specification",
+  "bit_fields": [
+    {
+      "name": "MASTERMODE",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "One is linked to the clock generator configuration SPIx_I2SPR and the other one is a generic I2S configuration register SPIx_I2SCFGR full-width value"
+    }
+  ],
+  "errata_notes": []
+}

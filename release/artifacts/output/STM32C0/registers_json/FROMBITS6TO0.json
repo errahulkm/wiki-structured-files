@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "FROMBITS6TO0",
+  "long_name": "the calibration factor can be read from the ADC_DR register (FROMBITS6TO0)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "the calibration factor can be read from the ADC_DR register specification",
+  "bit_fields": [
+    {
+      "name": "OF",
+      "bit_offset": 0,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "the ADC_DR or"
+    }
+  ],
+  "errata_notes": []
+}
