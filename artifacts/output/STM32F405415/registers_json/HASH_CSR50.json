@@ -1,0 +1,35 @@
+{
+  "peripheral": "HASH",
+  "register_name": "HASH_CSR50",
+  "long_name": "Hash Processor (HASH) HASH_CSR50 Register",
+  "address_offset": "0x1C0",
+  "reset_value": "0x00000000",
+  "description": "Hash Processor (HASH) HASH_CSR50 hardware register",
+  "bit_fields": [
+    {
+      "name": "NBW",
+      "bit_offset": 8,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Number of words already pushed"
+    },
+    {
+      "name": "DINNE",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DIN not empty"
+    },
+    {
+      "name": "LKEY",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Long key selection"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,27 @@
+{
+  "peripheral": "TSC",
+  "register_name": "TSC_ISR",
+  "long_name": "TSC interrupt stat us register (TSC_ISR)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "TSC interrupt stat us register specification",
+  "bit_fields": [
+    {
+      "name": "EOAIC",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "End of acquisition interrupt clear"
+    },
+    {
+      "name": "MCEIC",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Max count error interrupt clear"
+    }
+  ],
+  "errata_notes": []
+}

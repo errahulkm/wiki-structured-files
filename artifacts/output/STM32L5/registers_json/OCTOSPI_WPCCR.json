@@ -1,0 +1,107 @@
+{
+  "peripheral": "OCTOSPI",
+  "register_name": "OCTOSPI_WPCCR",
+  "long_name": "OCTOSPI wrap communi cation configuration register (OCTOSPI_WPCCR)",
+  "address_offset": "0x0140",
+  "reset_value": "0x00000000",
+  "description": "OCTOSPI wrap communi cation configuration register specification",
+  "bit_fields": [
+    {
+      "name": "IMODE[2",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Instruction mode"
+    },
+    {
+      "name": "IDTR",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Instruction double transfer rate"
+    },
+    {
+      "name": "ISIZE[1",
+      "bit_offset": 4,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Instruction size"
+    },
+    {
+      "name": "ADMODE[2",
+      "bit_offset": 8,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Address mode"
+    },
+    {
+      "name": "ADDTR",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Address double transfer rate"
+    },
+    {
+      "name": "ADSIZE[1",
+      "bit_offset": 12,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Address size"
+    },
+    {
+      "name": "ABMODE[2",
+      "bit_offset": 16,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Alternate-byte mode"
+    },
+    {
+      "name": "ABDTR",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alternate-byte double transfer rate"
+    },
+    {
+      "name": "ABSIZE[1",
+      "bit_offset": 20,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Alternate-byte size"
+    },
+    {
+      "name": "DMODE[2",
+      "bit_offset": 24,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Data mode"
+    },
+    {
+      "name": "DDTR",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data double transfer rate"
+    },
+    {
+      "name": "DQSE",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DQS enable"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,51 @@
+{
+  "peripheral": "I2C",
+  "register_name": "I2C_OAR2",
+  "long_name": "I 2C Own address register 2 (I2C_OAR2)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "I 2C Own address register 2 specification",
+  "bit_fields": [
+    {
+      "name": "ADD0",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Interface address"
+    },
+    {
+      "name": "ADD[7",
+      "bit_offset": 1,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "1]: Interface address"
+    },
+    {
+      "name": "ADD[9",
+      "bit_offset": 8,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "8]: Interface address"
+    },
+    {
+      "name": "SHOULD",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "always be kept at 1 by software."
+    },
+    {
+      "name": "ADDMODE",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Addressing mode (target mode)"
+    }
+  ],
+  "errata_notes": []
+}

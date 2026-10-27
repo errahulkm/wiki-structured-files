@@ -1,0 +1,19 @@
+{
+  "peripheral": "CRYP",
+  "register_name": "CRYP_DOUT",
+  "long_name": "CRYP data output register (CRYP_DOUT)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "CRYP data output register specification",
+  "bit_fields": [
+    {
+      "name": "DATAOUT",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data output"
+    }
+  ],
+  "errata_notes": []
+}

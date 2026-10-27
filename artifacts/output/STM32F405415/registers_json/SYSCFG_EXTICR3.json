@@ -1,0 +1,19 @@
+{
+  "peripheral": "SYSCFG",
+  "register_name": "SYSCFG_EXTICR3",
+  "long_name": "SYSCFG external interrup t configuration register 3 (SYSCFG_EXTICR3)",
+  "address_offset": "0x10",
+  "reset_value": "0x00000000",
+  "description": "SYSCFG external interrup t configuration register 3 specification",
+  "bit_fields": [
+    {
+      "name": "EXTIX[3",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: EXTI x configuration (x = 4 to 7)"
+    }
+  ],
+  "errata_notes": []
+}

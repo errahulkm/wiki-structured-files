@@ -1,0 +1,43 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_STALLCTLR",
+  "long_name": "RM0438 2086/2187 RM0438 Rev 8 ETM stall control register (ETM_STALLCTLR)",
+  "address_offset": "0x02C",
+  "reset_value": "0x00000000",
+  "description": "RM0438 2086/2187 RM0438 Rev 8 ETM stall control register specification",
+  "bit_fields": [
+    {
+      "name": "INSTEN[1",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: instruction event generation"
+    },
+    {
+      "name": "ISTALL",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "processor stalling"
+    },
+    {
+      "name": "INSTPRIORITY",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "instruction trace priority"
+    },
+    {
+      "name": "ATB",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ATB trigger enable"
+    }
+  ],
+  "errata_notes": []
+}

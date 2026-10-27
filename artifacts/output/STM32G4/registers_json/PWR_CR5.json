@@ -1,0 +1,19 @@
+{
+  "peripheral": "PWR",
+  "register_name": "PWR_CR5",
+  "long_name": "Power control register (PWR_CR5)",
+  "address_offset": "0x80",
+  "reset_value": "0x00000000",
+  "description": "Power control register specification",
+  "bit_fields": [
+    {
+      "name": "PDY",
+      "bit_offset": 0,
+      "bit_width": 11,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Port G pull-down bit y (y = 10 to 0)"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,43 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_APB1SECSR2",
+  "long_name": "RCC APB1 security status register 2 (RCC_APB1SECSR2)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RCC APB1 security status register 2 specification",
+  "bit_fields": [
+    {
+      "name": "LPTIM3SECF",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LPTIM3 clock security flag"
+    },
+    {
+      "name": "FDCAN1SECF",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FDCAN1 clock security flag"
+    },
+    {
+      "name": "USBFSSECF",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB FS clock security flag"
+    },
+    {
+      "name": "UCPD1SECF",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UCPD1 clock security flag"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,51 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_CID",
+  "long_name": "RM0090 1278/1741 RM0090 Rev 22 OTG_FS core ID register (OTG_FS_CID)",
+  "address_offset": "0x03C",
+  "reset_value": "0x00000000",
+  "description": "RM0090 1278/1741 RM0090 Rev 22 OTG_FS core ID register specification",
+  "bit_fields": [
+    {
+      "name": "PWRDWN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Power down"
+    },
+    {
+      "name": "VBUSASEN",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable the VBUS sensing “A” device"
+    },
+    {
+      "name": "VBUSBSEN",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable the VBUS sensing “B” device"
+    },
+    {
+      "name": "SOFOUTEN",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SOF output enable"
+    },
+    {
+      "name": "NOVBUSSENS",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "VBUS sensing disable option"
+    }
+  ],
+  "errata_notes": []
+}

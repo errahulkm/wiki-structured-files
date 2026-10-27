@@ -1,0 +1,19 @@
+{
+  "peripheral": "SYSCFG",
+  "register_name": "SYSCFG_SKR",
+  "long_name": "System Configuration (SYSCFG) SYSCFG_SKR Register",
+  "address_offset": "0x1C",
+  "reset_value": "0x00000000",
+  "description": "System Configuration (SYSCFG) SYSCFG_SKR hardware register",
+  "bit_fields": [
+    {
+      "name": "KEY[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: SRAM2 write protection key for software erase"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,35 @@
+{
+  "peripheral": "TAMP",
+  "register_name": "TAMP_BKPXR",
+  "long_name": "TAMP backup x register (TAMP_BKPXR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "TAMP backup x register specification",
+  "bit_fields": [
+    {
+      "name": "TMONEN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "temperature monitor enable"
+    },
+    {
+      "name": "VMONEN",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "voltage monitor enable"
+    },
+    {
+      "name": "WUTMONEN",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "voltage and temperature monitor periodic enable by RTC wakeup timer"
+    }
+  ],
+  "errata_notes": []
+}

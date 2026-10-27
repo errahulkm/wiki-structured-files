@@ -1,0 +1,123 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_MDIER",
+  "long_name": "HRTIM master timer DM A interrupt enable register (HRTIM_MDIER)",
+  "address_offset": "0x00C",
+  "reset_value": "0x00000000",
+  "description": "HRTIM master timer DM A interrupt enable register specification",
+  "bit_fields": [
+    {
+      "name": "MCMP1IE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master compare 1 interrupt enable"
+    },
+    {
+      "name": "MCMP2IE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master compare 2 interrupt enable"
+    },
+    {
+      "name": "MCMP3IE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master compare 3 interrupt enable"
+    },
+    {
+      "name": "MCMP4IE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master compare 4 interrupt enable"
+    },
+    {
+      "name": "MREPIE",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master repetition interrupt enable"
+    },
+    {
+      "name": "SYNCIE",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Sync input interrupt enable"
+    },
+    {
+      "name": "MUPDIE",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master update interrupt enable"
+    },
+    {
+      "name": "MCMP1DE",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master compare 1 DMA request enable"
+    },
+    {
+      "name": "MCMP2DE",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master compare 2 DMA request enable"
+    },
+    {
+      "name": "MCMP3DE",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master compare 3 DMA request enable"
+    },
+    {
+      "name": "MCMP4DE",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master compare 4 DMA request enable"
+    },
+    {
+      "name": "MREPDE",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master repetition DMA request enable"
+    },
+    {
+      "name": "SYNCDE",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Sync input DMA request enable"
+    },
+    {
+      "name": "MUPDDE",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master update DMA request enable"
+    }
+  ],
+  "errata_notes": []
+}

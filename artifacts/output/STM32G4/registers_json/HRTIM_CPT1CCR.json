@@ -1,0 +1,267 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_CPT1CCR",
+  "long_name": "HRTIM timer C capture 1 c ontrol register (HRTIM_CPT1CCR)",
+  "address_offset": "0x1DC",
+  "reset_value": "0x00000000",
+  "description": "HRTIM timer C capture 1 c ontrol register specification",
+  "bit_fields": [
+    {
+      "name": "SWCPT",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Software capture"
+    },
+    {
+      "name": "UPDCPT",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Update capture"
+    },
+    {
+      "name": "EXEV1CPT",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 1 capture"
+    },
+    {
+      "name": "EXEV2CPT",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 2 capture"
+    },
+    {
+      "name": "EXEV3CPT",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 3 capture"
+    },
+    {
+      "name": "EXEV4CPT",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 4 capture"
+    },
+    {
+      "name": "EXEV5CPT",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 5 capture"
+    },
+    {
+      "name": "EXEV6CPT",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 6 capture"
+    },
+    {
+      "name": "EXEV7CPT",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 7 capture"
+    },
+    {
+      "name": "EXEV8CPT",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 8 capture"
+    },
+    {
+      "name": "EXEV9CPT",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 9 capture"
+    },
+    {
+      "name": "EXEV10CPT",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 10 capture"
+    },
+    {
+      "name": "TA1SET",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer B output 1 set"
+    },
+    {
+      "name": "TA1RST",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer B output 1 reset"
+    },
+    {
+      "name": "TACMP1",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer A compare 1"
+    },
+    {
+      "name": "TACMP2",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer A compare 2"
+    },
+    {
+      "name": "TB1SET",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer B output 1 set"
+    },
+    {
+      "name": "TB1RST",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer B output 1 reset"
+    },
+    {
+      "name": "TBCMP1",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer B compare 1"
+    },
+    {
+      "name": "TBCMP2",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer B compare 2"
+    },
+    {
+      "name": "TF1SET",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer F output 1 set"
+    },
+    {
+      "name": "TF1RST",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer F output 1 reset"
+    },
+    {
+      "name": "TFCMP1",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer F compare 1"
+    },
+    {
+      "name": "TFCMP2",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer F compare 2"
+    },
+    {
+      "name": "TD1SET",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer D output 1 set"
+    },
+    {
+      "name": "TD1RST",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer D output 1 reset"
+    },
+    {
+      "name": "TDCMP1",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer D compare 1"
+    },
+    {
+      "name": "TDCMP2",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer D compare 2"
+    },
+    {
+      "name": "TE1SET",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer E output 1 set"
+    },
+    {
+      "name": "TE1RST",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer E output 1 reset"
+    },
+    {
+      "name": "TECMP1",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer E compare 1"
+    },
+    {
+      "name": "TECMP2",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer E compare 2"
+    }
+  ],
+  "errata_notes": []
+}

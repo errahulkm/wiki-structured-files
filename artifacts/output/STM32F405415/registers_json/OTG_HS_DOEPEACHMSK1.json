@@ -1,0 +1,203 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_DOEPEACHMSK1",
+  "long_name": "RM0090 1444/1741 RM0090 Rev 22 OTG_HS device each OUT endpoint-1 interrupt register (OTG_HS_DOEPEACHMSK1)",
+  "address_offset": "0x884",
+  "reset_value": "0x00000000",
+  "description": "RM0090 1444/1741 RM0090 Rev 22 OTG_HS device each OUT endpoint-1 interrupt register specification",
+  "bit_fields": [
+    {
+      "name": "XFRCM",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer completed interrupt mask"
+    },
+    {
+      "name": "EPDM",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Endpoint disabled interrupt mask"
+    },
+    {
+      "name": "AHBERRM",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "AHB error mask"
+    },
+    {
+      "name": "TOM",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timeout condition mask (nonisochronous endpoints)"
+    },
+    {
+      "name": "ITTXFEMSK",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IN token received when TxFIFO empty mask"
+    },
+    {
+      "name": "INEPNMM",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IN token received with EP mismatch mask"
+    },
+    {
+      "name": "INEPNEM",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IN endpoint NAK effective mask"
+    },
+    {
+      "name": "OPEM",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OUT packet error mask"
+    },
+    {
+      "name": "BIM",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "BNA interrupt mask"
+    },
+    {
+      "name": "BERRM",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Bubble error interrupt mask"
+    },
+    {
+      "name": "NAKM",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "NAK interrupt mask"
+    },
+    {
+      "name": "NYETM",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "NYET interrupt mask"
+    },
+    {
+      "name": "USBAEP",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB active endpoint"
+    },
+    {
+      "name": "EONUM",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Even/odd frame"
+    },
+    {
+      "name": "NAKSTS",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "NAK status"
+    },
+    {
+      "name": "EPTYP",
+      "bit_offset": 18,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Endpoint type"
+    },
+    {
+      "name": "STALL",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "STALL handshake"
+    },
+    {
+      "name": "TXFNUM",
+      "bit_offset": 22,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TxFIFO number"
+    },
+    {
+      "name": "CNAK",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear NAK"
+    },
+    {
+      "name": "SNAK",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Set NAK"
+    },
+    {
+      "name": "SD0PID",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Set DATA0 PID"
+    },
+    {
+      "name": "SODDFRM",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Set odd frame"
+    },
+    {
+      "name": "EPDIS",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Endpoint disable"
+    },
+    {
+      "name": "EPENA",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Endpoint enable"
+    }
+  ],
+  "errata_notes": []
+}

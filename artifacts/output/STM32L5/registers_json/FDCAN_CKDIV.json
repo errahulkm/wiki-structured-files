@@ -1,0 +1,27 @@
+{
+  "peripheral": "FDCAN",
+  "register_name": "FDCAN_CKDIV",
+  "long_name": "FDCAN CFG clock divi der register (FDCAN_CKDIV)",
+  "address_offset": "0x0100",
+  "reset_value": "0x00000000",
+  "description": "FDCAN CFG clock divi der register specification",
+  "bit_fields": [
+    {
+      "name": "EFFL[2",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Event FIFO fill level"
+    },
+    {
+      "name": "EFGI[1",
+      "bit_offset": 8,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Event FIFO get index"
+    }
+  ],
+  "errata_notes": []
+}

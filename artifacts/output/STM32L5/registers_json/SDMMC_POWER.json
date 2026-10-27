@@ -1,0 +1,43 @@
+{
+  "peripheral": "SDMMC",
+  "register_name": "SDMMC_POWER",
+  "long_name": "SDMMC power control register (SDMMC_POWER)",
+  "address_offset": "0x000",
+  "reset_value": "0x00000000",
+  "description": "SDMMC power control register specification",
+  "bit_fields": [
+    {
+      "name": "PWRCTRL[1",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: SDMMC state control bits"
+    },
+    {
+      "name": "VSWITCH",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Voltage switch sequence start"
+    },
+    {
+      "name": "VSWITCHEN",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Voltage switch procedure enable"
+    },
+    {
+      "name": "DIRPOL",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data and command direction signals polarity selection"
+    }
+  ],
+  "errata_notes": []
+}

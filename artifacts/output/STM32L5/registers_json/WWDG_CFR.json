@@ -1,0 +1,19 @@
+{
+  "peripheral": "WWDG",
+  "register_name": "WWDG_CFR",
+  "long_name": "WWDG configuratio n register (WWDG_CFR)",
+  "address_offset": "0x004",
+  "reset_value": "0x00000000",
+  "description": "WWDG configuratio n register specification",
+  "bit_fields": [
+    {
+      "name": "WWDG_CFR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "WWDG configuratio n register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

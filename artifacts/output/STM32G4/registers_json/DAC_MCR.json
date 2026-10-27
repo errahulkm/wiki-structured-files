@@ -1,0 +1,35 @@
+{
+  "peripheral": "DAC",
+  "register_name": "DAC_MCR",
+  "long_name": "DAC mode cont rol register (DAC_MCR)",
+  "address_offset": "0x3C",
+  "reset_value": "0x00000000",
+  "description": "DAC mode cont rol register specification",
+  "bit_fields": [
+    {
+      "name": "MODE2[2",
+      "bit_offset": 16,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel2 mode"
+    },
+    {
+      "name": "DMADOUBLE2",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel2 DMA double data mode"
+    },
+    {
+      "name": "SINFORMAT2",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable signed format for DAC channel2"
+    }
+  ],
+  "errata_notes": []
+}

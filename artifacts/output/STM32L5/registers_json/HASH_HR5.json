@@ -1,0 +1,19 @@
+{
+  "peripheral": "HASH",
+  "register_name": "HASH_HR5",
+  "long_name": "Hash Processor (HASH) HASH_HR5 Register",
+  "address_offset": "0x324",
+  "reset_value": "0x00000000",
+  "description": "Hash Processor (HASH) HASH_HR5 hardware register",
+  "bit_fields": [
+    {
+      "name": "HASH_HR5",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "HASH_HR5 register value"
+    }
+  ],
+  "errata_notes": []
+}

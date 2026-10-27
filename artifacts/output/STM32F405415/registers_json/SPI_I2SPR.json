@@ -1,0 +1,59 @@
+{
+  "peripheral": "SPI",
+  "register_name": "SPI_I2SPR",
+  "long_name": "SPI_I 2S prescaler register (SPI_I2SPR)",
+  "address_offset": "0x20",
+  "reset_value": "0x00000000",
+  "description": "SPI_I 2S prescaler register specification",
+  "bit_fields": [
+    {
+      "name": "CHLEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Channel length (number of bits per audio channel)"
+    },
+    {
+      "name": "DATLEN",
+      "bit_offset": 1,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data length to be transferred"
+    },
+    {
+      "name": "CKPOL",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Steady state clock polarity"
+    },
+    {
+      "name": "I2SSTD",
+      "bit_offset": 4,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2S standard selection"
+    },
+    {
+      "name": "ODD",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Odd factor for the prescaler"
+    },
+    {
+      "name": "MCKOE",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master clock output enable"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,91 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_CR2",
+  "long_name": "Analog-to-Digital Converter (ADC) ADC_CR2 Register",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "Analog-to-Digital Converter (ADC) ADC_CR2 hardware register",
+  "bit_fields": [
+    {
+      "name": "DMA",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Direct memory access mode (for single ADC mode)"
+    },
+    {
+      "name": "DDS",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA disable selection (for single ADC mode)"
+    },
+    {
+      "name": "EOCS",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "End of conversion selection"
+    },
+    {
+      "name": "ALIGN",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data alignment"
+    },
+    {
+      "name": "JEXTSEL[3",
+      "bit_offset": 16,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event select for injected group"
+    },
+    {
+      "name": "JEXTEN",
+      "bit_offset": 20,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External trigger enable for injected channels"
+    },
+    {
+      "name": "JSWSTART",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Start conversion of injected channels"
+    },
+    {
+      "name": "EXTSEL[3",
+      "bit_offset": 24,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event select for regular group"
+    },
+    {
+      "name": "EXTEN",
+      "bit_offset": 28,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External trigger enable for regular channels"
+    },
+    {
+      "name": "SWSTART",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Start conversion of regular channels"
+    }
+  ],
+  "errata_notes": []
+}

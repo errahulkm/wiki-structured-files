@@ -1,0 +1,19 @@
+{
+  "peripheral": "IWDG",
+  "register_name": "IWDG_PR",
+  "long_name": "IWDG prescaler register (IWDG_PR)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "IWDG prescaler register specification",
+  "bit_fields": [
+    {
+      "name": "PR[2",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Prescaler divider"
+    }
+  ],
+  "errata_notes": []
+}

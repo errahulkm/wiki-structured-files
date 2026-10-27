@@ -1,0 +1,19 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_HCTSIZX",
+  "long_name": "on page 1429 OTG_HS_HCTSIZx 0x510 OTG_HS host channel-x transfer size register (OTG_HS_HCTSIZX)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "on page 1429 OTG_HS_HCTSIZx 0x510 OTG_HS host channel-x transfer size register specification",
+  "bit_fields": [
+    {
+      "name": "OTG_HS_HCTSIZX",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "on page 1429 OTG_HS_HCTSIZx 0x510 OTG_HS host channel-x transfer size register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

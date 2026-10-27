@@ -1,0 +1,19 @@
+{
+  "peripheral": "FLASH",
+  "register_name": "FLASH_NSKEYR",
+  "long_name": "Flash non-secure k ey register (FLASH_NSKEYR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Flash non-secure k ey register specification",
+  "bit_fields": [
+    {
+      "name": "NSKEYR[31",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Flash non secure key"
+    }
+  ],
+  "errata_notes": []
+}

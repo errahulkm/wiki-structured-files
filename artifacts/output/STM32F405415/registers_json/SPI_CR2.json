@@ -1,0 +1,83 @@
+{
+  "peripheral": "SPI",
+  "register_name": "SPI_CR2",
+  "long_name": "Serial Peripheral Interface (SPI) SPI_CR2 Register",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "Serial Peripheral Interface (SPI) SPI_CR2 hardware register",
+  "bit_fields": [
+    {
+      "name": "CPHA",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock phase"
+    },
+    {
+      "name": "TXDMAEN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tx buffer DMA enable"
+    },
+    {
+      "name": "SSOE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SS output enable"
+    },
+    {
+      "name": "UDR",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Underrun flag"
+    },
+    {
+      "name": "FRF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Frame format"
+    },
+    {
+      "name": "ERRIE",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Error interrupt enable"
+    },
+    {
+      "name": "RXNEIE",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RX buffer not empty interrupt enable"
+    },
+    {
+      "name": "TXEIE",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tx buffer empty interrupt enable"
+    },
+    {
+      "name": "FRE",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Frame format error"
+    }
+  ],
+  "errata_notes": []
+}

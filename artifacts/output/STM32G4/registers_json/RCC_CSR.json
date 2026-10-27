@@ -1,0 +1,59 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_CSR",
+  "long_name": "Control/status register (RCC_CSR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Control/status register specification",
+  "bit_fields": [
+    {
+      "name": "PINRSTF",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Pin reset flag"
+    },
+    {
+      "name": "BORRSTF",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "BOR flag"
+    },
+    {
+      "name": "SFTRSTF",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Software reset flag"
+    },
+    {
+      "name": "IWDGRSTF",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Independent window watchdog reset flag"
+    },
+    {
+      "name": "WWDGRSTF",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Window watchdog reset flag"
+    },
+    {
+      "name": "LPWRRSTF",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Low-power reset flag"
+    }
+  ],
+  "errata_notes": []
+}

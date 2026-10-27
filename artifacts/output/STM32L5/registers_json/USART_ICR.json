@@ -1,0 +1,131 @@
+{
+  "peripheral": "USART",
+  "register_name": "USART_ICR",
+  "long_name": "USART interrupt flag clear register (USART_ICR)",
+  "address_offset": "0x20",
+  "reset_value": "0x00000000",
+  "description": "USART interrupt flag clear register specification",
+  "bit_fields": [
+    {
+      "name": "PE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Parity error"
+    },
+    {
+      "name": "FE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Framing error"
+    },
+    {
+      "name": "NE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Noise detection flag"
+    },
+    {
+      "name": "ORECF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overrun error clear flag"
+    },
+    {
+      "name": "IDLECF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Idle line detected clear flag"
+    },
+    {
+      "name": "TXFECF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TXFIFO empty clear flag"
+    },
+    {
+      "name": "TCCF",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmission complete clear flag"
+    },
+    {
+      "name": "TCBGTCF",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmission complete before Guard time clear flag"
+    },
+    {
+      "name": "LBDCF",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LIN break detection clear flag"
+    },
+    {
+      "name": "CTSCF",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CTS clear flag"
+    },
+    {
+      "name": "RTOCF",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receiver timeout clear flag"
+    },
+    {
+      "name": "EOBCF",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "End of block clear flag"
+    },
+    {
+      "name": "UDRCF",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI slave underrun clear flag"
+    },
+    {
+      "name": "CMCF",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Character match clear flag"
+    },
+    {
+      "name": "WUCF",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wake-up from low-power mode clear flag"
+    }
+  ],
+  "errata_notes": []
+}

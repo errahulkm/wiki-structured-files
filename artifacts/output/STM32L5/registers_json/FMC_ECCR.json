@@ -1,0 +1,19 @@
+{
+  "peripheral": "FMC",
+  "register_name": "FMC_ECCR",
+  "long_name": "625 ECC result registers (FMC_ECCR)",
+  "address_offset": "0x94",
+  "reset_value": "0x00000000",
+  "description": "625 ECC result registers specification",
+  "bit_fields": [
+    {
+      "name": "ATTSET[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Attribute memory setup time"
+    }
+  ],
+  "errata_notes": []
+}

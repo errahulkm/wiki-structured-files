@@ -1,0 +1,27 @@
+{
+  "peripheral": "TSC",
+  "register_name": "TSC_IOGXCR",
+  "long_name": "TSC I/O group x coun ter register (TSC_IOGXCR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "TSC I/O group x coun ter register specification",
+  "bit_fields": [
+    {
+      "name": "GXE",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog I/O group x enable"
+    },
+    {
+      "name": "GXS",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog I/O group x status"
+    }
+  ],
+  "errata_notes": []
+}

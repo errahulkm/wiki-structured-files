@@ -1,0 +1,43 @@
+{
+  "peripheral": "VREFBUF",
+  "register_name": "VREFBUF_CSR",
+  "long_name": "VREFBUF control and stat us register (VREFBUF_CSR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "VREFBUF control and stat us register specification",
+  "bit_fields": [
+    {
+      "name": "ENVR",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Voltage reference buffer mode enable"
+    },
+    {
+      "name": "HIZ",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "High impedance mode"
+    },
+    {
+      "name": "VRS",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Voltage reference scale"
+    },
+    {
+      "name": "VRR",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Voltage reference buffer ready"
+    }
+  ],
+  "errata_notes": []
+}

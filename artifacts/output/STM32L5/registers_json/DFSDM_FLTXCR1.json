@@ -1,0 +1,91 @@
+{
+  "peripheral": "DFSDM",
+  "register_name": "DFSDM_FLTXCR1",
+  "long_name": "DFSDM filter x control register 1 (DFSDM_FLTXCR1)",
+  "address_offset": "0x100",
+  "reset_value": "0x00000000",
+  "description": "DFSDM filter x control register 1 specification",
+  "bit_fields": [
+    {
+      "name": "PLSSKP[5",
+      "bit_offset": 0,
+      "bit_width": 6,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Pulses to skip for input data skipping function"
+    },
+    {
+      "name": "JEXTSEL[4",
+      "bit_offset": 8,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Trigger signal selection for launching injected conversions"
+    },
+    {
+      "name": "JEXTEN[1",
+      "bit_offset": 13,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Trigger enable and trigger edge selection for injected conversions"
+    },
+    {
+      "name": "RSWSTART",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Software start of a conversion on the regular channel"
+    },
+    {
+      "name": "RCONT",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Continuous mode selection for regular conversions"
+    },
+    {
+      "name": "RSYNC",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Launch regular conversion synchronously with DFSDM_FLT0"
+    },
+    {
+      "name": "RDMAEN",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA channel enabled to read data for the regular conversion"
+    },
+    {
+      "name": "RCH[1",
+      "bit_offset": 24,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Regular channel selection"
+    },
+    {
+      "name": "FAST",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fast conversion mode selection for regular conversions"
+    },
+    {
+      "name": "AWFSEL",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog fast mode select"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "EXTI",
+  "register_name": "EXTI_FPR2",
+  "long_name": "EXTI falling edge pend ing register (EXTI_FPR2)",
+  "address_offset": "0x030",
+  "reset_value": "0x00000000",
+  "description": "EXTI falling edge pend ing register specification",
+  "bit_fields": [
+    {
+      "name": "RPIF[38",
+      "bit_offset": 3,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "35]: configurable event inputs x rising edge pending bit (where x = 35 to 38)."
+    }
+  ],
+  "errata_notes": []
+}

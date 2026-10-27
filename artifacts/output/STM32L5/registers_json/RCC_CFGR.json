@@ -1,0 +1,51 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_CFGR",
+  "long_name": "RCC clock configurat ion register (RCC_CFGR)",
+  "address_offset": "0x008",
+  "reset_value": "0x00000000",
+  "description": "RCC clock configurat ion register specification",
+  "bit_fields": [
+    {
+      "name": "MSICAL[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: MSI clock calibration"
+    },
+    {
+      "name": "MSITRIM[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: MSI clock trimming"
+    },
+    {
+      "name": "HSICAL[7",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: HSI16 clock calibration"
+    },
+    {
+      "name": "MCOSEL[3",
+      "bit_offset": 24,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: microcontroller clock output"
+    },
+    {
+      "name": "MCOPRE[2",
+      "bit_offset": 28,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: microcontroller clock output prescaler"
+    }
+  ],
+  "errata_notes": []
+}

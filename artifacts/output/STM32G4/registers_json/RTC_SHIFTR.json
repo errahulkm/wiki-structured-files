@@ -1,0 +1,35 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_SHIFTR",
+  "long_name": "RTC shift contro l register (RTC_SHIFTR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RTC shift contro l register specification",
+  "bit_fields": [
+    {
+      "name": "CALM[8",
+      "bit_offset": 0,
+      "bit_width": 9,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Calibration minus"
+    },
+    {
+      "name": "CALW16",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Use a 16-second calibration cycle period"
+    },
+    {
+      "name": "ADD1S",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Add one second"
+    }
+  ],
+  "errata_notes": []
+}

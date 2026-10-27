@@ -1,0 +1,19 @@
+{
+  "peripheral": "QUADSPI",
+  "register_name": "QUADSPI_PIR",
+  "long_name": "QUADSPI polling inter val register (QUADSPI_PIR)",
+  "address_offset": "0x02C",
+  "reset_value": "0x00000000",
+  "description": "QUADSPI polling inter val register specification",
+  "bit_fields": [
+    {
+      "name": "MASK[31",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Status mask"
+    }
+  ],
+  "errata_notes": []
+}

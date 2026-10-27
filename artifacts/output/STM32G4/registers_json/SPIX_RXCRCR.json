@@ -1,0 +1,19 @@
+{
+  "peripheral": "SPIX",
+  "register_name": "SPIX_RXCRCR",
+  "long_name": "SPI Rx CRC regi ster (SPIX_RXCRCR)",
+  "address_offset": "0x14",
+  "reset_value": "0x00000000",
+  "description": "SPI Rx CRC regi ster specification",
+  "bit_fields": [
+    {
+      "name": "DR[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Data register"
+    }
+  ],
+  "errata_notes": []
+}

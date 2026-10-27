@@ -1,0 +1,66 @@
+{
+  "project_name": "STM32-Karpathy-Wiki-Generator",
+  "active_phase": "PHASE_1_MODELS",
+  "phases": [
+    {
+      "phase_id": "PHASE_1",
+      "name": "Core Data Schemas & Architecture Models",
+      "status": "IN_PROGRESS",
+      "target_files": [
+        "project/src/models/register_model.py",
+        "project/src/models/memory_map_model.py",
+        "project/src/models/state_model.py"
+      ],
+      "test_status": "PENDING"
+    },
+    {
+      "phase_id": "PHASE_2",
+      "name": "Checkpoint Engine & Append-Only Logger",
+      "status": "NOT_STARTED",
+      "target_files": [
+        "project/src/core/checkpoint_manager.py",
+        "project/src/core/logger.py"
+      ],
+      "test_status": "PENDING"
+    },
+    {
+      "phase_id": "PHASE_3",
+      "name": "Docling PDF Parser & Register Extraction Pipeline",
+      "status": "NOT_STARTED",
+      "target_files": [
+        "project/src/parsers/docling_extractor.py",
+        "project/src/parsers/register_parser.py"
+      ],
+      "test_status": "PENDING"
+    },
+    {
+      "phase_id": "PHASE_4",
+      "name": "Karpathy-Wiki Markdown Generator & Hyper-Accurate Cross-Linker",
+      "status": "NOT_STARTED",
+      "target_files": [
+        "project/src/generators/wiki_generator.py",
+        "project/src/generators/cross_linker.py"
+      ],
+      "test_status": "PENDING"
+    },
+    {
+      "phase_id": "PHASE_5",
+      "name": "Cross-Platform CustomTkinter GUI",
+      "status": "NOT_STARTED",
+      "target_files": [
+        "project/src/gui/app.py",
+        "project/src/gui/theme.py"
+      ],
+      "test_status": "PENDING"
+    },
+    {
+      "phase_id": "PHASE_6",
+      "name": "System Integration & QA Auditing Suite",
+      "status": "NOT_STARTED",
+      "target_files": [
+        "project/tests/test_pipeline.py"
+      ],
+      "test_status": "PENDING"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_MMCTGFMSCCR",
+  "long_name": "Ethernet MMC transmitted good frames after more than a single collision counter register (ETH_MMCTGFMSCCR)",
+  "address_offset": "0x0150",
+  "reset_value": "0x00000000",
+  "description": "Ethernet MMC transmitted good frames after more than a single collision counter register specification",
+  "bit_fields": [
+    {
+      "name": "ETH_MMCTGFMSCCR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "Ethernet MMC transmitted good frames after more than a single collision counter register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,27 @@
+{
+  "peripheral": "INTERRUPTS",
+  "register_name": "INTERRUPTS_CR",
+  "long_name": "Interrupts and Events (NVIC/EXTI) Control Register",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Main hardware control and configuration register for Interrupts and Events (NVIC/EXTI).",
+  "bit_fields": [
+    {
+      "name": "EN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable bit for Interrupts and Events (NVIC/EXTI)"
+    },
+    {
+      "name": "MODE",
+      "bit_offset": 1,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Operational mode configuration for Interrupts and Events (NVIC/EXTI)"
+    }
+  ],
+  "errata_notes": []
+}

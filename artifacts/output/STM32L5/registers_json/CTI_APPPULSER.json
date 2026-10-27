@@ -1,0 +1,19 @@
+{
+  "peripheral": "CTI",
+  "register_name": "CTI_APPPULSER",
+  "long_name": "0x0000 0000 CTI application pulse register (CTI_APPPULSER)",
+  "address_offset": "0x01C",
+  "reset_value": "0x00000000",
+  "description": "0x0000 0000 CTI application pulse register specification",
+  "bit_fields": [
+    {
+      "name": "APPCLEAR[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: channel event clear"
+    }
+  ],
+  "errata_notes": []
+}

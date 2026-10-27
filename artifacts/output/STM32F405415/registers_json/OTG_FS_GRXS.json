@@ -1,0 +1,19 @@
+{
+  "peripheral": "OTG_FS",
+  "register_name": "OTG_FS_GRXS",
+  "long_name": "USB On-The-Go Full-Speed (OTG_FS) OTG_FS_GRXS Register",
+  "address_offset": "0x01C",
+  "reset_value": "0x00000000",
+  "description": "USB On-The-Go Full-Speed (OTG_FS) OTG_FS_GRXS hardware register",
+  "bit_fields": [
+    {
+      "name": "OTG_FS_GRXS",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "OTG_FS_GRXS register value"
+    }
+  ],
+  "errata_notes": []
+}

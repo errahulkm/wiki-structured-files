@@ -1,0 +1,19 @@
+{
+  "peripheral": "OCTOSPI",
+  "register_name": "OCTOSPI_DR",
+  "long_name": "OCTOSPI data register (OCTOSPI_DR)",
+  "address_offset": "0x0050",
+  "reset_value": "0x00000000",
+  "description": "OCTOSPI data register specification",
+  "bit_fields": [
+    {
+      "name": "DL[31",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Data length"
+    }
+  ],
+  "errata_notes": []
+}

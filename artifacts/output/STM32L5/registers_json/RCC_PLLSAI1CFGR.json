@@ -1,0 +1,91 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_PLLSAI1CFGR",
+  "long_name": "RCC PLLSAI1 configurati on register (RCC_PLLSAI1CFGR)",
+  "address_offset": "0x010",
+  "reset_value": "0x00000000",
+  "description": "RCC PLLSAI1 configurati on register specification",
+  "bit_fields": [
+    {
+      "name": "PLLSAI1SRC[1",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Main PLLSAI1 entry clock source"
+    },
+    {
+      "name": "PLLSAI1M[3",
+      "bit_offset": 4,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Division factor for PLLSAI1 input clock"
+    },
+    {
+      "name": "PLLSAI1N[6",
+      "bit_offset": 8,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: PLLSAI1 multiplication factor for VCO"
+    },
+    {
+      "name": "PLLSAI1PEN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLSAI1 PLLSAI1CLK output enable"
+    },
+    {
+      "name": "PLLSAI1P",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLSAI1 division factor for PLLSAI1CLK (SAI1 or SAI2 clock)."
+    },
+    {
+      "name": "PLLSAI1QEN",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLSAI1 PLL48M2CLK output enable"
+    },
+    {
+      "name": "PLLSAI1Q[1",
+      "bit_offset": 21,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: PLLSAI1 division factor for PLL48M2CLK (48 MHz clock)"
+    },
+    {
+      "name": "PLLSAI1REN",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLSAI1 PLLADC1CLK output enable"
+    },
+    {
+      "name": "PLLSAI1R[1",
+      "bit_offset": 25,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: PLLSAI1 division factor for PLLADC1CLK (ADC clock)"
+    },
+    {
+      "name": "PLLSAI1PDIV[4",
+      "bit_offset": 27,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: PLLSAI1 division factor for PLLSAI1CLK"
+    }
+  ],
+  "errata_notes": []
+}

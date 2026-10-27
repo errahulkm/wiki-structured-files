@@ -1,0 +1,67 @@
+{
+  "peripheral": "LPTIM",
+  "register_name": "LPTIM_IER",
+  "long_name": "LPTIM interrupt enab le register (LPTIM_IER)",
+  "address_offset": "0x008",
+  "reset_value": "0x00000000",
+  "description": "LPTIM interrupt enab le register specification",
+  "bit_fields": [
+    {
+      "name": "CMPMCF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Compare match clear flag"
+    },
+    {
+      "name": "ARRMCF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Autoreload match clear flag"
+    },
+    {
+      "name": "EXTTRIGCF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External trigger valid edge clear flag"
+    },
+    {
+      "name": "CMPOKCF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Compare register update OK clear flag"
+    },
+    {
+      "name": "ARROKCF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Autoreload register update OK clear flag"
+    },
+    {
+      "name": "UPCF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Direction change to UP clear flag"
+    },
+    {
+      "name": "DOWNCF",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Direction change to down clear flag"
+    }
+  ],
+  "errata_notes": []
+}

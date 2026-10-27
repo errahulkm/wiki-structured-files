@@ -1,0 +1,51 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_CR",
+  "long_name": "Clock control register (RCC_CR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Clock control register specification",
+  "bit_fields": [
+    {
+      "name": "HSERDY",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSE clock ready flag"
+    },
+    {
+      "name": "HSEBYP",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSE crystal oscillator bypass"
+    },
+    {
+      "name": "CSSON",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock security system enable"
+    },
+    {
+      "name": "PLLON",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Main PLL enable"
+    },
+    {
+      "name": "PLLRDY",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Main PLL clock ready flag"
+    }
+  ],
+  "errata_notes": []
+}

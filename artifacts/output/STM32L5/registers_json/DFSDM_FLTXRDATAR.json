@@ -1,0 +1,35 @@
+{
+  "peripheral": "DFSDM",
+  "register_name": "DFSDM_FLTXRDATAR",
+  "long_name": "DFSDM filter x data regi ster for the regular channel (DFSDM_FLTXRDATAR)",
+  "address_offset": "0x11C",
+  "reset_value": "0x00000000",
+  "description": "DFSDM filter x data regi ster for the regular channel specification",
+  "bit_fields": [
+    {
+      "name": "JDATACH[1",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Injected channel most recently converted"
+    },
+    {
+      "name": "RPEND",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Regular channel pending data"
+    },
+    {
+      "name": "JDATA[23",
+      "bit_offset": 8,
+      "bit_width": 24,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Injected group conversion data"
+    }
+  ],
+  "errata_notes": []
+}

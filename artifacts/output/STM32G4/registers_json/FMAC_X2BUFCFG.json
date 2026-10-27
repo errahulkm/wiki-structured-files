@@ -1,0 +1,35 @@
+{
+  "peripheral": "FMAC",
+  "register_name": "FMAC_X2BUFCFG",
+  "long_name": "FMAC X2 buffer configur ation register (FMAC_X2BUFCFG)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "FMAC X2 buffer configur ation register specification",
+  "bit_fields": [
+    {
+      "name": "X1_BASE[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Base address of X1 buffer"
+    },
+    {
+      "name": "X1_BUF_SIZE[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Allocated size of X1 buffer in 16-bit words"
+    },
+    {
+      "name": "FULL_WM[1",
+      "bit_offset": 24,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Watermark for buffer full flag"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_DAINT",
+  "long_name": "on page 1437 OTG_HS_DAINT 0x818 OTG_HS device all endpoints interrupt register (OTG_HS_DAINT)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "on page 1437 OTG_HS_DAINT 0x818 OTG_HS device all endpoints interrupt register specification",
+  "bit_fields": [
+    {
+      "name": "OTG_HS_DAINT",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "on page 1437 OTG_HS_DAINT 0x818 OTG_HS device all endpoints interrupt register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "FSMC",
+  "register_name": "FSMC_BCR3",
+  "long_name": "FSMC SRAM/NOR-Flash Chip-Select Control Register 3",
+  "address_offset": "0x10",
+  "reset_value": "0x000030D2",
+  "description": "NOR/PSRAM control register 3",
+  "bit_fields": [
+    {
+      "name": "MBKEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Memory bank enable"
+    }
+  ],
+  "errata_notes": []
+}

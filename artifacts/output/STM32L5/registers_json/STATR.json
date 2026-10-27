@@ -1,0 +1,43 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "STATR",
+  "long_name": "2149 DP control and status register (STATR)",
+  "address_offset": "0x4",
+  "reset_value": "0x00000000",
+  "description": "2149 DP control and status register specification",
+  "bit_fields": [
+    {
+      "name": "READOK",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "AP read response (read-only) in SW-DP."
+    },
+    {
+      "name": "WDATAERR",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "write data error (read-only) in SW-DP"
+    },
+    {
+      "name": "CDBGPWRUPREQ",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "debug power-up request"
+    },
+    {
+      "name": "CDBGPWRUPACK",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "debug power-up acknowledge"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_DMAMFB",
+  "long_name": "Ethernet MAC (ETH) ETH_DMAMFB Register",
+  "address_offset": "0x1020",
+  "reset_value": "0x00000000",
+  "description": "Ethernet MAC (ETH) ETH_DMAMFB hardware register",
+  "bit_fields": [
+    {
+      "name": "OF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "the Interrupt register, set high, indicates that the Magic packet or Wake-on-"
+    }
+  ],
+  "errata_notes": []
+}

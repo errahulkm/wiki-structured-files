@@ -1,0 +1,19 @@
+{
+  "peripheral": "EXTI",
+  "register_name": "EXTI_SECCFGR2",
+  "long_name": "EXTI security enable register (EXTI_SECCFGR2)",
+  "address_offset": "0x034",
+  "reset_value": "0x00000000",
+  "description": "EXTI security enable register specification",
+  "bit_fields": [
+    {
+      "name": "EXTI_SECCFGR2",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "EXTI security enable register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

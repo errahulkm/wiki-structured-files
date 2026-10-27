@@ -1,0 +1,27 @@
+{
+  "peripheral": "CRYP",
+  "register_name": "CRYP_IMSCR",
+  "long_name": "CRYP interrupt mask set/c lear register (CRYP_IMSCR)",
+  "address_offset": "0x14",
+  "reset_value": "0x00000000",
+  "description": "CRYP interrupt mask set/c lear register specification",
+  "bit_fields": [
+    {
+      "name": "DIEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA input enable"
+    },
+    {
+      "name": "DOEN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA output enable"
+    }
+  ],
+  "errata_notes": []
+}

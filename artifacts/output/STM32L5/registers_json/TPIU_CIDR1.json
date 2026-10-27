@@ -1,0 +1,19 @@
+{
+  "peripheral": "TPIU",
+  "register_name": "TPIU_CIDR1",
+  "long_name": "0x0000 000D TPIU CoreSight peripheral identity register 1 (TPIU_CIDR1)",
+  "address_offset": "0xFF4",
+  "reset_value": "0x00000000",
+  "description": "0x0000 000D TPIU CoreSight peripheral identity register 1 specification",
+  "bit_fields": [
+    {
+      "name": "PREAMBLE[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: component identification bits [7:0]"
+    }
+  ],
+  "errata_notes": []
+}

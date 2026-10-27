@@ -1,0 +1,115 @@
+{
+  "peripheral": "I2C",
+  "register_name": "I2C_CR2",
+  "long_name": "I2C control register 2 (I2C_CR2)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "I2C control register 2 specification",
+  "bit_fields": [
+    {
+      "name": "PE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Peripheral enable"
+    },
+    {
+      "name": "TXIE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TX interrupt enable"
+    },
+    {
+      "name": "RXIE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RX interrupt enable"
+    },
+    {
+      "name": "ADDRIE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Address match interrupt enable (target only)"
+    },
+    {
+      "name": "NACKIE",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Not acknowledge received interrupt enable"
+    },
+    {
+      "name": "STOPIE",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "STOP detection interrupt enable"
+    },
+    {
+      "name": "START",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "START condition generation"
+    },
+    {
+      "name": "STOP",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "STOP condition generation"
+    },
+    {
+      "name": "NACK",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "NACK generation (target mode)"
+    },
+    {
+      "name": "NBYTES[7",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Number of bytes"
+    },
+    {
+      "name": "RELOAD",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "NBYTES reload mode"
+    },
+    {
+      "name": "AUTOEND",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Automatic end mode (controller mode)"
+    },
+    {
+      "name": "PECBYTE",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Packet error checking byte"
+    }
+  ],
+  "errata_notes": []
+}

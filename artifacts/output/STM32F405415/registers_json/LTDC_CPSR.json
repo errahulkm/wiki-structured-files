@@ -1,0 +1,43 @@
+{
+  "peripheral": "LTDC",
+  "register_name": "LTDC_CPSR",
+  "long_name": "LTDC Current Position Status Register (LTDC_CPSR)",
+  "address_offset": "0x44",
+  "reset_value": "0x00000000",
+  "description": "LTDC Current Position Status Register specification",
+  "bit_fields": [
+    {
+      "name": "CLIF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clears the Line Interrupt Flag"
+    },
+    {
+      "name": "CFUIF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clears the FIFO Underrun Interrupt flag"
+    },
+    {
+      "name": "CTERRIF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clears the Transfer Error Interrupt Flag"
+    },
+    {
+      "name": "CRRIF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clears Register Reload Interrupt Flag"
+    }
+  ],
+  "errata_notes": []
+}

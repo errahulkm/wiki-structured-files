@@ -1,0 +1,19 @@
+{
+  "peripheral": "OTFDEC",
+  "register_name": "OTFDEC_RXENDADDR",
+  "long_name": "OTFDEC region x end addre ss register (OTFDEC_RXENDADDR)",
+  "address_offset": "0x28",
+  "reset_value": "0x00000000",
+  "description": "OTFDEC region x end addre ss register specification",
+  "bit_fields": [
+    {
+      "name": "REG_START_ADDR[31",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Region AHB start address"
+    }
+  ],
+  "errata_notes": []
+}

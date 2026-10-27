@@ -1,0 +1,31 @@
+{
+  "active_file": "RM0468.pdf",
+  "total_pages": 1741,
+  "last_processed_page": 1741,
+  "overall_progress_percentage": 100.0,
+  "chunk_size": 20,
+  "status": "completed",
+  "hardware_device": "cuda:0",
+  "hardware_name": "🚀 NVIDIA NVIDIA RTX 2000 Ada Generation Laptop GPU (CUDA:0 - 7.71 GB VRAM)",
+  "start_time_iso": "2026-10-26T11:25:49.410369+00:00",
+  "elapsed_time_seconds": 52.2,
+  "pages_per_second": 33.36,
+  "estimated_time_remaining_seconds": 0.0,
+  "file_statuses": {
+    "ref_manual": {
+      "file_type": "Reference Manual",
+      "file_path": "/home/rahul/Antigravity/karpathy-wiki-file-ref-man/artifacts/st/STM32F4xx/rm0090-stm32f405415-stm32f407417-stm32f427437-and-stm32f429439-advanced-armbased-32bit-mcus-stmicroelectronics.pdf",
+      "file_name": "rm0090-stm32f405415-stm32f407417-stm32f427437-and-stm32f429439-advanced-armbased-32bit-mcus-stmicroelectronics.pdf",
+      "status": "completed",
+      "progress_percentage": 100.0,
+      "current_page": 1741,
+      "total_pages": 1741,
+      "elapsed_seconds": 0.0
+    }
+  },
+  "extracted_register_count": 0,
+  "extracted_markdown_count": 0,
+  "completed_chapters": [],
+  "last_checkpoint_timestamp": "2026-10-26T11:26:41.647656+00:00",
+  "error_log": null
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "TIMX",
+  "register_name": "TIMX_BDTR",
+  "long_name": "TIM1 and TIM8 break and dead-time register (TIMX_BDTR)",
+  "address_offset": "0x44",
+  "reset_value": "0x00000000",
+  "description": "TIM1 and TIM8 break and dead-time register specification",
+  "bit_fields": [
+    {
+      "name": "CCR3[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Capture/Compare value"
+    }
+  ],
+  "errata_notes": []
+}

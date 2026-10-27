@@ -1,0 +1,59 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_DLYCFGR",
+  "long_name": "OCTOSPI delay configur ation register (RCC_DLYCFGR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "OCTOSPI delay configur ation register specification",
+  "bit_fields": [
+    {
+      "name": "I2C4SEL[1",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: I2C4 clock source selection"
+    },
+    {
+      "name": "DFSDMSEL",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Digital filter for sigma-delta modulator kernel clock source selection"
+    },
+    {
+      "name": "ADFSDMSEL[1",
+      "bit_offset": 3,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Digital filter for sigma-delta modulator audio clock source selection"
+    },
+    {
+      "name": "SAI1SEL[2",
+      "bit_offset": 5,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: SAI1 clock source selection"
+    },
+    {
+      "name": "SAI2SEL[2",
+      "bit_offset": 8,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: SAI2 clock source selection"
+    },
+    {
+      "name": "SDMMCSEL",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SDMMC clock selection"
+    }
+  ],
+  "errata_notes": []
+}

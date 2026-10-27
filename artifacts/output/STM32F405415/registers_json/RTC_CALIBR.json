@@ -1,0 +1,19 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_CALIBR",
+  "long_name": "Real-Time Clock (RTC) RTC_CALIBR Register",
+  "address_offset": "0x18",
+  "reset_value": "0x00000000",
+  "description": "Real-Time Clock (RTC) RTC_CALIBR hardware register",
+  "bit_fields": [
+    {
+      "name": "RTC_CALIBR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "RTC_CALIBR register value"
+    }
+  ],
+  "errata_notes": []
+}

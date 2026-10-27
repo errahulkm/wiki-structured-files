@@ -1,0 +1,123 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_CCR",
+  "long_name": "ADC common contro l register (ADC_CCR)",
+  "address_offset": "0x308",
+  "reset_value": "0x00000000",
+  "description": "ADC common contro l register specification",
+  "bit_fields": [
+    {
+      "name": "ADRDY_MST",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master ADC ready"
+    },
+    {
+      "name": "EOSMP_MST",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "End of Sampling phase flag of the master ADC"
+    },
+    {
+      "name": "EOC_MST",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "End of regular conversion of the master ADC"
+    },
+    {
+      "name": "EOS_MST",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "End of regular sequence flag of the master ADC"
+    },
+    {
+      "name": "OVR_MST",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overrun flag of the master ADC"
+    },
+    {
+      "name": "JEOC_MST",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "End of injected conversion flag of the master ADC"
+    },
+    {
+      "name": "DELAY",
+      "bit_offset": 8,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Delay between 2 sampling phases"
+    },
+    {
+      "name": "DMACFG",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA configuration (for dual ADC mode)"
+    },
+    {
+      "name": "MDMA[1",
+      "bit_offset": 14,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Direct memory access mode for dual ADC mode"
+    },
+    {
+      "name": "CKMODE[1",
+      "bit_offset": 16,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC clock mode"
+    },
+    {
+      "name": "PRESC[3",
+      "bit_offset": 18,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC prescaler"
+    },
+    {
+      "name": "VREFEN",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "VREFINT enable"
+    },
+    {
+      "name": "CH17SEL",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CH17 selection"
+    },
+    {
+      "name": "CH18SEL",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CH18 selection"
+    }
+  ],
+  "errata_notes": []
+}

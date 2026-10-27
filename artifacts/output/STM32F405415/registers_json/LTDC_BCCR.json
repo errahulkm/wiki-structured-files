@@ -1,0 +1,19 @@
+{
+  "peripheral": "LTDC",
+  "register_name": "LTDC_BCCR",
+  "long_name": "LTDC Background Color Conf iguration Register (LTDC_BCCR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "LTDC Background Color Conf iguration Register specification",
+  "bit_fields": [
+    {
+      "name": "VBR",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Vertical Blanking Reload"
+    }
+  ],
+  "errata_notes": []
+}

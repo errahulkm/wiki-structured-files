@@ -1,0 +1,75 @@
+{
+  "peripheral": "SAI",
+  "register_name": "SAI_ACR2",
+  "long_name": "SAI x configuration register 2 (SAI_ACR2)",
+  "address_offset": "0x008",
+  "reset_value": "0x00000000",
+  "description": "SAI x configuration register 2 specification",
+  "bit_fields": [
+    {
+      "name": "FTH",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FIFO threshold. This bit is set and cleared by software."
+    },
+    {
+      "name": "FFLUSH",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FIFO flush. This bit is set by software. It is always read low."
+    },
+    {
+      "name": "TRIS",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tristate management on data line. This bit is set and cleared by software."
+    },
+    {
+      "name": "MUTE",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Mute. This bit is set and cleared by software."
+    },
+    {
+      "name": "MUTEVAL",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Mute value. This bit is set and cleared by software.This bit has to be written before"
+    },
+    {
+      "name": "MUTECNT[5",
+      "bit_offset": 7,
+      "bit_width": 6,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Mute counter. These bits are set and cleared by software."
+    },
+    {
+      "name": "CPL",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Complement bit. This bit is set and cleared by software."
+    },
+    {
+      "name": "COMP[1",
+      "bit_offset": 14,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Companding mode. These bits are set and cleared by software."
+    }
+  ],
+  "errata_notes": []
+}

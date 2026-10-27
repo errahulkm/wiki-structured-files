@@ -1,0 +1,43 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_ICSCR",
+  "long_name": "Internal clock sources ca libration register (RCC_ICSCR)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "Internal clock sources ca libration register specification",
+  "bit_fields": [
+    {
+      "name": "HSION",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI16 clock enable"
+    },
+    {
+      "name": "HSIKERON",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI16 always enable for peripheral kernels."
+    },
+    {
+      "name": "HSIRDY",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI16 clock ready flag"
+    },
+    {
+      "name": "HSEON",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSE clock enable"
+    }
+  ],
+  "errata_notes": []
+}

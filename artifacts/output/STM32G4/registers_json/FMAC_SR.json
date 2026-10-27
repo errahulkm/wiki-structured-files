@@ -1,0 +1,59 @@
+{
+  "peripheral": "FMAC",
+  "register_name": "FMAC_SR",
+  "long_name": "FMAC status register (FMAC_SR)",
+  "address_offset": "0x14",
+  "reset_value": "0x00000000",
+  "description": "FMAC status register specification",
+  "bit_fields": [
+    {
+      "name": "RIEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable read interrupt"
+    },
+    {
+      "name": "WIEN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable write interrupt"
+    },
+    {
+      "name": "OVFLIEN",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable overflow error interrupts"
+    },
+    {
+      "name": "OVFL",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overflow error flag"
+    },
+    {
+      "name": "UNFL",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Underflow error flag"
+    },
+    {
+      "name": "SAT",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Saturation error flag"
+    }
+  ],
+  "errata_notes": []
+}

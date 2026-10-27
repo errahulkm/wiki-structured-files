@@ -1,0 +1,27 @@
+{
+  "peripheral": "MCUROM",
+  "register_name": "MCUROM_PIDR4",
+  "long_name": "0x0000 0001 MCU ROM CoreSight peripheral identity register 4 (MCUROM_PIDR4)",
+  "address_offset": "0xFD0",
+  "reset_value": "0x00000000",
+  "description": "0x0000 0001 MCU ROM CoreSight peripheral identity register 4 specification",
+  "bit_fields": [
+    {
+      "name": "SYSMEM",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "system memory"
+    },
+    {
+      "name": "4KCOUNT[3",
+      "bit_offset": 4,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: register file size"
+    }
+  ],
+  "errata_notes": []
+}

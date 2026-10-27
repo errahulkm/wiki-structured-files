@@ -1,0 +1,27 @@
+{
+  "peripheral": "SYSCFG",
+  "register_name": "SYSCFG_SCSR",
+  "long_name": "SYSCFG CCM SRAM control and status register (SYSCFG_SCSR)",
+  "address_offset": "0x18",
+  "reset_value": "0x00000000",
+  "description": "SYSCFG CCM SRAM control and status register specification",
+  "bit_fields": [
+    {
+      "name": "CCMER",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CCM SRAM Erase"
+    },
+    {
+      "name": "CCMBSY",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CCM SRAM busy by erase operation"
+    }
+  ],
+  "errata_notes": []
+}

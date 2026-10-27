@@ -1,0 +1,59 @@
+{
+  "peripheral": "SDIO",
+  "register_name": "SDIO_DCTRL",
+  "long_name": "SDIO data control register (SDIO_DCTRL)",
+  "address_offset": "0x2C",
+  "reset_value": "0x00000000",
+  "description": "SDIO data control register specification",
+  "bit_fields": [
+    {
+      "name": "DMAEN",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA enable bit"
+    },
+    {
+      "name": "DBLOCKSIZE",
+      "bit_offset": 4,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data block size"
+    },
+    {
+      "name": "RWSTART",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Read wait start"
+    },
+    {
+      "name": "RWSTOP",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Read wait stop"
+    },
+    {
+      "name": "RWMOD",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Read wait mode"
+    },
+    {
+      "name": "SDIOEN",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SD I/O enable functions"
+    }
+  ],
+  "errata_notes": []
+}

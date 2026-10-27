@@ -1,0 +1,35 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_HAINT",
+  "long_name": "RM0090 1282/1741 RM0090 Rev 22 OTG_FS Host all channels interrupt register (OTG_FS_HAINT)",
+  "address_offset": "0x414",
+  "reset_value": "0x00000000",
+  "description": "RM0090 1282/1741 RM0090 Rev 22 OTG_FS Host all channels interrupt register specification",
+  "bit_fields": [
+    {
+      "name": "PTXFSAVL",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Periodic transmit data FIFO space available"
+    },
+    {
+      "name": "PTXQSAV",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Periodic transmit request queue space available"
+    },
+    {
+      "name": "PTXQTOP",
+      "bit_offset": 24,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Top of the periodic transmit request queue"
+    }
+  ],
+  "errata_notes": []
+}

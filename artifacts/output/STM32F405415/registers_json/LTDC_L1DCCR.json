@@ -1,0 +1,19 @@
+{
+  "peripheral": "LTDC",
+  "register_name": "LTDC_L1DCCR",
+  "long_name": "LCD-TFT Display Controller (LTDC) LTDC_L1DCCR Register",
+  "address_offset": "0x009C",
+  "reset_value": "0x110",
+  "description": "LCD-TFT Display Controller (LTDC) LTDC_L1DCCR hardware register",
+  "bit_fields": [
+    {
+      "name": "LTDC_L1DCCR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x110",
+      "description": "LTDC_L1DCCR register value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "DP",
+  "register_name": "DP_SELECTR",
+  "long_name": "0x0000 0000 DP access port select register (DP_SELECTR)",
+  "address_offset": "0x8",
+  "reset_value": "0x00000000",
+  "description": "0x0000 0000 DP access port select register specification",
+  "bit_fields": [
+    {
+      "name": "EA",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "event status flag"
+    }
+  ],
+  "errata_notes": []
+}

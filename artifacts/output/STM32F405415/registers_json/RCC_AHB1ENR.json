@@ -1,0 +1,147 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB1ENR",
+  "long_name": "RCC AHB1 peripheral clock register (RCC_AHB1ENR)",
+  "address_offset": "0x30",
+  "reset_value": "0x00000000",
+  "description": "RCC AHB1 peripheral clock register specification",
+  "bit_fields": [
+    {
+      "name": "GPIOGEN",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port G clock enable"
+    },
+    {
+      "name": "GPIOHEN",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port H clock enable"
+    },
+    {
+      "name": "GPIOIEN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port I clock enable"
+    },
+    {
+      "name": "GPIOJEN",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port J clock enable"
+    },
+    {
+      "name": "GPIOKEN",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port K clock enable"
+    },
+    {
+      "name": "CRCEN",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CRC clock enable"
+    },
+    {
+      "name": "BKPSRAMEN",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Backup SRAM interface clock enable"
+    },
+    {
+      "name": "CCMDATARAMEN",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CCM data RAM clock enable"
+    },
+    {
+      "name": "DMA1EN",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA1 clock enable"
+    },
+    {
+      "name": "DMA2EN",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA2 clock enable"
+    },
+    {
+      "name": "DMA2DEN",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA2D clock enable"
+    },
+    {
+      "name": "ETHMACEN",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Ethernet MAC clock enable"
+    },
+    {
+      "name": "ETHMACTXEN",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Ethernet Transmission clock enable"
+    },
+    {
+      "name": "ETHMACRXEN",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Ethernet Reception clock enable"
+    },
+    {
+      "name": "ETHMACPTPEN",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Ethernet PTP clock enable"
+    },
+    {
+      "name": "OTGHSEN",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB OTG HS clock enable"
+    },
+    {
+      "name": "OTGHSULPIEN",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB OTG HSULPI clock enable"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,139 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_APB2LPENR",
+  "long_name": "RCC APB2 peripheral clock enabled in low power mode register (RCC_APB2LPENR)",
+  "address_offset": "0x64",
+  "reset_value": "0x00000000",
+  "description": "RCC APB2 peripheral clock enabled in low power mode register specification",
+  "bit_fields": [
+    {
+      "name": "USART1LPEN",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART1 clock enable during Sleep mode"
+    },
+    {
+      "name": "USART6LPEN",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART6 clock enable during Sleep mode"
+    },
+    {
+      "name": "ADC1LPEN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC1 clock enable during Sleep mode"
+    },
+    {
+      "name": "ADC2LPEN",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC2 clock enable during Sleep mode"
+    },
+    {
+      "name": "ADC3LPEN",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC 3 clock enable during Sleep mode"
+    },
+    {
+      "name": "SDIOLPEN",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SDIO clock enable during Sleep mode"
+    },
+    {
+      "name": "SPI1LPEN",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI1 clock enable during Sleep mode"
+    },
+    {
+      "name": "SPI4LPEN",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI4 clock enable during Sleep mode"
+    },
+    {
+      "name": "SYSCFGLPEN",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "System configuration controller clock enable during Sleep mode"
+    },
+    {
+      "name": "TIM9LPEN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM9 clock enable during sleep mode"
+    },
+    {
+      "name": "TIM10LPEN",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM10 clock enable during Sleep mode"
+    },
+    {
+      "name": "TIM11LPEN",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM11 clock enable during Sleep mode"
+    },
+    {
+      "name": "SPI5LPEN",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI5 clock enable during Sleep mode"
+    },
+    {
+      "name": "SPI6LPEN",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI6 clock enable during Sleep mode"
+    },
+    {
+      "name": "SAI1LPEN",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SAI1 clock enable during Sleep mode"
+    },
+    {
+      "name": "LTDCLPEN",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LTDC clock enable during Sleep mode"
+    }
+  ],
+  "errata_notes": []
+}

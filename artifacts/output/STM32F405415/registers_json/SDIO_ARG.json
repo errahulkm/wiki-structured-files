@@ -1,0 +1,35 @@
+{
+  "peripheral": "SDIO",
+  "register_name": "SDIO_ARG",
+  "long_name": "SDIO argument register (SDIO_ARG)",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "SDIO argument register specification",
+  "bit_fields": [
+    {
+      "name": "CLKDIV",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock divide factor"
+    },
+    {
+      "name": "CLKEN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock enable bit"
+    },
+    {
+      "name": "PWRSAV",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Power saving configuration bit"
+    }
+  ],
+  "errata_notes": []
+}

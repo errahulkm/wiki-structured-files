@@ -1,0 +1,59 @@
+{
+  "peripheral": "DMA2D",
+  "register_name": "DMA2D_IFCR",
+  "long_name": "DMA2D interrupt flag clear register (DMA2D_IFCR)",
+  "address_offset": "0x0008",
+  "reset_value": "0x00000000",
+  "description": "DMA2D interrupt flag clear register specification",
+  "bit_fields": [
+    {
+      "name": "CTEIF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear Transfer error interrupt flag"
+    },
+    {
+      "name": "CTCIF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear transfer complete interrupt flag"
+    },
+    {
+      "name": "CTWIF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear transfer watermark interrupt flag"
+    },
+    {
+      "name": "CAECIF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear CLUT access error interrupt flag"
+    },
+    {
+      "name": "CCTCIF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear CLUT transfer complete interrupt flag"
+    },
+    {
+      "name": "CCEIF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear configuration error interrupt flag"
+    }
+  ],
+  "errata_notes": []
+}

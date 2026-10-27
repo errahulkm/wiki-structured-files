@@ -1,0 +1,267 @@
+{
+  "peripheral": "GTZC",
+  "register_name": "GTZC_TZIC_FCR1",
+  "long_name": "GTZC_TZIC flag clear register 1 (GTZC_TZIC_FCR1)",
+  "address_offset": "0x420",
+  "reset_value": "0x00000000",
+  "description": "GTZC_TZIC flag clear register 1 specification",
+  "bit_fields": [
+    {
+      "name": "TZSCF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access flag for TZSC"
+    },
+    {
+      "name": "TZICF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access flag for TZIC"
+    },
+    {
+      "name": "FMC_MEMF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access flag for FMC NAND and FMC NOR memory interface"
+    },
+    {
+      "name": "OCTOSPI1_MEMF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access flag for OCTOSPI memory interface"
+    },
+    {
+      "name": "SRAM1F",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access flag for SRAM1"
+    },
+    {
+      "name": "MPCBB1_REGF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access flag for MPCBB1 registers"
+    },
+    {
+      "name": "SRAM2F",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access flag for SRAM2"
+    },
+    {
+      "name": "MPCBB2_REGF",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access flag for MPCBB2 registers"
+    },
+    {
+      "name": "SPI2FC",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for SPI2"
+    },
+    {
+      "name": "SPI3FC",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for SPI3"
+    },
+    {
+      "name": "USART2FC",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for USART2"
+    },
+    {
+      "name": "USART3FC",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for USART3"
+    },
+    {
+      "name": "UART4FC",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for UART4"
+    },
+    {
+      "name": "UART5FC",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for UART5"
+    },
+    {
+      "name": "I2C1FC",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for I2C1"
+    },
+    {
+      "name": "I2C2FC",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for I2C2"
+    },
+    {
+      "name": "I2C3FC",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for I2C3"
+    },
+    {
+      "name": "CRSFC",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for CRS"
+    },
+    {
+      "name": "DAC1FC",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for DAC1"
+    },
+    {
+      "name": "OPAMPFC",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for OPAMP"
+    },
+    {
+      "name": "LPTIM1FC",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for LPTIM1"
+    },
+    {
+      "name": "LPUART1FC",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for LPUART1"
+    },
+    {
+      "name": "I2C4FC",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for I2C4"
+    },
+    {
+      "name": "LPTIM2FC",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for LPTIM2"
+    },
+    {
+      "name": "LPTIM3FC",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for LPTIM3"
+    },
+    {
+      "name": "FDCAN1FC",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for FDCAN1"
+    },
+    {
+      "name": "USBFSFC",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for USB FS"
+    },
+    {
+      "name": "UCPD1FC",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for UCPD1"
+    },
+    {
+      "name": "VREFBUFFC",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for VREFBUF"
+    },
+    {
+      "name": "COMPFC",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for COMP"
+    },
+    {
+      "name": "TIM1FC",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for TIM1"
+    },
+    {
+      "name": "SPI1FC",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for SPI1"
+    }
+  ],
+  "errata_notes": []
+}

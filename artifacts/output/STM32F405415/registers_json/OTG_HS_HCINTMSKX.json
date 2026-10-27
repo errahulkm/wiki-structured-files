@@ -1,0 +1,19 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_HCINTMSKX",
+  "long_name": "on page 1428 OTG_HS_HCINTMSKx 0x50C OTG_HS host channel-x interrupt mask register (OTG_HS_HCINTMSKX)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "on page 1428 OTG_HS_HCINTMSKx 0x50C OTG_HS host channel-x interrupt mask register specification",
+  "bit_fields": [
+    {
+      "name": "OTG_HS_HCINTMSKX",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "on page 1428 OTG_HS_HCINTMSKx 0x50C OTG_HS host channel-x interrupt mask register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

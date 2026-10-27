@@ -1,0 +1,59 @@
+{
+  "peripheral": "ITM",
+  "register_name": "ITM_TCR",
+  "long_name": "0x0000 0000 ITM trace control register (ITM_TCR)",
+  "address_offset": "0xE80",
+  "reset_value": "0x00000000",
+  "description": "0x0000 0000 ITM trace control register specification",
+  "bit_fields": [
+    {
+      "name": "PRIVMASK[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: disable unprivileged access to ITM stimulus ports"
+    },
+    {
+      "name": "SWOENA",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SWO enable"
+    },
+    {
+      "name": "STALLENA",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "stall enable"
+    },
+    {
+      "name": "TSPRESCALE[1",
+      "bit_offset": 8,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: local timestamp prescaler, used with the trace packet reference clock"
+    },
+    {
+      "name": "TRACEBUSID[6",
+      "bit_offset": 16,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: identifier for multi-source trace stream formatting"
+    },
+    {
+      "name": "BUSY",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "indicates whether the ITM is currently processing events"
+    }
+  ],
+  "errata_notes": []
+}

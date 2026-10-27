@@ -1,0 +1,27 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_DEACHINT",
+  "long_name": "OTG_HS device each endpoint interrupt register (OTG_HS_DEACHINT)",
+  "address_offset": "0x0838",
+  "reset_value": "0x00000000",
+  "description": "OTG_HS device each endpoint interrupt register specification",
+  "bit_fields": [
+    {
+      "name": "INEPTXFEM",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IN EP Tx FIFO empty interrupt mask bits"
+    },
+    {
+      "name": "OEP1INT",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OUT endpoint 1 interrupt bit"
+    }
+  ],
+  "errata_notes": []
+}

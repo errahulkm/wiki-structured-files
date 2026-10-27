@@ -1,0 +1,123 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_CR",
+  "long_name": "RTC control register (RTC_CR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RTC control register specification",
+  "bit_fields": [
+    {
+      "name": "WUT[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Wakeup auto-reload value bits"
+    },
+    {
+      "name": "ADD1H",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Add 1 hour (summer time change)"
+    },
+    {
+      "name": "SUB1H",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Subtract 1 hour (winter time change)"
+    },
+    {
+      "name": "BKP",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Backup"
+    },
+    {
+      "name": "COSEL",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Calibration output selection"
+    },
+    {
+      "name": "POL",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output polarity"
+    },
+    {
+      "name": "OSEL[1",
+      "bit_offset": 21,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Output selection"
+    },
+    {
+      "name": "COE",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Calibration output enable"
+    },
+    {
+      "name": "ITSE",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "timestamp on internal event enable"
+    },
+    {
+      "name": "TAMPTS",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Activate timestamp on tamper detection event"
+    },
+    {
+      "name": "TAMPOE",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper detection output enable on TAMPALRM"
+    },
+    {
+      "name": "TAMPALRM_PU",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMPALRM pull-up enable"
+    },
+    {
+      "name": "TAMPALRM_TYPE",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMPALRM output type"
+    },
+    {
+      "name": "OUT2EN",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RTC_OUT2 output enable"
+    }
+  ],
+  "errata_notes": []
+}

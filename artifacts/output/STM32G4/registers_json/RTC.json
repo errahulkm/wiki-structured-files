@@ -1,0 +1,19 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC",
+  "long_name": "WUTF ALRAF ALRBF rtc_pclk clock domain Registers interfacertc_pclk IRQ interface rtc_it ck_wut rtc_ker_ck clock domain RM0440 Rev 9 1573/2140 RM0440 Real-time clock (RTC)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "WUTF ALRAF ALRBF rtc_pclk clock domain Registers interfacertc_pclk IRQ interface rtc_it ck_wut rtc_ker_ck clock domain RM0440 Rev 9 1573/2140 RM0440 Real-time clock specification",
+  "bit_fields": [
+    {
+      "name": "RTC",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "WUTF ALRAF ALRBF rtc_pclk clock domain Registers interfacertc_pclk IRQ interface rtc_it ck_wut rtc_ker_ck clock domain RM0440 Rev 9 1573/2140 RM0440 Real-time clock full-width value"
+    }
+  ],
+  "errata_notes": []
+}

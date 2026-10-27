@@ -1,0 +1,27 @@
+{
+  "application_name": "Karpathy Wiki & Mission-Critical Aerospace System Generator",
+  "version": "1.0.0",
+  "orchestration_directory": "orchestration",
+  "project_directory": "project",
+  "context_window_limit_tokens": 128000,
+  "max_micro_phase_history": 50,
+  "strict_hallucination_prevention": true,
+  "require_auditing_report_for_completion": true,
+  "pep8_compliance_required": true,
+  "unit_test_coverage_threshold": 0.95,
+  "hardware_targets": [
+    "STM32 Bare-Metal Microcontrollers (CMSIS Standard)",
+    "Ubuntu Linux Edge Server",
+    "Node-RED & n8n Automated Low-Code IoT Pipelines"
+  ],
+  "agent_roles": [
+    "Chief Manager & Orchestrator",
+    "Karpathy Wiki SME",
+    "System Architect",
+    "Wiki File Structure Developer",
+    "Core Python Developer",
+    "Best GUI Developer",
+    "Expert Embedded Developer",
+    "QA & Auditing Agent"
+  ]
+}

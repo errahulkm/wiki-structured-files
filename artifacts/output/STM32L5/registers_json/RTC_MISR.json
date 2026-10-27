@@ -1,0 +1,59 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_MISR",
+  "long_name": "RTC non-secure masked interr upt status register (RTC_MISR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RTC non-secure masked interr upt status register specification",
+  "bit_fields": [
+    {
+      "name": "ALRAMF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alarm A masked flag"
+    },
+    {
+      "name": "ALRBMF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alarm B non-secure masked flag"
+    },
+    {
+      "name": "WUTMF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wake-up timer non-secure masked flag"
+    },
+    {
+      "name": "TSMF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timestamp non-secure masked flag"
+    },
+    {
+      "name": "TSOVMF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timestamp overflow non-secure masked flag"
+    },
+    {
+      "name": "ITSMF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal timestamp non-secure masked flag"
+    }
+  ],
+  "errata_notes": []
+}

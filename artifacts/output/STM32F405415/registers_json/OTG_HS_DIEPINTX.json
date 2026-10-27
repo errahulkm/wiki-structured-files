@@ -1,0 +1,59 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_DIEPINTX",
+  "long_name": "0x0000 0000 This register works with each of the Device IN endpoint interrupt (OTG_HS_DIEPINTX)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "0x0000 0000 This register works with each of the Device IN endpoint interrupt specification",
+  "bit_fields": [
+    {
+      "name": "TOM",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timeout condition mask (nonisochronous endpoints)"
+    },
+    {
+      "name": "ITTXFEMSK",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IN token received when TxFIFO empty mask"
+    },
+    {
+      "name": "INEPNMM",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IN token received with EP mismatch mask"
+    },
+    {
+      "name": "INEPNEM",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IN endpoint NAK effective mask"
+    },
+    {
+      "name": "TXFURM",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FIFO underrun mask"
+    },
+    {
+      "name": "NAKM",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "NAK interrupt mask"
+    }
+  ],
+  "errata_notes": []
+}

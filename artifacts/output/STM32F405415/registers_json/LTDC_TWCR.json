@@ -1,0 +1,19 @@
+{
+  "peripheral": "LTDC",
+  "register_name": "LTDC_TWCR",
+  "long_name": "LTDC Total Width Config uration Register (LTDC_TWCR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "LTDC Total Width Config uration Register specification",
+  "bit_fields": [
+    {
+      "name": "LTDC_TWCR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "LTDC Total Width Config uration Register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

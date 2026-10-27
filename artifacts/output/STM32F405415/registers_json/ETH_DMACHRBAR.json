@@ -1,0 +1,19 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_DMACHRBAR",
+  "long_name": "Ethernet DMA current host receive buffer address register (ETH_DMACHRBAR)",
+  "address_offset": "0x1054",
+  "reset_value": "0x00000000",
+  "description": "Ethernet DMA current host receive buffer address register specification",
+  "bit_fields": [
+    {
+      "name": "HTDAP",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Host transmit descriptor address pointer"
+    }
+  ],
+  "errata_notes": []
+}

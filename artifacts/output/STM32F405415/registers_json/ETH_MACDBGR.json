@@ -1,0 +1,67 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_MACDBGR",
+  "long_name": "with DMA controller RM0090 1192/1741 RM0090 Rev 22 Ethernet MAC debug register (ETH_MACDBGR)",
+  "address_offset": "0x0034",
+  "reset_value": "0x00000000",
+  "description": "with DMA controller RM0090 1192/1741 RM0090 Rev 22 Ethernet MAC debug register specification",
+  "bit_fields": [
+    {
+      "name": "MMTEA",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MAC MII transmit engine active"
+    },
+    {
+      "name": "MTFCS",
+      "bit_offset": 17,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MAC transmit frame controller status"
+    },
+    {
+      "name": "MTP",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MAC transmitter in pause"
+    },
+    {
+      "name": "TFRS",
+      "bit_offset": 20,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tx FIFO read status"
+    },
+    {
+      "name": "TFWA",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tx FIFO write active"
+    },
+    {
+      "name": "TFNE",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tx FIFO not empty"
+    },
+    {
+      "name": "TFF",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tx FIFO full"
+    }
+  ],
+  "errata_notes": []
+}

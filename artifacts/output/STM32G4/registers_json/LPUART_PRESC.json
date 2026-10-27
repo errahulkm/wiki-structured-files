@@ -1,0 +1,19 @@
+{
+  "peripheral": "LPUART",
+  "register_name": "LPUART_PRESC",
+  "long_name": "LPUART prescaler register (LPUART_PRESC)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "LPUART prescaler register specification",
+  "bit_fields": [
+    {
+      "name": "TDR[8",
+      "bit_offset": 0,
+      "bit_width": 9,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Transmit data value"
+    }
+  ],
+  "errata_notes": []
+}

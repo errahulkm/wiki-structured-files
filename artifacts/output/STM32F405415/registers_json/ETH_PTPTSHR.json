@@ -1,0 +1,19 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_PTPTSHR",
+  "long_name": "Ethernet PTP time stamp high register (ETH_PTPTSHR)",
+  "address_offset": "0x0708",
+  "reset_value": "0x00000000",
+  "description": "Ethernet PTP time stamp high register specification",
+  "bit_fields": [
+    {
+      "name": "STSSI",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "System time subsecond increment"
+    }
+  ],
+  "errata_notes": []
+}

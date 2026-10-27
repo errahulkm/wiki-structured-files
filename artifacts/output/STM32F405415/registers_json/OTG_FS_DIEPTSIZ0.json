@@ -1,0 +1,67 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_DIEPTSIZ0",
+  "long_name": "RM0090 1308/1741 RM0090 Rev 22 OTG_FS device IN endpoint 0 transfer size register (OTG_FS_DIEPTSIZ0)",
+  "address_offset": "0x910",
+  "reset_value": "0x00000000",
+  "description": "RM0090 1308/1741 RM0090 Rev 22 OTG_FS device IN endpoint 0 transfer size register specification",
+  "bit_fields": [
+    {
+      "name": "XFRC",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer completed interrupt"
+    },
+    {
+      "name": "EPDISD",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Endpoint disabled interrupt"
+    },
+    {
+      "name": "STUP",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SETUP phase done"
+    },
+    {
+      "name": "OTEPDIS",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OUT token received when endpoint disabled"
+    },
+    {
+      "name": "STSPHSRX",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Status phase received for control write"
+    },
+    {
+      "name": "OUTPKTERR",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OUT packet error"
+    },
+    {
+      "name": "PKTCNT",
+      "bit_offset": 19,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Packet count"
+    }
+  ],
+  "errata_notes": []
+}

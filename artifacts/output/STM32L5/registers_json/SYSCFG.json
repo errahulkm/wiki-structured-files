@@ -1,0 +1,19 @@
+{
+  "peripheral": "SYSCFG",
+  "register_name": "SYSCFG",
+  "long_name": "System Configuration (SYSCFG) SYSCFG Register",
+  "address_offset": "0x10",
+  "reset_value": "0x00000000",
+  "description": "System Configuration (SYSCFG) SYSCFG hardware register",
+  "bit_fields": [
+    {
+      "name": "SYSCFG",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "SYSCFG register value"
+    }
+  ],
+  "errata_notes": []
+}

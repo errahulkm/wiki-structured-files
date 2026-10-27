@@ -1,0 +1,59 @@
+{
+  "peripheral": "DBGMCU",
+  "register_name": "DBGMCU_APB2FZR",
+  "long_name": "2149 DBGMCU APB2 peripheral freeze register (DBGMCU_APB2FZR)",
+  "address_offset": "0x10",
+  "reset_value": "0x00000000",
+  "description": "2149 DBGMCU APB2 peripheral freeze register specification",
+  "bit_fields": [
+    {
+      "name": "DBG_I2C4_STOP",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C4 stop in debug"
+    },
+    {
+      "name": "DBG_TIM1_STOP",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM1 stop in debug"
+    },
+    {
+      "name": "DBG_TIM8_STOP",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM8 stop in debug"
+    },
+    {
+      "name": "DBG_TIM15_STOP",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM15 stop in debug"
+    },
+    {
+      "name": "DBG_TIM16_STOP",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM16 stop in debug"
+    },
+    {
+      "name": "DBG_TIM17_STOP",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM17 stop in debug"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "I2C",
+  "register_name": "I2C_RXDR",
+  "long_name": "I2C receive data register (I2C_RXDR)",
+  "address_offset": "0x24",
+  "reset_value": "0x00000000",
+  "description": "I2C receive data register specification",
+  "bit_fields": [
+    {
+      "name": "PEC[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Packet error checking register"
+    }
+  ],
+  "errata_notes": []
+}

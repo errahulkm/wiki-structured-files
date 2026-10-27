@@ -1,0 +1,179 @@
+{
+  "peripheral": "LPUART",
+  "register_name": "LPUART_ISR",
+  "long_name": "LPUART interrupt and st atus register (LPUART_ISR)",
+  "address_offset": "0x1C",
+  "reset_value": "0x00000000",
+  "description": "LPUART interrupt and st atus register specification",
+  "bit_fields": [
+    {
+      "name": "PE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Parity error"
+    },
+    {
+      "name": "SBKRQ",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Send break request"
+    },
+    {
+      "name": "MMRQ",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Mute mode request"
+    },
+    {
+      "name": "RXFRQ",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive data flush request"
+    },
+    {
+      "name": "TXFRQ",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmit data flush request"
+    },
+    {
+      "name": "RXFNE",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RXFIFO not empty"
+    },
+    {
+      "name": "TC",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmission complete"
+    },
+    {
+      "name": "TXFNF",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TXFIFO not full"
+    },
+    {
+      "name": "CTSIF",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CTS interrupt flag"
+    },
+    {
+      "name": "CTS",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CTS flag"
+    },
+    {
+      "name": "BUSY",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Busy flag"
+    },
+    {
+      "name": "CMF",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Character match flag"
+    },
+    {
+      "name": "SBKF",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Send break flag"
+    },
+    {
+      "name": "RWU",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receiver wake-up from mute mode"
+    },
+    {
+      "name": "WUF",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wake-up from low-power mode flag"
+    },
+    {
+      "name": "TEACK",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmit enable acknowledge flag"
+    },
+    {
+      "name": "REACK",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive enable acknowledge flag"
+    },
+    {
+      "name": "IN",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "the LPUART_ISR register)."
+    },
+    {
+      "name": "RXFF",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RXFIFO full"
+    },
+    {
+      "name": "RXFT",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RXFIFO threshold flag"
+    },
+    {
+      "name": "TXFT",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TXFIFO threshold flag"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,59 @@
+{
+  "peripheral": "SDMMC",
+  "register_name": "SDMMC_DCTRL",
+  "long_name": "SDMMC data control register (SDMMC_DCTRL)",
+  "address_offset": "0x02C",
+  "reset_value": "0x00000000",
+  "description": "SDMMC data control register specification",
+  "bit_fields": [
+    {
+      "name": "RWSTART",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Read Wait start"
+    },
+    {
+      "name": "RWSTOP",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Read Wait stop"
+    },
+    {
+      "name": "RWMOD",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Read Wait mode"
+    },
+    {
+      "name": "SDIOEN",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SD I/O interrupt enable functions"
+    },
+    {
+      "name": "BOOTACKEN",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable the reception of the boot acknowledgment"
+    },
+    {
+      "name": "FIFORST",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FIFO reset, flushes any remaining data"
+    }
+  ],
+  "errata_notes": []
+}

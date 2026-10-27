@@ -1,0 +1,19 @@
+{
+  "peripheral": "FDCAN",
+  "register_name": "FDCAN_TXBTO",
+  "long_name": "FDCAN Tx buffer transmission occurred register (FDCAN_TXBTO)",
+  "address_offset": "0x00D4",
+  "reset_value": "0x00000000",
+  "description": "FDCAN Tx buffer transmission occurred register specification",
+  "bit_fields": [
+    {
+      "name": "CR[2",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Cancellation request"
+    }
+  ],
+  "errata_notes": []
+}

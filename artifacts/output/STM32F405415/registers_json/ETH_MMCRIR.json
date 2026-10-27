@@ -1,0 +1,59 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_MMCRIR",
+  "long_name": "with DMA controller 1227 Ethernet MMC receive interrupt register (ETH_MMCRIR)",
+  "address_offset": "0x0104",
+  "reset_value": "0x00000000",
+  "description": "with DMA controller 1227 Ethernet MMC receive interrupt register specification",
+  "bit_fields": [
+    {
+      "name": "CR",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Counter reset"
+    },
+    {
+      "name": "CSR",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Counter stop rollover"
+    },
+    {
+      "name": "ROR",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Reset on read"
+    },
+    {
+      "name": "MCF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MMC counter freeze"
+    },
+    {
+      "name": "MCP",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MMC counter preset"
+    },
+    {
+      "name": "MCFHP",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MMC counter Full-Half preset"
+    }
+  ],
+  "errata_notes": []
+}

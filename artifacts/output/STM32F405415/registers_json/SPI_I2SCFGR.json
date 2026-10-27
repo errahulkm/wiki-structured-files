@@ -1,0 +1,19 @@
+{
+  "peripheral": "SPI",
+  "register_name": "SPI_I2SCFGR",
+  "long_name": "SPI_I 2S configuration register (SPI_I2SCFGR)",
+  "address_offset": "0x1C",
+  "reset_value": "0x00000000",
+  "description": "SPI_I 2S configuration register specification",
+  "bit_fields": [
+    {
+      "name": "TXCRC[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Tx CRC register"
+    }
+  ],
+  "errata_notes": []
+}

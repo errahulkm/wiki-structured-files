@@ -1,0 +1,19 @@
+{
+  "peripheral": "SAI",
+  "register_name": "SAI",
+  "long_name": "0 expand 32-bit shift register 1 0 SD 32-bit shift register compress FIFO RM0440 Rev 9 1915/2140 RM0440 Serial audio interface (SAI)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "0 expand 32-bit shift register 1 0 SD 32-bit shift register compress FIFO RM0440 Rev 9 1915/2140 RM0440 Serial audio interface specification",
+  "bit_fields": [
+    {
+      "name": "SAI",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "0 expand 32-bit shift register 1 0 SD 32-bit shift register compress FIFO RM0440 Rev 9 1915/2140 RM0440 Serial audio interface full-width value"
+    }
+  ],
+  "errata_notes": []
+}

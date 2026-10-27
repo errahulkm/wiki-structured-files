@@ -1,0 +1,35 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_IDR8",
+  "long_name": "0xXXXX XXXX ETM identification register 8 (ETM_IDR8)",
+  "address_offset": "0x180",
+  "reset_value": "0x00000000",
+  "description": "0xXXXX XXXX ETM identification register 8 specification",
+  "bit_fields": [
+    {
+      "name": "EVENT[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: event selector"
+    },
+    {
+      "name": "SSSTATUS",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "start/stop logic status"
+    },
+    {
+      "name": "TRCRESET",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "trace reset exception"
+    }
+  ],
+  "errata_notes": []
+}

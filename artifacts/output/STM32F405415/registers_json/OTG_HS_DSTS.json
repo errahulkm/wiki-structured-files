@@ -1,0 +1,43 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_DSTS",
+  "long_name": "1531 OTG_HS device status register (OTG_HS_DSTS)",
+  "address_offset": "0x808",
+  "reset_value": "0x00000000",
+  "description": "1531 OTG_HS device status register specification",
+  "bit_fields": [
+    {
+      "name": "SUSPSTS",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Suspend status"
+    },
+    {
+      "name": "ENUMSPD",
+      "bit_offset": 1,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enumerated speed"
+    },
+    {
+      "name": "EERR",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Erratic error"
+    },
+    {
+      "name": "FNSOF",
+      "bit_offset": 8,
+      "bit_width": 14,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Frame number of the received SOF"
+    }
+  ],
+  "errata_notes": []
+}

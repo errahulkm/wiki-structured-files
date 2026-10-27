@@ -1,0 +1,51 @@
+{
+  "peripheral": "SAI",
+  "register_name": "SAI_ACLRFR",
+  "long_name": "SAI x clear flag register (SAI_ACLRFR)",
+  "address_offset": "0x01C",
+  "reset_value": "0x00000000",
+  "description": "SAI x clear flag register specification",
+  "bit_fields": [
+    {
+      "name": "COVRUDR",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear overrun / underrun. This bit is write only."
+    },
+    {
+      "name": "CMUTEDET",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Mute detection flag. This bit is write only."
+    },
+    {
+      "name": "CWCKCFG",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear wrong clock configuration flag. This bit is write only."
+    },
+    {
+      "name": "CCNRDY",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear codec not ready flag. This bit is write only."
+    },
+    {
+      "name": "CLFSDET",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear late frame synchronization detection flag. This bit is write only."
+    }
+  ],
+  "errata_notes": []
+}

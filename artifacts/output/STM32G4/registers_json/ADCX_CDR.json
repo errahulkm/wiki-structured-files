@@ -1,0 +1,19 @@
+{
+  "peripheral": "ADCX",
+  "register_name": "ADCX_CDR",
+  "long_name": "ADCx common regular data register for dual mode (ADCX_CDR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "ADCx common regular data register for dual mode specification",
+  "bit_fields": [
+    {
+      "name": "ADCX_CDR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "ADCx common regular data register for dual mode full-width value"
+    }
+  ],
+  "errata_notes": []
+}

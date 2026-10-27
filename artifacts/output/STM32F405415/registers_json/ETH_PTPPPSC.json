@@ -1,0 +1,27 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_PTPPPSC",
+  "long_name": "Ethernet MAC (ETH) ETH_PTPPPSC Register",
+  "address_offset": "0x72C",
+  "reset_value": "0x0",
+  "description": "Ethernet MAC (ETH) ETH_PTPPPSC hardware register",
+  "bit_fields": [
+    {
+      "name": "IN",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ETH_PTPTSCR) and 100 ms with digital rollover (TSSSR=1). When set to 2 Hz and higher,"
+    },
+    {
+      "name": "AND",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "1 and start transmission and"
+    }
+  ],
+  "errata_notes": []
+}

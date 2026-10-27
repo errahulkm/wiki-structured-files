@@ -1,0 +1,67 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_MACFCR",
+  "long_name": "Ethernet MAC flow control register (ETH_MACFCR)",
+  "address_offset": "0x0018",
+  "reset_value": "0x00000000",
+  "description": "Ethernet MAC flow control register specification",
+  "bit_fields": [
+    {
+      "name": "MB",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MII busy"
+    },
+    {
+      "name": "MW",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MII write"
+    },
+    {
+      "name": "RFCE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive flow control enable"
+    },
+    {
+      "name": "UPFD",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Unicast pause frame detect"
+    },
+    {
+      "name": "PLT",
+      "bit_offset": 4,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Pause low threshold"
+    },
+    {
+      "name": "ZQPD",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Zero-quanta pause disable"
+    },
+    {
+      "name": "PT",
+      "bit_offset": 16,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Pause time"
+    }
+  ],
+  "errata_notes": []
+}

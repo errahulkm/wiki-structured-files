@@ -1,0 +1,43 @@
+{
+  "peripheral": "DCMI",
+  "register_name": "DCMI_ESUR",
+  "long_name": "DCMI embedded synchroniza tion unmask register (DCMI_ESUR)",
+  "address_offset": "0x1C",
+  "reset_value": "0x00000000",
+  "description": "DCMI embedded synchroniza tion unmask register specification",
+  "bit_fields": [
+    {
+      "name": "FSC",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Frame start delimiter code"
+    },
+    {
+      "name": "LSC",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Line start delimiter code"
+    },
+    {
+      "name": "LEC",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Line end delimiter code"
+    },
+    {
+      "name": "FEC",
+      "bit_offset": 24,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Frame end delimiter code"
+    }
+  ],
+  "errata_notes": []
+}

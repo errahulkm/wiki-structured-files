@@ -1,0 +1,211 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_GINTMSK",
+  "long_name": "RM0090 1410/1741 RM0090 Rev 22 OTG_HS interrupt mask register (OTG_HS_GINTMSK)",
+  "address_offset": "0x018",
+  "reset_value": "0x00000000",
+  "description": "RM0090 1410/1741 RM0090 Rev 22 OTG_HS interrupt mask register specification",
+  "bit_fields": [
+    {
+      "name": "MMISM",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Mode mismatch interrupt mask"
+    },
+    {
+      "name": "OTGINT",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OTG interrupt mask"
+    },
+    {
+      "name": "SOFM",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Start of frame mask"
+    },
+    {
+      "name": "RXFLVLM",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive FIFO nonempty mask"
+    },
+    {
+      "name": "NPTXFEM",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Nonperiodic TxFIFO empty mask"
+    },
+    {
+      "name": "GINAKEFFM",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Global nonperiodic IN NAK effective mask"
+    },
+    {
+      "name": "GONAKEFFM",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Global OUT NAK effective mask"
+    },
+    {
+      "name": "ESUSPM",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Early suspend mask"
+    },
+    {
+      "name": "USBSUSPM",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB suspend mask"
+    },
+    {
+      "name": "USBRST",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB reset mask"
+    },
+    {
+      "name": "ENUMDNEM",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enumeration done mask"
+    },
+    {
+      "name": "ISOODRPM",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Isochronous OUT packet dropped interrupt mask"
+    },
+    {
+      "name": "EOPFM",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "End of periodic frame interrupt mask"
+    },
+    {
+      "name": "IEPINT",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IN endpoints interrupt mask"
+    },
+    {
+      "name": "OEPINT",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OUT endpoints interrupt mask"
+    },
+    {
+      "name": "IISOIXFRM",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Incomplete isochronous IN transfer mask"
+    },
+    {
+      "name": "IPXFRM",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Incomplete periodic transfer mask"
+    },
+    {
+      "name": "FSUSPM",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data fetch suspended mask"
+    },
+    {
+      "name": "PRTIM",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Host port interrupt mask"
+    },
+    {
+      "name": "HCIM",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Host channels interrupt mask"
+    },
+    {
+      "name": "PTXFEM",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Periodic TxFIFO empty mask"
+    },
+    {
+      "name": "CIDSCHGM",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Connector ID status change mask"
+    },
+    {
+      "name": "DISCINT",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Disconnect detected interrupt mask"
+    },
+    {
+      "name": "SRQIM",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Session request/new session detected interrupt mask"
+    },
+    {
+      "name": "WUIM",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Resume/remote wake-up detected interrupt mask"
+    }
+  ],
+  "errata_notes": []
+}

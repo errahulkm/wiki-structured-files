@@ -1,0 +1,35 @@
+{
+  "peripheral": "I2C",
+  "register_name": "I2C_TIMINGR",
+  "long_name": "I2C timing register (I2C_TIMINGR)",
+  "address_offset": "0x10",
+  "reset_value": "0x00000000",
+  "description": "I2C timing register specification",
+  "bit_fields": [
+    {
+      "name": "OA2[7",
+      "bit_offset": 1,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "1]: Interface address"
+    },
+    {
+      "name": "OA2MSK[2",
+      "bit_offset": 8,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Own address 2 masks"
+    },
+    {
+      "name": "OA2EN",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Own address 2 enable"
+    }
+  ],
+  "errata_notes": []
+}

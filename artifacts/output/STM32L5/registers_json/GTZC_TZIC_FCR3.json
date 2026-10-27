@@ -1,0 +1,83 @@
+{
+  "peripheral": "GTZC",
+  "register_name": "GTZC_TZIC_FCR3",
+  "long_name": "GTZC_TZIC flag clear register 3 (GTZC_TZIC_FCR3)",
+  "address_offset": "0x428",
+  "reset_value": "0x00000000",
+  "description": "GTZC_TZIC flag clear register 3 specification",
+  "bit_fields": [
+    {
+      "name": "TIM8FC",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for TIM8"
+    },
+    {
+      "name": "USART1FC",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for USART1"
+    },
+    {
+      "name": "TIM15FC",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for TIM15"
+    },
+    {
+      "name": "TIM16FC",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for TIM16"
+    },
+    {
+      "name": "TIM17FC",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for TIM17"
+    },
+    {
+      "name": "SAI1FC",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for SAI1"
+    },
+    {
+      "name": "SAI2FC",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for SAI2"
+    },
+    {
+      "name": "DFSDM1FC",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for DFSDM1"
+    },
+    {
+      "name": "CRCFC",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for CRC"
+    }
+  ],
+  "errata_notes": []
+}

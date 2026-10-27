@@ -1,0 +1,27 @@
+{
+  "peripheral": "SDIO",
+  "register_name": "SDIO_FIFO",
+  "long_name": "SDIO data FIFO register (SDIO_FIFO)",
+  "address_offset": "0x80",
+  "reset_value": "0x00000000",
+  "description": "SDIO data FIFO register specification",
+  "bit_fields": [
+    {
+      "name": "CCRCFAILIE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Command CRC fail interrupt enable"
+    },
+    {
+      "name": "DCRCFAILIE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data CRC fail interrupt enable"
+    }
+  ],
+  "errata_notes": []
+}

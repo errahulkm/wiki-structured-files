@@ -1,0 +1,27 @@
+{
+  "peripheral": "DBGMCU",
+  "register_name": "DBGMCU_CR",
+  "long_name": "0x2001 6472 DBGMCU configuration register (DBGMCU_CR)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "0x2001 6472 DBGMCU configuration register specification",
+  "bit_fields": [
+    {
+      "name": "DEV_ID[11",
+      "bit_offset": 0,
+      "bit_width": 12,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: device identification"
+    },
+    {
+      "name": "REV_ID[15",
+      "bit_offset": 16,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: revision"
+    }
+  ],
+  "errata_notes": []
+}

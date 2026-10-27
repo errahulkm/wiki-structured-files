@@ -1,0 +1,19 @@
+{
+  "peripheral": "FLASH",
+  "register_name": "FLASH_PCROP1ER",
+  "long_name": "Flash PCROP1 End address register (FLASH_PCROP1ER)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Flash PCROP1 End address register specification",
+  "bit_fields": [
+    {
+      "name": "FLASH_PCROP1ER",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "Flash PCROP1 End address register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,43 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_APB1SMENR2",
+  "long_name": "RCC APB1 peripheral clocks enable in Sleep and Stop modes register 2 (RCC_APB1SMENR2)",
+  "address_offset": "0x07C",
+  "reset_value": "0x00000000",
+  "description": "RCC APB1 peripheral clocks enable in Sleep and Stop modes register 2 specification",
+  "bit_fields": [
+    {
+      "name": "LPTIM3SMEN",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Low-power timer 3clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "FDCAN1SMEN",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FDCAN1 clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "USBFSSMEN",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB FS clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "UCPD1SMEN",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UCPD1 clocks enable during Sleep and Stop modes"
+    }
+  ],
+  "errata_notes": []
+}

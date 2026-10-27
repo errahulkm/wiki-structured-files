@@ -1,0 +1,51 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_GRXFSIZ",
+  "long_name": "1368 Device mode OTG_FS Receive FIFO size register (OTG_FS_GRXFSIZ)",
+  "address_offset": "0x024",
+  "reset_value": "0x00000000",
+  "description": "1368 Device mode OTG_FS Receive FIFO size register specification",
+  "bit_fields": [
+    {
+      "name": "EPNUM",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Endpoint number"
+    },
+    {
+      "name": "BCNT",
+      "bit_offset": 4,
+      "bit_width": 11,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Byte count"
+    },
+    {
+      "name": "DPID",
+      "bit_offset": 15,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data PID"
+    },
+    {
+      "name": "PKTSTS",
+      "bit_offset": 17,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Packet status"
+    },
+    {
+      "name": "FRMNUM",
+      "bit_offset": 21,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Frame number"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "TIMX",
+  "register_name": "TIMX_EGR",
+  "long_name": "TIM1 and TIM8 event ge neration register (TIMX_EGR)",
+  "address_offset": "0x14",
+  "reset_value": "0x00000000",
+  "description": "TIM1 and TIM8 event ge neration register specification",
+  "bit_fields": [
+    {
+      "name": "CC1IF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 1 interrupt flag"
+    }
+  ],
+  "errata_notes": []
+}

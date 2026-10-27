@@ -1,0 +1,35 @@
+{
+  "peripheral": "LTDC",
+  "register_name": "LTDC_IER",
+  "long_name": "LTDC Interrupt Enable Register (LTDC_IER)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "LTDC Interrupt Enable Register specification",
+  "bit_fields": [
+    {
+      "name": "BCBLUE[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Background Color Blue value"
+    },
+    {
+      "name": "BCGREEN[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Background Color Green value"
+    },
+    {
+      "name": "BCRED[7",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Background Color Red value"
+    }
+  ],
+  "errata_notes": []
+}

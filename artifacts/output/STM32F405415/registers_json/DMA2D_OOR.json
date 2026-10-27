@@ -1,0 +1,19 @@
+{
+  "peripheral": "DMA2D",
+  "register_name": "DMA2D_OOR",
+  "long_name": "DMA2D output offset register (DMA2D_OOR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "DMA2D output offset register specification",
+  "bit_fields": [
+    {
+      "name": "DMA2D_OOR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "DMA2D output offset register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

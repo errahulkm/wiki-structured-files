@@ -1,0 +1,35 @@
+{
+  "peripheral": "FMC",
+  "register_name": "FMC_SDSR",
+  "long_name": "SDRAM Status register (FMC_SDSR)",
+  "address_offset": "0x158",
+  "reset_value": "0x00000000",
+  "description": "SDRAM Status register specification",
+  "bit_fields": [
+    {
+      "name": "CRE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear Refresh error flag"
+    },
+    {
+      "name": "COUNT[12",
+      "bit_offset": 1,
+      "bit_width": 13,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Refresh Timer Count"
+    },
+    {
+      "name": "REIE",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RES Interrupt Enable"
+    }
+  ],
+  "errata_notes": []
+}

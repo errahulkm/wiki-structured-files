@@ -1,0 +1,67 @@
+{
+  "peripheral": "CAN",
+  "register_name": "CAN_MSR",
+  "long_name": "RM0090 1092/1741 RM0090 Rev 22 CAN master status register (CAN_MSR)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "RM0090 1092/1741 RM0090 Rev 22 CAN master status register specification",
+  "bit_fields": [
+    {
+      "name": "INRQ",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Initialization request"
+    },
+    {
+      "name": "WKUI",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wake-up interrupt"
+    },
+    {
+      "name": "SLAKI",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Sleep acknowledge interrupt"
+    },
+    {
+      "name": "TXM",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmit mode"
+    },
+    {
+      "name": "RXM",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive mode"
+    },
+    {
+      "name": "SAMP",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Last sample point"
+    },
+    {
+      "name": "RX",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CAN Rx signal"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "IWDG",
+  "register_name": "IWDG_WINR",
+  "long_name": "Independent Watchdog (IWDG) IWDG_WINR Register",
+  "address_offset": "0x10",
+  "reset_value": "0x111111111111",
+  "description": "Independent Watchdog (IWDG) IWDG_WINR hardware register",
+  "bit_fields": [
+    {
+      "name": "KEY[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Key value (write only, read 0x0000)"
+    }
+  ],
+  "errata_notes": []
+}

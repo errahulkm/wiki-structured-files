@@ -1,0 +1,51 @@
+{
+  "peripheral": "DCMI",
+  "register_name": "DCMI_IER",
+  "long_name": "DCMI interrupt enable register (DCMI_IER)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "DCMI interrupt enable register specification",
+  "bit_fields": [
+    {
+      "name": "FRAME_RIS",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture complete raw interrupt status"
+    },
+    {
+      "name": "OVR_IE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overrun interrupt enable"
+    },
+    {
+      "name": "ERR_IE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Synchronization error interrupt enable"
+    },
+    {
+      "name": "VSYNC_IE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "VSYNC interrupt enable"
+    },
+    {
+      "name": "LINE_IE",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Line interrupt enable"
+    }
+  ],
+  "errata_notes": []
+}

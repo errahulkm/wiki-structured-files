@@ -1,0 +1,51 @@
+{
+  "peripheral": "DBGMCU",
+  "register_name": "DBGMCU_APB1_FZ",
+  "long_name": "Debug MCU APB1 freeze register (DBGMCU_APB1_FZ)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Debug MCU APB1 freeze register specification",
+  "bit_fields": [
+    {
+      "name": "DBG_I2C1_SMBUS_TIMEOUT",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SMBUS timeout mode stopped when Core is halted"
+    },
+    {
+      "name": "DBG_I2C2_SMBUS_TIMEOUT",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SMBUS timeout mode stopped when Core is halted"
+    },
+    {
+      "name": "DBG_I2C3_SMBUS_TIMEOUT",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SMBUS timeout mode stopped when Core is halted"
+    },
+    {
+      "name": "DBG_CAN1_STOP",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Debug CAN2 stopped when Core is halted"
+    },
+    {
+      "name": "DBG_CAN2_STOP",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Debug CAN2 stopped when Core is halted"
+    }
+  ],
+  "errata_notes": []
+}

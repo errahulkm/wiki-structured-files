@@ -1,0 +1,19 @@
+{
+  "peripheral": "OCTOSPI",
+  "register_name": "OCTOSPI_WPABR",
+  "long_name": "OCTOSPI wrap alternate bytes register (OCTOSPI_WPABR)",
+  "address_offset": "0x0160",
+  "reset_value": "0x00000000",
+  "description": "OCTOSPI wrap alternate bytes register specification",
+  "bit_fields": [
+    {
+      "name": "OCTOSPI_WPABR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "OCTOSPI wrap alternate bytes register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

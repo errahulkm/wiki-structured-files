@@ -1,0 +1,19 @@
+{
+  "peripheral": "DFSDM",
+  "register_name": "DFSDM_FLTXAWHTR",
+  "long_name": "DFSDM filter x analog watchdog high threshold register (DFSDM_FLTXAWHTR)",
+  "address_offset": "0x120",
+  "reset_value": "0x00000000",
+  "description": "DFSDM filter x analog watchdog high threshold register specification",
+  "bit_fields": [
+    {
+      "name": "DFSDM_FLTXAWHTR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "DFSDM filter x analog watchdog high threshold register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,35 @@
+{
+  "peripheral": "USART",
+  "register_name": "USART_TDR",
+  "long_name": "the data written to the transmit data register (USART_TDR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "the data written to the transmit data register specification",
+  "bit_fields": [
+    {
+      "name": "IS",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "sampled at BRs, bit 1 to bit 6 are sampled at"
+    },
+    {
+      "name": "STOP",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "bits"
+    },
+    {
+      "name": "PARITY",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "bit 1.5 Stop bit"
+    }
+  ],
+  "errata_notes": []
+}

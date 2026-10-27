@@ -1,0 +1,171 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_EECR1",
+  "long_name": "HRTIM timer external event c ontrol register 1 (HRTIM_EECR1)",
+  "address_offset": "0x3B0",
+  "reset_value": "0x00000000",
+  "description": "HRTIM timer external event c ontrol register 1 specification",
+  "bit_fields": [
+    {
+      "name": "EE1SRC[1",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event 1 source"
+    },
+    {
+      "name": "EE1POL",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 1 polarity"
+    },
+    {
+      "name": "EE1SNS[1",
+      "bit_offset": 3,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event 1 sensitivity"
+    },
+    {
+      "name": "EE1FAST",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 1 fast mode"
+    },
+    {
+      "name": "EE2SRC[1",
+      "bit_offset": 6,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event 2 source"
+    },
+    {
+      "name": "EE2POL",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 2 polarity"
+    },
+    {
+      "name": "EE2SNS[1",
+      "bit_offset": 9,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event 2 sensitivity"
+    },
+    {
+      "name": "EE2FAST",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 2 fast mode"
+    },
+    {
+      "name": "EE3SRC[1",
+      "bit_offset": 12,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event 3 source"
+    },
+    {
+      "name": "EE3POL",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 3 polarity"
+    },
+    {
+      "name": "EE3SNS[1",
+      "bit_offset": 15,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event 3 sensitivity"
+    },
+    {
+      "name": "EE3FAST",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 3 fast mode"
+    },
+    {
+      "name": "EE4SRC[1",
+      "bit_offset": 18,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event 4 source"
+    },
+    {
+      "name": "EE4POL",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 4 polarity"
+    },
+    {
+      "name": "EE4SNS[1",
+      "bit_offset": 21,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event 4 sensitivity"
+    },
+    {
+      "name": "EE4FAST",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 4 fast mode"
+    },
+    {
+      "name": "EE5SRC[1",
+      "bit_offset": 24,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event 5 source"
+    },
+    {
+      "name": "EE5POL",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 5 polarity"
+    },
+    {
+      "name": "EE5SNS[1",
+      "bit_offset": 27,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event 5 sensitivity"
+    },
+    {
+      "name": "EE5FAST",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 5 fast mode"
+    }
+  ],
+  "errata_notes": []
+}

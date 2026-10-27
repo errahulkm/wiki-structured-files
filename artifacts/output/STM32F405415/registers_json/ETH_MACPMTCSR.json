@@ -1,0 +1,67 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_MACPMTCSR",
+  "long_name": "with DMA controller 1227 Ethernet MAC PMT control and status register (ETH_MACPMTCSR)",
+  "address_offset": "0x002C",
+  "reset_value": "0x00000000",
+  "description": "with DMA controller 1227 Ethernet MAC PMT control and status register specification",
+  "bit_fields": [
+    {
+      "name": "PD",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Power down"
+    },
+    {
+      "name": "MPE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Magic Packet enable"
+    },
+    {
+      "name": "WFE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wake-up frame enable"
+    },
+    {
+      "name": "MPR",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Magic packet received"
+    },
+    {
+      "name": "WFR",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wake-up frame received"
+    },
+    {
+      "name": "GU",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Global unicast"
+    },
+    {
+      "name": "WFFRPR",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wake-up frame filter register pointer reset"
+    }
+  ],
+  "errata_notes": []
+}

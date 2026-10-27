@@ -1,0 +1,35 @@
+{
+  "peripheral": "DMAMUX",
+  "register_name": "DMAMUX_CCFR",
+  "long_name": "DMAMUX request line multiplexer interrupt channel clear flag register (DMAMUX_CCFR)",
+  "address_offset": "0x084",
+  "reset_value": "0x00000000",
+  "description": "DMAMUX request line multiplexer interrupt channel clear flag register specification",
+  "bit_fields": [
+    {
+      "name": "DMAREQ_ID[6",
+      "bit_offset": 0,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DMA request identification"
+    },
+    {
+      "name": "SOIE",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Synchronization overrun interrupt enable"
+    },
+    {
+      "name": "EGE",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Event generation enable"
+    }
+  ],
+  "errata_notes": []
+}

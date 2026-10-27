@@ -1,0 +1,67 @@
+{
+  "peripheral": "DGBMCU",
+  "register_name": "DGBMCU_APB1FZR2",
+  "long_name": "RM0438 2146/2187 RM0438 Rev 8 DBGMCU APB1 freeze register 2 (DGBMCU_APB1FZR2)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "RM0438 2146/2187 RM0438 Rev 8 DBGMCU APB1 freeze register 2 specification",
+  "bit_fields": [
+    {
+      "name": "DBG_TIM2_STOP",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM2 stop in debug"
+    },
+    {
+      "name": "DBG_TIM3_STOP",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM3 stop in debug"
+    },
+    {
+      "name": "DBG_TIM4_STOP",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM4 stop in debug"
+    },
+    {
+      "name": "DBG_TIM5_STOP",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM5 stop in debug"
+    },
+    {
+      "name": "DBG_TIM6_STOP",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM6 stop in debug"
+    },
+    {
+      "name": "DBG_TIM7_STOP",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM7 stop in debug"
+    },
+    {
+      "name": "DBG_LPTIM3_STOP",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LPTIM3 stop in debug"
+    }
+  ],
+  "errata_notes": []
+}

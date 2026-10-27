@@ -1,0 +1,35 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_DOEPTSIZX",
+  "long_name": "OTG_HS device endpoint-x transfer size register (OTG_HS_DOEPTSIZX)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "OTG_HS device endpoint-x transfer size register specification",
+  "bit_fields": [
+    {
+      "name": "XFRSIZ",
+      "bit_offset": 0,
+      "bit_width": 19,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer size"
+    },
+    {
+      "name": "PKTCNT",
+      "bit_offset": 19,
+      "bit_width": 10,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Packet count"
+    },
+    {
+      "name": "RXDPID",
+      "bit_offset": 29,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Received data PID (access type is \"r\")"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,107 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB2SECSR",
+  "long_name": "RCC AHB2 security stat us register (RCC_AHB2SECSR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RCC AHB2 security stat us register specification",
+  "bit_fields": [
+    {
+      "name": "DMA1SECF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA1 clock security flag"
+    },
+    {
+      "name": "DMA2SECF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA2 clock security flag"
+    },
+    {
+      "name": "DMAMUX1SECF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMAMUX1 clock security flag"
+    },
+    {
+      "name": "GPIODSECF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "GPIOD clock security flag"
+    },
+    {
+      "name": "GPIOESECF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "GPIOE clock security flag"
+    },
+    {
+      "name": "GPIOFSECF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "GPIOF clock security flag"
+    },
+    {
+      "name": "GPIOGSECF",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "GPIOG clock security flag"
+    },
+    {
+      "name": "GPIOHSECF",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "GPIOH clock security flag"
+    },
+    {
+      "name": "FLASHSECF",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Flash memory interface clock security flag"
+    },
+    {
+      "name": "SRAM1SECF",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SRAM1 clock security flag"
+    },
+    {
+      "name": "OTFDEC1SECF",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OTFDEC1 controller clock security flag"
+    },
+    {
+      "name": "SDMMC1SECF",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SDMMC1 clock security flag"
+    }
+  ],
+  "errata_notes": []
+}

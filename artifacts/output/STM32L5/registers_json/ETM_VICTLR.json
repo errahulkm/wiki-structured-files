@@ -1,0 +1,35 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_VICTLR",
+  "long_name": "0xXXXX XXXX ETM ViewInst main control register (ETM_VICTLR)",
+  "address_offset": "0x080",
+  "reset_value": "0x00000000",
+  "description": "0xXXXX XXXX ETM ViewInst main control register specification",
+  "bit_fields": [
+    {
+      "name": "TRACEID[6",
+      "bit_offset": 0,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Trace identification to output onto the trace bus"
+    },
+    {
+      "name": "TRCERR",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "trace system error exception"
+    },
+    {
+      "name": "EXLEVEL_S[3",
+      "bit_offset": 16,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: exception level in secure state"
+    }
+  ],
+  "errata_notes": []
+}

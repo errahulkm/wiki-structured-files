@@ -1,0 +1,99 @@
+{
+  "peripheral": "DCMI",
+  "register_name": "DCMI_CR",
+  "long_name": "Digital Camera Interface (DCMI) DCMI_CR Register",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Digital Camera Interface (DCMI) DCMI_CR hardware register",
+  "bit_fields": [
+    {
+      "name": "CAPTURE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture enable"
+    },
+    {
+      "name": "CM",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture mode"
+    },
+    {
+      "name": "CROP",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Crop feature"
+    },
+    {
+      "name": "JPEG",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "JPEG format"
+    },
+    {
+      "name": "ESS",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Embedded synchronization select"
+    },
+    {
+      "name": "PCKPOL",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Pixel clock polarity"
+    },
+    {
+      "name": "HSPOL",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Horizontal synchronization polarity"
+    },
+    {
+      "name": "VSPOL",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Vertical synchronization polarity"
+    },
+    {
+      "name": "FCRC[1",
+      "bit_offset": 8,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Frame capture rate control"
+    },
+    {
+      "name": "EDM[1",
+      "bit_offset": 10,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Extended data mode"
+    },
+    {
+      "name": "ENABLE",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DCMI enable"
+    }
+  ],
+  "errata_notes": []
+}

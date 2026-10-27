@@ -1,0 +1,35 @@
+{
+  "peripheral": "RNG",
+  "register_name": "RNG_DR",
+  "long_name": "RNG data register (RNG_DR)",
+  "address_offset": "0x008",
+  "reset_value": "0x00000000",
+  "description": "RNG data register specification",
+  "bit_fields": [
+    {
+      "name": "DRDY",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data ready"
+    },
+    {
+      "name": "CECS",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock error current status"
+    },
+    {
+      "name": "SECS",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Seed error current status"
+    }
+  ],
+  "errata_notes": []
+}

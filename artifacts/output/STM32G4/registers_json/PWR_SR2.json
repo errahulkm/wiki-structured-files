@@ -1,0 +1,67 @@
+{
+  "peripheral": "PWR",
+  "register_name": "PWR_SR2",
+  "long_name": "Power status register 2 (PWR_SR2)",
+  "address_offset": "0x14",
+  "reset_value": "0x00000000",
+  "description": "Power status register 2 specification",
+  "bit_fields": [
+    {
+      "name": "WUF1",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wakeup flag 1"
+    },
+    {
+      "name": "WUF2",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wakeup flag 2"
+    },
+    {
+      "name": "WUF3",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wakeup flag 3"
+    },
+    {
+      "name": "WUF4",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wakeup flag 4"
+    },
+    {
+      "name": "PVDO",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Programmable voltage detector output"
+    },
+    {
+      "name": "PVMO1",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Peripheral voltage monitoring output: VDDA vs. 1.62 V"
+    },
+    {
+      "name": "PVMO2",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Peripheral voltage monitoring output: VDDA vs. 1.8 V"
+    }
+  ],
+  "errata_notes": []
+}

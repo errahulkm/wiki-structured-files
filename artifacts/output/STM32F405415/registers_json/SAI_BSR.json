@@ -1,0 +1,35 @@
+{
+  "peripheral": "SAI",
+  "register_name": "SAI_BSR",
+  "long_name": "SAI x status register (SAI_BSR)",
+  "address_offset": "0x038",
+  "reset_value": "0x00000000",
+  "description": "SAI x status register specification",
+  "bit_fields": [
+    {
+      "name": "AFSDET",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Anticipated frame synchronization detection. This bit is read only."
+    },
+    {
+      "name": "LFSDET",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Late frame synchronization detection. This bit is read only."
+    },
+    {
+      "name": "FLTH",
+      "bit_offset": 16,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FIFO level threshold. This bit is read only. The FIFO level threshold flag is managed only by"
+    }
+  ],
+  "errata_notes": []
+}

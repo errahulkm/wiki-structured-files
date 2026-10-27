@@ -1,0 +1,83 @@
+{
+  "peripheral": "SDIO",
+  "register_name": "SDIO_RESPCMD",
+  "long_name": "SDIO command response register (SDIO_RESPCMD)",
+  "address_offset": "0x10",
+  "reset_value": "0x00000000",
+  "description": "SDIO command response register specification",
+  "bit_fields": [
+    {
+      "name": "CMDINDEX",
+      "bit_offset": 0,
+      "bit_width": 6,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Command index"
+    },
+    {
+      "name": "WAITRESP",
+      "bit_offset": 6,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wait for response bits"
+    },
+    {
+      "name": "WAITINT",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CPSM waits for interrupt request"
+    },
+    {
+      "name": "WAITPEND",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CPSM Waits for ends of data transfer (CmdPend internal signal)."
+    },
+    {
+      "name": "CPSMEN",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Command path state machine (CPSM) Enable bit"
+    },
+    {
+      "name": "SDIOSUSPEND",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SD I/O suspend command"
+    },
+    {
+      "name": "ENCMDCOMPL",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable CMD completion"
+    },
+    {
+      "name": "NIEN",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "not Interrupt Enable"
+    },
+    {
+      "name": "ATACMD",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CE-ATA command"
+    }
+  ],
+  "errata_notes": []
+}

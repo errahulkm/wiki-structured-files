@@ -1,0 +1,19 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_CIDR3",
+  "long_name": "RM0438 2108/2187 RM0438 Rev 8 ETM CoreSight component identity register 3 (ETM_CIDR3)",
+  "address_offset": "0xFFC",
+  "reset_value": "0x00000000",
+  "description": "RM0438 2108/2187 RM0438 Rev 8 ETM CoreSight component identity register 3 specification",
+  "bit_fields": [
+    {
+      "name": "PREAMBLE[27",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "20]: component identification bits [31:24]"
+    }
+  ],
+  "errata_notes": []
+}

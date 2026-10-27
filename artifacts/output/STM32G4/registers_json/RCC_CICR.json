@@ -1,0 +1,51 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_CICR",
+  "long_name": "Clock interrupt cl ear register (RCC_CICR)",
+  "address_offset": "0x20",
+  "reset_value": "0x00000000",
+  "description": "Clock interrupt cl ear register specification",
+  "bit_fields": [
+    {
+      "name": "LSIRDYF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSI ready interrupt flag"
+    },
+    {
+      "name": "LSERDYF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSE ready interrupt flag"
+    },
+    {
+      "name": "HSIRDYF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI16 ready interrupt flag"
+    },
+    {
+      "name": "HSERDYF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSE ready interrupt flag"
+    },
+    {
+      "name": "HSI48RDYC",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI48 oscillator ready interrupt clear"
+    }
+  ],
+  "errata_notes": []
+}

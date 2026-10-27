@@ -1,0 +1,19 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_MACA2LR",
+  "long_name": "with DMA controller 1227 Ethernet MAC address 2 low register (ETH_MACA2LR)",
+  "address_offset": "0x0054",
+  "reset_value": "0x00000000",
+  "description": "with DMA controller 1227 Ethernet MAC address 2 low register specification",
+  "bit_fields": [
+    {
+      "name": "ETH_MACA2LR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "with DMA controller 1227 Ethernet MAC address 2 low register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

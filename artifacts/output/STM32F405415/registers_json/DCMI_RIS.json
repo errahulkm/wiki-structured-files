@@ -1,0 +1,51 @@
+{
+  "peripheral": "DCMI",
+  "register_name": "DCMI_RIS",
+  "long_name": "DCMI raw interrupt st atus register (DCMI_RIS)",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "DCMI raw interrupt st atus register specification",
+  "bit_fields": [
+    {
+      "name": "HSYNC",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "This bit gives the state of the HSYNC pin with the correct programmed polarity."
+    },
+    {
+      "name": "OVR_RIS",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overrun raw interrupt status"
+    },
+    {
+      "name": "ERR_RIS",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Synchronization error raw interrupt status"
+    },
+    {
+      "name": "VSYNC_RIS",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "VSYNC raw interrupt status"
+    },
+    {
+      "name": "LINE_RIS",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Line raw interrupt status"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,59 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_CIER",
+  "long_name": "RCC clock interrupt en able register (RCC_CIER)",
+  "address_offset": "0x018",
+  "reset_value": "0x00000000",
+  "description": "RCC clock interrupt en able register specification",
+  "bit_fields": [
+    {
+      "name": "HSIRDYIE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI16 ready interrupt enable"
+    },
+    {
+      "name": "HSERDYIE",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSE ready interrupt enable"
+    },
+    {
+      "name": "PLLRDYIE",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLL ready interrupt enable"
+    },
+    {
+      "name": "PLLSAI1RDYIE",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLSAI1 ready interrupt enable"
+    },
+    {
+      "name": "PLLSAI2RDYIE",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLSAI2 ready interrupt enable"
+    },
+    {
+      "name": "HSI48RDYIE",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI48 ready interrupt enable"
+    }
+  ],
+  "errata_notes": []
+}

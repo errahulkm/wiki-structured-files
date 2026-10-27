@@ -1,0 +1,43 @@
+{
+  "peripheral": "TIM15",
+  "register_name": "TIM15_CR1",
+  "long_name": "TIM15 control register 1 (TIM15_CR1)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "TIM15 control register 1 specification",
+  "bit_fields": [
+    {
+      "name": "OPM",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "One-pulse mode"
+    },
+    {
+      "name": "ARPE",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Auto-reload preload enable"
+    },
+    {
+      "name": "CKD[1",
+      "bit_offset": 8,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Clock division"
+    },
+    {
+      "name": "UIFREMAP",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UIF status bit remapping"
+    }
+  ],
+  "errata_notes": []
+}

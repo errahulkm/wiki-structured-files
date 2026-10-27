@@ -1,0 +1,19 @@
+{
+  "peripheral": "DWT",
+  "register_name": "DWT_COMPXR",
+  "long_name": "0xXXXX XXXX DWT comparator x register (DWT_COMPXR)",
+  "address_offset": "0x020",
+  "reset_value": "0x00000000",
+  "description": "0xXXXX XXXX DWT comparator x register specification",
+  "bit_fields": [
+    {
+      "name": "FOLDCNT[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: folded instruction counter"
+    }
+  ],
+  "errata_notes": []
+}

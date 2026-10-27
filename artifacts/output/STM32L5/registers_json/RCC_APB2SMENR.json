@@ -1,0 +1,115 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_APB2SMENR",
+  "long_name": "RCC APB2 peripheral clocks enab le in Sleep and Stop modes register (RCC_APB2SMENR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RCC APB2 peripheral clocks enab le in Sleep and Stop modes register specification",
+  "bit_fields": [
+    {
+      "name": "LPUART1SMEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Low-power UART 1 clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "I2C4SMEN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C4 clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "LPTIM2SMEN",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Low-power timer 2 clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "TIM1SMEN",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM1 timer clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "SPI1SMEN",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI1 clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "T",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IM8SMEN: TIM8 timer clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "USART1SMEN",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART1clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "TIM15SMEN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM15 timer clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "TIM16SMEN",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM16 timer clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "TIM17SMEN",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM17 timer clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "SAI1SMEN",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SAI1 clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "SAI2SMEN",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SAI2 clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "DFSDM1SMEN",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DFSDM1 timer clocks enable during Sleep and Stop modes"
+    }
+  ],
+  "errata_notes": []
+}

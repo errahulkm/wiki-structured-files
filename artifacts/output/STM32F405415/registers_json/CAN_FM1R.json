@@ -1,0 +1,19 @@
+{
+  "peripheral": "CAN",
+  "register_name": "CAN_FM1R",
+  "long_name": "CAN filter mode register (CAN_FM1R)",
+  "address_offset": "0x204",
+  "reset_value": "0x00000000",
+  "description": "CAN filter mode register specification",
+  "bit_fields": [
+    {
+      "name": "CAN_FM1R",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "CAN filter mode register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

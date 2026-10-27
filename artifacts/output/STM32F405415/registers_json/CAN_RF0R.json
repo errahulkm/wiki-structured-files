@@ -1,0 +1,67 @@
+{
+  "peripheral": "CAN",
+  "register_name": "CAN_RF0R",
+  "long_name": "1112 CAN receive FIFO 0 register (CAN_RF0R)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "1112 CAN receive FIFO 0 register specification",
+  "bit_fields": [
+    {
+      "name": "RQCP0",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Request completed mailbox0"
+    },
+    {
+      "name": "TXOK0",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmission OK of mailbox0"
+    },
+    {
+      "name": "ALST0",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Arbitration lost for mailbox0"
+    },
+    {
+      "name": "TERR0",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmission error of mailbox0"
+    },
+    {
+      "name": "FOVR0",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FIFO 0 overrun"
+    },
+    {
+      "name": "RFOM0",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Release FIFO 0 output mailbox"
+    },
+    {
+      "name": "ABRQ0",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Abort request for mailbox0"
+    }
+  ],
+  "errata_notes": []
+}

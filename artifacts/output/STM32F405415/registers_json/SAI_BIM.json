@@ -1,0 +1,67 @@
+{
+  "peripheral": "SAI",
+  "register_name": "SAI_BIM",
+  "long_name": "SAI x interrupt mask regist er (SAI_BIM)",
+  "address_offset": "0x034",
+  "reset_value": "0x00000000",
+  "description": "SAI x interrupt mask regist er specification",
+  "bit_fields": [
+    {
+      "name": "OVRUDRIE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overrun/underrun interrupt enable. This bit is set and cleared by software."
+    },
+    {
+      "name": "MUTEDETIE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Mute detection interrupt enable. This bit is set and cleared by software."
+    },
+    {
+      "name": "WCKCFGIE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wrong clock configuration interrupt enable. This bit is set and cleared by software."
+    },
+    {
+      "name": "FREQIE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FIFO request interrupt enable. This bit is set and cleared by software."
+    },
+    {
+      "name": "CNRDYIE",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Codec not ready interrupt enable (ac’97). This bit is set and cleared by software."
+    },
+    {
+      "name": "AFSDETIE",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Anticipated frame synchronization detection interrupt enable. This bit is set and cleared by"
+    },
+    {
+      "name": "LFSDETIE",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Late frame synchronization detection interrupt enable. This bit is set and cleared by"
+    }
+  ],
+  "errata_notes": []
+}

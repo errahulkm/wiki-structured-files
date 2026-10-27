@@ -1,0 +1,35 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_AUTHSTATR",
+  "long_name": "RM0438 2102/2187 RM0438 Rev 8 ETM authentication status register (ETM_AUTHSTATR)",
+  "address_offset": "0xFB8",
+  "reset_value": "0x00000000",
+  "description": "RM0438 2102/2187 RM0438 Rev 8 ETM authentication status register specification",
+  "bit_fields": [
+    {
+      "name": "CLAIMCLR[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: claim tag bits reset"
+    },
+    {
+      "name": "SID[1",
+      "bit_offset": 4,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: security level for secure invasive debug"
+    },
+    {
+      "name": "SNID[1",
+      "bit_offset": 6,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: security level for secure non-invasive debug"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "DBGMCU",
+  "register_name": "DBGMCU_CR",
+  "long_name": "Debug MCU configurat ion register (DBGMCU_CR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Debug MCU configurat ion register specification",
+  "bit_fields": [
+    {
+      "name": "TRACE_MODE[1",
+      "bit_offset": 5,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0] and TRACE_IOEN: Trace pin assignment control"
+    }
+  ],
+  "errata_notes": []
+}

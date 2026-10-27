@@ -1,0 +1,51 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB2RSTR",
+  "long_name": "RCC AHB2 peripheral reset register (RCC_AHB2RSTR)",
+  "address_offset": "0x14",
+  "reset_value": "0x00000000",
+  "description": "RCC AHB2 peripheral reset register specification",
+  "bit_fields": [
+    {
+      "name": "DCMIRST",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Camera interface reset"
+    },
+    {
+      "name": "CRYPRST",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Cryptographic module reset"
+    },
+    {
+      "name": "HASHRST",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Hash module reset"
+    },
+    {
+      "name": "RNGRST",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Random number generator module reset"
+    },
+    {
+      "name": "OTGFSRST",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB OTG FS module reset"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "CAN",
+  "register_name": "CAN_F1R1",
+  "long_name": "Controller Area Network (bxCAN) CAN_F1R1 Register",
+  "address_offset": "0x248",
+  "reset_value": "0x00000000",
+  "description": "Controller Area Network (bxCAN) CAN_F1R1 hardware register",
+  "bit_fields": [
+    {
+      "name": "CAN_F1R1",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "CAN_F1R1 register value"
+    }
+  ],
+  "errata_notes": []
+}

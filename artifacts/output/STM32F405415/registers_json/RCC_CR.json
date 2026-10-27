@@ -1,0 +1,123 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_CR",
+  "long_name": "RCC clock cont rol register (RCC_CR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RCC clock cont rol register specification",
+  "bit_fields": [
+    {
+      "name": "HSION",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal high-speed clock enable"
+    },
+    {
+      "name": "HSIRDY",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal high-speed clock ready flag"
+    },
+    {
+      "name": "HSITRIM[4",
+      "bit_offset": 3,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Internal high-speed clock trimming"
+    },
+    {
+      "name": "HSICAL[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Internal high-speed clock calibration"
+    },
+    {
+      "name": "HSEON",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSE clock enable"
+    },
+    {
+      "name": "HSERDY",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSE clock ready flag"
+    },
+    {
+      "name": "HSEBYP",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSE clock bypass"
+    },
+    {
+      "name": "CSSON",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock security system enable"
+    },
+    {
+      "name": "PLLON",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Main PLL (PLL) enable"
+    },
+    {
+      "name": "PLLRDY",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Main PLL (PLL) clock ready flag"
+    },
+    {
+      "name": "PLLI2SON",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLI2S enable"
+    },
+    {
+      "name": "PLLI2SRDY",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLI2S clock ready flag"
+    },
+    {
+      "name": "PLLSAION",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLSAI enable"
+    },
+    {
+      "name": "PLLSAIRDY",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLSAI clock ready flag"
+    }
+  ],
+  "errata_notes": []
+}

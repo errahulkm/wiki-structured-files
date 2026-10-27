@@ -1,0 +1,35 @@
+{
+  "peripheral": "DP",
+  "register_name": "DP_DLPIDR",
+  "long_name": "DP data link protocol identification register (DP_DLPIDR)",
+  "address_offset": "0x4",
+  "reset_value": "0x00000000",
+  "description": "DP data link protocol identification register specification",
+  "bit_fields": [
+    {
+      "name": "TDESIGNER[10",
+      "bit_offset": 1,
+      "bit_width": 11,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: target designer JEDEC code"
+    },
+    {
+      "name": "TPARTNO[15",
+      "bit_offset": 12,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: target part number"
+    },
+    {
+      "name": "TREVISION[3",
+      "bit_offset": 28,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: target revision"
+    }
+  ],
+  "errata_notes": []
+}

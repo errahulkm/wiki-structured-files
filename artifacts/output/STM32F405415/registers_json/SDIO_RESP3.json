@@ -1,0 +1,51 @@
+{
+  "peripheral": "SDIO",
+  "register_name": "SDIO_RESP3",
+  "long_name": "Secure Digital Input/Output (SDIO) SDIO_RESP3 Register",
+  "address_offset": "0x1C",
+  "reset_value": "0x00000000",
+  "description": "Secure Digital Input/Output (SDIO) SDIO_RESP3 hardware register",
+  "bit_fields": [
+    {
+      "name": "RESPCMD",
+      "bit_offset": 0,
+      "bit_width": 6,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Response command index"
+    },
+    {
+      "name": "RWSTART",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Read wait start"
+    },
+    {
+      "name": "RWSTOP",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Read wait stop"
+    },
+    {
+      "name": "RWMOD",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Read wait mode"
+    },
+    {
+      "name": "SDIOEN",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SD I/O enable functions"
+    }
+  ],
+  "errata_notes": []
+}

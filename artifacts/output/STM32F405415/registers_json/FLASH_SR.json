@@ -1,0 +1,75 @@
+{
+  "peripheral": "FLASH",
+  "register_name": "FLASH_SR",
+  "long_name": "Embedded Flash Memory FLASH_SR Register",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "Embedded Flash Memory FLASH_SR hardware register",
+  "bit_fields": [
+    {
+      "name": "EOP",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "End of operation"
+    },
+    {
+      "name": "OPERR",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Operation error"
+    },
+    {
+      "name": "WRPERR",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Write protection error"
+    },
+    {
+      "name": "PGAERR",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Programming alignment error"
+    },
+    {
+      "name": "PGPERR",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Programming parallelism error"
+    },
+    {
+      "name": "PGSERR",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Programming sequence error"
+    },
+    {
+      "name": "RDERR",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Proprietary readout protection (PCROP) error"
+    },
+    {
+      "name": "BSY",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Busy"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "HASH",
+  "register_name": "HASH_IMR",
+  "long_name": "HASH interrupt enable register (HASH_IMR)",
+  "address_offset": "0x20",
+  "reset_value": "0x00000000",
+  "description": "HASH interrupt enable register specification",
+  "bit_fields": [
+    {
+      "name": "HX[31",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Hash data x"
+    }
+  ],
+  "errata_notes": []
+}

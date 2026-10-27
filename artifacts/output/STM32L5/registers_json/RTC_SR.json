@@ -1,0 +1,59 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_SR",
+  "long_name": "RTC status register (RTC_SR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RTC status register specification",
+  "bit_fields": [
+    {
+      "name": "ALRAF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alarm A flag"
+    },
+    {
+      "name": "ALRBF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alarm B flag"
+    },
+    {
+      "name": "WUTF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wake-up timer flag"
+    },
+    {
+      "name": "TSF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timestamp flag"
+    },
+    {
+      "name": "TSOVF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timestamp overflow flag"
+    },
+    {
+      "name": "ITSF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal timestamp flag"
+    }
+  ],
+  "errata_notes": []
+}

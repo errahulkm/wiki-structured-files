@@ -1,0 +1,115 @@
+{
+  "peripheral": "DBGMCU",
+  "register_name": "DBGMCU_APB1FZR1",
+  "long_name": "Debug MCU APB1 freeze register1 (DBGMCU_APB1FZR1)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Debug MCU APB1 freeze register1 specification",
+  "bit_fields": [
+    {
+      "name": "DBG_SLEEP",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Debug Sleep mode"
+    },
+    {
+      "name": "DBG_STOP",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Debug Stop mode"
+    },
+    {
+      "name": "DBG_STANDBY",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Debug Standby mode"
+    },
+    {
+      "name": "DBG_TIM5_STOP",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM5 counter stopped when core is halted"
+    },
+    {
+      "name": "DBG_TIM6_STOP",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM6 counter stopped when core is halted"
+    },
+    {
+      "name": "DBG_TIM7_STOP",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM7 counter stopped when core is halted"
+    },
+    {
+      "name": "DBG_RTC_STOP",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RTC counter stopped when core is halted"
+    },
+    {
+      "name": "DBG_WWDG_STOP",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Window watchdog counter stopped when core is halted"
+    },
+    {
+      "name": "DBG_IWDG_STOP",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Independent watchdog counter stopped when core is halted"
+    },
+    {
+      "name": "DBG_I2C1_STOP",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C1 SMBUS timeout counter stopped when core is halted"
+    },
+    {
+      "name": "DBG_I2C2_STOP",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C2 SMBUS timeout counter stopped when core is halted"
+    },
+    {
+      "name": "DBG_I2C3_STOP",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C3 SMBUS timeout counter stopped when core is halteds halted"
+    },
+    {
+      "name": "DBG_LPTIM1_STOP",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LPTIM1 counter stopped when core is halted"
+    }
+  ],
+  "errata_notes": []
+}

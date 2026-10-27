@@ -1,0 +1,19 @@
+{
+  "peripheral": "DAC",
+  "register_name": "DAC_SHHR",
+  "long_name": "DAC sample and hold time register (DAC_SHHR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "DAC sample and hold time register specification",
+  "bit_fields": [
+    {
+      "name": "TSAMPLE1[9",
+      "bit_offset": 0,
+      "bit_width": 10,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel1 sample time (only valid in sample and hold mode)"
+    }
+  ],
+  "errata_notes": []
+}

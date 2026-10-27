@@ -1,0 +1,19 @@
+{
+  "peripheral": "FMC",
+  "register_name": "FMC_SDCR_2",
+  "long_name": "Flexible Memory Controller (FMC) FMC_SDCR_2 Register",
+  "address_offset": "0x144",
+  "reset_value": "0x00000000",
+  "description": "Flexible Memory Controller (FMC) FMC_SDCR_2 hardware register",
+  "bit_fields": [
+    {
+      "name": "FMC_SDCR_2",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "FMC_SDCR_2 register value"
+    }
+  ],
+  "errata_notes": []
+}

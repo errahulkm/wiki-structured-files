@@ -1,0 +1,171 @@
+{
+  "peripheral": "CAN",
+  "register_name": "CAN_TSR",
+  "long_name": "1112 CAN transmit status register (CAN_TSR)",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "1112 CAN transmit status register specification",
+  "bit_fields": [
+    {
+      "name": "INAK",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Initialization acknowledge"
+    },
+    {
+      "name": "SLAK",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Sleep acknowledge"
+    },
+    {
+      "name": "ERRI",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Error interrupt"
+    },
+    {
+      "name": "RQCP1",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Request completed mailbox1"
+    },
+    {
+      "name": "TXOK1",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmission OK of mailbox1"
+    },
+    {
+      "name": "ALST1",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Arbitration lost for mailbox1"
+    },
+    {
+      "name": "TERR1",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmission error of mailbox1"
+    },
+    {
+      "name": "ABRQ1",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Abort request for mailbox 1"
+    },
+    {
+      "name": "RQCP2",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Request completed mailbox2"
+    },
+    {
+      "name": "TXOK2",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmission OK of mailbox 2"
+    },
+    {
+      "name": "ALST2",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Arbitration lost for mailbox 2"
+    },
+    {
+      "name": "TERR2",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmission error of mailbox 2"
+    },
+    {
+      "name": "ABRQ2",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Abort request for mailbox 2"
+    },
+    {
+      "name": "CODE[1",
+      "bit_offset": 24,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Mailbox code"
+    },
+    {
+      "name": "TME0",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmit mailbox 0 empty"
+    },
+    {
+      "name": "TME1",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmit mailbox 1 empty"
+    },
+    {
+      "name": "TME2",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmit mailbox 2 empty"
+    },
+    {
+      "name": "LOW0",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Lowest priority flag for mailbox 0"
+    },
+    {
+      "name": "LOW1",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Lowest priority flag for mailbox 1"
+    },
+    {
+      "name": "LOW2",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Lowest priority flag for mailbox 2"
+    }
+  ],
+  "errata_notes": []
+}

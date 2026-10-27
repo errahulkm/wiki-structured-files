@@ -1,0 +1,27 @@
+{
+  "peripheral": "SPIX",
+  "register_name": "SPIX_RXCRCR",
+  "long_name": "SPI Rx CRC regi ster (SPIX_RXCRCR)",
+  "address_offset": "0x14",
+  "reset_value": "0x00000000",
+  "description": "SPI Rx CRC regi ster specification",
+  "bit_fields": [
+    {
+      "name": "CRCPOLY[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: CRC polynomial register"
+    },
+    {
+      "name": "0",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "D5 D4 D3 D2 D1 D0D6"
+    }
+  ],
+  "errata_notes": []
+}

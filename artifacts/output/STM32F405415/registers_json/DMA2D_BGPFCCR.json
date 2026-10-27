@@ -1,0 +1,59 @@
+{
+  "peripheral": "DMA2D",
+  "register_name": "DMA2D_BGPFCCR",
+  "long_name": "DMA2D background PFC c ontrol register (DMA2D_BGPFCCR)",
+  "address_offset": "0x0024",
+  "reset_value": "0x00000000",
+  "description": "DMA2D background PFC c ontrol register specification",
+  "bit_fields": [
+    {
+      "name": "CM[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Color mode"
+    },
+    {
+      "name": "CCM",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CLUT Color mode"
+    },
+    {
+      "name": "START",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Start"
+    },
+    {
+      "name": "CS[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: CLUT size"
+    },
+    {
+      "name": "AM[1",
+      "bit_offset": 16,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Alpha mode"
+    },
+    {
+      "name": "ALPHA[7",
+      "bit_offset": 24,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Alpha value"
+    }
+  ],
+  "errata_notes": []
+}

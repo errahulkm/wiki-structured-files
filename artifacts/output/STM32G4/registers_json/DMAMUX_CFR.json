@@ -1,0 +1,19 @@
+{
+  "peripheral": "DMAMUX",
+  "register_name": "DMAMUX_CFR",
+  "long_name": "DMAMUX request line multipl exer interrupt clear flag register (DMAMUX_CFR)",
+  "address_offset": "0x084",
+  "reset_value": "0x00000000",
+  "description": "DMAMUX request line multipl exer interrupt clear flag register specification",
+  "bit_fields": [
+    {
+      "name": "DMAREQ_ID[6",
+      "bit_offset": 0,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DMA request identification"
+    }
+  ],
+  "errata_notes": []
+}

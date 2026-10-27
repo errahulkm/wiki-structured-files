@@ -1,0 +1,27 @@
+{
+  "peripheral": "EXTI",
+  "register_name": "EXTI_SECCFGR1",
+  "long_name": "EXTI security configurati on register (EXTI_SECCFGR1)",
+  "address_offset": "0x014",
+  "reset_value": "0x00000000",
+  "description": "EXTI security configurati on register specification",
+  "bit_fields": [
+    {
+      "name": "FPIF[16",
+      "bit_offset": 0,
+      "bit_width": 17,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: configurable event inputs x falling edge pending bit (where x = 0 to 16)"
+    },
+    {
+      "name": "FPIF[22",
+      "bit_offset": 21,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "21]: configurable event inputs x falling edge pending bit (where x = 22 to 18)"
+    }
+  ],
+  "errata_notes": []
+}

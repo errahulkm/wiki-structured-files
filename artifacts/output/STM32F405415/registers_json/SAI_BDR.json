@@ -1,0 +1,19 @@
+{
+  "peripheral": "SAI",
+  "register_name": "SAI_BDR",
+  "long_name": "SAI x data register (SAI_BDR)",
+  "address_offset": "0x040",
+  "reset_value": "0x00000000",
+  "description": "SAI x data register specification",
+  "bit_fields": [
+    {
+      "name": "DATA[31",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Data"
+    }
+  ],
+  "errata_notes": []
+}

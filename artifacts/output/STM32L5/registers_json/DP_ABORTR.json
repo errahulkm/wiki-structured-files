@@ -1,0 +1,43 @@
+{
+  "peripheral": "DP",
+  "register_name": "DP_ABORTR",
+  "long_name": "RM0438 2016/2187 RM0438 Rev 8 DP abort register (DP_ABORTR)",
+  "address_offset": "0x0",
+  "reset_value": "0x00000000",
+  "description": "RM0438 2016/2187 RM0438 Rev 8 DP abort register specification",
+  "bit_fields": [
+    {
+      "name": "DAPABORT",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "current AP transaction aborted if excessive number of WAIT responses returned"
+    },
+    {
+      "name": "STKERRCLR",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "sticky error clear"
+    },
+    {
+      "name": "WDERRCLR",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "write data error clear"
+    },
+    {
+      "name": "ORUNERRCLR",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "overrun error clear"
+    }
+  ],
+  "errata_notes": []
+}

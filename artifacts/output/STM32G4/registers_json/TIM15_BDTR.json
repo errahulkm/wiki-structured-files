@@ -1,0 +1,35 @@
+{
+  "peripheral": "TIM15",
+  "register_name": "TIM15_BDTR",
+  "long_name": "TIM15 break and dead -time register (TIM15_BDTR)",
+  "address_offset": "0x44",
+  "reset_value": "0x00000000",
+  "description": "TIM15 break and dead -time register specification",
+  "bit_fields": [
+    {
+      "name": "CCR2[19",
+      "bit_offset": 0,
+      "bit_width": 20,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Capture/compare 2 value"
+    },
+    {
+      "name": "BKDSRM",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Break disarm"
+    },
+    {
+      "name": "BKBID",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Break bidirectional"
+    }
+  ],
+  "errata_notes": []
+}

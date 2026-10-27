@@ -1,0 +1,99 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_ISR",
+  "long_name": "ADC interrupt and st atus register (ADC_ISR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "ADC interrupt and st atus register specification",
+  "bit_fields": [
+    {
+      "name": "ADRDY",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC ready"
+    },
+    {
+      "name": "EOSMP",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "End of sampling flag"
+    },
+    {
+      "name": "EOC",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "End of conversion flag"
+    },
+    {
+      "name": "EOS",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "End of regular sequence flag"
+    },
+    {
+      "name": "OVR",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC overrun"
+    },
+    {
+      "name": "JEOC",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Injected channel end of conversion flag"
+    },
+    {
+      "name": "JEOS",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Injected channel end of sequence flag"
+    },
+    {
+      "name": "AWD1",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog 1 flag"
+    },
+    {
+      "name": "AWD2",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog 2 flag"
+    },
+    {
+      "name": "AWD3",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog 3 flag"
+    },
+    {
+      "name": "JQOVF",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Injected context queue overflow"
+    }
+  ],
+  "errata_notes": []
+}

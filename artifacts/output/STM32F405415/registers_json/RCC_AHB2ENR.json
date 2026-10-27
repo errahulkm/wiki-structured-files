@@ -1,0 +1,75 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB2ENR",
+  "long_name": "RCC AHB2 peripheral clo ck enable register (RCC_AHB2ENR)",
+  "address_offset": "0x34",
+  "reset_value": "0x00000000",
+  "description": "RCC AHB2 peripheral clo ck enable register specification",
+  "bit_fields": [
+    {
+      "name": "GPIOAEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port A clock enable"
+    },
+    {
+      "name": "GPIOBEN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port B clock enable"
+    },
+    {
+      "name": "GPIOCEN",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port C clock enable"
+    },
+    {
+      "name": "GPIODEN",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port D clock enable"
+    },
+    {
+      "name": "GPIOEEN",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port E clock enable"
+    },
+    {
+      "name": "GPIOFEN",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port F clock enable"
+    },
+    {
+      "name": "RNGEN",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Random number generator clock enable"
+    },
+    {
+      "name": "OTGFSEN",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB OTG FS clock enable"
+    }
+  ],
+  "errata_notes": []
+}

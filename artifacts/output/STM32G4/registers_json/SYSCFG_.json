@@ -1,0 +1,59 @@
+{
+  "peripheral": "SYSCFG",
+  "register_name": "SYSCFG_",
+  "long_name": "System Configuration (SYSCFG) SYSCFG_ Register",
+  "address_offset": "0x00",
+  "reset_value": "0x0",
+  "description": "System Configuration (SYSCFG) SYSCFG_ hardware register",
+  "bit_fields": [
+    {
+      "name": "MEM_MODE",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Memory mapping selection"
+    },
+    {
+      "name": "FB_MODE",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Flash Bank mode selection"
+    },
+    {
+      "name": "I2C1_FMP",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C1 Fast-mode Plus driving capability activation"
+    },
+    {
+      "name": "I2C2_FMP",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C2 Fast-mode Plus driving capability activation"
+    },
+    {
+      "name": "I2C3_FMP",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C3 Fast-mode Plus driving capability activation"
+    },
+    {
+      "name": "I2C4_FMP",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fast-mode Plus driving capability activation"
+    }
+  ],
+  "errata_notes": []
+}

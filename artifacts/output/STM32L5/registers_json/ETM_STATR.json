@@ -1,0 +1,27 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_STATR",
+  "long_name": "0x0000 0000 ETM status register (ETM_STATR)",
+  "address_offset": "0x00C",
+  "reset_value": "0x00000000",
+  "description": "0x0000 0000 ETM status register specification",
+  "bit_fields": [
+    {
+      "name": "EN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "trace unit enable"
+    },
+    {
+      "name": "PMSTABLE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "stability status"
+    }
+  ],
+  "errata_notes": []
+}

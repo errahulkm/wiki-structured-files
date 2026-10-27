@@ -1,0 +1,19 @@
+{
+  "peripheral": "USART",
+  "register_name": "USART_",
+  "long_name": "Universal Synchronous Asynchronous Receiver Transmitter (USART) USART_ Register",
+  "address_offset": "0x2C",
+  "reset_value": "0x0000",
+  "description": "Universal Synchronous Asynchronous Receiver Transmitter (USART) USART_ hardware register",
+  "bit_fields": [
+    {
+      "name": "AND",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "M1:"
+    }
+  ],
+  "errata_notes": []
+}

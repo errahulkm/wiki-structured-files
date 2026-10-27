@@ -1,0 +1,19 @@
+{
+  "peripheral": "I2C",
+  "register_name": "I2C_",
+  "long_name": "Inter-Integrated Circuit (I2C) I2C_ Register",
+  "address_offset": "0x10",
+  "reset_value": "0x00000000",
+  "description": "Inter-Integrated Circuit (I2C) I2C_ hardware register",
+  "bit_fields": [
+    {
+      "name": "I2C_",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "I2C_ register value"
+    }
+  ],
+  "errata_notes": []
+}

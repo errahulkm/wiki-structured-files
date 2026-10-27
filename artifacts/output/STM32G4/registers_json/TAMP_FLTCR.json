@@ -1,0 +1,59 @@
+{
+  "peripheral": "TAMP",
+  "register_name": "TAMP_FLTCR",
+  "long_name": "TAMP filter contro l register (TAMP_FLTCR)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "TAMP filter contro l register specification",
+  "bit_fields": [
+    {
+      "name": "TAMP1NOER",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper 1 no erase"
+    },
+    {
+      "name": "TAMP2NOER",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper 2 no erase"
+    },
+    {
+      "name": "TAMP3NOER",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper 3 no erase"
+    },
+    {
+      "name": "TAMP1MSK",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper 1 mask"
+    },
+    {
+      "name": "TAMP2MSK",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper 2 mask"
+    },
+    {
+      "name": "TAMP3MSK",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper 3 mask"
+    }
+  ],
+  "errata_notes": []
+}

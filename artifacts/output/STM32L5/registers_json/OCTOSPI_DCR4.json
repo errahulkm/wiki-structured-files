@@ -1,0 +1,27 @@
+{
+  "peripheral": "OCTOSPI",
+  "register_name": "OCTOSPI_DCR4",
+  "long_name": "OCTOSPI device configurat ion register 4 (OCTOSPI_DCR4)",
+  "address_offset": "0x0014",
+  "reset_value": "0x00000000",
+  "description": "OCTOSPI device configurat ion register 4 specification",
+  "bit_fields": [
+    {
+      "name": "PRESCALER[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Clock prescaler"
+    },
+    {
+      "name": "CSBOUND[4",
+      "bit_offset": 16,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: NCS boundary"
+    }
+  ],
+  "errata_notes": []
+}

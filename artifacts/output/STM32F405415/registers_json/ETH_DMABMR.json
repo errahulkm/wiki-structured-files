@@ -1,0 +1,91 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_DMABMR",
+  "long_name": "Ethernet DMA bus mode register (ETH_DMABMR)",
+  "address_offset": "0x1000",
+  "reset_value": "0x00000000",
+  "description": "Ethernet DMA bus mode register specification",
+  "bit_fields": [
+    {
+      "name": "TSSO",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp second overflow"
+    },
+    {
+      "name": "TSTTR",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp target time reached"
+    },
+    {
+      "name": "IN",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ETH_PTPTSCR), it is recommended not to"
+    },
+    {
+      "name": "PM",
+      "bit_offset": 14,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx Tx priority ratio"
+    },
+    {
+      "name": "FB",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fixed burst"
+    },
+    {
+      "name": "AND",
+      "bit_offset": 17,
+      "bit_width": 6,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "bits [13:8])"
+    },
+    {
+      "name": "USP",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Use separate PBL"
+    },
+    {
+      "name": "FPM",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "4xPBL mode"
+    },
+    {
+      "name": "AAB",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Address-aligned beats"
+    },
+    {
+      "name": "MB",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Mixed burst"
+    }
+  ],
+  "errata_notes": []
+}

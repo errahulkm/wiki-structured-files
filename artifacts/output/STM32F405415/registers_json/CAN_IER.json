@@ -1,0 +1,115 @@
+{
+  "peripheral": "CAN",
+  "register_name": "CAN_IER",
+  "long_name": "0x0000 0000 CAN interrupt enable register (CAN_IER)",
+  "address_offset": "0x14",
+  "reset_value": "0x00000000",
+  "description": "0x0000 0000 CAN interrupt enable register specification",
+  "bit_fields": [
+    {
+      "name": "FMP0[1",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: FIFO 0 message pending"
+    },
+    {
+      "name": "FFIE0",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FIFO full interrupt enable"
+    },
+    {
+      "name": "FULL1",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FIFO 1 full"
+    },
+    {
+      "name": "FOVR1",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FIFO 1 overrun"
+    },
+    {
+      "name": "RFOM1",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Release FIFO 1 output mailbox"
+    },
+    {
+      "name": "FOVIE1",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FIFO overrun interrupt enable"
+    },
+    {
+      "name": "EWGIE",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Error warning interrupt enable"
+    },
+    {
+      "name": "EPVIE",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Error passive interrupt enable"
+    },
+    {
+      "name": "BOFIE",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Bus-off interrupt enable"
+    },
+    {
+      "name": "LECIE",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Last error code interrupt enable"
+    },
+    {
+      "name": "ERRIE",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Error interrupt enable"
+    },
+    {
+      "name": "WKUIE",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wake-up interrupt enable"
+    },
+    {
+      "name": "SLKIE",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Sleep interrupt enable"
+    }
+  ],
+  "errata_notes": []
+}

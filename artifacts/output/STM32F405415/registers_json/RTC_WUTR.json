@@ -1,0 +1,27 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_WUTR",
+  "long_name": "RTC wake-up timer register (RTC_WUTR)",
+  "address_offset": "0x14",
+  "reset_value": "0x00000000",
+  "description": "RTC wake-up timer register specification",
+  "bit_fields": [
+    {
+      "name": "PREDIV_S[14",
+      "bit_offset": 0,
+      "bit_width": 15,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Synchronous prescaler factor"
+    },
+    {
+      "name": "PREDIV_A[6",
+      "bit_offset": 16,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Asynchronous prescaler factor"
+    }
+  ],
+  "errata_notes": []
+}

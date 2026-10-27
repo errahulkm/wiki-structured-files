@@ -1,0 +1,75 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_GRSTCTL",
+  "long_name": "1531 OTG_HS reset register (OTG_HS_GRSTCTL)",
+  "address_offset": "0x010",
+  "reset_value": "0x00000000",
+  "description": "1531 OTG_HS reset register specification",
+  "bit_fields": [
+    {
+      "name": "CSRST",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Core soft reset"
+    },
+    {
+      "name": "HSRST",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HCLK soft reset"
+    },
+    {
+      "name": "FCRST",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Host frame counter reset"
+    },
+    {
+      "name": "RXFFLSH",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RxFIFO flush"
+    },
+    {
+      "name": "TXFFLSH",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TxFIFO flush"
+    },
+    {
+      "name": "TXFNUM",
+      "bit_offset": 6,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TxFIFO number"
+    },
+    {
+      "name": "DMAREQ",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA request signal"
+    },
+    {
+      "name": "AHBIDL",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "AHB master idle"
+    }
+  ],
+  "errata_notes": []
+}

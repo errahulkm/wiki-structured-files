@@ -1,0 +1,107 @@
+{
+  "peripheral": "PWR",
+  "register_name": "PWR",
+  "long_name": "Secure configura- tion register Security configura- tion bit Secured bits Register name Non-secure access on secure bits RM0438 Rev 8 299/2187 RM0438 Power control (PWR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Secure configura- tion register Security configura- tion bit Secured bits Register name Non-secure access on secure bits RM0438 Rev 8 299/2187 RM0438 Power control specification",
+  "bit_fields": [
+    {
+      "name": "LPMS[2",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Low-power mode selection"
+    },
+    {
+      "name": "EWUP4",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable wakeup pin WKUP4"
+    },
+    {
+      "name": "PVME1",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Peripheral voltage monitoring 1 enable: VDDUSB vs. 1.2V"
+    },
+    {
+      "name": "PVME2",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Peripheral voltage monitoring 2 enable: VDDIO2 vs. 0.9V"
+    },
+    {
+      "name": "PVME3",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Peripheral voltage monitoring 3 enable: VDDA vs. 1.62V"
+    },
+    {
+      "name": "PVME4",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Peripheral voltage monitoring 4 enable: VDDA vs. 1.8 V"
+    },
+    {
+      "name": "DBP",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Disable backup domain write protection."
+    },
+    {
+      "name": "VOS[1",
+      "bit_offset": 9,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Voltage scaling range selection"
+    },
+    {
+      "name": "ULPMEN",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Ultra-low-power mode enable"
+    },
+    {
+      "name": "UCPD_STDBY",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB Type-C and power delivery Standby mode"
+    },
+    {
+      "name": "LPR",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Low-power run"
+    },
+    {
+      "name": "SMPSLPEN",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable SMPS low-power mode"
+    }
+  ],
+  "errata_notes": []
+}

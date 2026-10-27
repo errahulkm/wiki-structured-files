@@ -1,0 +1,27 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "MAIN",
+  "long_name": "MS45419V1 Banked registers (MAIN)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "MS45419V1 Banked registers specification",
+  "bit_fields": [
+    {
+      "name": "AT",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "address offset"
+    },
+    {
+      "name": "OF",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "address offset 0x578."
+    }
+  ],
+  "errata_notes": []
+}

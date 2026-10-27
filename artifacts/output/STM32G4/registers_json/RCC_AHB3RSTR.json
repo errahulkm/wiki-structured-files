@@ -1,0 +1,59 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB3RSTR",
+  "long_name": "AHB3 peripheral rese t register (RCC_AHB3RSTR)",
+  "address_offset": "0x30",
+  "reset_value": "0x00000000",
+  "description": "AHB3 peripheral rese t register specification",
+  "bit_fields": [
+    {
+      "name": "GPIOARST",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port A reset"
+    },
+    {
+      "name": "GPIOBRST",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port B reset"
+    },
+    {
+      "name": "GPIOCRST",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port C reset"
+    },
+    {
+      "name": "GPIODRST",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port D reset"
+    },
+    {
+      "name": "GPIOERST",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port E reset"
+    },
+    {
+      "name": "QSPIRST",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "QUADSPI reset"
+    }
+  ],
+  "errata_notes": []
+}

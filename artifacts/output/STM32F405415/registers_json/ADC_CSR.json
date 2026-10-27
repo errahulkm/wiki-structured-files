@@ -1,0 +1,107 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_CSR",
+  "long_name": "ADC Common status register (ADC_CSR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "ADC Common status register specification",
+  "bit_fields": [
+    {
+      "name": "AWD2",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog flag of ADC2"
+    },
+    {
+      "name": "EOC2",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "End of conversion of ADC2"
+    },
+    {
+      "name": "JEOC2",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Injected channel end of conversion of ADC2"
+    },
+    {
+      "name": "JSTRT2",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Injected channel Start flag of ADC2"
+    },
+    {
+      "name": "STRT2",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Regular channel Start flag of ADC2"
+    },
+    {
+      "name": "OVR2",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overrun flag of ADC2"
+    },
+    {
+      "name": "AWD3",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog flag of ADC3"
+    },
+    {
+      "name": "EOC3",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "End of conversion of ADC3"
+    },
+    {
+      "name": "JEOC3",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Injected channel end of conversion of ADC3"
+    },
+    {
+      "name": "JSTRT3",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Injected channel Start flag of ADC3"
+    },
+    {
+      "name": "STRT3",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Regular channel Start flag of ADC3"
+    },
+    {
+      "name": "OVR3",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overrun flag of ADC3"
+    }
+  ],
+  "errata_notes": []
+}

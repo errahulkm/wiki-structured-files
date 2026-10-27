@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "SLAVE",
+  "long_name": "shift register SPI clock generator Master (SLAVE)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "shift register SPI clock generator Master specification",
+  "bit_fields": [
+    {
+      "name": "LSBS",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "have no meaning"
+    }
+  ],
+  "errata_notes": []
+}

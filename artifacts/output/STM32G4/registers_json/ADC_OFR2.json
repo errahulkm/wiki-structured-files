@@ -1,0 +1,19 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_OFR2",
+  "long_name": "Analog-to-Digital Converter (ADC) ADC_OFR2 Register",
+  "address_offset": "0x64",
+  "reset_value": "0x00000000",
+  "description": "Analog-to-Digital Converter (ADC) ADC_OFR2 hardware register",
+  "bit_fields": [
+    {
+      "name": "ADC_OFR2",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "ADC_OFR2 register value"
+    }
+  ],
+  "errata_notes": []
+}

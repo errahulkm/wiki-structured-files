@@ -1,0 +1,35 @@
+{
+  "peripheral": "DAC",
+  "register_name": "DAC_DHR12R2",
+  "long_name": "DAC channel2 12-bit righ t aligned data holding register (DAC_DHR12R2)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "DAC channel2 12-bit righ t aligned data holding register specification",
+  "bit_fields": [
+    {
+      "name": "DACC1DHR[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel1 8-bit right-aligned data"
+    },
+    {
+      "name": "DACC1DHRB[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel1 8-bit right-aligned data"
+    },
+    {
+      "name": "DACC2DHRB[11",
+      "bit_offset": 16,
+      "bit_width": 12,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel2 12-bit right-aligned data"
+    }
+  ],
+  "errata_notes": []
+}

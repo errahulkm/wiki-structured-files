@@ -1,0 +1,19 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_IDR13",
+  "long_name": "0x0000 0001 ETM identification register 13 (ETM_IDR13)",
+  "address_offset": "0x194",
+  "reset_value": "0x00000000",
+  "description": "0x0000 0001 ETM identification register 13 specification",
+  "bit_fields": [
+    {
+      "name": "ETM_IDR13",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "0x0000 0001 ETM identification register 13 full-width value"
+    }
+  ],
+  "errata_notes": []
+}

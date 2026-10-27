@@ -1,0 +1,51 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_ADCPS1",
+  "long_name": "HRTIM ADC post scaler register 1 (HRTIM_ADCPS1)",
+  "address_offset": "0x400",
+  "reset_value": "0x00000000",
+  "description": "HRTIM ADC post scaler register 1 specification",
+  "bit_fields": [
+    {
+      "name": "ADC1PSC[4",
+      "bit_offset": 0,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC 1 post scaler"
+    },
+    {
+      "name": "ADC2PSC[4",
+      "bit_offset": 6,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC 2 post scaler"
+    },
+    {
+      "name": "ADC3PSC[4",
+      "bit_offset": 12,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC 3 post scaler"
+    },
+    {
+      "name": "ADC4PSC[4",
+      "bit_offset": 18,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC 4 post scaler"
+    },
+    {
+      "name": "ADC5PSC[4",
+      "bit_offset": 24,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC 5 post scaler"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_MMCRFC",
+  "long_name": "Ethernet MAC (ETH) ETH_MMCRFC Register",
+  "address_offset": "0x194",
+  "reset_value": "0x00000000",
+  "description": "Ethernet MAC (ETH) ETH_MMCRFC hardware register",
+  "bit_fields": [
+    {
+      "name": "TGFC",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmitted good frames counter"
+    }
+  ],
+  "errata_notes": []
+}

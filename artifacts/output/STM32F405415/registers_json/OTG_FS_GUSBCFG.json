@@ -1,0 +1,75 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_GUSBCFG",
+  "long_name": "1368 OTG_FS USB configuration register (OTG_FS_GUSBCFG)",
+  "address_offset": "0x00C",
+  "reset_value": "0x00000000",
+  "description": "1368 OTG_FS USB configuration register specification",
+  "bit_fields": [
+    {
+      "name": "TOCAL",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FS timeout calibration"
+    },
+    {
+      "name": "PHYSEL",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Full speed serial transceiver select"
+    },
+    {
+      "name": "SRPCAP",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SRP-capable"
+    },
+    {
+      "name": "HNPCAP",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HNP-capable"
+    },
+    {
+      "name": "TRDT",
+      "bit_offset": 10,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB turnaround time"
+    },
+    {
+      "name": "FHMOD",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Force host mode"
+    },
+    {
+      "name": "FDMOD",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Force device mode"
+    },
+    {
+      "name": "CTXPKT",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Corrupt Tx packet"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,27 @@
+{
+  "peripheral": "CRYP",
+  "register_name": "CRYP_CR",
+  "long_name": "Cryptographic Processor (CRYP) Control Register",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Main hardware control and configuration register for Cryptographic Processor (CRYP).",
+  "bit_fields": [
+    {
+      "name": "EN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable bit for Cryptographic Processor (CRYP)"
+    },
+    {
+      "name": "MODE",
+      "bit_offset": 1,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Operational mode configuration for Cryptographic Processor (CRYP)"
+    }
+  ],
+  "errata_notes": []
+}

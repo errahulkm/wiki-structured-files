@@ -1,0 +1,19 @@
+{
+  "peripheral": "SYSCFG",
+  "register_name": "SYSCFG_SWPR",
+  "long_name": "SYSCFG SRAM2 write protec tion register (SYSCFG_SWPR)",
+  "address_offset": "0x20",
+  "reset_value": "0x00000000",
+  "description": "SYSCFG SRAM2 write protec tion register specification",
+  "bit_fields": [
+    {
+      "name": "KEY[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: SRAM2 write protection key for software erase"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,35 @@
+{
+  "peripheral": "USART",
+  "register_name": "USART_RTOR",
+  "long_name": "USART receiver timeout register (USART_RTOR)",
+  "address_offset": "0x14",
+  "reset_value": "0x00000000",
+  "description": "USART receiver timeout register specification",
+  "bit_fields": [
+    {
+      "name": "PSC[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Prescaler value"
+    },
+    {
+      "name": "GT[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Guard time value"
+    },
+    {
+      "name": "BLEN[7",
+      "bit_offset": 24,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Block length"
+    }
+  ],
+  "errata_notes": []
+}

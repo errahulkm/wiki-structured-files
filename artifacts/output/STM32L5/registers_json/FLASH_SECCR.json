@@ -1,0 +1,203 @@
+{
+  "peripheral": "FLASH",
+  "register_name": "FLASH_SECCR",
+  "long_name": "Flash secure contro l register (FLASH_SECCR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Flash secure contro l register specification",
+  "bit_fields": [
+    {
+      "name": "SECPG",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Non-secure programming"
+    },
+    {
+      "name": "SECPER",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Secure page erase"
+    },
+    {
+      "name": "SECMER1",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Secure bank 1 mass erase"
+    },
+    {
+      "name": "SECPNB[6",
+      "bit_offset": 3,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Secure page number selection"
+    },
+    {
+      "name": "SECBKER",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Secure page number MSB (bank selection)"
+    },
+    {
+      "name": "NRST_STOP",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0: Reset generated when entering the Stop mode"
+    },
+    {
+      "name": "NRST_STDBY",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0: Reset generated when entering the Standby mode"
+    },
+    {
+      "name": "NRST_SHDW",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0: Reset generated when entering the Shutdown mode"
+    },
+    {
+      "name": "SECMER2",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Secure bank 2 mass erase"
+    },
+    {
+      "name": "SECSTRT",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Secure start"
+    },
+    {
+      "name": "IWDG_STOP",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Independent watchdog counter freeze in Stop mode"
+    },
+    {
+      "name": "IWDG_STDBY",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Independent watchdog counter freeze in Standby mode"
+    },
+    {
+      "name": "WWDG_SW",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Window watchdog selection"
+    },
+    {
+      "name": "SWAP_BANK",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Swap banks"
+    },
+    {
+      "name": "BK_ECC",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ECC fail bank"
+    },
+    {
+      "name": "SYSF_ECC",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "System flash ECC fail"
+    },
+    {
+      "name": "SECEOPIE",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Secure End of operation interrupt enable"
+    },
+    {
+      "name": "SECERRIE",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Secure error interrupt enable"
+    },
+    {
+      "name": "NSWBOOT0",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Software BOOT0"
+    },
+    {
+      "name": "NBOOT0",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "nBOOT0 option bit"
+    },
+    {
+      "name": "ECCC2",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ECC correction"
+    },
+    {
+      "name": "SECINV",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Flash security state invert"
+    },
+    {
+      "name": "ECCC",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ECC correction"
+    },
+    {
+      "name": "SECLOCK",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FLASH_SECCR Lock"
+    }
+  ],
+  "errata_notes": []
+}

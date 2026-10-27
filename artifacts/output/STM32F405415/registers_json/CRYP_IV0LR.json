@@ -1,0 +1,19 @@
+{
+  "peripheral": "CRYP",
+  "register_name": "CRYP_IV0LR",
+  "long_name": "Cryptographic Processor (CRYP) CRYP_IV0LR Register",
+  "address_offset": "0x40",
+  "reset_value": "0x00000000",
+  "description": "Cryptographic Processor (CRYP) CRYP_IV0LR hardware register",
+  "bit_fields": [
+    {
+      "name": "CRYP_IV0LR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "CRYP_IV0LR register value"
+    }
+  ],
+  "errata_notes": []
+}

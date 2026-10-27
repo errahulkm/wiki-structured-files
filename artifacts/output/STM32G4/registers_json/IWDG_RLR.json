@@ -1,0 +1,19 @@
+{
+  "peripheral": "IWDG",
+  "register_name": "IWDG_RLR",
+  "long_name": "IWDG reload register (IWDG_RLR)",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "IWDG reload register specification",
+  "bit_fields": [
+    {
+      "name": "RL[11",
+      "bit_offset": 0,
+      "bit_width": 12,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Watchdog counter reload value"
+    }
+  ],
+  "errata_notes": []
+}

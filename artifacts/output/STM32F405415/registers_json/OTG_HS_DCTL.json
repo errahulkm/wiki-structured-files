@@ -1,0 +1,91 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_DCTL",
+  "long_name": "1531 OTG_HS device control register (OTG_HS_DCTL)",
+  "address_offset": "0x804",
+  "reset_value": "0x00000000",
+  "description": "1531 OTG_HS device control register specification",
+  "bit_fields": [
+    {
+      "name": "RWUSIG",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Remote wake-up signaling"
+    },
+    {
+      "name": "SDIS",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Soft disconnect"
+    },
+    {
+      "name": "GINSTS",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Global IN NAK status"
+    },
+    {
+      "name": "GONSTS",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Global OUT NAK status"
+    },
+    {
+      "name": "TCTL",
+      "bit_offset": 4,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Test control"
+    },
+    {
+      "name": "SGINAK",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Set global IN NAK"
+    },
+    {
+      "name": "CGINAK",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear global IN NAK"
+    },
+    {
+      "name": "SGONAK",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Set global OUT NAK"
+    },
+    {
+      "name": "CGONAK",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear global OUT NAK"
+    },
+    {
+      "name": "POPRGDNE",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Power-on programming done"
+    }
+  ],
+  "errata_notes": []
+}

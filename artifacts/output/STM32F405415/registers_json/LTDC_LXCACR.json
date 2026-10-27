@@ -1,0 +1,19 @@
+{
+  "peripheral": "LTDC",
+  "register_name": "LTDC_LXCACR",
+  "long_name": "LTDC Layerx Constant Alpha Configuration Register (LTDC_LXCACR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "LTDC Layerx Constant Alpha Configuration Register specification",
+  "bit_fields": [
+    {
+      "name": "LTDC_LXCACR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "LTDC Layerx Constant Alpha Configuration Register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

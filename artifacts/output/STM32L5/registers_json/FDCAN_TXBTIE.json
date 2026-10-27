@@ -1,0 +1,19 @@
+{
+  "peripheral": "FDCAN",
+  "register_name": "FDCAN_TXBTIE",
+  "long_name": "FDCAN Tx buffer transmi ssion interrupt enable register (FDCAN_TXBTIE)",
+  "address_offset": "0x00DC",
+  "reset_value": "0x00000000",
+  "description": "FDCAN Tx buffer transmi ssion interrupt enable register specification",
+  "bit_fields": [
+    {
+      "name": "CF[2",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Cancellation finished"
+    }
+  ],
+  "errata_notes": []
+}

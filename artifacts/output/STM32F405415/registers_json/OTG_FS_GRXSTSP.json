@@ -1,0 +1,43 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_GRXSTSP",
+  "long_name": "RM0090 1274/1741 RM0090 Rev 22 OTG_FS Receive status debug read/OTG status read and pop registers (OTG_FS_GRXSTSP)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RM0090 1274/1741 RM0090 Rev 22 OTG_FS Receive status debug read/OTG status read and pop registers specification",
+  "bit_fields": [
+    {
+      "name": "CHNUM",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Channel number"
+    },
+    {
+      "name": "BCNT",
+      "bit_offset": 4,
+      "bit_width": 11,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Byte count"
+    },
+    {
+      "name": "DPID",
+      "bit_offset": 15,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data PID"
+    },
+    {
+      "name": "PKTSTS",
+      "bit_offset": 17,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Packet status"
+    }
+  ],
+  "errata_notes": []
+}

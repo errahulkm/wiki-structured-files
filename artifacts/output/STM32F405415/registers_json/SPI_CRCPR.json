@@ -1,0 +1,19 @@
+{
+  "peripheral": "SPI",
+  "register_name": "SPI_CRCPR",
+  "long_name": "Serial Peripheral Interface (SPI) SPI_CRCPR Register",
+  "address_offset": "0x10",
+  "reset_value": "0x00000000",
+  "description": "Serial Peripheral Interface (SPI) SPI_CRCPR hardware register",
+  "bit_fields": [
+    {
+      "name": "CRCPOLY[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: CRC polynomial register"
+    }
+  ],
+  "errata_notes": []
+}

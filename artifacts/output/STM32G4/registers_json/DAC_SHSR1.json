@@ -1,0 +1,43 @@
+{
+  "peripheral": "DAC",
+  "register_name": "DAC_SHSR1",
+  "long_name": "DAC channel1 sample and hold sample time register (DAC_SHSR1)",
+  "address_offset": "0x40",
+  "reset_value": "0x00000000",
+  "description": "DAC channel1 sample and hold sample time register specification",
+  "bit_fields": [
+    {
+      "name": "MODE1[2",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel1 mode"
+    },
+    {
+      "name": "DMADOUBLE1",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel1 DMA double data mode"
+    },
+    {
+      "name": "SINFORMAT1",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable signed format for DAC channel1"
+    },
+    {
+      "name": "HFSEL[1",
+      "bit_offset": 14,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: High frequency interface mode selection"
+    }
+  ],
+  "errata_notes": []
+}

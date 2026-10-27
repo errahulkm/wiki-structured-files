@@ -1,0 +1,19 @@
+{
+  "peripheral": "CTI",
+  "register_name": "CTI_CIDR3",
+  "long_name": "0x0000 0005 CTI CoreSight component identity register 3 (CTI_CIDR3)",
+  "address_offset": "0xFFC",
+  "reset_value": "0x00000000",
+  "description": "0x0000 0005 CTI CoreSight component identity register 3 specification",
+  "bit_fields": [
+    {
+      "name": "PREAMBLE[19",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "12]: component identification bits [23:16]"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,75 @@
+{
+  "peripheral": "CAN",
+  "register_name": "CAN_BTR",
+  "long_name": "1112 CAN bit timing register (CAN_BTR)",
+  "address_offset": "0x1C",
+  "reset_value": "0x00000000",
+  "description": "1112 CAN bit timing register specification",
+  "bit_fields": [
+    {
+      "name": "EWGF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Error warning flag"
+    },
+    {
+      "name": "RTR",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Remote transmission request"
+    },
+    {
+      "name": "IDE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Identifier extension"
+    },
+    {
+      "name": "TS1[3",
+      "bit_offset": 16,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Time segment 1"
+    },
+    {
+      "name": "TS2[2",
+      "bit_offset": 20,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Time segment 2"
+    },
+    {
+      "name": "SJW[1",
+      "bit_offset": 24,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Resynchronization jump width"
+    },
+    {
+      "name": "LBKM",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Loop back mode (debug)"
+    },
+    {
+      "name": "SILM",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Silent mode (debug)"
+    }
+  ],
+  "errata_notes": []
+}

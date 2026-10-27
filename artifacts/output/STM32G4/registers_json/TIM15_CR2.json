@@ -1,0 +1,83 @@
+{
+  "peripheral": "TIM15",
+  "register_name": "TIM15_CR2",
+  "long_name": "TIM15 control register 2 (TIM15_CR2)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "TIM15 control register 2 specification",
+  "bit_fields": [
+    {
+      "name": "CEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Counter enable"
+    },
+    {
+      "name": "UDIS",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Update disable"
+    },
+    {
+      "name": "URS",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Update request source"
+    },
+    {
+      "name": "CCDS",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/compare DMA selection"
+    },
+    {
+      "name": "MMS[2",
+      "bit_offset": 4,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Master mode selection"
+    },
+    {
+      "name": "TI1S",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "tim_ti1 selection"
+    },
+    {
+      "name": "OIS1",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output Idle state 1 (tim_oc1 output)"
+    },
+    {
+      "name": "OIS1N",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output Idle state 1 (tim_oc1n output)"
+    },
+    {
+      "name": "OIS2",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output idle state 2 (tim_oc2 output)"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,35 @@
+{
+  "peripheral": "PWR",
+  "register_name": "PWR_PRIVCFGR",
+  "long_name": "Power privilege configur ation register (PWR_PRIVCFGR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Power privilege configur ation register specification",
+  "bit_fields": [
+    {
+      "name": "WUP1SEC",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "WKUP1 pin security"
+    },
+    {
+      "name": "WUP2SEC",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "WKUP2 pin security"
+    },
+    {
+      "name": "WUP3SEC",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "WKUP3 pin security"
+    }
+  ],
+  "errata_notes": []
+}

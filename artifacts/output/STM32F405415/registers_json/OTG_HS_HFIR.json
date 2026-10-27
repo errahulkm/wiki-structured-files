@@ -1,0 +1,19 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_HFIR",
+  "long_name": "RM0090 1420/1741 RM0090 Rev 22 OTG_HS Host frame interval register (OTG_HS_HFIR)",
+  "address_offset": "0x404",
+  "reset_value": "0x00000000",
+  "description": "RM0090 1420/1741 RM0090 Rev 22 OTG_HS Host frame interval register specification",
+  "bit_fields": [
+    {
+      "name": "OTG_HS_HFIR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "RM0090 1420/1741 RM0090 Rev 22 OTG_HS Host frame interval register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,91 @@
+{
+  "peripheral": "I2C",
+  "register_name": "I2C_CR2",
+  "long_name": "I2C control register 2 (I2C_CR2)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "I2C control register 2 specification",
+  "bit_fields": [
+    {
+      "name": "RD_WRN",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer direction (controller mode)"
+    },
+    {
+      "name": "ADD10",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "10-bit addressing mode (controller mode)"
+    },
+    {
+      "name": "HEAD10R",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "10-bit address header only read direction (controller receiver mode)"
+    },
+    {
+      "name": "START",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "START condition generation"
+    },
+    {
+      "name": "STOP",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "STOP condition generation"
+    },
+    {
+      "name": "NACK",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "NACK generation (target mode)"
+    },
+    {
+      "name": "NBYTES[7",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Number of bytes"
+    },
+    {
+      "name": "RELOAD",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "NBYTES reload mode"
+    },
+    {
+      "name": "AUTOEND",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Automatic end mode (controller mode)"
+    },
+    {
+      "name": "PECBYTE",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Packet error checking byte"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,83 @@
+{
+  "peripheral": "TSC",
+  "register_name": "TSC_CR",
+  "long_name": "TSC control register (TSC_CR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "TSC control register specification",
+  "bit_fields": [
+    {
+      "name": "SYNCPOL",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Synchronization pin polarity"
+    },
+    {
+      "name": "IODEF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I/O Default mode"
+    },
+    {
+      "name": "MCV[2",
+      "bit_offset": 5,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Max count value"
+    },
+    {
+      "name": "PGPSC[2",
+      "bit_offset": 12,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Pulse generator prescaler"
+    },
+    {
+      "name": "SSPSC",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Spread spectrum prescaler"
+    },
+    {
+      "name": "SSE",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Spread spectrum enable"
+    },
+    {
+      "name": "SSD[6",
+      "bit_offset": 17,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Spread spectrum deviation"
+    },
+    {
+      "name": "CTPL[3",
+      "bit_offset": 24,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Charge transfer pulse low"
+    },
+    {
+      "name": "CTPH[3",
+      "bit_offset": 28,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Charge transfer pulse high"
+    }
+  ],
+  "errata_notes": []
+}

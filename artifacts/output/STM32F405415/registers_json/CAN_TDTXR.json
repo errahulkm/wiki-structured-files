@@ -1,0 +1,51 @@
+{
+  "peripheral": "CAN",
+  "register_name": "CAN_TDTXR",
+  "long_name": "1112 CAN mailbox data length control and time stamp register (CAN_TDTXR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "1112 CAN mailbox data length control and time stamp register specification",
+  "bit_fields": [
+    {
+      "name": "TXRQ",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmit mailbox request"
+    },
+    {
+      "name": "RTR",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Remote transmission request"
+    },
+    {
+      "name": "IDE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Identifier extension"
+    },
+    {
+      "name": "TGT",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmit global time"
+    },
+    {
+      "name": "TIME[15",
+      "bit_offset": 16,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Message time stamp"
+    }
+  ],
+  "errata_notes": []
+}

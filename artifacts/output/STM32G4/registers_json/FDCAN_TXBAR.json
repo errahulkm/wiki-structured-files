@@ -1,0 +1,19 @@
+{
+  "peripheral": "FDCAN",
+  "register_name": "FDCAN_TXBAR",
+  "long_name": "FDCAN Tx buffer add re quest register (FDCAN_TXBAR)",
+  "address_offset": "0x00CC",
+  "reset_value": "0x00000000",
+  "description": "FDCAN Tx buffer add re quest register specification",
+  "bit_fields": [
+    {
+      "name": "TRP[2",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Transmission request pending"
+    }
+  ],
+  "errata_notes": []
+}

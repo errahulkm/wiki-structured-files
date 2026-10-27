@@ -1,0 +1,19 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC3",
+  "long_name": "Analog-to-Digital Converter (ADC) ADC3 Register",
+  "address_offset": "0x100",
+  "reset_value": "0x00000000",
+  "description": "Analog-to-Digital Converter (ADC) ADC3 hardware register",
+  "bit_fields": [
+    {
+      "name": "ADC3",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "ADC3 register value"
+    }
+  ],
+  "errata_notes": []
+}

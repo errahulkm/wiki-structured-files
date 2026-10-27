@@ -1,0 +1,67 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_IDR3",
+  "long_name": "RM0438 2094/2187 RM0438 Rev 8 ETM identification register 3 (ETM_IDR3)",
+  "address_offset": "0x1EC",
+  "reset_value": "0x00000000",
+  "description": "RM0438 2094/2187 RM0438 Rev 8 ETM identification register 3 specification",
+  "bit_fields": [
+    {
+      "name": "IASIZE[4",
+      "bit_offset": 0,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: instruction address size"
+    },
+    {
+      "name": "CIDSIZE[4",
+      "bit_offset": 5,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: context ID size"
+    },
+    {
+      "name": "VMIDSIZE[4",
+      "bit_offset": 10,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: virtual machine ID size"
+    },
+    {
+      "name": "DASIZE[4",
+      "bit_offset": 15,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: data address size."
+    },
+    {
+      "name": "DVSIZE[4",
+      "bit_offset": 20,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: data value size"
+    },
+    {
+      "name": "CCSIZE[3",
+      "bit_offset": 25,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: cycle counter size"
+    },
+    {
+      "name": "NOOVERFLOW",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ETM_STALLCTLR.NOOVERFLOW implementation"
+    }
+  ],
+  "errata_notes": []
+}

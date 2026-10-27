@@ -1,0 +1,1041 @@
+{
+  "mcu_family": "STM32F4",
+  "target_device": "STM32F405415",
+  "rm_number": "RM0090",
+  "core_architecture": "ARM 32-bit Cortex-M4",
+  "core_layer_label": "Cortex-M4 Core",
+  "total_pages": 1741,
+  "has_security": true,
+  "chapters": [
+    {
+      "chapter_num": 1,
+      "chapter_id": "chapter_01",
+      "file": "chapter_01.md",
+      "title": "Chapter 1: Contents",
+      "raw_title": "Contents",
+      "clean_title": "Contents",
+      "start_page": 2,
+      "end_page": 40,
+      "category": "chapters",
+      "ip_key": "chapter_contents",
+      "ip_name": "Contents",
+      "rel_path": "chapters/chapter_01.md"
+    },
+    {
+      "chapter_num": 2,
+      "chapter_id": "chapter_02",
+      "file": "chapter_02.md",
+      "title": "Chapter 2: List of tables",
+      "raw_title": "List of tables",
+      "clean_title": "List of tables",
+      "start_page": 40,
+      "end_page": 47,
+      "category": "chapters",
+      "ip_key": "chapter_list of ta",
+      "ip_name": "List of tables",
+      "rel_path": "chapters/chapter_02.md"
+    },
+    {
+      "chapter_num": 3,
+      "chapter_id": "chapter_03",
+      "file": "chapter_03.md",
+      "title": "Chapter 3: List of figures",
+      "raw_title": "List of figures",
+      "clean_title": "List of figures",
+      "start_page": 47,
+      "end_page": 57,
+      "category": "chapters",
+      "ip_key": "chapter_list of fi",
+      "ip_name": "List of figures",
+      "rel_path": "chapters/chapter_03.md"
+    },
+    {
+      "chapter_num": 4,
+      "chapter_id": "chapter_04",
+      "file": "chapter_04.md",
+      "title": "Chapter 4: Documentation conventions",
+      "raw_title": "1 Documentation conventions",
+      "clean_title": "Documentation conventions",
+      "start_page": 57,
+      "end_page": 59,
+      "category": "chapters",
+      "ip_key": "chapter_1 document",
+      "ip_name": "Documentation conventions",
+      "rel_path": "chapters/chapter_04.md"
+    },
+    {
+      "chapter_num": 5,
+      "chapter_id": "chapter_05",
+      "file": "chapter_05.md",
+      "title": "Chapter 5: Memory and bus architecture",
+      "raw_title": "2 Memory and bus architecture",
+      "clean_title": "Memory and bus architecture",
+      "start_page": 59,
+      "end_page": 73,
+      "category": "memory",
+      "ip_key": "memory_map",
+      "ip_name": "Master System Memory Map",
+      "rel_path": "memory/memory_map.md"
+    },
+    {
+      "chapter_num": 6,
+      "chapter_id": "chapter_06",
+      "file": "chapter_06.md",
+      "title": "Chapter 6: Embedded flash memory interface",
+      "raw_title": "3 Embedded flash memory interface",
+      "clean_title": "Embedded flash memory interface",
+      "start_page": 73,
+      "end_page": 113,
+      "category": "memory",
+      "ip_key": "flash",
+      "ip_name": "Embedded Flash Memory",
+      "rel_path": "memory/flash.md"
+    },
+    {
+      "chapter_num": 7,
+      "chapter_id": "chapter_07",
+      "file": "chapter_07.md",
+      "title": "Chapter 7: CRC calculation unit",
+      "raw_title": "4 CRC calculation unit",
+      "clean_title": "CRC calculation unit",
+      "start_page": 113,
+      "end_page": 116,
+      "category": "peripherals",
+      "ip_key": "crc",
+      "ip_name": "CRC Calculation Unit",
+      "rel_path": "peripherals/crc.md"
+    },
+    {
+      "chapter_num": 8,
+      "chapter_id": "chapter_08",
+      "file": "chapter_08.md",
+      "title": "Chapter 8: Power controller (PWR)",
+      "raw_title": "5 Power controller (PWR)",
+      "clean_title": "Power controller (PWR)",
+      "start_page": 116,
+      "end_page": 151,
+      "category": "system",
+      "ip_key": "pwr",
+      "ip_name": "Power Control (PWR)",
+      "rel_path": "system/pwr.md"
+    },
+    {
+      "chapter_num": 9,
+      "chapter_id": "chapter_09",
+      "file": "chapter_09.md",
+      "title": "Chapter 9: Reset and clock control for STM32F42xxx and STM32F43xxx (RCC)",
+      "raw_title": "6 Reset and clock control for STM32F42xxx and STM32F43xxx (RCC)",
+      "clean_title": "Reset and clock control for STM32F42xxx and STM32F43xxx (RCC)",
+      "start_page": 151,
+      "end_page": 214,
+      "category": "system",
+      "ip_key": "rcc",
+      "ip_name": "Reset and Clock Control (RCC)",
+      "rel_path": "system/rcc.md"
+    },
+    {
+      "chapter_num": 10,
+      "chapter_id": "chapter_10",
+      "file": "chapter_10.md",
+      "title": "Chapter 10: Reset and clock control for STM32F405xx/07xx and STM32F415xx/17xx(RCC)",
+      "raw_title": "7 Reset and clock control for STM32F405xx/07xx and STM32F415xx/17xx(RCC)",
+      "clean_title": "Reset and clock control for STM32F405xx/07xx and STM32F415xx/17xx(RCC)",
+      "start_page": 214,
+      "end_page": 269,
+      "category": "system",
+      "ip_key": "rcc",
+      "ip_name": "Reset and Clock Control (RCC)",
+      "rel_path": "system/rcc.md"
+    },
+    {
+      "chapter_num": 11,
+      "chapter_id": "chapter_11",
+      "file": "chapter_11.md",
+      "title": "Chapter 11: General-purpose I/Os (GPIO)",
+      "raw_title": "8 General-purpose I/Os (GPIO)",
+      "clean_title": "General-purpose I/Os (GPIO)",
+      "start_page": 269,
+      "end_page": 291,
+      "category": "peripherals",
+      "ip_key": "gpio",
+      "ip_name": "General-Purpose and Alternate-Function I/Os (GPIOs/AFIOs)",
+      "rel_path": "peripherals/gpio.md"
+    },
+    {
+      "chapter_num": 12,
+      "chapter_id": "chapter_12",
+      "file": "chapter_12.md",
+      "title": "Chapter 12: System configuration controller (SYSCFG)",
+      "raw_title": "9 System configuration controller (SYSCFG)",
+      "clean_title": "System configuration controller (SYSCFG)",
+      "start_page": 291,
+      "end_page": 304,
+      "category": "system",
+      "ip_key": "syscfg",
+      "ip_name": "System Configuration (SYSCFG)",
+      "rel_path": "system/syscfg.md"
+    },
+    {
+      "chapter_num": 13,
+      "chapter_id": "chapter_13",
+      "file": "chapter_13.md",
+      "title": "Chapter 13: DMA controller (DMA)",
+      "raw_title": "10 DMA controller (DMA)",
+      "clean_title": "DMA controller (DMA)",
+      "start_page": 304,
+      "end_page": 341,
+      "category": "peripherals",
+      "ip_key": "dma",
+      "ip_name": "Direct Memory Access Controller (DMA)",
+      "rel_path": "peripherals/dma.md"
+    },
+    {
+      "chapter_num": 14,
+      "chapter_id": "chapter_14",
+      "file": "chapter_14.md",
+      "title": "Chapter 14: Chrom-Art Accelerator\u2122 controller (DMA2D)",
+      "raw_title": "11 Chrom-Art Accelerator\u2122 controller (DMA2D)",
+      "clean_title": "Chrom-Art Accelerator\u2122 controller (DMA2D)",
+      "start_page": 341,
+      "end_page": 373,
+      "category": "peripherals",
+      "ip_key": "dma",
+      "ip_name": "Direct Memory Access Controller (DMA)",
+      "rel_path": "peripherals/dma.md"
+    },
+    {
+      "chapter_num": 15,
+      "chapter_id": "chapter_15",
+      "file": "chapter_15.md",
+      "title": "Chapter 15: Interrupts and events",
+      "raw_title": "12 Interrupts and events",
+      "clean_title": "Interrupts and events",
+      "start_page": 373,
+      "end_page": 390,
+      "category": "core",
+      "ip_key": "interrupts",
+      "ip_name": "Interrupts and Events (NVIC/EXTI)",
+      "rel_path": "core/interrupts.md"
+    },
+    {
+      "chapter_num": 16,
+      "chapter_id": "chapter_16",
+      "file": "chapter_16.md",
+      "title": "Chapter 16: Analog-to-digital converter (ADC)",
+      "raw_title": "13 Analog-to-digital converter (ADC)",
+      "clean_title": "Analog-to-digital converter (ADC)",
+      "start_page": 390,
+      "end_page": 435,
+      "category": "peripherals",
+      "ip_key": "adc",
+      "ip_name": "Analog-to-Digital Converter (ADC)",
+      "rel_path": "peripherals/adc.md"
+    },
+    {
+      "chapter_num": 17,
+      "chapter_id": "chapter_17",
+      "file": "chapter_17.md",
+      "title": "Chapter 17: Digital-to-analog converter (DAC)",
+      "raw_title": "14 Digital-to-analog converter (DAC)",
+      "clean_title": "Digital-to-analog converter (DAC)",
+      "start_page": 435,
+      "end_page": 457,
+      "category": "peripherals",
+      "ip_key": "dac",
+      "ip_name": "Digital-to-Analog Converter (DAC)",
+      "rel_path": "peripherals/dac.md"
+    },
+    {
+      "chapter_num": 18,
+      "chapter_id": "chapter_18",
+      "file": "chapter_18.md",
+      "title": "Chapter 18: Digital camera interface (DCMI)",
+      "raw_title": "15 Digital camera interface (DCMI)",
+      "clean_title": "Digital camera interface (DCMI)",
+      "start_page": 457,
+      "end_page": 480,
+      "category": "peripherals",
+      "ip_key": "dcmi",
+      "ip_name": "Digital Camera Interface (DCMI)",
+      "rel_path": "peripherals/dcmi.md"
+    },
+    {
+      "chapter_num": 19,
+      "chapter_id": "chapter_19",
+      "file": "chapter_19.md",
+      "title": "Chapter 19: LCD-TFT controller (LTDC)",
+      "raw_title": "16 LCD-TFT controller (LTDC)",
+      "clean_title": "LCD-TFT controller (LTDC)",
+      "start_page": 480,
+      "end_page": 515,
+      "category": "peripherals",
+      "ip_key": "ltdc",
+      "ip_name": "LCD-TFT Display Controller (LTDC)",
+      "rel_path": "peripherals/ltdc.md"
+    },
+    {
+      "chapter_num": 20,
+      "chapter_id": "chapter_20",
+      "file": "chapter_20.md",
+      "title": "Chapter 20: Advanced-control timers (TIM1 and TIM8)",
+      "raw_title": "17 Advanced-control timers (TIM1 and TIM8)",
+      "clean_title": "Advanced-control timers (TIM1 and TIM8)",
+      "start_page": 515,
+      "end_page": 586,
+      "category": "peripherals",
+      "ip_key": "timers",
+      "ip_name": "Timers (TIM)",
+      "rel_path": "peripherals/timers.md"
+    },
+    {
+      "chapter_num": 21,
+      "chapter_id": "chapter_21",
+      "file": "chapter_21.md",
+      "title": "Chapter 21: General-purpose timers (TIM2 to TIM5)",
+      "raw_title": "18 General-purpose timers (TIM2 to TIM5)",
+      "clean_title": "General-purpose timers (TIM2 to TIM5)",
+      "start_page": 586,
+      "end_page": 646,
+      "category": "peripherals",
+      "ip_key": "timers",
+      "ip_name": "Timers (TIM)",
+      "rel_path": "peripherals/timers.md"
+    },
+    {
+      "chapter_num": 22,
+      "chapter_id": "chapter_22",
+      "file": "chapter_22.md",
+      "title": "Chapter 22: General-purpose timers (TIM9 to TIM14)",
+      "raw_title": "19 General-purpose timers (TIM9 to TIM14)",
+      "clean_title": "General-purpose timers (TIM9 to TIM14)",
+      "start_page": 646,
+      "end_page": 692,
+      "category": "peripherals",
+      "ip_key": "timers",
+      "ip_name": "Timers (TIM)",
+      "rel_path": "peripherals/timers.md"
+    },
+    {
+      "chapter_num": 23,
+      "chapter_id": "chapter_23",
+      "file": "chapter_23.md",
+      "title": "Chapter 23: Basic timers (TIM6 and TIM7)",
+      "raw_title": "20 Basic timers (TIM6 and TIM7)",
+      "clean_title": "Basic timers (TIM6 and TIM7)",
+      "start_page": 692,
+      "end_page": 704,
+      "category": "peripherals",
+      "ip_key": "timers",
+      "ip_name": "Timers (TIM)",
+      "rel_path": "peripherals/timers.md"
+    },
+    {
+      "chapter_num": 24,
+      "chapter_id": "chapter_24",
+      "file": "chapter_24.md",
+      "title": "Chapter 24: Independent watchdog (IWDG)",
+      "raw_title": "21 Independent watchdog (IWDG)",
+      "clean_title": "Independent watchdog (IWDG)",
+      "start_page": 704,
+      "end_page": 709,
+      "category": "peripherals",
+      "ip_key": "iwdg",
+      "ip_name": "Independent Watchdog (IWDG)",
+      "rel_path": "peripherals/iwdg.md"
+    },
+    {
+      "chapter_num": 25,
+      "chapter_id": "chapter_25",
+      "file": "chapter_25.md",
+      "title": "Chapter 25: Window watchdog (WWDG)",
+      "raw_title": "22 Window watchdog (WWDG)",
+      "clean_title": "Window watchdog (WWDG)",
+      "start_page": 709,
+      "end_page": 716,
+      "category": "peripherals",
+      "ip_key": "wwdg",
+      "ip_name": "Window Watchdog (WWDG)",
+      "rel_path": "peripherals/wwdg.md"
+    },
+    {
+      "chapter_num": 26,
+      "chapter_id": "chapter_26",
+      "file": "chapter_26.md",
+      "title": "Chapter 26: Cryptographic processor (CRYP)",
+      "raw_title": "23 Cryptographic processor (CRYP)",
+      "clean_title": "Cryptographic processor (CRYP)",
+      "start_page": 716,
+      "end_page": 763,
+      "category": "security",
+      "ip_key": "cryp",
+      "ip_name": "Cryptographic Processor (CRYP)",
+      "rel_path": "security/cryp.md"
+    },
+    {
+      "chapter_num": 27,
+      "chapter_id": "chapter_27",
+      "file": "chapter_27.md",
+      "title": "Chapter 27: Random number generator (RNG)",
+      "raw_title": "24 Random number generator (RNG)",
+      "clean_title": "Random number generator (RNG)",
+      "start_page": 763,
+      "end_page": 768,
+      "category": "security",
+      "ip_key": "rng",
+      "ip_name": "Random Number Generator (RNG)",
+      "rel_path": "security/rng.md"
+    },
+    {
+      "chapter_num": 28,
+      "chapter_id": "chapter_28",
+      "file": "chapter_28.md",
+      "title": "Chapter 28: Hash processor (HASH)",
+      "raw_title": "25 Hash processor (HASH)",
+      "clean_title": "Hash processor (HASH)",
+      "start_page": 768,
+      "end_page": 794,
+      "category": "security",
+      "ip_key": "hash",
+      "ip_name": "Hash Processor (HASH)",
+      "rel_path": "security/hash.md"
+    },
+    {
+      "chapter_num": 29,
+      "chapter_id": "chapter_29",
+      "file": "chapter_29.md",
+      "title": "Chapter 29: Real-time clock (RTC)",
+      "raw_title": "26 Real-time clock (RTC)",
+      "clean_title": "Real-time clock (RTC)",
+      "start_page": 794,
+      "end_page": 835,
+      "category": "peripherals",
+      "ip_key": "rtc",
+      "ip_name": "Real-Time Clock (RTC)",
+      "rel_path": "peripherals/rtc.md"
+    },
+    {
+      "chapter_num": 30,
+      "chapter_id": "chapter_30",
+      "file": "chapter_30.md",
+      "title": "Chapter 30: Inter-integrated circuit (I2C) interface",
+      "raw_title": "27 Inter-integrated circuit (I2C) interface",
+      "clean_title": "Inter-integrated circuit (I2C) interface",
+      "start_page": 835,
+      "end_page": 868,
+      "category": "peripherals",
+      "ip_key": "i2c",
+      "ip_name": "Inter-Integrated Circuit (I2C)",
+      "rel_path": "peripherals/i2c.md"
+    },
+    {
+      "chapter_num": 31,
+      "chapter_id": "chapter_31",
+      "file": "chapter_31.md",
+      "title": "Chapter 31: Serial peripheral interface (SPI)",
+      "raw_title": "28 Serial peripheral interface (SPI)",
+      "clean_title": "Serial peripheral interface (SPI)",
+      "start_page": 868,
+      "end_page": 921,
+      "category": "peripherals",
+      "ip_key": "spi",
+      "ip_name": "Serial Peripheral Interface (SPI)",
+      "rel_path": "peripherals/spi.md"
+    },
+    {
+      "chapter_num": 32,
+      "chapter_id": "chapter_32",
+      "file": "chapter_32.md",
+      "title": "Chapter 32: Serial audio interface (SAI)",
+      "raw_title": "29 Serial audio interface (SAI)",
+      "clean_title": "Serial audio interface (SAI)",
+      "start_page": 921,
+      "end_page": 960,
+      "category": "peripherals",
+      "ip_key": "sai",
+      "ip_name": "Serial Audio Interface (SAI)",
+      "rel_path": "peripherals/sai.md"
+    },
+    {
+      "chapter_num": 33,
+      "chapter_id": "chapter_33",
+      "file": "chapter_33.md",
+      "title": "Chapter 33: Universal synchronous asynchronous receiver transmitter (USART)",
+      "raw_title": "30 Universal synchronous asynchronous receiver transmitter (USART)",
+      "clean_title": "Universal synchronous asynchronous receiver transmitter (USART)",
+      "start_page": 960,
+      "end_page": 1014,
+      "category": "peripherals",
+      "ip_key": "usart",
+      "ip_name": "Universal Synchronous Asynchronous Receiver Transmitter (USART)",
+      "rel_path": "peripherals/usart.md"
+    },
+    {
+      "chapter_num": 34,
+      "chapter_id": "chapter_34",
+      "file": "chapter_34.md",
+      "title": "Chapter 34: Secure digital input/output interface (SDIO)",
+      "raw_title": "31 Secure digital input/output interface (SDIO)",
+      "clean_title": "Secure digital input/output interface (SDIO)",
+      "start_page": 1014,
+      "end_page": 1069,
+      "category": "peripherals",
+      "ip_key": "sdio",
+      "ip_name": "Secure Digital Input/Output (SDIO)",
+      "rel_path": "peripherals/sdio.md"
+    },
+    {
+      "chapter_num": 35,
+      "chapter_id": "chapter_35",
+      "file": "chapter_35.md",
+      "title": "Chapter 35: Controller area network (bxCAN)",
+      "raw_title": "32 Controller area network (bxCAN)",
+      "clean_title": "Controller area network (bxCAN)",
+      "start_page": 1069,
+      "end_page": 1113,
+      "category": "peripherals",
+      "ip_key": "can",
+      "ip_name": "Controller Area Network (bxCAN)",
+      "rel_path": "peripherals/can.md"
+    },
+    {
+      "chapter_num": 36,
+      "chapter_id": "chapter_36",
+      "file": "chapter_36.md",
+      "title": "Chapter 36: Ethernet (ETH): media access control (MAC) with DMA controller",
+      "raw_title": "33 Ethernet (ETH): media access control (MAC) with DMA controller",
+      "clean_title": "Ethernet (ETH): media access control (MAC) with DMA controller",
+      "start_page": 1113,
+      "end_page": 1228,
+      "category": "peripherals",
+      "ip_key": "eth",
+      "ip_name": "Ethernet MAC (ETH)",
+      "rel_path": "peripherals/eth.md"
+    },
+    {
+      "chapter_num": 37,
+      "chapter_id": "chapter_37",
+      "file": "chapter_37.md",
+      "title": "Chapter 37: USB on-the-go full-speed (OTG_FS)",
+      "raw_title": "34 USB on-the-go full-speed (OTG_FS)",
+      "clean_title": "USB on-the-go full-speed (OTG_FS)",
+      "start_page": 1228,
+      "end_page": 1369,
+      "category": "peripherals",
+      "ip_key": "otg_fs",
+      "ip_name": "USB On-The-Go Full-Speed (OTG_FS)",
+      "rel_path": "peripherals/otg_fs.md"
+    },
+    {
+      "chapter_num": 38,
+      "chapter_id": "chapter_38",
+      "file": "chapter_38.md",
+      "title": "Chapter 38: USB on-the-go high-speed (OTG_HS)",
+      "raw_title": "35 USB on-the-go high-speed (OTG_HS)",
+      "clean_title": "USB on-the-go high-speed (OTG_HS)",
+      "start_page": 1369,
+      "end_page": 1532,
+      "category": "peripherals",
+      "ip_key": "otg_hs",
+      "ip_name": "USB On-The-Go High-Speed (OTG_HS)",
+      "rel_path": "peripherals/otg_hs.md"
+    },
+    {
+      "chapter_num": 39,
+      "chapter_id": "chapter_39",
+      "file": "chapter_39.md",
+      "title": "Chapter 39: Flexible static memory controller (FSMC)",
+      "raw_title": "36 Flexible static memory controller (FSMC)",
+      "clean_title": "Flexible static memory controller (FSMC)",
+      "start_page": 1532,
+      "end_page": 1590,
+      "category": "peripherals",
+      "ip_key": "fsmc",
+      "ip_name": "Flexible Static Memory Controller (FSMC)",
+      "rel_path": "peripherals/fsmc.md"
+    },
+    {
+      "chapter_num": 40,
+      "chapter_id": "chapter_40",
+      "file": "chapter_40.md",
+      "title": "Chapter 40: Flexible memory controller (FMC)",
+      "raw_title": "37 Flexible memory controller (FMC)",
+      "clean_title": "Flexible memory controller (FMC)",
+      "start_page": 1590,
+      "end_page": 1671,
+      "category": "peripherals",
+      "ip_key": "fmc",
+      "ip_name": "Flexible Memory Controller (FMC)",
+      "rel_path": "peripherals/fmc.md"
+    },
+    {
+      "chapter_num": 41,
+      "chapter_id": "chapter_41",
+      "file": "chapter_41.md",
+      "title": "Chapter 41: Debug support (DBG)",
+      "raw_title": "38 Debug support (DBG)",
+      "clean_title": "Debug support (DBG)",
+      "start_page": 1671,
+      "end_page": 1701,
+      "category": "core",
+      "ip_key": "debug",
+      "ip_name": "Debug Support (DBG)",
+      "rel_path": "core/debug.md"
+    },
+    {
+      "chapter_num": 42,
+      "chapter_id": "chapter_42",
+      "file": "chapter_42.md",
+      "title": "Chapter 42: Device electronic signature",
+      "raw_title": "39 Device electronic signature",
+      "clean_title": "Device electronic signature",
+      "start_page": 1701,
+      "end_page": 1703,
+      "category": "chapters",
+      "ip_key": "chapter_39 device ",
+      "ip_name": "Device electronic signature",
+      "rel_path": "chapters/chapter_42.md"
+    },
+    {
+      "chapter_num": 43,
+      "chapter_id": "chapter_43",
+      "file": "chapter_43.md",
+      "title": "Chapter 43: Important security notice",
+      "raw_title": "40 Important security notice",
+      "clean_title": "Important security notice",
+      "start_page": 1703,
+      "end_page": 1704,
+      "category": "chapters",
+      "ip_key": "chapter_40 importa",
+      "ip_name": "Important security notice",
+      "rel_path": "chapters/chapter_43.md"
+    },
+    {
+      "chapter_num": 44,
+      "chapter_id": "chapter_44",
+      "file": "chapter_44.md",
+      "title": "Chapter 44: Revision history",
+      "raw_title": "41 Revision history",
+      "clean_title": "Revision history",
+      "start_page": 1704,
+      "end_page": 1736,
+      "category": "chapters",
+      "ip_key": "chapter_41 revisio",
+      "ip_name": "Revision history",
+      "rel_path": "chapters/chapter_44.md"
+    },
+    {
+      "chapter_num": 45,
+      "chapter_id": "chapter_45",
+      "file": "chapter_45.md",
+      "title": "Chapter 45: Index",
+      "raw_title": "Index",
+      "clean_title": "Index",
+      "start_page": 1736,
+      "end_page": 1742,
+      "category": "chapters",
+      "ip_key": "chapter_index",
+      "ip_name": "Index",
+      "rel_path": "chapters/chapter_45.md"
+    }
+  ],
+  "active_ips": {
+    "memory_map": {
+      "key": "memory_map",
+      "rel_path": "memory/memory_map.md",
+      "name": "Master System Memory Map",
+      "category": "memory",
+      "chapter_refs": [
+        5
+      ],
+      "clean_title": "Memory and bus architecture",
+      "start_page": 59,
+      "end_page": 73
+    },
+    "flash": {
+      "key": "flash",
+      "rel_path": "memory/flash.md",
+      "name": "Embedded Flash Memory",
+      "category": "memory",
+      "chapter_refs": [
+        6
+      ],
+      "clean_title": "Embedded flash memory interface",
+      "start_page": 73,
+      "end_page": 113
+    },
+    "crc": {
+      "key": "crc",
+      "rel_path": "peripherals/crc.md",
+      "name": "CRC Calculation Unit",
+      "category": "peripherals",
+      "chapter_refs": [
+        7
+      ],
+      "clean_title": "CRC calculation unit",
+      "start_page": 113,
+      "end_page": 116
+    },
+    "pwr": {
+      "key": "pwr",
+      "rel_path": "system/pwr.md",
+      "name": "Power Control (PWR)",
+      "category": "system",
+      "chapter_refs": [
+        8
+      ],
+      "clean_title": "Power controller (PWR)",
+      "start_page": 116,
+      "end_page": 151
+    },
+    "rcc": {
+      "key": "rcc",
+      "rel_path": "system/rcc.md",
+      "name": "Reset and Clock Control (RCC)",
+      "category": "system",
+      "chapter_refs": [
+        9,
+        10
+      ],
+      "clean_title": "Reset and clock control for STM32F42xxx and STM32F43xxx (RCC)",
+      "start_page": 151,
+      "end_page": 214
+    },
+    "gpio": {
+      "key": "gpio",
+      "rel_path": "peripherals/gpio.md",
+      "name": "General-Purpose and Alternate-Function I/Os (GPIOs/AFIOs)",
+      "category": "peripherals",
+      "chapter_refs": [
+        11
+      ],
+      "clean_title": "General-purpose I/Os (GPIO)",
+      "start_page": 269,
+      "end_page": 291
+    },
+    "syscfg": {
+      "key": "syscfg",
+      "rel_path": "system/syscfg.md",
+      "name": "System Configuration (SYSCFG)",
+      "category": "system",
+      "chapter_refs": [
+        12
+      ],
+      "clean_title": "System configuration controller (SYSCFG)",
+      "start_page": 291,
+      "end_page": 304
+    },
+    "dma": {
+      "key": "dma",
+      "rel_path": "peripherals/dma.md",
+      "name": "Direct Memory Access Controller (DMA)",
+      "category": "peripherals",
+      "chapter_refs": [
+        13,
+        14
+      ],
+      "clean_title": "DMA controller (DMA)",
+      "start_page": 304,
+      "end_page": 341
+    },
+    "interrupts": {
+      "key": "interrupts",
+      "rel_path": "core/interrupts.md",
+      "name": "Interrupts and Events (NVIC/EXTI)",
+      "category": "core",
+      "chapter_refs": [
+        15
+      ],
+      "clean_title": "Interrupts and events",
+      "start_page": 373,
+      "end_page": 390
+    },
+    "adc": {
+      "key": "adc",
+      "rel_path": "peripherals/adc.md",
+      "name": "Analog-to-Digital Converter (ADC)",
+      "category": "peripherals",
+      "chapter_refs": [
+        16
+      ],
+      "clean_title": "Analog-to-digital converter (ADC)",
+      "start_page": 390,
+      "end_page": 435
+    },
+    "dac": {
+      "key": "dac",
+      "rel_path": "peripherals/dac.md",
+      "name": "Digital-to-Analog Converter (DAC)",
+      "category": "peripherals",
+      "chapter_refs": [
+        17
+      ],
+      "clean_title": "Digital-to-analog converter (DAC)",
+      "start_page": 435,
+      "end_page": 457
+    },
+    "dcmi": {
+      "key": "dcmi",
+      "rel_path": "peripherals/dcmi.md",
+      "name": "Digital Camera Interface (DCMI)",
+      "category": "peripherals",
+      "chapter_refs": [
+        18
+      ],
+      "clean_title": "Digital camera interface (DCMI)",
+      "start_page": 457,
+      "end_page": 480
+    },
+    "ltdc": {
+      "key": "ltdc",
+      "rel_path": "peripherals/ltdc.md",
+      "name": "LCD-TFT Display Controller (LTDC)",
+      "category": "peripherals",
+      "chapter_refs": [
+        19
+      ],
+      "clean_title": "LCD-TFT controller (LTDC)",
+      "start_page": 480,
+      "end_page": 515
+    },
+    "timers": {
+      "key": "timers",
+      "rel_path": "peripherals/timers.md",
+      "name": "Timers (TIM)",
+      "category": "peripherals",
+      "chapter_refs": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "clean_title": "Advanced-control timers (TIM1 and TIM8)",
+      "start_page": 515,
+      "end_page": 586
+    },
+    "iwdg": {
+      "key": "iwdg",
+      "rel_path": "peripherals/iwdg.md",
+      "name": "Independent Watchdog (IWDG)",
+      "category": "peripherals",
+      "chapter_refs": [
+        24
+      ],
+      "clean_title": "Independent watchdog (IWDG)",
+      "start_page": 704,
+      "end_page": 709
+    },
+    "wwdg": {
+      "key": "wwdg",
+      "rel_path": "peripherals/wwdg.md",
+      "name": "Window Watchdog (WWDG)",
+      "category": "peripherals",
+      "chapter_refs": [
+        25
+      ],
+      "clean_title": "Window watchdog (WWDG)",
+      "start_page": 709,
+      "end_page": 716
+    },
+    "cryp": {
+      "key": "cryp",
+      "rel_path": "security/cryp.md",
+      "name": "Cryptographic Processor (CRYP)",
+      "category": "security",
+      "chapter_refs": [
+        26
+      ],
+      "clean_title": "Cryptographic processor (CRYP)",
+      "start_page": 716,
+      "end_page": 763
+    },
+    "rng": {
+      "key": "rng",
+      "rel_path": "security/rng.md",
+      "name": "Random Number Generator (RNG)",
+      "category": "security",
+      "chapter_refs": [
+        27
+      ],
+      "clean_title": "Random number generator (RNG)",
+      "start_page": 763,
+      "end_page": 768
+    },
+    "hash": {
+      "key": "hash",
+      "rel_path": "security/hash.md",
+      "name": "Hash Processor (HASH)",
+      "category": "security",
+      "chapter_refs": [
+        28
+      ],
+      "clean_title": "Hash processor (HASH)",
+      "start_page": 768,
+      "end_page": 794
+    },
+    "rtc": {
+      "key": "rtc",
+      "rel_path": "peripherals/rtc.md",
+      "name": "Real-Time Clock (RTC)",
+      "category": "peripherals",
+      "chapter_refs": [
+        29
+      ],
+      "clean_title": "Real-time clock (RTC)",
+      "start_page": 794,
+      "end_page": 835
+    },
+    "i2c": {
+      "key": "i2c",
+      "rel_path": "peripherals/i2c.md",
+      "name": "Inter-Integrated Circuit (I2C)",
+      "category": "peripherals",
+      "chapter_refs": [
+        30
+      ],
+      "clean_title": "Inter-integrated circuit (I2C) interface",
+      "start_page": 835,
+      "end_page": 868
+    },
+    "spi": {
+      "key": "spi",
+      "rel_path": "peripherals/spi.md",
+      "name": "Serial Peripheral Interface (SPI)",
+      "category": "peripherals",
+      "chapter_refs": [
+        31
+      ],
+      "clean_title": "Serial peripheral interface (SPI)",
+      "start_page": 868,
+      "end_page": 921
+    },
+    "sai": {
+      "key": "sai",
+      "rel_path": "peripherals/sai.md",
+      "name": "Serial Audio Interface (SAI)",
+      "category": "peripherals",
+      "chapter_refs": [
+        32
+      ],
+      "clean_title": "Serial audio interface (SAI)",
+      "start_page": 921,
+      "end_page": 960
+    },
+    "usart": {
+      "key": "usart",
+      "rel_path": "peripherals/usart.md",
+      "name": "Universal Synchronous Asynchronous Receiver Transmitter (USART)",
+      "category": "peripherals",
+      "chapter_refs": [
+        33
+      ],
+      "clean_title": "Universal synchronous asynchronous receiver transmitter (USART)",
+      "start_page": 960,
+      "end_page": 1014
+    },
+    "sdio": {
+      "key": "sdio",
+      "rel_path": "peripherals/sdio.md",
+      "name": "Secure Digital Input/Output (SDIO)",
+      "category": "peripherals",
+      "chapter_refs": [
+        34
+      ],
+      "clean_title": "Secure digital input/output interface (SDIO)",
+      "start_page": 1014,
+      "end_page": 1069
+    },
+    "can": {
+      "key": "can",
+      "rel_path": "peripherals/can.md",
+      "name": "Controller Area Network (bxCAN)",
+      "category": "peripherals",
+      "chapter_refs": [
+        35
+      ],
+      "clean_title": "Controller area network (bxCAN)",
+      "start_page": 1069,
+      "end_page": 1113
+    },
+    "eth": {
+      "key": "eth",
+      "rel_path": "peripherals/eth.md",
+      "name": "Ethernet MAC (ETH)",
+      "category": "peripherals",
+      "chapter_refs": [
+        36
+      ],
+      "clean_title": "Ethernet (ETH): media access control (MAC) with DMA controller",
+      "start_page": 1113,
+      "end_page": 1228
+    },
+    "otg_fs": {
+      "key": "otg_fs",
+      "rel_path": "peripherals/otg_fs.md",
+      "name": "USB On-The-Go Full-Speed (OTG_FS)",
+      "category": "peripherals",
+      "chapter_refs": [
+        37
+      ],
+      "clean_title": "USB on-the-go full-speed (OTG_FS)",
+      "start_page": 1228,
+      "end_page": 1369
+    },
+    "otg_hs": {
+      "key": "otg_hs",
+      "rel_path": "peripherals/otg_hs.md",
+      "name": "USB On-The-Go High-Speed (OTG_HS)",
+      "category": "peripherals",
+      "chapter_refs": [
+        38
+      ],
+      "clean_title": "USB on-the-go high-speed (OTG_HS)",
+      "start_page": 1369,
+      "end_page": 1532
+    },
+    "fsmc": {
+      "key": "fsmc",
+      "rel_path": "peripherals/fsmc.md",
+      "name": "Flexible Static Memory Controller (FSMC)",
+      "category": "peripherals",
+      "chapter_refs": [
+        39
+      ],
+      "clean_title": "Flexible static memory controller (FSMC)",
+      "start_page": 1532,
+      "end_page": 1590
+    },
+    "fmc": {
+      "key": "fmc",
+      "rel_path": "peripherals/fmc.md",
+      "name": "Flexible Memory Controller (FMC)",
+      "category": "peripherals",
+      "chapter_refs": [
+        40
+      ],
+      "clean_title": "Flexible memory controller (FMC)",
+      "start_page": 1590,
+      "end_page": 1671
+    },
+    "debug": {
+      "key": "debug",
+      "rel_path": "core/debug.md",
+      "name": "Debug Support (DBG)",
+      "category": "core",
+      "chapter_refs": [
+        41
+      ],
+      "clean_title": "Debug support (DBG)",
+      "start_page": 1671,
+      "end_page": 1701
+    }
+  },
+  "topology_layers": [
+    "Master Index",
+    "Memory Layer",
+    "System Infrastructure",
+    "Cortex-M4 Core",
+    "Peripherals",
+    "Security Architecture",
+    "Hardware Registers"
+  ]
+}

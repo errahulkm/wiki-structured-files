@@ -1,0 +1,59 @@
+{
+  "peripheral": "SPIX",
+  "register_name": "SPIX_I2SPR",
+  "long_name": "SPIx_I2S prescaler register (SPIX_I2SPR)",
+  "address_offset": "0x20",
+  "reset_value": "0x00000000",
+  "description": "SPIx_I2S prescaler register specification",
+  "bit_fields": [
+    {
+      "name": "CHLEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Channel length (number of bits per audio channel)"
+    },
+    {
+      "name": "DATLEN[1",
+      "bit_offset": 1,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Data length to be transferred"
+    },
+    {
+      "name": "CKPOL",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Inactive state clock polarity"
+    },
+    {
+      "name": "ODD",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Odd factor for the prescaler"
+    },
+    {
+      "name": "MCKOE",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master clock output enable"
+    },
+    {
+      "name": "0",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "D5 D4 D3 D2 D1 D0D6"
+    }
+  ],
+  "errata_notes": []
+}

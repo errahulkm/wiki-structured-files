@@ -1,0 +1,51 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_MACSR",
+  "long_name": "with DMA controller 1227 Ethernet MAC interrupt status register (ETH_MACSR)",
+  "address_offset": "0x0038",
+  "reset_value": "0x00000000",
+  "description": "with DMA controller 1227 Ethernet MAC interrupt status register specification",
+  "bit_fields": [
+    {
+      "name": "MMRPEA",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MAC MII receive protocol engine active"
+    },
+    {
+      "name": "MSFRWCS",
+      "bit_offset": 1,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MAC small FIFO read / write controllers status"
+    },
+    {
+      "name": "RFWRA",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx FIFO write controller active"
+    },
+    {
+      "name": "RFRCS",
+      "bit_offset": 5,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx FIFO read controller status"
+    },
+    {
+      "name": "RFFL",
+      "bit_offset": 8,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx FIFO fill level"
+    }
+  ],
+  "errata_notes": []
+}

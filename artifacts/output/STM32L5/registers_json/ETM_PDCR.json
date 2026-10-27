@@ -1,0 +1,19 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_PDCR",
+  "long_name": "RM0438 2100/2187 RM0438 Rev 8 ETM power-down control register (ETM_PDCR)",
+  "address_offset": "0x310",
+  "reset_value": "0x00000000",
+  "description": "RM0438 2100/2187 RM0438 Rev 8 ETM power-down control register specification",
+  "bit_fields": [
+    {
+      "name": "ETM_PDCR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "RM0438 2100/2187 RM0438 Rev 8 ETM power-down control register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

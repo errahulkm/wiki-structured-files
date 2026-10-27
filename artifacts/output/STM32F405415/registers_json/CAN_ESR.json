@@ -1,0 +1,59 @@
+{
+  "peripheral": "CAN",
+  "register_name": "CAN_ESR",
+  "long_name": "RM0090 1098/1741 RM0090 Rev 22 CAN error status register (CAN_ESR)",
+  "address_offset": "0x18",
+  "reset_value": "0x00000000",
+  "description": "RM0090 1098/1741 RM0090 Rev 22 CAN error status register specification",
+  "bit_fields": [
+    {
+      "name": "TMEIE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmit mailbox empty interrupt enable"
+    },
+    {
+      "name": "EPVF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Error passive flag"
+    },
+    {
+      "name": "BOFF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Bus-off flag"
+    },
+    {
+      "name": "LEC[2",
+      "bit_offset": 4,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Last error code"
+    },
+    {
+      "name": "TEC[7",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Least significant byte of the 9-bit transmit error counter"
+    },
+    {
+      "name": "REC[7",
+      "bit_offset": 24,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Receive error counter"
+    }
+  ],
+  "errata_notes": []
+}

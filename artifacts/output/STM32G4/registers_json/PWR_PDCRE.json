@@ -1,0 +1,19 @@
+{
+  "peripheral": "PWR",
+  "register_name": "PWR_PDCRE",
+  "long_name": "Power Port E pull-down control register (PWR_PDCRE)",
+  "address_offset": "0x44",
+  "reset_value": "0x00000000",
+  "description": "Power Port E pull-down control register specification",
+  "bit_fields": [
+    {
+      "name": "PDY",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Port D pull-down bit y (y = 15 to 0)"
+    }
+  ],
+  "errata_notes": []
+}

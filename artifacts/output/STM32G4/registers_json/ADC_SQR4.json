@@ -1,0 +1,51 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_SQR4",
+  "long_name": "ADC regular sequenc e register 4 (ADC_SQR4)",
+  "address_offset": "0x3C",
+  "reset_value": "0x00000000",
+  "description": "ADC regular sequenc e register 4 specification",
+  "bit_fields": [
+    {
+      "name": "SQ10[4",
+      "bit_offset": 0,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: 10th conversion in regular sequence"
+    },
+    {
+      "name": "SQ11[4",
+      "bit_offset": 6,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: 11th conversion in regular sequence"
+    },
+    {
+      "name": "SQ12[4",
+      "bit_offset": 12,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: 12th conversion in regular sequence"
+    },
+    {
+      "name": "SQ13[4",
+      "bit_offset": 18,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: 13th conversion in regular sequence"
+    },
+    {
+      "name": "SQ14[4",
+      "bit_offset": 24,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: 14th conversion in regular sequence"
+    }
+  ],
+  "errata_notes": []
+}

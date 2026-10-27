@@ -1,0 +1,35 @@
+{
+  "peripheral": "AP",
+  "register_name": "AP_DRWR",
+  "long_name": "0xXXXX XXXX AP data read/write register (AP_DRWR)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "0xXXXX XXXX AP data read/write register specification",
+  "bit_fields": [
+    {
+      "name": "SIZE[2",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: size of next memory access transaction"
+    },
+    {
+      "name": "ADDRINC[1",
+      "bit_offset": 4,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: auto-increment mode"
+    },
+    {
+      "name": "DBGSTATUS",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "device enable (DEVICEEN) status"
+    }
+  ],
+  "errata_notes": []
+}

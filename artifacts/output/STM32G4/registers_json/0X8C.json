@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "0X8C",
+  "long_name": "NAND memory mapping and timing registers Start address End address FMC bank Memory space Timing register 0x8800 0000 0x8BFF FFFF Bank 3 - NAND flash Attribute FMC_PATT (0X8C)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "NAND memory mapping and timing registers Start address End address FMC bank Memory space Timing register 0x8800 0000 0x8BFF FFFF Bank 3 - NAND flash Attribute FMC_PATT specification",
+  "bit_fields": [
+    {
+      "name": "IS",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "1"
+    }
+  ],
+  "errata_notes": []
+}

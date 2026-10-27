@@ -1,0 +1,19 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_MPER",
+  "long_name": "HRTIM master timer pe riod register (HRTIM_MPER)",
+  "address_offset": "0x014",
+  "reset_value": "0x00000000",
+  "description": "HRTIM master timer pe riod register specification",
+  "bit_fields": [
+    {
+      "name": "MCNT[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Counter value"
+    }
+  ],
+  "errata_notes": []
+}

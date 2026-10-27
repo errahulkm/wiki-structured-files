@@ -1,0 +1,19 @@
+{
+  "peripheral": "TSC",
+  "register_name": "TSC_IOHCR",
+  "long_name": "TSC I/O hysteresis c ontrol register (TSC_IOHCR)",
+  "address_offset": "0x10",
+  "reset_value": "0x00000000",
+  "description": "TSC I/O hysteresis c ontrol register specification",
+  "bit_fields": [
+    {
+      "name": "TSC_IOHCR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "TSC I/O hysteresis c ontrol register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

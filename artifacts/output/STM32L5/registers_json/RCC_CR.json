@@ -1,0 +1,147 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_CR",
+  "long_name": "RCC clock cont rol register (RCC_CR)",
+  "address_offset": "0x000",
+  "reset_value": "0x00000000",
+  "description": "RCC clock cont rol register specification",
+  "bit_fields": [
+    {
+      "name": "MSIRGSEL",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MSI clock range selection"
+    },
+    {
+      "name": "MSIRANGE[3",
+      "bit_offset": 4,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: MSI clock ranges"
+    },
+    {
+      "name": "HSION",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI16 clock enable"
+    },
+    {
+      "name": "HSIKERON",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI16 always enable for peripheral kernels."
+    },
+    {
+      "name": "HSIRDY",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI16 clock ready flag"
+    },
+    {
+      "name": "HSIASFS",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI16 automatic start from Stop"
+    },
+    {
+      "name": "HSEON",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSE clock enable"
+    },
+    {
+      "name": "HSERDY",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSE clock ready flag"
+    },
+    {
+      "name": "HSEBYP",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSE crystal oscillator bypass"
+    },
+    {
+      "name": "CSSON",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clock security system enable"
+    },
+    {
+      "name": "PLLON",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "main PLL enable"
+    },
+    {
+      "name": "PLLRDY",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "main PLL clock ready flag"
+    },
+    {
+      "name": "PLLSAI1ON",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SAI1 PLL enable"
+    },
+    {
+      "name": "PLLSAI1RDY",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SAI1 PLL clock ready flag"
+    },
+    {
+      "name": "PLLSAI2ON",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SAI2 PLL enable"
+    },
+    {
+      "name": "PLLSAI2RDY",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SAI2 PLL clock ready flag"
+    },
+    {
+      "name": "PRIV",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RCC privilege"
+    }
+  ],
+  "errata_notes": []
+}

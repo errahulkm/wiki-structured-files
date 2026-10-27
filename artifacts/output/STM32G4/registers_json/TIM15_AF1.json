@@ -1,0 +1,99 @@
+{
+  "peripheral": "TIM15",
+  "register_name": "TIM15_AF1",
+  "long_name": "TIM15 alternate func tion register 1 (TIM15_AF1)",
+  "address_offset": "0x060",
+  "reset_value": "0x00000000",
+  "description": "TIM15 alternate func tion register 1 specification",
+  "bit_fields": [
+    {
+      "name": "BKCMP3E",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "tim_brk_cmp3 enable"
+    },
+    {
+      "name": "BKCMP4E",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "tim_brk_cmp4 enable"
+    },
+    {
+      "name": "BKCMP5E",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "tim_brk_cmp5 enable"
+    },
+    {
+      "name": "BKCMP6E",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "tim_brk_cmp6 enable"
+    },
+    {
+      "name": "BKCMP7E",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "tim_brk_cmp7 enable"
+    },
+    {
+      "name": "BKCMP8E",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "tim_brk_cmp8 enable"
+    },
+    {
+      "name": "BKINP",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIMx_BKIN input polarity"
+    },
+    {
+      "name": "BKCMP1P",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "tim_brk_cmp1 input polarity"
+    },
+    {
+      "name": "BKCMP2P",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "tim_brk_cmp2 input polarity"
+    },
+    {
+      "name": "BKCMP3P",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "tim_brk_cmp3 input polarity"
+    },
+    {
+      "name": "BKCMP4P",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "tim_brk_cmp4 input polarity"
+    }
+  ],
+  "errata_notes": []
+}

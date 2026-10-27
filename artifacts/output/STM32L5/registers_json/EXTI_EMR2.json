@@ -1,0 +1,19 @@
+{
+  "peripheral": "EXTI",
+  "register_name": "EXTI_EMR2",
+  "long_name": "EXTI CPU wakeup with e vent mask register (EXTI_EMR2)",
+  "address_offset": "0x094",
+  "reset_value": "0x00000000",
+  "description": "EXTI CPU wakeup with e vent mask register specification",
+  "bit_fields": [
+    {
+      "name": "IM[42",
+      "bit_offset": 0,
+      "bit_width": 11,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "40]: CPU wakeup with interrupt mask on event input x (1) (where x = 40 to 42)."
+    }
+  ],
+  "errata_notes": []
+}

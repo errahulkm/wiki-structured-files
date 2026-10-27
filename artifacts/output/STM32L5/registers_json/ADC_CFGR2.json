@@ -1,0 +1,59 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_CFGR2",
+  "long_name": "ADC configuration register 2 (ADC_CFGR2)",
+  "address_offset": "0x10",
+  "reset_value": "0x00000000",
+  "description": "ADC configuration register 2 specification",
+  "bit_fields": [
+    {
+      "name": "DMAEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Direct memory access enable"
+    },
+    {
+      "name": "DMACFG",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Direct memory access configuration"
+    },
+    {
+      "name": "DFSDMCFG",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DFSDM mode configuration"
+    },
+    {
+      "name": "OVSS[3",
+      "bit_offset": 5,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Oversampling shift"
+    },
+    {
+      "name": "TROVS",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Triggered Regular Oversampling"
+    },
+    {
+      "name": "ROVSM",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Regular Oversampling mode"
+    }
+  ],
+  "errata_notes": []
+}

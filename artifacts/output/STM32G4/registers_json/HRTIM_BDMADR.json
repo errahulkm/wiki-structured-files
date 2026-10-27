@@ -1,0 +1,107 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_BDMADR",
+  "long_name": "HRTIM burst DMA data register (HRTIM_BDMADR)",
+  "address_offset": "0x3F0",
+  "reset_value": "0x00000000",
+  "description": "HRTIM burst DMA data register specification",
+  "bit_fields": [
+    {
+      "name": "TIMXCR",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HRTIM_TIMxCR register update enable timer x"
+    },
+    {
+      "name": "TIMXICR",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HRTIM_TIMxICR register update enable timer x"
+    },
+    {
+      "name": "TIMXDIER",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HRTIM_TIMxDIER register update enable timer x"
+    },
+    {
+      "name": "TIMXCNT",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HRTIM_CNTxR register update enable timer x"
+    },
+    {
+      "name": "TIMXPER",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HRTIM_PERxR register update enable timer x"
+    },
+    {
+      "name": "TIMXREP",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HRTIM_REPxR register update enable timer x"
+    },
+    {
+      "name": "TIMXCMP1",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HRTIM_CMP1xR register update enable timer x"
+    },
+    {
+      "name": "TIMXCMP2",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HRTIM_CMP2xR register update enable timer x"
+    },
+    {
+      "name": "TIMXCMP3",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HRTIM_CMP3xR register update enable timer x"
+    },
+    {
+      "name": "TIMXCMP4",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HRTIM_CMP4xR register update enable timer x"
+    },
+    {
+      "name": "TIMXDTR",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HRTIM_DTxR register update enable timer x"
+    },
+    {
+      "name": "TIMXSET1R",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HRTIM_SET1xR register update enable timer x"
+    }
+  ],
+  "errata_notes": []
+}

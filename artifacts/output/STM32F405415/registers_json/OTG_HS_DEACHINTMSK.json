@@ -1,0 +1,19 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_DEACHINTMSK",
+  "long_name": "1531 OTG_HS device each endpoint interrupt register mask (OTG_HS_DEACHINTMSK)",
+  "address_offset": "0x083C",
+  "reset_value": "0x00000000",
+  "description": "1531 OTG_HS device each endpoint interrupt register mask specification",
+  "bit_fields": [
+    {
+      "name": "OTG_HS_DEACHINTMSK",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "1531 OTG_HS device each endpoint interrupt register mask full-width value"
+    }
+  ],
+  "errata_notes": []
+}

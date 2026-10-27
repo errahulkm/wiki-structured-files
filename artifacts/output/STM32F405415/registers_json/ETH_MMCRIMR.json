@@ -1,0 +1,59 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_MMCRIMR",
+  "long_name": "Ethernet MMC receive interrupt mask register (ETH_MMCRIMR)",
+  "address_offset": "0x010C",
+  "reset_value": "0x00000000",
+  "description": "Ethernet MMC receive interrupt mask register specification",
+  "bit_fields": [
+    {
+      "name": "RFCES",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Received frames CRC error status"
+    },
+    {
+      "name": "RFAES",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Received frames alignment error status"
+    },
+    {
+      "name": "TGFSCS",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmitted good frames single collision status"
+    },
+    {
+      "name": "TGFMSCS",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmitted good frames more single collision status"
+    },
+    {
+      "name": "RGUFS",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Received Good Unicast Frames Status"
+    },
+    {
+      "name": "TGFS",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmitted good frames status"
+    }
+  ],
+  "errata_notes": []
+}

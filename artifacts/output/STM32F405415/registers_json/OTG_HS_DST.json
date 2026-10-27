@@ -1,0 +1,19 @@
+{
+  "peripheral": "OTG_HS",
+  "register_name": "OTG_HS_DST",
+  "long_name": "USB On-The-Go High-Speed (OTG_HS) OTG_HS_DST Register",
+  "address_offset": "0x808",
+  "reset_value": "0x0",
+  "description": "USB On-The-Go High-Speed (OTG_HS) OTG_HS_DST hardware register",
+  "bit_fields": [
+    {
+      "name": "OTG_HS_DST",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x0",
+      "description": "OTG_HS_DST register value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "EXTI",
+  "register_name": "EXTI_RTSR2",
+  "long_name": "EXTI rising trigger sel ection register (EXTI_RTSR2)",
+  "address_offset": "0x020",
+  "reset_value": "0x00000000",
+  "description": "EXTI rising trigger sel ection register specification",
+  "bit_fields": [
+    {
+      "name": "SEC[31",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Security enable on event input x (where x = 0 to 31)"
+    }
+  ],
+  "errata_notes": []
+}

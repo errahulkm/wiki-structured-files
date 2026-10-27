@@ -1,0 +1,19 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_DIEPTXFX",
+  "long_name": "RM0090 1418/1741 RM0090 Rev 22 OTG_HS device IN endpoint transmit FIFO size register (OTG_HS_DIEPTXFX)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RM0090 1418/1741 RM0090 Rev 22 OTG_HS device IN endpoint transmit FIFO size register specification",
+  "bit_fields": [
+    {
+      "name": "OTG_HS_DIEPTXFX",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "RM0090 1418/1741 RM0090 Rev 22 OTG_HS device IN endpoint transmit FIFO size register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

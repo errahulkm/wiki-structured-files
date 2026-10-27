@@ -1,0 +1,51 @@
+{
+  "peripheral": "SDIO",
+  "register_name": "SDIO_CLKCR",
+  "long_name": "SDI clock control register (SDIO_CLKCR)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "SDI clock control register specification",
+  "bit_fields": [
+    {
+      "name": "PWRCTRL",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Power supply control bits."
+    },
+    {
+      "name": "BYPASS",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock divider bypass enable bit"
+    },
+    {
+      "name": "WIDBUS",
+      "bit_offset": 11,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wide bus mode enable bit"
+    },
+    {
+      "name": "NEGEDGE",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SDIO_CK dephasing selection bit"
+    },
+    {
+      "name": "HWFC_EN",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HW Flow Control enable"
+    }
+  ],
+  "errata_notes": []
+}

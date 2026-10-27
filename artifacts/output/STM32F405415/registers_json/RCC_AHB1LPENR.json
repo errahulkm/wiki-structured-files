@@ -1,0 +1,219 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB1LPENR",
+  "long_name": "RCC AHB1 peripheral clock enable in low power mode register (RCC_AHB1LPENR)",
+  "address_offset": "0x50",
+  "reset_value": "0x00000000",
+  "description": "RCC AHB1 peripheral clock enable in low power mode register specification",
+  "bit_fields": [
+    {
+      "name": "GPIOALPEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port A clock enable during sleep mode"
+    },
+    {
+      "name": "GPIOBLPEN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port B clock enable during Sleep mode"
+    },
+    {
+      "name": "GPIOCLPEN",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port C clock enable during Sleep mode"
+    },
+    {
+      "name": "GPIODLPEN",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port D clock enable during Sleep mode"
+    },
+    {
+      "name": "GPIOELPEN",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port E clock enable during Sleep mode"
+    },
+    {
+      "name": "GPIOFLPEN",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port F clock enable during Sleep mode"
+    },
+    {
+      "name": "GPIOGLPEN",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port G clock enable during Sleep mode"
+    },
+    {
+      "name": "GPIOHLPEN",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port H clock enable during Sleep mode"
+    },
+    {
+      "name": "GPIOILPEN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port I clock enable during Sleep mode"
+    },
+    {
+      "name": "GPIOJLPEN",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port J clock enable during Sleep mode"
+    },
+    {
+      "name": "GPIOKLPEN",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port K clock enable during Sleep mode"
+    },
+    {
+      "name": "CRCLPEN",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CRC clock enable during Sleep mode"
+    },
+    {
+      "name": "FLITFLPEN",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Flash interface clock enable during Sleep mode"
+    },
+    {
+      "name": "SRAM1LPEN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SRAM1 interface clock enable during Sleep mode"
+    },
+    {
+      "name": "SRAM2LPEN",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SRAM2 interface clock enable during Sleep mode"
+    },
+    {
+      "name": "BKPSRAMLPEN",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Backup SRAM interface clock enable during Sleep mode"
+    },
+    {
+      "name": "SRAM3LPEN",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SRAM3 interface clock enable during Sleep mode"
+    },
+    {
+      "name": "DMA1LPEN",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA1 clock enable during Sleep mode"
+    },
+    {
+      "name": "DMA2LPEN",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA2 clock enable during Sleep mode"
+    },
+    {
+      "name": "DMA2DLPEN",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA2D clock enable during Sleep mode"
+    },
+    {
+      "name": "ETHMACLPEN",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Ethernet MAC clock enable during Sleep mode"
+    },
+    {
+      "name": "ETHMACTXLPEN",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Ethernet transmission clock enable during Sleep mode"
+    },
+    {
+      "name": "ETHMACRXLPEN",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Ethernet reception clock enable during Sleep mode"
+    },
+    {
+      "name": "ETHMACPTPLPEN",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Ethernet PTP clock enable during Sleep mode"
+    },
+    {
+      "name": "OTGHSLPEN",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB OTG HS clock enable during Sleep mode"
+    },
+    {
+      "name": "OTGHSULPILPEN",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB OTG HS ULPI clock enable during Sleep mode"
+    }
+  ],
+  "errata_notes": []
+}

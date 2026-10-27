@@ -1,0 +1,219 @@
+{
+  "peripheral": "TIMERS",
+  "register_name": "TIM1",
+  "long_name": "Counter register 3834 35 36 TIF RM0438 Rev 8 1129/2187 RM0438 Advanced-control timers (TIM1)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Counter register 3834 35 36 TIF RM0438 Rev 8 1129/2187 RM0438 Advanced-control timers specification",
+  "bit_fields": [
+    {
+      "name": "CEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Counter enable"
+    },
+    {
+      "name": "UDIS",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Update disable"
+    },
+    {
+      "name": "URS",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Update request source"
+    },
+    {
+      "name": "OPM",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "One pulse mode"
+    },
+    {
+      "name": "DIR",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Direction"
+    },
+    {
+      "name": "CMS[1",
+      "bit_offset": 5,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Center-aligned mode selection"
+    },
+    {
+      "name": "ARPE",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Auto-reload preload enable"
+    },
+    {
+      "name": "CKD[1",
+      "bit_offset": 8,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Clock division"
+    },
+    {
+      "name": "OIS2",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output Idle state 2 (OC2 output)"
+    },
+    {
+      "name": "UIFREMAP",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UIF status bit remapping"
+    },
+    {
+      "name": "OIS3",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output Idle state 3 (OC3 output)"
+    },
+    {
+      "name": "OIS3N",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output Idle state 3 (OC3N output)"
+    },
+    {
+      "name": "OIS4",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output Idle state 4 (OC4 output)"
+    },
+    {
+      "name": "ETP",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External trigger polarity"
+    },
+    {
+      "name": "OIS5",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output Idle state 5 (OC5 output)"
+    },
+    {
+      "name": "CC6IF",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Compare 6 interrupt flag"
+    },
+    {
+      "name": "OIS6",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output Idle state 6 (OC6 output)"
+    },
+    {
+      "name": "MMS2[3",
+      "bit_offset": 20,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Master mode selection 2"
+    },
+    {
+      "name": "BK2E",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Break 2 enable"
+    },
+    {
+      "name": "BK2P",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Break 2 polarity"
+    },
+    {
+      "name": "BKDSRM",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Break Disarm"
+    },
+    {
+      "name": "BK2DSRM",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Break2 Disarm"
+    },
+    {
+      "name": "BKBID",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Break Bidirectional"
+    },
+    {
+      "name": "BK2BID",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Break2 bidirectional"
+    },
+    {
+      "name": "GC5C2",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Group Channel 5 and Channel 2"
+    },
+    {
+      "name": "UIFCPY",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UIF copy"
+    }
+  ],
+  "errata_notes": []
+}

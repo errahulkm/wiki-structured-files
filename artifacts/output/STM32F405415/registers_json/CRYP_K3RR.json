@@ -1,0 +1,19 @@
+{
+  "peripheral": "CRYP",
+  "register_name": "CRYP_K3RR",
+  "long_name": "Cryptographic Processor (CRYP) CRYP_K3RR Register",
+  "address_offset": "0x3C",
+  "reset_value": "0x00000000",
+  "description": "Cryptographic Processor (CRYP) CRYP_K3RR hardware register",
+  "bit_fields": [
+    {
+      "name": "CRYP_K3RR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "CRYP_K3RR register value"
+    }
+  ],
+  "errata_notes": []
+}

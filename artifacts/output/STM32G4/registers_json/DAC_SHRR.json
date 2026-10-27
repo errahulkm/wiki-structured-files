@@ -1,0 +1,27 @@
+{
+  "peripheral": "DAC",
+  "register_name": "DAC_SHRR",
+  "long_name": "DAC sample and hold refr esh time register (DAC_SHRR)",
+  "address_offset": "0x4C",
+  "reset_value": "0x00000000",
+  "description": "DAC sample and hold refr esh time register specification",
+  "bit_fields": [
+    {
+      "name": "THOLD1[9",
+      "bit_offset": 0,
+      "bit_width": 10,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel1 hold time (only valid in sample and hold mode)"
+    },
+    {
+      "name": "THOLD2[9",
+      "bit_offset": 16,
+      "bit_width": 10,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel2 hold time (only valid in sample and hold mode)."
+    }
+  ],
+  "errata_notes": []
+}

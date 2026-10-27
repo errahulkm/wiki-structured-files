@@ -1,0 +1,59 @@
+{
+  "peripheral": "SPIX",
+  "register_name": "SPIX_SR",
+  "long_name": "SPI status register (SPIX_SR)",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "SPI status register specification",
+  "bit_fields": [
+    {
+      "name": "RXDMAEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx buffer DMA enable"
+    },
+    {
+      "name": "TXDMAEN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tx buffer DMA enable"
+    },
+    {
+      "name": "SSOE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SS output enable"
+    },
+    {
+      "name": "FRE",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Frame format error"
+    },
+    {
+      "name": "FRLVL[1",
+      "bit_offset": 9,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: FIFO reception level"
+    },
+    {
+      "name": "FTLVL[1",
+      "bit_offset": 11,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: FIFO transmission level"
+    }
+  ],
+  "errata_notes": []
+}

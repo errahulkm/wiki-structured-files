@@ -1,0 +1,187 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_APB1SECSR1",
+  "long_name": "RCC APB1 security status register 1 (RCC_APB1SECSR1)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RCC APB1 security status register 1 specification",
+  "bit_fields": [
+    {
+      "name": "TIM2SECF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM2 clock security flag"
+    },
+    {
+      "name": "TIM3SECF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM3 clock security flag"
+    },
+    {
+      "name": "TIM4SECF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM4 clock security flag"
+    },
+    {
+      "name": "TIM5SECF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM5 clock security flag"
+    },
+    {
+      "name": "TIM6SECF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM6 clock security flag"
+    },
+    {
+      "name": "TIM7SECF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM7 clock security flag"
+    },
+    {
+      "name": "RTCAPBSECF",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RTC APB clock security flag"
+    },
+    {
+      "name": "WWDGSECF",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "WWDG clock security flag"
+    },
+    {
+      "name": "SPI2SECF",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI2 clock security flag"
+    },
+    {
+      "name": "SPI3SECF",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI3 clock security flag"
+    },
+    {
+      "name": "UART2SECF",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UART2 clock security flag"
+    },
+    {
+      "name": "UART3SECF",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UART3 clock security flag"
+    },
+    {
+      "name": "UART4SECF",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UART4 clock security flag"
+    },
+    {
+      "name": "UART5SECF",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UART5 clock security flag"
+    },
+    {
+      "name": "I2C1SECF",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C1 clock security flag"
+    },
+    {
+      "name": "I2C2SECF",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C2 clock security flag"
+    },
+    {
+      "name": "I2C3SECF",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C3 clock security flag"
+    },
+    {
+      "name": "CRSSECF",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CRS clock security flag"
+    },
+    {
+      "name": "PWRSECF",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PWR clock security flag"
+    },
+    {
+      "name": "DAC1SECF",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC1 clock security flag"
+    },
+    {
+      "name": "OPAMPSECF",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OPAMP clock security flag"
+    },
+    {
+      "name": "LPTIM1SECF",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LPTIM1 clock security flag"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,27 @@
+{
+  "peripheral": "DCMI",
+  "register_name": "DCMI_DR",
+  "long_name": "DCMI data register (DCMI_DR)",
+  "address_offset": "0x28",
+  "reset_value": "0x00000000",
+  "description": "DCMI data register specification",
+  "bit_fields": [
+    {
+      "name": "CAPCNT[13",
+      "bit_offset": 0,
+      "bit_width": 14,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Capture count"
+    },
+    {
+      "name": "DATA",
+      "bit_offset": 24,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "byte 3"
+    }
+  ],
+  "errata_notes": []
+}

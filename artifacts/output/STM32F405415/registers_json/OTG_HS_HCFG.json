@@ -1,0 +1,27 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_HCFG",
+  "long_name": "OTG_HS host configuration register (OTG_HS_HCFG)",
+  "address_offset": "0x400",
+  "reset_value": "0x00000000",
+  "description": "OTG_HS host configuration register specification",
+  "bit_fields": [
+    {
+      "name": "PTXSA",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Host periodic TxFIFO start address"
+    },
+    {
+      "name": "PTXFD",
+      "bit_offset": 16,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Host periodic TxFIFO depth"
+    }
+  ],
+  "errata_notes": []
+}

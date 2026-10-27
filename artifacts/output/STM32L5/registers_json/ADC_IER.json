@@ -1,0 +1,99 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_IER",
+  "long_name": "ADC interrupt enable register (ADC_IER)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "ADC interrupt enable register specification",
+  "bit_fields": [
+    {
+      "name": "ADRDYIE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC ready interrupt enable"
+    },
+    {
+      "name": "EOSMPIE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "End of sampling flag interrupt enable for regular conversions"
+    },
+    {
+      "name": "EOCIE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "End of regular conversion interrupt enable"
+    },
+    {
+      "name": "EOSIE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "End of regular sequence of conversions interrupt enable"
+    },
+    {
+      "name": "OVRIE",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overrun interrupt enable"
+    },
+    {
+      "name": "JEOCIE",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "End of injected conversion interrupt enable"
+    },
+    {
+      "name": "JEOSIE",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "End of injected sequence of conversions interrupt enable"
+    },
+    {
+      "name": "AWD1IE",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog 1 interrupt enable"
+    },
+    {
+      "name": "AWD2IE",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog 2 interrupt enable"
+    },
+    {
+      "name": "AWD3IE",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog 3 interrupt enable"
+    },
+    {
+      "name": "JQOVFIE",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Injected context queue overflow interrupt enable"
+    }
+  ],
+  "errata_notes": []
+}

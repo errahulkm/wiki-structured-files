@@ -1,0 +1,35 @@
+{
+  "peripheral": "RNG",
+  "register_name": "RNG_CR",
+  "long_name": "RNG control register (RNG_CR)",
+  "address_offset": "0x000",
+  "reset_value": "0x00000000",
+  "description": "RNG control register specification",
+  "bit_fields": [
+    {
+      "name": "ARE",
+      "bit_offset": 4,
+      "bit_width": 26,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "allowed."
+    },
+    {
+      "name": "CONDRST",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Conditioning soft reset"
+    },
+    {
+      "name": "CONFIGLOCK",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RNG Config lock"
+    }
+  ],
+  "errata_notes": []
+}

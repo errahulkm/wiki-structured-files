@@ -1,0 +1,43 @@
+{
+  "peripheral": "TAMP",
+  "register_name": "TAMP_CR1",
+  "long_name": "TAMP control register 1 (TAMP_CR1)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "TAMP control register 1 specification",
+  "bit_fields": [
+    {
+      "name": "ITAMP3E",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal tamper 3 enable: LSE monitoring"
+    },
+    {
+      "name": "ITAMP4E",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal tamper 4 enable: HSE monitoring"
+    },
+    {
+      "name": "ITAMP5E",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal tamper 5 enable: RTC calendar overflow"
+    },
+    {
+      "name": "ITAMP6E",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal tamper 6 enable: ST manufacturer readout"
+    }
+  ],
+  "errata_notes": []
+}

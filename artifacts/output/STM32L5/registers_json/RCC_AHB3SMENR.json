@@ -1,0 +1,43 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB3SMENR",
+  "long_name": "RCC AHB3 peripheral clocks enab le in Sleep and Stop modes register (RCC_AHB3SMENR)",
+  "address_offset": "0x070",
+  "reset_value": "0x00000000",
+  "description": "RCC AHB3 peripheral clocks enab le in Sleep and Stop modes register specification",
+  "bit_fields": [
+    {
+      "name": "GPIOASMEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port A clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "GPIOBSMEN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port B clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "GPIOCSMEN",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port C clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "OSPI1SMEN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OCTOSPI1 memory interface clocks enable during Sleep and Stop modes"
+    }
+  ],
+  "errata_notes": []
+}

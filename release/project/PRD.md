@@ -1,0 +1,43 @@
+# Product Requirements Document (PRD): STM32 Karpathy-Wiki Generator & Multi-View Knowledge Graph Engine
+
+**Target Audience:** AI Orchestrators (Antigravity framework), Embedded Systems Engineers, and LLM Agents.
+
+---
+
+## 1. Product Objective
+The core objective of this application is to process complex STM32 PDF reference manuals (RM0468) and convert them into a highly structured, interlinked 'Karpathy-Wiki' directory and interactive multi-view knowledge graph.
+
+---
+
+## 2. Key Features & Specifications
+
+### 2.1. Knowledge Graph Visualization Engine
+- **Multi-View Architectural Layouts**:
+  1. `🌐 Force Mesh`: Slower, damped physics simulation (dampening = 0.80) with dynamic cluster radial expansion and non-connected node repulsion clearing.
+  2. `📐 Hierarchical DAG`: Top-down system architecture view (Core -> Memory -> System -> Peripherals -> Registers).
+  3. `🌳 Collapsible Tree`: Interactive dendrogram view.
+  4. `⭕ Interconnect Ring`: Peripheral memory & bus mapping circular arc view.
+- **Automatic Hardware Acceleration**: Detects GPU WebGL drivers with CPU vector fallback.
+- **Navigation History**: Selection history stack with `◀ Back` and `Forward ▶` buttons and interactive breadcrumbs (`MOC (Index) ➔ USART ➔ MEMORY_MAP`).
+- **Illuminated Text Badges**: High-contrast white/cyan pill badges ensuring full visibility for selected nodes and register names.
+
+### 2.2. Deterministic Pipeline Architecture
+- **Hybrid Storage**: Markdown overviews (`system/`, `core/`, `peripherals/`, `security/`) + Isolated Register JSON files (`registers_json/`).
+- **Master Memory Map Interlinking**: Every IP block bidirectionally connects to `memory/memory_map.md`.
+- **Zero-Hallucination Policy**: Bitfield definitions, offsets, and reset values extracted strictly from PDF ground truth.
+
+---
+
+## 3. Output Directory Schema
+```
+karpathy-wiki/
+├── index.md                 # Master Map of Content (MOC Dashboard)
+├── SCHEMA.md                # Taxonomies, agent workflows & rules
+├── memory/                  # Master System Memory Map
+├── system/                  # System Infrastructure (RCC, PWR, SYSCFG, BUS_MATRIX)
+├── core/                    # Core & Interrupts (NVIC, EXTI, MPU, SYSTICK)
+├── peripherals/             # Hardware Peripherals (USART, I2C, SPI, TIMERS, ADC, ETH, USB)
+├── security/                # Security Architecture (TRUSTZONE, CRYP, HASH, RNG)
+├── registers_json/          # Hardware Register JSON Specs
+└── graph_view.html          # Standalone Multi-View Knowledge Graph Engine
+```

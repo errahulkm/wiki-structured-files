@@ -1,0 +1,51 @@
+{
+  "peripheral": "DMA",
+  "register_name": "DMA_CNDTRX",
+  "long_name": "DMA channel x number of data to transfer register (DMA_CNDTRX)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "DMA channel x number of data to transfer register specification",
+  "bit_fields": [
+    {
+      "name": "EN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Channel enable"
+    },
+    {
+      "name": "TCIE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer complete interrupt enable"
+    },
+    {
+      "name": "HTIE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Half transfer interrupt enable"
+    },
+    {
+      "name": "TEIE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer error interrupt enable"
+    },
+    {
+      "name": "DIR",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data transfer direction"
+    }
+  ],
+  "errata_notes": []
+}

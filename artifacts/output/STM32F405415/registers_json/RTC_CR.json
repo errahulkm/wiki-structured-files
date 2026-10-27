@@ -1,0 +1,163 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_CR",
+  "long_name": "RTC control register (RTC_CR)",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "RTC control register specification",
+  "bit_fields": [
+    {
+      "name": "TO",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0 of this register can be written only when RTC_CR WUTE bit = 0 and RTC_ISR"
+    },
+    {
+      "name": "BYPSHAD",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Bypass the shadow registers"
+    },
+    {
+      "name": "FMT",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Hour format"
+    },
+    {
+      "name": "DCE",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Coarse digital calibration enable"
+    },
+    {
+      "name": "ALRAE",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alarm A enable"
+    },
+    {
+      "name": "ALRBE",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alarm B enable"
+    },
+    {
+      "name": "WUTE",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wake-up timer enable"
+    },
+    {
+      "name": "TSE",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp enable"
+    },
+    {
+      "name": "ALRAIE",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alarm A interrupt enable"
+    },
+    {
+      "name": "ALRBIE",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alarm B interrupt enable"
+    },
+    {
+      "name": "WUTIE",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wake-up timer interrupt enable"
+    },
+    {
+      "name": "TSIE",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timestamp interrupt enable"
+    },
+    {
+      "name": "ADD1H",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Add 1 hour (summer time change)"
+    },
+    {
+      "name": "SUB1H",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Subtract 1 hour (winter time change)"
+    },
+    {
+      "name": "BKP",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Backup"
+    },
+    {
+      "name": "COSEL",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Calibration output selection"
+    },
+    {
+      "name": "POL",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output polarity"
+    },
+    {
+      "name": "OSEL[1",
+      "bit_offset": 21,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Output selection"
+    },
+    {
+      "name": "COE",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Calibration output enable"
+    }
+  ],
+  "errata_notes": []
+}

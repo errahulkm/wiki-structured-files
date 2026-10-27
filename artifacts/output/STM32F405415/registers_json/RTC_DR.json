@@ -1,0 +1,59 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_DR",
+  "long_name": "RTC date register (RTC_DR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RTC date register specification",
+  "bit_fields": [
+    {
+      "name": "DU[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Date units in BCD format"
+    },
+    {
+      "name": "DT[1",
+      "bit_offset": 4,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Date tens in BCD format"
+    },
+    {
+      "name": "MU",
+      "bit_offset": 8,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Month units in BCD format"
+    },
+    {
+      "name": "MT",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Month tens in BCD format"
+    },
+    {
+      "name": "WDU[2",
+      "bit_offset": 13,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Week day units"
+    },
+    {
+      "name": "YU[3",
+      "bit_offset": 16,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Year units in BCD format"
+    }
+  ],
+  "errata_notes": []
+}

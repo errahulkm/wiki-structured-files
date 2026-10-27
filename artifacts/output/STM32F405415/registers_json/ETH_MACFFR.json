@@ -1,0 +1,83 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_MACFFR",
+  "long_name": "with DMA controller 1227 Ethernet MAC frame filter register (ETH_MACFFR)",
+  "address_offset": "0x0004",
+  "reset_value": "0x00000000",
+  "description": "with DMA controller 1227 Ethernet MAC frame filter register specification",
+  "bit_fields": [
+    {
+      "name": "RE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receiver enable"
+    },
+    {
+      "name": "TE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmitter enable"
+    },
+    {
+      "name": "DC",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Deferral check"
+    },
+    {
+      "name": "BL",
+      "bit_offset": 5,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Back-off limit"
+    },
+    {
+      "name": "APCS",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Automatic pad/CRC stripping"
+    },
+    {
+      "name": "SAIF",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Source address inverse filtering"
+    },
+    {
+      "name": "SAF",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Source address filter"
+    },
+    {
+      "name": "HPF",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Hash or perfect filter"
+    },
+    {
+      "name": "RA",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive all"
+    }
+  ],
+  "errata_notes": []
+}

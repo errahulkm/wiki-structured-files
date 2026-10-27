@@ -1,0 +1,35 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_PCGCCTL",
+  "long_name": "OTG_HS power and cl ock gating control register (OTG_HS_PCGCCTL)",
+  "address_offset": "0xE00",
+  "reset_value": "0x00000000",
+  "description": "OTG_HS power and cl ock gating control register specification",
+  "bit_fields": [
+    {
+      "name": "STPPCLK",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Stop PHY clock"
+    },
+    {
+      "name": "GATEHCLK",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Gate HCLK"
+    },
+    {
+      "name": "PHYSUSP",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PHY suspended"
+    }
+  ],
+  "errata_notes": []
+}

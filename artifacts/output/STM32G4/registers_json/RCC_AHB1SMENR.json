@@ -1,0 +1,123 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB1SMENR",
+  "long_name": "AHB1 peripheral clocks enable in Sleep and Stop modes register (RCC_AHB1SMENR)",
+  "address_offset": "0x68",
+  "reset_value": "0x00000000",
+  "description": "AHB1 peripheral clocks enable in Sleep and Stop modes register specification",
+  "bit_fields": [
+    {
+      "name": "SYSCFGEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SYSCFG + COMP + VREFBUF + OPAMP clock enable"
+    },
+    {
+      "name": "DMA2SMEN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA2 clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "DMAMUX1SMEN",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMAMUX1 clock enable during Sleep and Stop modes."
+    },
+    {
+      "name": "CORDICSMEN",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CORDICSM clock enable."
+    },
+    {
+      "name": "FMACSMEN",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FMACSM clock enable."
+    },
+    {
+      "name": "FLASHSMEN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Flash memory interface clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "SRAM1SMEN",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SRAM1 interface clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "TIM1EN",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM1 timer clock enable"
+    },
+    {
+      "name": "SPI1EN",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI1 clock enable"
+    },
+    {
+      "name": "T",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IM8EN: TIM8 timer clock enable"
+    },
+    {
+      "name": "USART1EN",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART1clock enable"
+    },
+    {
+      "name": "SPI4EN",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI4 clock enable"
+    },
+    {
+      "name": "TIM15EN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM15 timer clock enable"
+    },
+    {
+      "name": "TIM16EN",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM16 timer clock enable"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,59 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_PLLSAI2CFGR",
+  "long_name": "RCC PLLSAI2 configurati on register (RCC_PLLSAI2CFGR)",
+  "address_offset": "0x014",
+  "reset_value": "0x00000000",
+  "description": "RCC PLLSAI2 configurati on register specification",
+  "bit_fields": [
+    {
+      "name": "PLLSAI2SRC[1",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Main PLLSAI2 entry clock source"
+    },
+    {
+      "name": "PLLSAI2M[3",
+      "bit_offset": 4,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Division factor for PLLSAI2 input clock"
+    },
+    {
+      "name": "PLLSAI2N[6",
+      "bit_offset": 8,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: PLLSAI2 multiplication factor for VCO"
+    },
+    {
+      "name": "PLLSAI2PEN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLSAI2 PLLSAI2CLK output enable"
+    },
+    {
+      "name": "PLLSAI2P",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLSAI2 division factor for PLLSAI2CLK (SAI1 or SAI2 clock)."
+    },
+    {
+      "name": "PLLSAI2PDIV[4",
+      "bit_offset": 27,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: PLLSAI2 division factor for PLLSAI2CLK"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,59 @@
+{
+  "peripheral": "DMAMUX",
+  "register_name": "DMAMUX_CXCR",
+  "long_name": "DMAMUX request line multipl exer channel x configuration register (DMAMUX_CXCR)",
+  "address_offset": "0x000",
+  "reset_value": "0x00000000",
+  "description": "DMAMUX request line multipl exer channel x configuration register specification",
+  "bit_fields": [
+    {
+      "name": "SOIE",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Synchronization overrun interrupt enable"
+    },
+    {
+      "name": "EGE",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Event generation enable"
+    },
+    {
+      "name": "SE",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Synchronization enable"
+    },
+    {
+      "name": "SPOL[1",
+      "bit_offset": 17,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Synchronization polarity"
+    },
+    {
+      "name": "NBREQ[4",
+      "bit_offset": 19,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Number of DMA requests minus 1 to forward"
+    },
+    {
+      "name": "SYNC_ID[4",
+      "bit_offset": 24,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Synchronization identification"
+    }
+  ],
+  "errata_notes": []
+}

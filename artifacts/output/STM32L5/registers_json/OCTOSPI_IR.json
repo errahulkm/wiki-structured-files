@@ -1,0 +1,35 @@
+{
+  "peripheral": "OCTOSPI",
+  "register_name": "OCTOSPI_IR",
+  "long_name": "OCTOSPI instructi on register (OCTOSPI_IR)",
+  "address_offset": "0x0110",
+  "reset_value": "0x00000000",
+  "description": "OCTOSPI instructi on register specification",
+  "bit_fields": [
+    {
+      "name": "DCYC[4",
+      "bit_offset": 0,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Number of dummy cycles"
+    },
+    {
+      "name": "DHQC",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Delay hold quarter cycle"
+    },
+    {
+      "name": "SSHIFT",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Sample shift"
+    }
+  ],
+  "errata_notes": []
+}

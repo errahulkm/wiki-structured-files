@@ -1,0 +1,115 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_SECSR",
+  "long_name": "RCC secure status register (RCC_SECSR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RCC secure status register specification",
+  "bit_fields": [
+    {
+      "name": "HSISEC",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSE clock configuration and status bits security"
+    },
+    {
+      "name": "HSESEC",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSE clock configuration bits, status bits and HSE_CSS security"
+    },
+    {
+      "name": "MSISEC",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MSI clock configuration and status bits security"
+    },
+    {
+      "name": "LSISECF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSI clock configuration and status bits security flag"
+    },
+    {
+      "name": "LSESECF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSE clock configuration and status bits security flag"
+    },
+    {
+      "name": "SYSCLKSECF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SYSCLK clock selection, STOPWUCK bit, clock output on MCO configuration"
+    },
+    {
+      "name": "PRESCSECF",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "AHBx/APBx prescaler configuration bits security flag"
+    },
+    {
+      "name": "PLLSECF",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "main PLL clock configuration and status bits security flag"
+    },
+    {
+      "name": "PLLSAI1SECF",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLSAI1 clock configuration and status bits security flag"
+    },
+    {
+      "name": "PLLSAI2SECF",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLSAI2 clock configuration and status bits security flag"
+    },
+    {
+      "name": "CLK48MSECF",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "48 MHz clock source selection security flag"
+    },
+    {
+      "name": "HSI48SECF",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI48 clock configuration and status bits security flag"
+    },
+    {
+      "name": "RMVFSECF",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "remove reset flag security flag"
+    }
+  ],
+  "errata_notes": []
+}

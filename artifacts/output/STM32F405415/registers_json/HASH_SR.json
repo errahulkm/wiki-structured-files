@@ -1,0 +1,43 @@
+{
+  "peripheral": "HASH",
+  "register_name": "HASH_SR",
+  "long_name": "HASH status register (HASH_SR)",
+  "address_offset": "0x24",
+  "reset_value": "0x00000000",
+  "description": "HASH status register specification",
+  "bit_fields": [
+    {
+      "name": "DINIS",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data input interrupt status"
+    },
+    {
+      "name": "DCIS",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Digest calculation completion interrupt status"
+    },
+    {
+      "name": "DMAS",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA Status"
+    },
+    {
+      "name": "BUSY",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Busy bit"
+    }
+  ],
+  "errata_notes": []
+}

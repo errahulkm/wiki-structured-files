@@ -1,0 +1,163 @@
+{
+  "peripheral": "GTZC",
+  "register_name": "GTZC_TZSC_PRIVCFGR2",
+  "long_name": "GTZC_TZSC privilege configuration register 2 (GTZC_TZSC_PRIVCFGR2)",
+  "address_offset": "0x024",
+  "reset_value": "0x00000000",
+  "description": "GTZC_TZSC privilege configuration register 2 specification",
+  "bit_fields": [
+    {
+      "name": "TIM8PRIV",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "privilege access mode for TIM8"
+    },
+    {
+      "name": "USART1PRIV",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "privilege access mode for USART1"
+    },
+    {
+      "name": "TIM15PRIV",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "privilege access mode for TIM15"
+    },
+    {
+      "name": "TIM16PRIV",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "privilege access mode for TIM16"
+    },
+    {
+      "name": "TIM17PRIV",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "privilege access mode for TIM17"
+    },
+    {
+      "name": "SAI1PRIV",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "privilege access mode for SAI1"
+    },
+    {
+      "name": "SAI2PRIV",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "privilege access mode for SAI2"
+    },
+    {
+      "name": "DFSDM1PRIV",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "privilege access mode for DFSDM1"
+    },
+    {
+      "name": "CRCPRIV",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "privilege access mode for CRC"
+    },
+    {
+      "name": "TSCPRIV",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "privilege access mode for TSC"
+    },
+    {
+      "name": "ICACHE_REGPRIV",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "privilege access mode for ICACHE registers"
+    },
+    {
+      "name": "ADCPRIV",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "privilege access mode for ADC"
+    },
+    {
+      "name": "AESPRIV",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "privilege access mode for AES"
+    },
+    {
+      "name": "HASHPRIV",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "privilege access mode for HASH"
+    },
+    {
+      "name": "RNGPRIV",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "privilege access mode for RNG"
+    },
+    {
+      "name": "PKAPRIV",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "privilege access mode for PKA"
+    },
+    {
+      "name": "SDMMC1PRIV",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "privilege access mode for SDMMC1"
+    },
+    {
+      "name": "FMC_REGPRIV",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "privilege access mode for FMC registers"
+    },
+    {
+      "name": "OCTOSPI1_REGPRIV",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "privilege access mode for OCTOSPI1 registers"
+    }
+  ],
+  "errata_notes": []
+}

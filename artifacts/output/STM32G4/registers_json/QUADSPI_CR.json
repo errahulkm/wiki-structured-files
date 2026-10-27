@@ -1,0 +1,115 @@
+{
+  "peripheral": "QUADSPI",
+  "register_name": "QUADSPI_CR",
+  "long_name": "QUADSPI control register (QUADSPI_CR)",
+  "address_offset": "0x000",
+  "reset_value": "0x00000000",
+  "description": "QUADSPI control register specification",
+  "bit_fields": [
+    {
+      "name": "TCEN",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timeout counter enable"
+    },
+    {
+      "name": "SSHIFT",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Sample shift"
+    },
+    {
+      "name": "DFM",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Dual-flash mode"
+    },
+    {
+      "name": "FSEL",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Flash memory selection"
+    },
+    {
+      "name": "FTHRES[3",
+      "bit_offset": 8,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: FIFO threshold level"
+    },
+    {
+      "name": "TEIE",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer error interrupt enable"
+    },
+    {
+      "name": "TCIE",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer complete interrupt enable"
+    },
+    {
+      "name": "FTIE",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FIFO threshold interrupt enable"
+    },
+    {
+      "name": "SMIE",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Status match interrupt enable"
+    },
+    {
+      "name": "TOIE",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timeout interrupt enable"
+    },
+    {
+      "name": "APMS",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Automatic status-polling mode stop"
+    },
+    {
+      "name": "PMM",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Polling match mode"
+    },
+    {
+      "name": "PRESCALER[7",
+      "bit_offset": 24,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Clock prescaler"
+    }
+  ],
+  "errata_notes": []
+}

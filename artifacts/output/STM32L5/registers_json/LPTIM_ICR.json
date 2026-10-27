@@ -1,0 +1,83 @@
+{
+  "peripheral": "LPTIM",
+  "register_name": "LPTIM_ICR",
+  "long_name": "LPTIM interrupt clear register (LPTIM_ICR)",
+  "address_offset": "0x004",
+  "reset_value": "0x00000000",
+  "description": "LPTIM interrupt clear register specification",
+  "bit_fields": [
+    {
+      "name": "CMPM",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Compare match"
+    },
+    {
+      "name": "ARRM",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Autoreload match"
+    },
+    {
+      "name": "EXTTRIG",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External trigger edge event"
+    },
+    {
+      "name": "CMPOK",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Compare register update OK"
+    },
+    {
+      "name": "ARROK",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Autoreload register update OK"
+    },
+    {
+      "name": "UP",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Counter direction change down to up"
+    },
+    {
+      "name": "DOWNCF",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Direction change to down clear flag"
+    },
+    {
+      "name": "UECF",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Update event clear flag"
+    },
+    {
+      "name": "REPOKCF",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Repetition register update OK clear flag"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,123 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_ALRMAR",
+  "long_name": "Real-Time Clock (RTC) RTC_ALRMAR Register",
+  "address_offset": "0x40",
+  "reset_value": "0x00000000",
+  "description": "Real-Time Clock (RTC) RTC_ALRMAR hardware register",
+  "bit_fields": [
+    {
+      "name": "SU[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Second units in BCD format."
+    },
+    {
+      "name": "ST[2",
+      "bit_offset": 4,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Second tens in BCD format."
+    },
+    {
+      "name": "MSK1",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alarm A seconds mask"
+    },
+    {
+      "name": "MNU[3",
+      "bit_offset": 8,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Minute units in BCD format"
+    },
+    {
+      "name": "MNT[2",
+      "bit_offset": 12,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Minute tens in BCD format"
+    },
+    {
+      "name": "MSK2",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alarm A minutes mask"
+    },
+    {
+      "name": "HU[3",
+      "bit_offset": 16,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Hour units in BCD format"
+    },
+    {
+      "name": "HT[1",
+      "bit_offset": 20,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Hour tens in BCD format"
+    },
+    {
+      "name": "PM",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "AM/PM notation"
+    },
+    {
+      "name": "MSK3",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alarm A hours mask"
+    },
+    {
+      "name": "DU[3",
+      "bit_offset": 24,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Date units or day in BCD format"
+    },
+    {
+      "name": "DT[1",
+      "bit_offset": 28,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Date tens in BCD format"
+    },
+    {
+      "name": "WDSEL",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Week day selection"
+    },
+    {
+      "name": "MSK4",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alarm A date mask"
+    }
+  ],
+  "errata_notes": []
+}

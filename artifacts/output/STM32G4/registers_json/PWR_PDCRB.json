@@ -1,0 +1,27 @@
+{
+  "peripheral": "PWR",
+  "register_name": "PWR_PDCRB",
+  "long_name": "Power Port B pull-down control register (PWR_PDCRB)",
+  "address_offset": "0x2C",
+  "reset_value": "0x00000000",
+  "description": "Power Port B pull-down control register specification",
+  "bit_fields": [
+    {
+      "name": "PDY",
+      "bit_offset": 0,
+      "bit_width": 13,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Port A pull-down bit y (y = 12 to 0)"
+    },
+    {
+      "name": "PD14",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Port A pull-down bit 14"
+    }
+  ],
+  "errata_notes": []
+}

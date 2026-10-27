@@ -1,0 +1,19 @@
+{
+  "peripheral": "DAC",
+  "register_name": "DAC_STR",
+  "long_name": "Digital-to-Analog Converter (DAC) DAC_STR Register",
+  "address_offset": "0x5C",
+  "reset_value": "0x00000000",
+  "description": "Digital-to-Analog Converter (DAC) DAC_STR hardware register",
+  "bit_fields": [
+    {
+      "name": "TO",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "15 are set to 0b0000), each"
+    }
+  ],
+  "errata_notes": []
+}

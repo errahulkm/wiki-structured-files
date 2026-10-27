@@ -1,0 +1,75 @@
+{
+  "peripheral": "FMC",
+  "register_name": "FMC_PCR",
+  "long_name": "NAND flash cont roller registers NAND flash control registers (FMC_PCR)",
+  "address_offset": "0x80",
+  "reset_value": "0x00000000",
+  "description": "NAND flash cont roller registers NAND flash control registers specification",
+  "bit_fields": [
+    {
+      "name": "PWAITEN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wait feature enable bit"
+    },
+    {
+      "name": "PBKEN",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "NAND flash memory bank enable bit"
+    },
+    {
+      "name": "PTYP",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Memory type"
+    },
+    {
+      "name": "PWID[1",
+      "bit_offset": 4,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Data bus width"
+    },
+    {
+      "name": "ECCEN",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ECC computation logic enable bit"
+    },
+    {
+      "name": "TCLR[3",
+      "bit_offset": 9,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: CLE to RE delay"
+    },
+    {
+      "name": "TAR[3",
+      "bit_offset": 13,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ALE to RE delay"
+    },
+    {
+      "name": "ECCPS[2",
+      "bit_offset": 17,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ECC page size"
+    }
+  ],
+  "errata_notes": []
+}

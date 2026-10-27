@@ -1,0 +1,115 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_GCOMP",
+  "long_name": "ADC Gain compensation Register (ADC_GCOMP)",
+  "address_offset": "0xC0",
+  "reset_value": "0x00000000",
+  "description": "ADC Gain compensation Register specification",
+  "bit_fields": [
+    {
+      "name": "CALFACT_S[6",
+      "bit_offset": 0,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Calibration Factors In single-ended mode"
+    },
+    {
+      "name": "AWD1_MST",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog 1 flag of the master ADC"
+    },
+    {
+      "name": "AWD2_MST",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog 2 flag of the master ADC"
+    },
+    {
+      "name": "AWD3_MST",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog 3 flag of the master ADC"
+    },
+    {
+      "name": "JQOVF_MST",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Injected Context Queue Overflow flag of the master ADC"
+    },
+    {
+      "name": "TO",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "15 are set to 0b0000), each"
+    },
+    {
+      "name": "DMACFG",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA configuration (for dual ADC mode)"
+    },
+    {
+      "name": "MDMA[1",
+      "bit_offset": 14,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Direct memory access mode for dual ADC mode"
+    },
+    {
+      "name": "CALFACT_D[6",
+      "bit_offset": 16,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Calibration Factors in differential mode"
+    },
+    {
+      "name": "AWD1_SLV",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog 1 flag of the slave ADC"
+    },
+    {
+      "name": "AWD2_SLV",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog 2 flag of the slave ADC"
+    },
+    {
+      "name": "AWD3_SLV",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog 3 flag of the slave ADC"
+    },
+    {
+      "name": "JQOVF_SLV",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Injected Context Queue Overflow flag of the slave ADC"
+    }
+  ],
+  "errata_notes": []
+}

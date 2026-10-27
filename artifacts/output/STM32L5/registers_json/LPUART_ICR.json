@@ -1,0 +1,59 @@
+{
+  "peripheral": "LPUART",
+  "register_name": "LPUART_ICR",
+  "long_name": "LPUART interrupt flag clear register (LPUART_ICR)",
+  "address_offset": "0x20",
+  "reset_value": "0x00000000",
+  "description": "LPUART interrupt flag clear register specification",
+  "bit_fields": [
+    {
+      "name": "PE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Parity error"
+    },
+    {
+      "name": "FE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Framing error"
+    },
+    {
+      "name": "NE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Start bit noise detection flag"
+    },
+    {
+      "name": "CTSCF",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CTS clear flag"
+    },
+    {
+      "name": "CMCF",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Character match clear flag"
+    },
+    {
+      "name": "WUCF",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wake-up from low-power mode clear flag"
+    }
+  ],
+  "errata_notes": []
+}

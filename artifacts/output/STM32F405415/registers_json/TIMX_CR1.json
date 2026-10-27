@@ -1,0 +1,51 @@
+{
+  "peripheral": "TIMX",
+  "register_name": "TIMX_CR1",
+  "long_name": "TIM1 and TIM8 cont rol register 1 (TIMX_CR1)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "TIM1 and TIM8 cont rol register 1 specification",
+  "bit_fields": [
+    {
+      "name": "OPM",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "One pulse mode"
+    },
+    {
+      "name": "DIR",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Direction"
+    },
+    {
+      "name": "CMS[1",
+      "bit_offset": 5,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Center-aligned mode selection"
+    },
+    {
+      "name": "ARPE",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Auto-reload preload enable"
+    },
+    {
+      "name": "CKD[1",
+      "bit_offset": 8,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Clock division"
+    }
+  ],
+  "errata_notes": []
+}

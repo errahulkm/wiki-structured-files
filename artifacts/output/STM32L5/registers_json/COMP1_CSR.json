@@ -1,0 +1,83 @@
+{
+  "peripheral": "COMP1",
+  "register_name": "COMP1_CSR",
+  "long_name": "Comparator 1 control a nd status register (COMP1_CSR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Comparator 1 control a nd status register specification",
+  "bit_fields": [
+    {
+      "name": "INMSEL[2",
+      "bit_offset": 4,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Comparator 1 input minus selection bits"
+    },
+    {
+      "name": "INPSEL[1",
+      "bit_offset": 7,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Comparator1 input plus selection bit"
+    },
+    {
+      "name": "POLARITY",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Comparator 1 polarity selection bit"
+    },
+    {
+      "name": "HYST[1",
+      "bit_offset": 16,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Comparator 1 hysteresis selection bits"
+    },
+    {
+      "name": "BLANKING[2",
+      "bit_offset": 18,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Comparator 1 blanking source selection bits"
+    },
+    {
+      "name": "BRGEN",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Scaler bridge enable"
+    },
+    {
+      "name": "SCALEN",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Voltage scaler enable bit"
+    },
+    {
+      "name": "VALUE",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Comparator 1 output status bit"
+    },
+    {
+      "name": "LOCK",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "COMP1_CSR register lock bit"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,51 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB1ENR",
+  "long_name": "AHB1 periphera l clock enable register (RCC_AHB1ENR)",
+  "address_offset": "0x48",
+  "reset_value": "0x00000000",
+  "description": "AHB1 periphera l clock enable register specification",
+  "bit_fields": [
+    {
+      "name": "SYSCFGRST",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SYSCFG + COMP + OPAMP + VREFBUF reset"
+    },
+    {
+      "name": "FLASHEN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Flash memory interface clock enable"
+    },
+    {
+      "name": "TIM1RST",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM1 timer reset"
+    },
+    {
+      "name": "SPI1RST",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI1 reset"
+    },
+    {
+      "name": "TIM8RST",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM8 timer reset"
+    }
+  ],
+  "errata_notes": []
+}

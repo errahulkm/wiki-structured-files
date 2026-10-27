@@ -1,0 +1,102 @@
+# STM32G4 Series (RM0440) Karpathy Wiki
+
+Welcome to the automated 7-Layer Karpathy-Style Interlinked Documentation Wiki for STM32G4 microcontrollers (RM0440 Engine).
+
+* **CPU Architecture**: ARM 32-bit Cortex-M4
+* **Total Ingested Chapters**: 50 Chapters
+* **Active Hardware IP Blocks**: 27 Modules
+* **Schema & Specification**: [SCHEMA.md](SCHEMA.md)
+* **Interactive 3D & 2D Knowledge Graph**: [graph_view.html](graph_view.html)
+* **Silicon Quality & Link Audit Report**: [audit_report.html](audit_report.html)
+* **Vector Artwork (SVG) Validation Report**: [svg_validation_report.html](svg_validation_report.html)
+* **Executive Benchmark Analysis Report**: [benchmark_report.html](benchmark_report.html)
+
+---
+
+## 1. System IP Architecture
+### CORE Domain
+* [Debug Support (DBG)](core/debug.md)
+* [Interrupts and Events (NVIC/EXTI)](core/interrupts.md)
+### MEMORY Domain
+* [Embedded Flash Memory](memory/flash.md)
+* [Master System Memory Map](memory/memory_map.md)
+### PERIPHERALS Domain
+* [Analog-to-Digital Converter (ADC)](peripherals/adc.md)
+* [CRC Calculation Unit](peripherals/crc.md)
+* [Comparator (COMP)](peripherals/comp.md)
+* [Digital-to-Analog Converter (DAC)](peripherals/dac.md)
+* [Direct Memory Access Controller (DMA)](peripherals/dma.md)
+* [FDCAN Interface](peripherals/fdcan.md)
+* [Flexible Static Memory Controller (FSMC)](peripherals/fsmc.md)
+* [General-Purpose and Alternate-Function I/Os (GPIOs/AFIOs)](peripherals/gpio.md)
+* [Independent Watchdog (IWDG)](peripherals/iwdg.md)
+* [Inter-Integrated Circuit (I2C)](peripherals/i2c.md)
+* [Operational Amplifier (OPAMP)](peripherals/opamp.md)
+* [Real-Time Clock (RTC)](peripherals/rtc.md)
+* [Serial Audio Interface (SAI)](peripherals/sai.md)
+* [Serial Peripheral Interface (SPI)](peripherals/spi.md)
+* [Timers (TIM)](peripherals/timers.md)
+* [Universal Serial Bus (USB)](peripherals/usb.md)
+* [Universal Synchronous Asynchronous Receiver Transmitter (USART)](peripherals/usart.md)
+* [Window Watchdog (WWDG)](peripherals/wwdg.md)
+### SECURITY Domain
+* [Random Number Generator (RNG)](security/rng.md)
+### SYSTEM Domain
+* [Backup Registers (BKP)](system/bkp.md)
+* [Power Control (PWR)](system/pwr.md)
+* [Reset and Clock Control (RCC)](system/rcc.md)
+* [System Configuration (SYSCFG)](system/syscfg.md)
+
+---
+
+## 2. Master Chapter Ingestion Directory (50 Chapters)
+* [Chapter 1: Documentation conventions](chapters/chapter_01.md)
+* [Chapter 2: System and memory overview](chapters/chapter_02.md)
+* [Chapter 3: Embedded flash memory (FLASH) for category 3 devices](chapters/chapter_03.md)
+* [Chapter 4: Embedded flash memory (FLASH) for category 4 devices](chapters/chapter_04.md)
+* [Chapter 5: Embedded flash memory (FLASH) for category 2 devices](chapters/chapter_05.md)
+* [Chapter 6: Power control (PWR)](chapters/chapter_06.md)
+* [Chapter 7: Reset and clock control (RCC)](chapters/chapter_07.md)
+* [Chapter 8: Clock recovery system (CRS)](chapters/chapter_08.md)
+* [Chapter 9: General-purpose I/Os (GPIO)](chapters/chapter_09.md)
+* [Chapter 10: System configuration controller (SYSCFG)](chapters/chapter_10.md)
+* [Chapter 11: Peripherals interconnect matrix](chapters/chapter_11.md)
+* [Chapter 12: Direct memory access controller (DMA)](chapters/chapter_12.md)
+* [Chapter 13: DMA request multiplexer (DMAMUX)](chapters/chapter_13.md)
+* [Chapter 14: Nested vectored interrupt controller (NVIC)](chapters/chapter_14.md)
+* [Chapter 15: Extended interrupts and events controller (EXTI)](chapters/chapter_15.md)
+* [Chapter 16: Cyclic redundancy check calculation unit (CRC)](chapters/chapter_16.md)
+* [Chapter 17: CORDIC coprocessor (CORDIC)](chapters/chapter_17.md)
+* [Chapter 18: Filter math accelerator (FMAC)](chapters/chapter_18.md)
+* [Chapter 19: Flexible static memory controller (FSMC)](chapters/chapter_19.md)
+* [Chapter 20: Quad-SPI interface (QUADSPI)](chapters/chapter_20.md)
+* [Chapter 21: Analog-to-digital converters (ADC)](chapters/chapter_21.md)
+* [Chapter 22: Digital-to-analog converter (DAC)](chapters/chapter_22.md)
+* [Chapter 23: Voltage reference buffer (VREFBUF)](chapters/chapter_23.md)
+* [Chapter 24: Comparator (COMP)](chapters/chapter_24.md)
+* [Chapter 25: Operational amplifiers (OPAMP)](chapters/chapter_25.md)
+* [Chapter 26: True random number generator (RNG)](chapters/chapter_26.md)
+* [Chapter 27: AES hardware accelerator (AES)](chapters/chapter_27.md)
+* [Chapter 28: High-resolution timer (HRTIM)](chapters/chapter_28.md)
+* [Chapter 29: Advanced-control timers (TIM1/TIM8/TIM20)](chapters/chapter_29.md)
+* [Chapter 30: General-purpose timers (TIM2/TIM3/TIM4/TIM5)](chapters/chapter_30.md)
+* [Chapter 31: General purpose timers (TIM15/TIM16/TIM17)](chapters/chapter_31.md)
+* [Chapter 32: Basic timers (TIM6/TIM7)](chapters/chapter_32.md)
+* [Chapter 33: Low-power timer (LPTIM)](chapters/chapter_33.md)
+* [Chapter 34: Infrared interface (IRTIM)](chapters/chapter_34.md)
+* [Chapter 35: Independent watchdog (IWDG)](chapters/chapter_35.md)
+* [Chapter 36: System window watchdog (WWDG)](chapters/chapter_36.md)
+* [Chapter 37: Real-time clock (RTC)](chapters/chapter_37.md)
+* [Chapter 38: Tamper and backup registers (TAMP)](chapters/chapter_38.md)
+* [Chapter 39: Inter-integrated circuit interface (I2C)](chapters/chapter_39.md)
+* [Chapter 40: Universal synchronous/asynchronous receiver transmitter (USART/UART)](chapters/chapter_40.md)
+* [Chapter 41: Low-power universal asynchronous receiver transmitter (LPUART)](chapters/chapter_41.md)
+* [Chapter 42: Serial peripheral interface / integrated interchip sound (SPI/I2S)](chapters/chapter_42.md)
+* [Chapter 43: Serial audio interface (SAI)](chapters/chapter_43.md)
+* [Chapter 44: FD controller area network (FDCAN)](chapters/chapter_44.md)
+* [Chapter 45: Universal serial bus full-speed device interface (USB)](chapters/chapter_45.md)
+* [Chapter 46: USB Type-C®/USB Power Delivery interface (UCPD)](chapters/chapter_46.md)
+* [Chapter 47: Debug support (DBG)](chapters/chapter_47.md)
+* [Chapter 48: Device electronic signature](chapters/chapter_48.md)
+* [Chapter 49: Important security notice](chapters/chapter_49.md)
+* [Chapter 50: Revision history](chapters/chapter_50.md)

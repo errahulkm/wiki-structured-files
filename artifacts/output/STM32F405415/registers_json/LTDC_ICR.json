@@ -1,0 +1,19 @@
+{
+  "peripheral": "LTDC",
+  "register_name": "LTDC_ICR",
+  "long_name": "LTDC Interrupt Clear Register (LTDC_ICR)",
+  "address_offset": "0x3C",
+  "reset_value": "0x00000000",
+  "description": "LTDC Interrupt Clear Register specification",
+  "bit_fields": [
+    {
+      "name": "RRIF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Register Reload Interrupt Flag"
+    }
+  ],
+  "errata_notes": []
+}

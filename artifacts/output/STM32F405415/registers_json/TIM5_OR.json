@@ -1,0 +1,27 @@
+{
+  "peripheral": "TIM5",
+  "register_name": "TIM5_OR",
+  "long_name": "TIM5 option register (TIM5_OR)",
+  "address_offset": "0x50",
+  "reset_value": "0x00000000",
+  "description": "TIM5 option register specification",
+  "bit_fields": [
+    {
+      "name": "TI4_RMP",
+      "bit_offset": 6,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer Input 4 remap"
+    },
+    {
+      "name": "ITR1_RMP",
+      "bit_offset": 10,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal trigger 1 remap"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,123 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_CR1",
+  "long_name": "Analog-to-Digital Converter (ADC) ADC_CR1 Register",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "Analog-to-Digital Converter (ADC) ADC_CR1 hardware register",
+  "bit_fields": [
+    {
+      "name": "AWDCH[4",
+      "bit_offset": 0,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Analog watchdog channe"
+    },
+    {
+      "name": "EOCIE",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Interrupt enable for EOC"
+    },
+    {
+      "name": "AWDIE",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog interrupt enable"
+    },
+    {
+      "name": "JEOCIE",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Interrupt enable for injected channels"
+    },
+    {
+      "name": "SCAN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Scan mode"
+    },
+    {
+      "name": "AWDSGL",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable the watchdog on a single channel in scan mode"
+    },
+    {
+      "name": "JAUTO",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Automatic injected group conversion"
+    },
+    {
+      "name": "DISCEN",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Discontinuous mode on regular channels"
+    },
+    {
+      "name": "JDISCEN",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Discontinuous mode on injected channels"
+    },
+    {
+      "name": "DISCNUM[2",
+      "bit_offset": 13,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Discontinuous mode channel count"
+    },
+    {
+      "name": "JAWDEN",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog enable on injected channels"
+    },
+    {
+      "name": "AWDEN",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog enable on regular channels"
+    },
+    {
+      "name": "RES[1",
+      "bit_offset": 24,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Resolution"
+    },
+    {
+      "name": "OVRIE",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overrun interrupt enable"
+    }
+  ],
+  "errata_notes": []
+}

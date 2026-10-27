@@ -1,0 +1,75 @@
+{
+  "peripheral": "FDCAN",
+  "register_name": "FDCAN_RXGFC",
+  "long_name": "FDCAN global filter conf iguration register (FDCAN_RXGFC)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "FDCAN global filter conf iguration register specification",
+  "bit_fields": [
+    {
+      "name": "RXFIFO0",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RX FIFO bit grouping the following interruption"
+    },
+    {
+      "name": "EINT1",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable interrupt line 1"
+    },
+    {
+      "name": "ANFE[1",
+      "bit_offset": 2,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Accept non-matching frames extended"
+    },
+    {
+      "name": "ANFS[1",
+      "bit_offset": 4,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Accept Non-matching frames standard"
+    },
+    {
+      "name": "F1OM",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FIFO 1 operation mode (overwrite or blocking)"
+    },
+    {
+      "name": "F0OM",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FIFO 0 operation mode (overwrite or blocking)"
+    },
+    {
+      "name": "LSS[4",
+      "bit_offset": 16,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Number of standard filter elements in the list"
+    },
+    {
+      "name": "LSE[3",
+      "bit_offset": 24,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Number of extended filter elements in the list"
+    }
+  ],
+  "errata_notes": []
+}

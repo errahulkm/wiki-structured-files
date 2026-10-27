@@ -1,0 +1,19 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_DVBUSDIS",
+  "long_name": "OTG_FS device VBUS discharge time register (OTG_FS_DVBUSDIS)",
+  "address_offset": "0x0828",
+  "reset_value": "0x00000000",
+  "description": "OTG_FS device VBUS discharge time register specification",
+  "bit_fields": [
+    {
+      "name": "OTG_FS_DVBUSDIS",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "OTG_FS device VBUS discharge time register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

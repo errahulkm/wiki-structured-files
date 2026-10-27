@@ -1,0 +1,171 @@
+{
+  "peripheral": "I2C",
+  "register_name": "I2C_CR1",
+  "long_name": "I2C control register 1 (I2C_CR1)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "I2C control register 1 specification",
+  "bit_fields": [
+    {
+      "name": "PE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Peripheral enable"
+    },
+    {
+      "name": "TXIE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TX interrupt enable"
+    },
+    {
+      "name": "RXIE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RX interrupt enable"
+    },
+    {
+      "name": "ADDRIE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Address match interrupt enable (target only)"
+    },
+    {
+      "name": "NACKIE",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Not acknowledge received interrupt enable"
+    },
+    {
+      "name": "STOPIE",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "STOP detection interrupt enable"
+    },
+    {
+      "name": "TCIE",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer complete interrupt enable"
+    },
+    {
+      "name": "ERRIE",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Error interrupts enable"
+    },
+    {
+      "name": "DNF[3",
+      "bit_offset": 8,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Digital noise filter"
+    },
+    {
+      "name": "ANFOFF",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog noise filter OFF"
+    },
+    {
+      "name": "TXDMAEN",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA transmission requests enable"
+    },
+    {
+      "name": "RXDMAEN",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA reception requests enable"
+    },
+    {
+      "name": "SBC",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Target byte control"
+    },
+    {
+      "name": "NOSTRETCH",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock stretching disable"
+    },
+    {
+      "name": "WUPEN",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wake-up from Stop mode enable"
+    },
+    {
+      "name": "GCEN",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "General call enable"
+    },
+    {
+      "name": "SMBHEN",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SMBus host address enable"
+    },
+    {
+      "name": "SMBDEN",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SMBus device default address enable"
+    },
+    {
+      "name": "ALERTEN",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SMBus alert enable"
+    },
+    {
+      "name": "PECEN",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PEC enable"
+    }
+  ],
+  "errata_notes": []
+}

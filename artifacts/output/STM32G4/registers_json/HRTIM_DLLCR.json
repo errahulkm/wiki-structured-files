@@ -1,0 +1,163 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_DLLCR",
+  "long_name": "HRTIM DLL control register (HRTIM_DLLCR)",
+  "address_offset": "0x3CC",
+  "reset_value": "0x00000000",
+  "description": "HRTIM DLL control register specification",
+  "bit_fields": [
+    {
+      "name": "CAL",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DLL Calibration Start"
+    },
+    {
+      "name": "CALEN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DLL Calibration Enable"
+    },
+    {
+      "name": "CALRTE[1",
+      "bit_offset": 2,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DLL Calibration rate"
+    },
+    {
+      "name": "FLT1LCK",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 1 lock"
+    },
+    {
+      "name": "FLT2E",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 2 enable"
+    },
+    {
+      "name": "FLT2P",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 2 polarity"
+    },
+    {
+      "name": "FLT2SRC",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 2 source bit 0"
+    },
+    {
+      "name": "FLT2F[3",
+      "bit_offset": 11,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Fault 2 filter"
+    },
+    {
+      "name": "FLT2LCK",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 2 lock"
+    },
+    {
+      "name": "FLT3E",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 3 enable"
+    },
+    {
+      "name": "FLT3P",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 3 polarity"
+    },
+    {
+      "name": "FLT3SRC",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 3 source bit 0"
+    },
+    {
+      "name": "FLT3F[3",
+      "bit_offset": 19,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Fault 3 filter"
+    },
+    {
+      "name": "FLT3LCK",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 3 lock"
+    },
+    {
+      "name": "FLT4E",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 4 enable"
+    },
+    {
+      "name": "FLT4P",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 4 polarity"
+    },
+    {
+      "name": "FLT4SRC",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 4 source bit 0"
+    },
+    {
+      "name": "FLT4F[3",
+      "bit_offset": 27,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Fault 4 filter"
+    },
+    {
+      "name": "FLT4LCK",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 4 lock"
+    }
+  ],
+  "errata_notes": []
+}

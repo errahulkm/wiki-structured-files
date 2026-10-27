@@ -1,0 +1,19 @@
+{
+  "peripheral": "TPIU",
+  "register_name": "TPIU_SSPSR",
+  "long_name": "TPIU registers TPIU supported port size register (TPIU_SSPSR)",
+  "address_offset": "0x000",
+  "reset_value": "0x00000000",
+  "description": "TPIU registers TPIU supported port size register specification",
+  "bit_fields": [
+    {
+      "name": "PORTSIZE[31",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: trace port sizes, from 1 to 32 pins"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,83 @@
+{
+  "peripheral": "TIM15",
+  "register_name": "TIM15_SR",
+  "long_name": "TIM15 status register (TIM15_SR)",
+  "address_offset": "0x10",
+  "reset_value": "0x00000000",
+  "description": "TIM15 status register specification",
+  "bit_fields": [
+    {
+      "name": "UIE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Update interrupt enable"
+    },
+    {
+      "name": "CC1IE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 1 interrupt enable"
+    },
+    {
+      "name": "CC2IE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 2 interrupt enable"
+    },
+    {
+      "name": "COMIE",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "COM interrupt enable"
+    },
+    {
+      "name": "TIE",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Trigger interrupt enable"
+    },
+    {
+      "name": "BIE",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Break interrupt enable"
+    },
+    {
+      "name": "UDE",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Update DMA request enable"
+    },
+    {
+      "name": "CC1DE",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 1 DMA request enable"
+    },
+    {
+      "name": "CC2OF",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 2 overcapture flag"
+    }
+  ],
+  "errata_notes": []
+}

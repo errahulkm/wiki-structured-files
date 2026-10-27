@@ -1,0 +1,115 @@
+{
+  "peripheral": "SPI",
+  "register_name": "SPI_CR1",
+  "long_name": "Serial Peripheral Interface (SPI) SPI_CR1 Register",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Serial Peripheral Interface (SPI) SPI_CR1 hardware register",
+  "bit_fields": [
+    {
+      "name": "CPHA",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock phase"
+    },
+    {
+      "name": "MSTR",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master selection"
+    },
+    {
+      "name": "BR[2",
+      "bit_offset": 3,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Baud rate control"
+    },
+    {
+      "name": "SPE",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI enable"
+    },
+    {
+      "name": "LSBFIRST",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Frame format"
+    },
+    {
+      "name": "SSI",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal slave select"
+    },
+    {
+      "name": "SSM",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Software slave management"
+    },
+    {
+      "name": "RXONLY",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive only"
+    },
+    {
+      "name": "DFF",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data frame format"
+    },
+    {
+      "name": "CRCNEXT",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CRC transfer next"
+    },
+    {
+      "name": "CRCEN",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Hardware CRC calculation enable"
+    },
+    {
+      "name": "BIDIOE",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output enable in bidirectional mode"
+    },
+    {
+      "name": "BIDIMODE",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Bidirectional data mode enable"
+    }
+  ],
+  "errata_notes": []
+}

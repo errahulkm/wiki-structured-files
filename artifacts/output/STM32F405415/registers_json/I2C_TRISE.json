@@ -1,0 +1,19 @@
+{
+  "peripheral": "I2C",
+  "register_name": "I2C_TRISE",
+  "long_name": "I 2C TRISE register (I2C_TRISE)",
+  "address_offset": "0x20",
+  "reset_value": "0x00000000",
+  "description": "I 2C TRISE register specification",
+  "bit_fields": [
+    {
+      "name": "I2C_TRISE",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "I 2C TRISE register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

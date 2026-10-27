@@ -1,0 +1,19 @@
+{
+  "peripheral": "MCUROM",
+  "register_name": "MCUROM_PIDR2",
+  "long_name": "RM0438 2034/2187 RM0438 Rev 8 MCU ROM CoreSight peripheral identity register 2 (MCUROM_PIDR2)",
+  "address_offset": "0xFE8",
+  "reset_value": "0x00000000",
+  "description": "RM0438 2034/2187 RM0438 Rev 8 MCU ROM CoreSight peripheral identity register 2 specification",
+  "bit_fields": [
+    {
+      "name": "MCUROM_PIDR2",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "RM0438 2034/2187 RM0438 Rev 8 MCU ROM CoreSight peripheral identity register 2 full-width value"
+    }
+  ],
+  "errata_notes": []
+}

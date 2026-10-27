@@ -1,0 +1,107 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_ODSR",
+  "long_name": "HRTIM output disable st atus register (HRTIM_ODSR)",
+  "address_offset": "0x39C",
+  "reset_value": "0x00000000",
+  "description": "HRTIM output disable st atus register specification",
+  "bit_fields": [
+    {
+      "name": "TA1ODS",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer A output 1 disable status"
+    },
+    {
+      "name": "TA2ODS",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer A output 2 disable status"
+    },
+    {
+      "name": "TB1ODS",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer B output 1 disable status"
+    },
+    {
+      "name": "TB2ODS",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer B output 2 disable status"
+    },
+    {
+      "name": "TC1ODS",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer C output 1 disable status"
+    },
+    {
+      "name": "TC2ODS",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer C output 2 disable status"
+    },
+    {
+      "name": "TD1ODS",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer D output 1 disable status"
+    },
+    {
+      "name": "TD2ODS",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer D output 2 disable status"
+    },
+    {
+      "name": "TE1ODS",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer E output 1 disable status"
+    },
+    {
+      "name": "TE2ODS",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer E output 2 disable status"
+    },
+    {
+      "name": "TF1ODS",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer F output 1 disable status"
+    },
+    {
+      "name": "TF2ODS",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer F output 2 disable status"
+    }
+  ],
+  "errata_notes": []
+}

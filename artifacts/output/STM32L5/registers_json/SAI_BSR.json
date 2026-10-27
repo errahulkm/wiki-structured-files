@@ -1,0 +1,75 @@
+{
+  "peripheral": "SAI",
+  "register_name": "SAI_BSR",
+  "long_name": "SAI status register (SAI_BSR)",
+  "address_offset": "0x38",
+  "reset_value": "0x00000000",
+  "description": "SAI status register specification",
+  "bit_fields": [
+    {
+      "name": "OVRUDRIE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overrun/underrun interrupt enable."
+    },
+    {
+      "name": "MUTEDETIE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Mute detection interrupt enable."
+    },
+    {
+      "name": "WCKCFGIE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wrong clock configuration interrupt enable."
+    },
+    {
+      "name": "FREQIE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FIFO request interrupt enable."
+    },
+    {
+      "name": "CNRDYIE",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Codec not ready interrupt enable (AC’97)."
+    },
+    {
+      "name": "AFSDET",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Anticipated frame synchronization detection."
+    },
+    {
+      "name": "LFSDET",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Late frame synchronization detection."
+    },
+    {
+      "name": "FLVL[2",
+      "bit_offset": 16,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: FIFO level threshold."
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,67 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_APB2SMENR",
+  "long_name": "APB2 peripheral clocks enable in Sleep and Stop modes register (RCC_APB2SMENR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "APB2 peripheral clocks enable in Sleep and Stop modes register specification",
+  "bit_fields": [
+    {
+      "name": "SPI4SMEN",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI4 timer clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "TIM15SMEN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM15 timer clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "TIM16SMEN",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM16 timer clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "TIM17SMEN",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM17 timer clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "TIM20SMEN",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM20 timer clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "SAI1SMEN",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SAI1 clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "HRTIM1SMEN",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HRTIM1 timer clocks enable during Sleep and Stop modes"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,51 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_DIEPEACHMSK1",
+  "long_name": "OTG_HS device each in endpoint-1 interrupt register (OTG_HS_DIEPEACHMSK1)",
+  "address_offset": "0x844",
+  "reset_value": "0x00000000",
+  "description": "OTG_HS device each in endpoint-1 interrupt register specification",
+  "bit_fields": [
+    {
+      "name": "IEP1INTM",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IN Endpoint 1 interrupt mask bit"
+    },
+    {
+      "name": "TXFURM",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FIFO underrun mask"
+    },
+    {
+      "name": "BIM",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "BNA interrupt mask"
+    },
+    {
+      "name": "NAKM",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "NAK interrupt mask"
+    },
+    {
+      "name": "OEP1INTM",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OUT Endpoint 1 interrupt mask bit"
+    }
+  ],
+  "errata_notes": []
+}

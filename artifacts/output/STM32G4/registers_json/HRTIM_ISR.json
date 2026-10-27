@@ -1,0 +1,107 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_ISR",
+  "long_name": "HRTIM interrupt stat us register (HRTIM_ISR)",
+  "address_offset": "0x388",
+  "reset_value": "0x00000000",
+  "description": "HRTIM interrupt stat us register specification",
+  "bit_fields": [
+    {
+      "name": "MSWU",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master timer software update"
+    },
+    {
+      "name": "TASWU",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer A software update"
+    },
+    {
+      "name": "TBSWU",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer B software update"
+    },
+    {
+      "name": "TCSWU",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer C software update"
+    },
+    {
+      "name": "TDSWU",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer D software update"
+    },
+    {
+      "name": "TESWU",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer E software update"
+    },
+    {
+      "name": "TFSWU",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer F software update"
+    },
+    {
+      "name": "MRST",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master counter software reset"
+    },
+    {
+      "name": "TARST",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer A counter software reset"
+    },
+    {
+      "name": "TBRST",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer B counter software reset"
+    },
+    {
+      "name": "DLLRDY",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DLL Ready Interrupt Flag"
+    },
+    {
+      "name": "BMPER",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Burst mode period interrupt flag"
+    }
+  ],
+  "errata_notes": []
+}

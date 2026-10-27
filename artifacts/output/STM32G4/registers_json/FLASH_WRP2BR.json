@@ -1,0 +1,27 @@
+{
+  "peripheral": "FLASH",
+  "register_name": "FLASH_WRP2BR",
+  "long_name": "Flash Bank 2 WRP area B address register (FLASH_WRP2BR)",
+  "address_offset": "0x50",
+  "reset_value": "0x00000000",
+  "description": "Flash Bank 2 WRP area B address register specification",
+  "bit_fields": [
+    {
+      "name": "WRP2A_STRT[6",
+      "bit_offset": 0,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: WRP first area “A” start offset"
+    },
+    {
+      "name": "WRP2A_END[6",
+      "bit_offset": 16,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: WRP first area “A” end offset"
+    }
+  ],
+  "errata_notes": []
+}

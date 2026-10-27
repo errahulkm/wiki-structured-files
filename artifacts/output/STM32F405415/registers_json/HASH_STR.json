@@ -1,0 +1,35 @@
+{
+  "peripheral": "HASH",
+  "register_name": "HASH_STR",
+  "long_name": "Hash Processor (HASH) HASH_STR Register",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "Hash Processor (HASH) HASH_STR hardware register",
+  "bit_fields": [
+    {
+      "name": "NBLW",
+      "bit_offset": 0,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Number of valid bits in the last word of the message in the bit string"
+    },
+    {
+      "name": "DCAL",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Digest calculation"
+    },
+    {
+      "name": "OF",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "the last data written in the bit string organization of hash"
+    }
+  ],
+  "errata_notes": []
+}

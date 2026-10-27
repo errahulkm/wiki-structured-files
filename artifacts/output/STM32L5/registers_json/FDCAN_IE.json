@@ -1,0 +1,203 @@
+{
+  "peripheral": "FDCAN",
+  "register_name": "FDCAN_IE",
+  "long_name": "FDCAN interrupt en able register (FDCAN_IE)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "FDCAN interrupt en able register specification",
+  "bit_fields": [
+    {
+      "name": "RF0NE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx FIFO 0 new message interrupt enable"
+    },
+    {
+      "name": "RF0FE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx FIFO 0 full interrupt enable"
+    },
+    {
+      "name": "RF0LE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx FIFO 0 message lost interrupt enable"
+    },
+    {
+      "name": "RF1NE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx FIFO 1 new message interrupt enable"
+    },
+    {
+      "name": "RF1FE",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx FIFO 1 full interrupt enable"
+    },
+    {
+      "name": "RF1LE",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx FIFO 1 message lost interrupt enable"
+    },
+    {
+      "name": "HPME",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "High-priority message interrupt enable"
+    },
+    {
+      "name": "TCE",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmission completed interrupt enable"
+    },
+    {
+      "name": "TCFE",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmission cancellation finished interrupt enable"
+    },
+    {
+      "name": "TFEE",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tx FIFO empty interrupt enable"
+    },
+    {
+      "name": "TEFNE",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tx event FIFO new entry interrupt enable"
+    },
+    {
+      "name": "TEFFE",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tx event FIFO full interrupt enable"
+    },
+    {
+      "name": "TEFLE",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tx event FIFO element lost interrupt enable"
+    },
+    {
+      "name": "TSWE",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timestamp wraparound interrupt enable"
+    },
+    {
+      "name": "MRAFE",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Message RAM access failure interrupt enable"
+    },
+    {
+      "name": "TOOE",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timeout occurred interrupt enable"
+    },
+    {
+      "name": "ELOE",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Error logging overflow interrupt enable"
+    },
+    {
+      "name": "EPE",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Error passive interrupt enable"
+    },
+    {
+      "name": "EWE",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Warning status interrupt enable"
+    },
+    {
+      "name": "BOE",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Bus-off status"
+    },
+    {
+      "name": "WDIE",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Watchdog interrupt enable"
+    },
+    {
+      "name": "PEAE",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Protocol error in arbitration phase enable"
+    },
+    {
+      "name": "PEDE",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Protocol error in data phase enable"
+    },
+    {
+      "name": "ARAE",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Access to reserved address enable"
+    }
+  ],
+  "errata_notes": []
+}

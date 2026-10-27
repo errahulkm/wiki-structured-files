@@ -1,0 +1,19 @@
+{
+  "peripheral": "TIMERS",
+  "register_name": "TIM8_SR",
+  "long_name": "Timers (TIM) TIM8_SR Register",
+  "address_offset": "0x10",
+  "reset_value": "0x00",
+  "description": "Timers (TIM) TIM8_SR hardware register",
+  "bit_fields": [
+    {
+      "name": "TIM8_SR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00",
+      "description": "TIM8_SR register value"
+    }
+  ],
+  "errata_notes": []
+}

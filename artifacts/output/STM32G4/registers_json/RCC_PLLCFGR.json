@@ -1,0 +1,99 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_PLLCFGR",
+  "long_name": "PLL configuration register (RCC_PLLCFGR)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "PLL configuration register specification",
+  "bit_fields": [
+    {
+      "name": "SW[1",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: System clock switch"
+    },
+    {
+      "name": "SWS[1",
+      "bit_offset": 2,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: System clock switch status"
+    },
+    {
+      "name": "PLLM[3",
+      "bit_offset": 4,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Division factor for the main PLL input clock"
+    },
+    {
+      "name": "PLLN[6",
+      "bit_offset": 8,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Main PLL multiplication factor for VCO"
+    },
+    {
+      "name": "PLLPEN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Main PLL PLL “P” clock output enable"
+    },
+    {
+      "name": "PLLP",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Main PLL division factor for PLL “P” clock."
+    },
+    {
+      "name": "PLLQEN",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Main PLL “Q” clock output enable"
+    },
+    {
+      "name": "PLLQ[1",
+      "bit_offset": 21,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Main PLL division factor for PLL “Q” clock."
+    },
+    {
+      "name": "PLLREN",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLL “R” clock output enable"
+    },
+    {
+      "name": "PLLR[1",
+      "bit_offset": 25,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Main PLL division factor for PLL “R” clock (system clock)"
+    },
+    {
+      "name": "PLLPDIV[4",
+      "bit_offset": 27,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Main PLLP division factor"
+    }
+  ],
+  "errata_notes": []
+}

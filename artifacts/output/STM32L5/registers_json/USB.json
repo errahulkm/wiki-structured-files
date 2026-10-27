@@ -1,0 +1,19 @@
+{
+  "peripheral": "USB",
+  "register_name": "USB",
+  "long_name": "DP USB PHY Register mapper APB interface PCLK APB bus IRQs to NVIC Arbiter Packet buffer memory Register mapper Control registers and logic Interrupt registers and logic Endpoint registers Endpoint registers Endpoint selection Clock recoveryRX-TXSuspend timer Packet buffer interface Analog transceiver DM Interrupt mapper APB wrapper BCDEmbedded pull-up NOE PCLK RM0438 Rev 8 1937/2187 RM0438 Universal serial bus full-speed device interface (USB)",
+  "address_offset": "0x1967",
+  "reset_value": "0x00000000",
+  "description": "DP USB PHY Register mapper APB interface PCLK APB bus IRQs to NVIC Arbiter Packet buffer memory Register mapper Control registers and logic Interrupt registers and logic Endpoint registers Endpoint registers Endpoint selection Clock recoveryRX-TXSuspend timer Packet buffer interface Analog transceiver DM Interrupt mapper APB wrapper BCDEmbedded pull-up NOE PCLK RM0438 Rev 8 1937/2187 RM0438 Universal serial bus full-speed device interface specification",
+  "bit_fields": [
+    {
+      "name": "OF",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB_EPnR"
+    }
+  ],
+  "errata_notes": []
+}

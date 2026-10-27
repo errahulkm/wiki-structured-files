@@ -1,0 +1,19 @@
+{
+  "peripheral": "CTI",
+  "register_name": "CTI_APPSETR",
+  "long_name": "2149 CTI application trigger set register (CTI_APPSETR)",
+  "address_offset": "0x014",
+  "reset_value": "0x00000000",
+  "description": "2149 CTI application trigger set register specification",
+  "bit_fields": [
+    {
+      "name": "INTACK[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: trigger acknowledge"
+    }
+  ],
+  "errata_notes": []
+}

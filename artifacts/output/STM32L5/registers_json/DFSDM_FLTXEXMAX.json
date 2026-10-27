@@ -1,0 +1,27 @@
+{
+  "peripheral": "DFSDM",
+  "register_name": "DFSDM_FLTXEXMAX",
+  "long_name": "DFSDM filter x extrem es detector maximum register (DFSDM_FLTXEXMAX)",
+  "address_offset": "0x130",
+  "reset_value": "0x00000000",
+  "description": "DFSDM filter x extrem es detector maximum register specification",
+  "bit_fields": [
+    {
+      "name": "CLRAWLTF[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Clear the analog watchdog low threshold flag"
+    },
+    {
+      "name": "CLRAWHTF[3",
+      "bit_offset": 8,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Clear the analog watchdog high threshold flag"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,43 @@
+{
+  "peripheral": "SPI",
+  "register_name": "SPI_DR",
+  "long_name": "SPI data register (SPI_DR)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "SPI data register specification",
+  "bit_fields": [
+    {
+      "name": "RXNE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive buffer not empty"
+    },
+    {
+      "name": "TXE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmit buffer empty"
+    },
+    {
+      "name": "CHSIDE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Channel side"
+    },
+    {
+      "name": "UDR",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Underrun flag"
+    }
+  ],
+  "errata_notes": []
+}

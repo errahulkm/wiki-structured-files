@@ -1,0 +1,19 @@
+{
+  "peripheral": "IWDG",
+  "register_name": "IWDG_KR",
+  "long_name": "IWDG key register (IWDG_KR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "IWDG key register specification",
+  "bit_fields": [
+    {
+      "name": "KEY[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Key value (write only, read 0x0000)"
+    }
+  ],
+  "errata_notes": []
+}

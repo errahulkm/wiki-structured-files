@@ -1,0 +1,43 @@
+{
+  "peripheral": "DAC",
+  "register_name": "DAC_SWTRGR",
+  "long_name": "DAC software trigge r register (DAC_SWTRGR)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "DAC software trigge r register specification",
+  "bit_fields": [
+    {
+      "name": "SWTRIG1",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel1 software trigger"
+    },
+    {
+      "name": "SWTRIG2",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel2 software trigger"
+    },
+    {
+      "name": "SWTRIGB1",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel1 software trigger B"
+    },
+    {
+      "name": "SWTRIGB2",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel2 software trigger B"
+    }
+  ],
+  "errata_notes": []
+}

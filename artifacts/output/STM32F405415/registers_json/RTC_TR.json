@@ -1,0 +1,67 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_TR",
+  "long_name": "RTC time register (RTC_TR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RTC time register specification",
+  "bit_fields": [
+    {
+      "name": "SU[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Second units in BCD format"
+    },
+    {
+      "name": "ST[2",
+      "bit_offset": 4,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Second tens in BCD format"
+    },
+    {
+      "name": "MNU[3",
+      "bit_offset": 8,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Minute units in BCD format"
+    },
+    {
+      "name": "MNT[2",
+      "bit_offset": 12,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Minute tens in BCD format"
+    },
+    {
+      "name": "HU[3",
+      "bit_offset": 16,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Hour units in BCD format"
+    },
+    {
+      "name": "HT[1",
+      "bit_offset": 20,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Hour tens in BCD format"
+    },
+    {
+      "name": "PM",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "AM/PM notation"
+    }
+  ],
+  "errata_notes": []
+}

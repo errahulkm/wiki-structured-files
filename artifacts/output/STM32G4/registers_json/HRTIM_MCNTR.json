@@ -1,0 +1,19 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_MCNTR",
+  "long_name": "HRTIM master timer count er register (HRTIM_MCNTR)",
+  "address_offset": "0x010",
+  "reset_value": "0x00000000",
+  "description": "HRTIM master timer count er register specification",
+  "bit_fields": [
+    {
+      "name": "HRTIM_MCNTR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "HRTIM master timer count er register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

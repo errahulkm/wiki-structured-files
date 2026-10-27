@@ -1,0 +1,91 @@
+{
+  "peripheral": "CORDIC",
+  "register_name": "CORDIC_CSR",
+  "long_name": "CORDIC control/status register (CORDIC_CSR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "CORDIC control/status register specification",
+  "bit_fields": [
+    {
+      "name": "PRECISION[3",
+      "bit_offset": 4,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Precision required (number of iterations)"
+    },
+    {
+      "name": "SCALE[2",
+      "bit_offset": 8,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Scaling factor"
+    },
+    {
+      "name": "IEN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable interrupt."
+    },
+    {
+      "name": "DMAREN",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable DMA read channel"
+    },
+    {
+      "name": "DMAWEN",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable DMA write channel"
+    },
+    {
+      "name": "NRES",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Number of results in the CORDIC_RDATA register"
+    },
+    {
+      "name": "NARGS",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Number of arguments expected by the CORDIC_WDATA register"
+    },
+    {
+      "name": "RESSIZE",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Width of output data"
+    },
+    {
+      "name": "ARGSIZE",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Width of input data"
+    },
+    {
+      "name": "RRDY",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Result ready flag"
+    }
+  ],
+  "errata_notes": []
+}

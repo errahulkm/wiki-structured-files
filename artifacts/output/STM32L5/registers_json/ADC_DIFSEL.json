@@ -1,0 +1,19 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_DIFSEL",
+  "long_name": "ADC differential mode se lection register (ADC_DIFSEL)",
+  "address_offset": "0xB0",
+  "reset_value": "0x00000000",
+  "description": "ADC differential mode se lection register specification",
+  "bit_fields": [
+    {
+      "name": "AWD3CH[18",
+      "bit_offset": 0,
+      "bit_width": 19,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Analog watchdog 3 channel selection"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "GPIOX",
+  "register_name": "GPIOX_IDR",
+  "long_name": "GPIO port input data register (GPIOX_IDR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "GPIO port input data register specification",
+  "bit_fields": [
+    {
+      "name": "GPIOX_IDR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "GPIO port input data register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

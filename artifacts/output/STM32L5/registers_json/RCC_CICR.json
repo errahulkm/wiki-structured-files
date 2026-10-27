@@ -1,0 +1,67 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_CICR",
+  "long_name": "RCC clock interrupt clear register (RCC_CICR)",
+  "address_offset": "0x020",
+  "reset_value": "0x00000000",
+  "description": "RCC clock interrupt clear register specification",
+  "bit_fields": [
+    {
+      "name": "HSIRDYC",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI16 ready interrupt clear"
+    },
+    {
+      "name": "HSERDYC",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSE ready interrupt clear"
+    },
+    {
+      "name": "PLLRDYC",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLL ready interrupt clear"
+    },
+    {
+      "name": "PLLSAI1RDYC",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLSAI1 ready interrupt clear"
+    },
+    {
+      "name": "PLLSAI2RDYC",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLSAI2 ready interrupt clear"
+    },
+    {
+      "name": "CSSC",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock security system interrupt clear"
+    },
+    {
+      "name": "HSI48RDYC",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI48 oscillator ready interrupt clear"
+    }
+  ],
+  "errata_notes": []
+}

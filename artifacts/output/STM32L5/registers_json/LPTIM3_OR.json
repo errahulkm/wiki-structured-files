@@ -1,0 +1,19 @@
+{
+  "peripheral": "LPTIM3",
+  "register_name": "LPTIM3_OR",
+  "long_name": "LPTIM3 option register (LPTIM3_OR)",
+  "address_offset": "0x020",
+  "reset_value": "0x00000000",
+  "description": "LPTIM3 option register specification",
+  "bit_fields": [
+    {
+      "name": "OR_[1",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]:"
+    }
+  ],
+  "errata_notes": []
+}

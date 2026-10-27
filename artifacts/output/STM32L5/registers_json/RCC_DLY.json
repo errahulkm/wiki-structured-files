@@ -1,0 +1,75 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_DLY",
+  "long_name": "Reset and Clock Control (RCC) RCC_DLY Register",
+  "address_offset": "0xA4",
+  "reset_value": "0x0000",
+  "description": "Reset and Clock Control (RCC) RCC_DLY hardware register",
+  "bit_fields": [
+    {
+      "name": "I2C4SEL[1",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: I2C4 clock source selection"
+    },
+    {
+      "name": "DFSDMSEL",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Digital filter for sigma-delta modulator kernel clock source selection"
+    },
+    {
+      "name": "ADFSDMSEL[1",
+      "bit_offset": 3,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Digital filter for sigma-delta modulator audio clock source selection"
+    },
+    {
+      "name": "SAI1SEL[2",
+      "bit_offset": 5,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: SAI1 clock source selection"
+    },
+    {
+      "name": "SAI2SEL[2",
+      "bit_offset": 8,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: SAI2 clock source selection"
+    },
+    {
+      "name": "HSI48SEC",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI48 clock configuration and status bits security"
+    },
+    {
+      "name": "RMVFSEC",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Remove reset flag security"
+    },
+    {
+      "name": "SDMMCSEL",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SDMMC clock selection"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "EXTI",
+  "register_name": "EXTI_RPR2",
+  "long_name": "EXTI rising edge pe nding register (EXTI_RPR2)",
+  "address_offset": "0x02C",
+  "reset_value": "0x00000000",
+  "description": "EXTI rising edge pe nding register specification",
+  "bit_fields": [
+    {
+      "name": "SWI[38",
+      "bit_offset": 3,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "35]: Software interrupt on event x (where x = 35 to 38)"
+    }
+  ],
+  "errata_notes": []
+}

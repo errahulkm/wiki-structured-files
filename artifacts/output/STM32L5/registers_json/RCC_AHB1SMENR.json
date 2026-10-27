@@ -1,0 +1,107 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB1SMENR",
+  "long_name": "RCC AHB1 peripheral clocks enab le in Sleep and Stop modes register (RCC_AHB1SMENR)",
+  "address_offset": "0x068",
+  "reset_value": "0x00000000",
+  "description": "RCC AHB1 peripheral clocks enab le in Sleep and Stop modes register specification",
+  "bit_fields": [
+    {
+      "name": "SYSCFGEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SYSCFG + COMP + VREFBUF clock enable"
+    },
+    {
+      "name": "DMA2SMEN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA2 clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "DMAMUX1SMEN",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMAMUX1 clocks enable during Sleep and Stop modes."
+    },
+    {
+      "name": "FLASHSMEN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Flash memory interface clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "SRAM1SMEN",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SRAM1 interface clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "TIM1EN",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM1 timer clock enable"
+    },
+    {
+      "name": "SPI1EN",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI1 clock enable"
+    },
+    {
+      "name": "T",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IM8EN: TIM8 timer clock enable"
+    },
+    {
+      "name": "USART1EN",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART1clock enable"
+    },
+    {
+      "name": "TSCSMEN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Touch sensing controller clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "GTZCSMEN",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "GTZC clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "ICACHESMEN",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Instruction cache ICACHE clocks enable during Sleep and Stop modes"
+    }
+  ],
+  "errata_notes": []
+}

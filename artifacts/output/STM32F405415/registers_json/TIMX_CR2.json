@@ -1,0 +1,115 @@
+{
+  "peripheral": "TIMX",
+  "register_name": "TIMX_CR2",
+  "long_name": "TIM1 and TIM8 cont rol register 2 (TIMX_CR2)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "TIM1 and TIM8 cont rol register 2 specification",
+  "bit_fields": [
+    {
+      "name": "CEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Counter enable"
+    },
+    {
+      "name": "UDIS",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Update disable"
+    },
+    {
+      "name": "URS",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Update request source"
+    },
+    {
+      "name": "CCDS",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/compare DMA selection"
+    },
+    {
+      "name": "MMS[2",
+      "bit_offset": 4,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Master mode selection"
+    },
+    {
+      "name": "TI1S",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TI1 selection"
+    },
+    {
+      "name": "OIS1",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output Idle state 1 (OC1 output)"
+    },
+    {
+      "name": "OIS1N",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output Idle state 1 (OC1N output)"
+    },
+    {
+      "name": "OIS2",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output Idle state 2 (OC2 output)"
+    },
+    {
+      "name": "OIS2N",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output Idle state 2 (OC2N output)"
+    },
+    {
+      "name": "OIS3",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output Idle state 3 (OC3 output)"
+    },
+    {
+      "name": "OIS3N",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output Idle state 3 (OC3N output)"
+    },
+    {
+      "name": "OIS4",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output Idle state 4 (OC4 output)"
+    }
+  ],
+  "errata_notes": []
+}

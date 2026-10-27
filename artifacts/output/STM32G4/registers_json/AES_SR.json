@@ -1,0 +1,43 @@
+{
+  "peripheral": "AES",
+  "register_name": "AES_SR",
+  "long_name": "AES status register (AES_SR)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "AES status register specification",
+  "bit_fields": [
+    {
+      "name": "CCF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Computation completed flag"
+    },
+    {
+      "name": "RDERR",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Read error flag"
+    },
+    {
+      "name": "WRERR",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Write error"
+    },
+    {
+      "name": "BUSY",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Busy"
+    }
+  ],
+  "errata_notes": []
+}

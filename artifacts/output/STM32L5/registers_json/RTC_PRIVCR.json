@@ -1,0 +1,35 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_PRIVCR",
+  "long_name": "RTC privilege mode c ontrol register (RTC_PRIVCR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RTC privilege mode c ontrol register specification",
+  "bit_fields": [
+    {
+      "name": "CALPRIV",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Shift register, Delight saving, calibration and reference clock privilege protection"
+    },
+    {
+      "name": "INITPRIV",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Initialization privilege protection"
+    },
+    {
+      "name": "PRIV",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RTC privilege protection"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,67 @@
+{
+  "peripheral": "SDIO",
+  "register_name": "SDIO_ICR",
+  "long_name": "SDIO interrupt cl ear register (SDIO_ICR)",
+  "address_offset": "0x38",
+  "reset_value": "0x00000000",
+  "description": "SDIO interrupt cl ear register specification",
+  "bit_fields": [
+    {
+      "name": "CMDRENDC",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CMDREND flag clear bit"
+    },
+    {
+      "name": "CMDSENTC",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CMDSENT flag clear bit"
+    },
+    {
+      "name": "DATAENDC",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DATAEND flag clear bit"
+    },
+    {
+      "name": "STBITERRC",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "STBITERR flag clear bit"
+    },
+    {
+      "name": "DBCKENDC",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DBCKEND flag clear bit"
+    },
+    {
+      "name": "SDIOITC",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SDIOIT flag clear bit"
+    },
+    {
+      "name": "CEATAENDC",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CEATAEND flag clear bit"
+    }
+  ],
+  "errata_notes": []
+}

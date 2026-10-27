@@ -1,0 +1,19 @@
+{
+  "peripheral": "UCPD",
+  "register_name": "UCPD_RX_ORDSETR",
+  "long_name": "UCPD Rx ordered set register (UCPD_RX_ORDSETR)",
+  "address_offset": "0x028",
+  "reset_value": "0x00000000",
+  "description": "UCPD Rx ordered set register specification",
+  "bit_fields": [
+    {
+      "name": "TXPAYSZ[9",
+      "bit_offset": 0,
+      "bit_width": 10,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Payload size yet to transmit"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "FLASH",
+  "register_name": "FLASH_WRP2AR",
+  "long_name": "Flash WPR2 area A address register (FLASH_WRP2AR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Flash WPR2 area A address register specification",
+  "bit_fields": [
+    {
+      "name": "FLASH_WRP2AR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "Flash WPR2 area A address register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

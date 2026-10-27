@@ -1,0 +1,179 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_MCR",
+  "long_name": "HRTIM master timer c ontrol register (HRTIM_MCR)",
+  "address_offset": "0x000",
+  "reset_value": "0x00000000",
+  "description": "HRTIM master timer c ontrol register specification",
+  "bit_fields": [
+    {
+      "name": "CKPSC[2",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Clock prescaler"
+    },
+    {
+      "name": "CONT",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Continuous mode"
+    },
+    {
+      "name": "RETRIG",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Re-triggerable mode"
+    },
+    {
+      "name": "HALF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Half mode"
+    },
+    {
+      "name": "INTLVD[1",
+      "bit_offset": 6,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Interleaved mode"
+    },
+    {
+      "name": "SYNCIN[1",
+      "bit_offset": 8,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Synchronization input"
+    },
+    {
+      "name": "SYNCRSTM",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Synchronization resets master"
+    },
+    {
+      "name": "SYNCSTRTM",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Synchronization starts master"
+    },
+    {
+      "name": "SYNCOUT[1",
+      "bit_offset": 12,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Synchronization output"
+    },
+    {
+      "name": "SYNCSRC[1",
+      "bit_offset": 14,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Synchronization source"
+    },
+    {
+      "name": "MCEN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master timer counter enable"
+    },
+    {
+      "name": "TACEN",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer A counter enable"
+    },
+    {
+      "name": "TBCEN",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer B counter enable"
+    },
+    {
+      "name": "TCCEN",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer C counter enable"
+    },
+    {
+      "name": "TDCEN",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer D counter enable"
+    },
+    {
+      "name": "TECEN",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer E counter enable"
+    },
+    {
+      "name": "TFCEN",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer F counter enable"
+    },
+    {
+      "name": "DACSYNC[1",
+      "bit_offset": 25,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC synchronization"
+    },
+    {
+      "name": "PREEN",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Preload enable"
+    },
+    {
+      "name": "MREPU",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master timer repetition update"
+    },
+    {
+      "name": "BRSTDMA[1",
+      "bit_offset": 30,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Burst DMA update"
+    }
+  ],
+  "errata_notes": []
+}

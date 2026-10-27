@@ -1,0 +1,267 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_ADC2R",
+  "long_name": "HRTIM ADC trigger 2 register (HRTIM_ADC2R)",
+  "address_offset": "0x3C0",
+  "reset_value": "0x00000000",
+  "description": "HRTIM ADC trigger 2 register specification",
+  "bit_fields": [
+    {
+      "name": "ADC2MC1",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on master compare 1"
+    },
+    {
+      "name": "ADC2MC2",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on master compare 2"
+    },
+    {
+      "name": "ADC2MC3",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on master compare 3"
+    },
+    {
+      "name": "ADC2MC4",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on master compare 4"
+    },
+    {
+      "name": "ADC2MPER",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on master period"
+    },
+    {
+      "name": "ADC2EEV6",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on external event 6(1)"
+    },
+    {
+      "name": "ADC2EEV7",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on external event 7(1)"
+    },
+    {
+      "name": "ADC2EEV8",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on external event 8(1)"
+    },
+    {
+      "name": "ADC2EEV9",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on external event 9(1)"
+    },
+    {
+      "name": "ADC2EEV10",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on external event 10(1)"
+    },
+    {
+      "name": "ADC2TAC2",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on timer A compare 2"
+    },
+    {
+      "name": "ADC2TFC2",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on timer F compare 2"
+    },
+    {
+      "name": "ADC2TAC4",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on timer A compare 4"
+    },
+    {
+      "name": "ADC2TAPER",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on timer A period"
+    },
+    {
+      "name": "ADC2TBC2",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on timer B compare 2"
+    },
+    {
+      "name": "ADC2TFC3",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on timer F compare 3"
+    },
+    {
+      "name": "ADC2TBC4",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on timer B compare 4"
+    },
+    {
+      "name": "ADC2TBPER",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on timer B period"
+    },
+    {
+      "name": "ADC2TCC2",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on timer C compare 2"
+    },
+    {
+      "name": "ADC2TFC4",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on timer F compare 4"
+    },
+    {
+      "name": "ADC2TCC4",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on timer C compare 4"
+    },
+    {
+      "name": "ADC2TCPER",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on timer C period"
+    },
+    {
+      "name": "ADC2TCRST",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on timer C reset and counter roll-over(1)"
+    },
+    {
+      "name": "ADC2TDC2",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on timer D compare 2"
+    },
+    {
+      "name": "ADC2TFPER",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on timer F period"
+    },
+    {
+      "name": "ADC2TDC4",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on timer D compare 4"
+    },
+    {
+      "name": "ADC2TDPER",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on timer D period"
+    },
+    {
+      "name": "ADC2TDRST",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on timer D reset and counter roll-over(1)"
+    },
+    {
+      "name": "ADC2TEC2",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on timer E compare 2"
+    },
+    {
+      "name": "ADC2TEC3",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on timer E compare 3"
+    },
+    {
+      "name": "ADC2TEC4",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on timer E compare 4"
+    },
+    {
+      "name": "ADC2TERST",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC trigger 2 on timer E reset and counter roll-over(1)"
+    }
+  ],
+  "errata_notes": []
+}

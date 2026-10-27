@@ -1,0 +1,19 @@
+{
+  "peripheral": "TSC",
+  "register_name": "TSC_ICR",
+  "long_name": "TSC interrupt cl ear register (TSC_ICR)",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "TSC interrupt cl ear register specification",
+  "bit_fields": [
+    {
+      "name": "TSC_ICR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "TSC interrupt cl ear register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

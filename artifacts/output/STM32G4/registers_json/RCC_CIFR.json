@@ -1,0 +1,51 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_CIFR",
+  "long_name": "Clock interrupt flag register (RCC_CIFR)",
+  "address_offset": "0x1C",
+  "reset_value": "0x00000000",
+  "description": "Clock interrupt flag register specification",
+  "bit_fields": [
+    {
+      "name": "LSIRDYIE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSI ready interrupt enable"
+    },
+    {
+      "name": "PLLRDYF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLL ready interrupt flag"
+    },
+    {
+      "name": "CSSF",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock security system interrupt flag"
+    },
+    {
+      "name": "LSECSSF",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSE clock security system interrupt flag"
+    },
+    {
+      "name": "HSI48RDYF",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI48 ready interrupt flag"
+    }
+  ],
+  "errata_notes": []
+}

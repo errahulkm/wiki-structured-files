@@ -1,0 +1,51 @@
+{
+  "peripheral": "CRS",
+  "register_name": "CRS_ISR",
+  "long_name": "CRS interrupt and st atus register (CRS_ISR)",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "CRS interrupt and st atus register specification",
+  "bit_fields": [
+    {
+      "name": "RELOAD[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Counter reload value"
+    },
+    {
+      "name": "FELIM[7",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Frequency error limit"
+    },
+    {
+      "name": "SYNCDIV[2",
+      "bit_offset": 24,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: SYNC divider"
+    },
+    {
+      "name": "SYNCSRC[1",
+      "bit_offset": 28,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: SYNC signal source selection"
+    },
+    {
+      "name": "SYNCPOL",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SYNC polarity selection"
+    }
+  ],
+  "errata_notes": []
+}

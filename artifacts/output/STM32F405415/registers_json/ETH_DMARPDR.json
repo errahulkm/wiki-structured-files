@@ -1,0 +1,51 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_DMARPDR",
+  "long_name": "EHERNET DMA receive poll demand register (ETH_DMARPDR)",
+  "address_offset": "0x1008",
+  "reset_value": "0x00000000",
+  "description": "EHERNET DMA receive poll demand register specification",
+  "bit_fields": [
+    {
+      "name": "SR",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Software reset"
+    },
+    {
+      "name": "DA",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA Arbitration"
+    },
+    {
+      "name": "DSL",
+      "bit_offset": 2,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Descriptor skip length"
+    },
+    {
+      "name": "EDFE",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enhanced descriptor format enable"
+    },
+    {
+      "name": "1",
+      "bit_offset": 14,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx has priority over Tx"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,115 @@
+{
+  "peripheral": "TAMP",
+  "register_name": "TAMP_SCR",
+  "long_name": "TAMP status cl ear register (TAMP_SCR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "TAMP status cl ear register specification",
+  "bit_fields": [
+    {
+      "name": "TAMP1MF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMP1 secure interrupt masked flag"
+    },
+    {
+      "name": "TAMP2MF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMP2 secure interrupt masked flag"
+    },
+    {
+      "name": "TAMP3MF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMP3 secure interrupt masked flag"
+    },
+    {
+      "name": "TAMP4MF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMP4 secure interrupt masked flag"
+    },
+    {
+      "name": "TAMP5MF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMP5 secure interrupt masked flag"
+    },
+    {
+      "name": "TAMP6MF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMP6 secure interrupt masked flag"
+    },
+    {
+      "name": "TAMP7MF",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMP7 secure interrupt masked flag"
+    },
+    {
+      "name": "TAMP8MF",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMP8 secure interrupt masked flag"
+    },
+    {
+      "name": "ITAMP1MF",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal tamper 1 secure interrupt masked flag"
+    },
+    {
+      "name": "ITAMP2MF",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal tamper 2 secure interrupt masked flag"
+    },
+    {
+      "name": "CITAMP3F",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear ITAMP3 detection flag"
+    },
+    {
+      "name": "CITAMP5F",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear ITAMP5 detection flag"
+    },
+    {
+      "name": "CITAMP8F",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear ITAMP8 detection flag"
+    }
+  ],
+  "errata_notes": []
+}

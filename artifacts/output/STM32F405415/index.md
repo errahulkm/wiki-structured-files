@@ -1,0 +1,102 @@
+# STM32F4 Series (RM0090) Karpathy Wiki
+
+Welcome to the automated 7-Layer Karpathy-Style Interlinked Documentation Wiki for STM32F4 microcontrollers (RM0090 Engine).
+
+* **CPU Architecture**: ARM 32-bit Cortex-M4
+* **Total Ingested Chapters**: 45 Chapters
+* **Active Hardware IP Blocks**: 32 Modules
+* **Schema & Specification**: [SCHEMA.md](SCHEMA.md)
+* **Interactive 3D & 2D Knowledge Graph**: [graph_view.html](graph_view.html)
+* **Silicon Quality & Link Audit Report**: [audit_report.html](audit_report.html)
+* **Vector Artwork (SVG) Validation Report**: [svg_validation_report.html](svg_validation_report.html)
+* **Executive Benchmark Analysis Report**: [benchmark_report.html](benchmark_report.html)
+
+---
+
+## 1. System IP Architecture
+### CORE Domain
+* [Debug Support (DBG)](core/debug.md)
+* [Interrupts and Events (NVIC/EXTI)](core/interrupts.md)
+### MEMORY Domain
+* [Embedded Flash Memory](memory/flash.md)
+* [Master System Memory Map](memory/memory_map.md)
+### PERIPHERALS Domain
+* [Analog-to-Digital Converter (ADC)](peripherals/adc.md)
+* [CRC Calculation Unit](peripherals/crc.md)
+* [Controller Area Network (bxCAN)](peripherals/can.md)
+* [Digital Camera Interface (DCMI)](peripherals/dcmi.md)
+* [Digital-to-Analog Converter (DAC)](peripherals/dac.md)
+* [Direct Memory Access Controller (DMA)](peripherals/dma.md)
+* [Ethernet MAC (ETH)](peripherals/eth.md)
+* [Flexible Memory Controller (FMC)](peripherals/fmc.md)
+* [Flexible Static Memory Controller (FSMC)](peripherals/fsmc.md)
+* [General-Purpose and Alternate-Function I/Os (GPIOs/AFIOs)](peripherals/gpio.md)
+* [Independent Watchdog (IWDG)](peripherals/iwdg.md)
+* [Inter-Integrated Circuit (I2C)](peripherals/i2c.md)
+* [LCD-TFT Display Controller (LTDC)](peripherals/ltdc.md)
+* [Real-Time Clock (RTC)](peripherals/rtc.md)
+* [Secure Digital Input/Output (SDIO)](peripherals/sdio.md)
+* [Serial Audio Interface (SAI)](peripherals/sai.md)
+* [Serial Peripheral Interface (SPI)](peripherals/spi.md)
+* [Timers (TIM)](peripherals/timers.md)
+* [USB On-The-Go Full-Speed (OTG_FS)](peripherals/otg_fs.md)
+* [USB On-The-Go High-Speed (OTG_HS)](peripherals/otg_hs.md)
+* [Universal Synchronous Asynchronous Receiver Transmitter (USART)](peripherals/usart.md)
+* [Window Watchdog (WWDG)](peripherals/wwdg.md)
+### SECURITY Domain
+* [Cryptographic Processor (CRYP)](security/cryp.md)
+* [Hash Processor (HASH)](security/hash.md)
+* [Random Number Generator (RNG)](security/rng.md)
+### SYSTEM Domain
+* [Power Control (PWR)](system/pwr.md)
+* [Reset and Clock Control (RCC)](system/rcc.md)
+* [System Configuration (SYSCFG)](system/syscfg.md)
+
+---
+
+## 2. Master Chapter Ingestion Directory (45 Chapters)
+* [Chapter 1: Contents](chapters/chapter_01.md)
+* [Chapter 2: List of tables](chapters/chapter_02.md)
+* [Chapter 3: List of figures](chapters/chapter_03.md)
+* [Chapter 4: Documentation conventions](chapters/chapter_04.md)
+* [Chapter 5: Memory and bus architecture](chapters/chapter_05.md)
+* [Chapter 6: Embedded flash memory interface](chapters/chapter_06.md)
+* [Chapter 7: CRC calculation unit](chapters/chapter_07.md)
+* [Chapter 8: Power controller (PWR)](chapters/chapter_08.md)
+* [Chapter 9: Reset and clock control for STM32F42xxx and STM32F43xxx (RCC)](chapters/chapter_09.md)
+* [Chapter 10: Reset and clock control for STM32F405xx/07xx and STM32F415xx/17xx(RCC)](chapters/chapter_10.md)
+* [Chapter 11: General-purpose I/Os (GPIO)](chapters/chapter_11.md)
+* [Chapter 12: System configuration controller (SYSCFG)](chapters/chapter_12.md)
+* [Chapter 13: DMA controller (DMA)](chapters/chapter_13.md)
+* [Chapter 14: Chrom-Art Accelerator™ controller (DMA2D)](chapters/chapter_14.md)
+* [Chapter 15: Interrupts and events](chapters/chapter_15.md)
+* [Chapter 16: Analog-to-digital converter (ADC)](chapters/chapter_16.md)
+* [Chapter 17: Digital-to-analog converter (DAC)](chapters/chapter_17.md)
+* [Chapter 18: Digital camera interface (DCMI)](chapters/chapter_18.md)
+* [Chapter 19: LCD-TFT controller (LTDC)](chapters/chapter_19.md)
+* [Chapter 20: Advanced-control timers (TIM1 and TIM8)](chapters/chapter_20.md)
+* [Chapter 21: General-purpose timers (TIM2 to TIM5)](chapters/chapter_21.md)
+* [Chapter 22: General-purpose timers (TIM9 to TIM14)](chapters/chapter_22.md)
+* [Chapter 23: Basic timers (TIM6 and TIM7)](chapters/chapter_23.md)
+* [Chapter 24: Independent watchdog (IWDG)](chapters/chapter_24.md)
+* [Chapter 25: Window watchdog (WWDG)](chapters/chapter_25.md)
+* [Chapter 26: Cryptographic processor (CRYP)](chapters/chapter_26.md)
+* [Chapter 27: Random number generator (RNG)](chapters/chapter_27.md)
+* [Chapter 28: Hash processor (HASH)](chapters/chapter_28.md)
+* [Chapter 29: Real-time clock (RTC)](chapters/chapter_29.md)
+* [Chapter 30: Inter-integrated circuit (I2C) interface](chapters/chapter_30.md)
+* [Chapter 31: Serial peripheral interface (SPI)](chapters/chapter_31.md)
+* [Chapter 32: Serial audio interface (SAI)](chapters/chapter_32.md)
+* [Chapter 33: Universal synchronous asynchronous receiver transmitter (USART)](chapters/chapter_33.md)
+* [Chapter 34: Secure digital input/output interface (SDIO)](chapters/chapter_34.md)
+* [Chapter 35: Controller area network (bxCAN)](chapters/chapter_35.md)
+* [Chapter 36: Ethernet (ETH): media access control (MAC) with DMA controller](chapters/chapter_36.md)
+* [Chapter 37: USB on-the-go full-speed (OTG_FS)](chapters/chapter_37.md)
+* [Chapter 38: USB on-the-go high-speed (OTG_HS)](chapters/chapter_38.md)
+* [Chapter 39: Flexible static memory controller (FSMC)](chapters/chapter_39.md)
+* [Chapter 40: Flexible memory controller (FMC)](chapters/chapter_40.md)
+* [Chapter 41: Debug support (DBG)](chapters/chapter_41.md)
+* [Chapter 42: Device electronic signature](chapters/chapter_42.md)
+* [Chapter 43: Important security notice](chapters/chapter_43.md)
+* [Chapter 44: Revision history](chapters/chapter_44.md)
+* [Chapter 45: Index](chapters/chapter_45.md)

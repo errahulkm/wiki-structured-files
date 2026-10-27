@@ -1,0 +1,75 @@
+{
+  "peripheral": "SAI",
+  "register_name": "SAI_PDMDLY",
+  "long_name": "SAI PDM delay register (SAI_PDMDLY)",
+  "address_offset": "0x48",
+  "reset_value": "0x00000000",
+  "description": "SAI PDM delay register specification",
+  "bit_fields": [
+    {
+      "name": "DLYM1L[2",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Delay line adjust for first microphone of pair 1"
+    },
+    {
+      "name": "DLYM1R[2",
+      "bit_offset": 4,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Delay line adjust for second microphone of pair 1"
+    },
+    {
+      "name": "DLYM2L[2",
+      "bit_offset": 8,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Delay line for first microphone of pair 2"
+    },
+    {
+      "name": "DLYM2R[2",
+      "bit_offset": 12,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Delay line for second microphone of pair 2"
+    },
+    {
+      "name": "DLYM3L[2",
+      "bit_offset": 16,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Delay line for first microphone of pair 3"
+    },
+    {
+      "name": "DLYM3R[2",
+      "bit_offset": 20,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Delay line for second microphone of pair 3"
+    },
+    {
+      "name": "DLYM4L[2",
+      "bit_offset": 24,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Delay line for first microphone of pair 4"
+    },
+    {
+      "name": "DLYM4R[2",
+      "bit_offset": 28,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Delay line for second microphone of pair 4"
+    }
+  ],
+  "errata_notes": []
+}

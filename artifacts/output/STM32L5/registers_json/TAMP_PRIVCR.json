@@ -1,0 +1,35 @@
+{
+  "peripheral": "TAMP",
+  "register_name": "TAMP_PRIVCR",
+  "long_name": "TAMP privilege mode c ontrol register (TAMP_PRIVCR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "TAMP privilege mode c ontrol register specification",
+  "bit_fields": [
+    {
+      "name": "BKPRWDPROT[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Backup registers read/write protection offset"
+    },
+    {
+      "name": "BKPWDPROT[7",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Backup registers write protection offset"
+    },
+    {
+      "name": "TAMPDPROT",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper protection (excluding backup registers)"
+    }
+  ],
+  "errata_notes": []
+}

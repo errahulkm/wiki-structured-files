@@ -1,0 +1,43 @@
+{
+  "peripheral": "PWR",
+  "register_name": "PWR_SCR",
+  "long_name": "Power status clea r register (PWR_SCR)",
+  "address_offset": "0x18",
+  "reset_value": "0x00000000",
+  "description": "Power status clea r register specification",
+  "bit_fields": [
+    {
+      "name": "FLASH_RDY",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Flash ready flag"
+    },
+    {
+      "name": "REGLPS",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Low-power regulator started"
+    },
+    {
+      "name": "REGLPF",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Low-power regulator flag"
+    },
+    {
+      "name": "VOSF",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Voltage scaling flag"
+    }
+  ],
+  "errata_notes": []
+}

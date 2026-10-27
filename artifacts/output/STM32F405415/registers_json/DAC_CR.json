@@ -1,0 +1,139 @@
+{
+  "peripheral": "DAC",
+  "register_name": "DAC_CR",
+  "long_name": "DAC control register (DAC_CR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "DAC control register specification",
+  "bit_fields": [
+    {
+      "name": "EN1",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel1 enable"
+    },
+    {
+      "name": "BOFF1",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel1 output buffer disable"
+    },
+    {
+      "name": "TEN1",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel1 trigger enable"
+    },
+    {
+      "name": "TSEL1[2",
+      "bit_offset": 3,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel1 trigger selection"
+    },
+    {
+      "name": "WAVE1[1",
+      "bit_offset": 6,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel1 noise/triangle wave generation enable"
+    },
+    {
+      "name": "MAMP1[3",
+      "bit_offset": 8,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel1 mask/amplitude selector"
+    },
+    {
+      "name": "DMAEN1",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel1 DMA enable"
+    },
+    {
+      "name": "DMAUDRIE1",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel1 DMA Underrun Interrupt enable"
+    },
+    {
+      "name": "EN2",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel2 enable"
+    },
+    {
+      "name": "BOFF2",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel2 output buffer disable"
+    },
+    {
+      "name": "TEN2",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel2 trigger enable"
+    },
+    {
+      "name": "TSEL2[2",
+      "bit_offset": 19,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel2 trigger selection"
+    },
+    {
+      "name": "WAVE2[1",
+      "bit_offset": 22,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel2 noise/triangle wave generation enable"
+    },
+    {
+      "name": "MAMP2[3",
+      "bit_offset": 24,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel2 mask/amplitude selector"
+    },
+    {
+      "name": "DMAEN2",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel2 DMA enable"
+    },
+    {
+      "name": "DMAUDRIE2",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel2 DMA underrun interrupt enable"
+    }
+  ],
+  "errata_notes": []
+}

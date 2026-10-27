@@ -1,0 +1,35 @@
+{
+  "peripheral": "MCUROM",
+  "register_name": "MCUROM_PIDR3",
+  "long_name": "0x0000 000A MCU ROM CoreSight peripheral identity register 3 (MCUROM_PIDR3)",
+  "address_offset": "0xFEC",
+  "reset_value": "0x00000000",
+  "description": "0x0000 000A MCU ROM CoreSight peripheral identity register 3 specification",
+  "bit_fields": [
+    {
+      "name": "JEP106ID[6",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "4]: JEP106 identity code bits [6:4]"
+    },
+    {
+      "name": "JEDEC",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "JEDEC assigned value"
+    },
+    {
+      "name": "REVISION[3",
+      "bit_offset": 4,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: component revision number"
+    }
+  ],
+  "errata_notes": []
+}

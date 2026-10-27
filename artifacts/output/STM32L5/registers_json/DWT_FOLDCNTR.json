@@ -1,0 +1,19 @@
+{
+  "peripheral": "DWT",
+  "register_name": "DWT_FOLDCNTR",
+  "long_name": "0xXXXX XXXX DWT fold count register (DWT_FOLDCNTR)",
+  "address_offset": "0x018",
+  "reset_value": "0x00000000",
+  "description": "0xXXXX XXXX DWT fold count register specification",
+  "bit_fields": [
+    {
+      "name": "SLEEPCNT[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: sleep cycle counter"
+    }
+  ],
+  "errata_notes": []
+}

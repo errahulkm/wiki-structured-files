@@ -1,0 +1,59 @@
+{
+  "peripheral": "SPIX",
+  "register_name": "SPIX_DR",
+  "long_name": "SPI data register (SPIX_DR)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "SPI data register specification",
+  "bit_fields": [
+    {
+      "name": "RXNE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive buffer not empty"
+    },
+    {
+      "name": "TXE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmit buffer empty"
+    },
+    {
+      "name": "CRCERR",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CRC error flag"
+    },
+    {
+      "name": "MODF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Mode fault"
+    },
+    {
+      "name": "OVR",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overrun flag"
+    },
+    {
+      "name": "BSY",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Busy flag"
+    }
+  ],
+  "errata_notes": []
+}

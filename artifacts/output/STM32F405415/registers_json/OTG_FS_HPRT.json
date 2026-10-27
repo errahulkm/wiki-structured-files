@@ -1,0 +1,27 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_HPRT",
+  "long_name": "OTG_FS Host port control and status register (OTG_FS_HPRT)",
+  "address_offset": "0x440",
+  "reset_value": "0x00000000",
+  "description": "OTG_FS Host port control and status register specification",
+  "bit_fields": [
+    {
+      "name": "HAINTM",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Channel interrupt mask"
+    },
+    {
+      "name": "PSPD",
+      "bit_offset": 17,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Port speed"
+    }
+  ],
+  "errata_notes": []
+}

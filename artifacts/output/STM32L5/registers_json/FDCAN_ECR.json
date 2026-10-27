@@ -1,0 +1,27 @@
+{
+  "peripheral": "FDCAN",
+  "register_name": "FDCAN_ECR",
+  "long_name": "FDCAN error count er register (FDCAN_ECR)",
+  "address_offset": "0x0040",
+  "reset_value": "0x00000000",
+  "description": "FDCAN error count er register specification",
+  "bit_fields": [
+    {
+      "name": "TOC[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Timeout counter"
+    },
+    {
+      "name": "CEL[7",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: CAN error logging"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,35 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_MMCTGF",
+  "long_name": "Ethernet MAC (ETH) ETH_MMCTGF Register",
+  "address_offset": "0x150",
+  "reset_value": "0x00000000",
+  "description": "Ethernet MAC (ETH) ETH_MMCTGF hardware register",
+  "bit_fields": [
+    {
+      "name": "TGFSCM",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmitted good frames single collision mask"
+    },
+    {
+      "name": "TSCNT",
+      "bit_offset": 16,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp clock node type"
+    },
+    {
+      "name": "TSPFFMAE",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp PTP frame filtering MAC address enable"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "LPTIM",
+  "register_name": "LPTIM_ARR",
+  "long_name": "LPTIM autoreload register (LPTIM_ARR)",
+  "address_offset": "0x018",
+  "reset_value": "0x00000000",
+  "description": "LPTIM autoreload register specification",
+  "bit_fields": [
+    {
+      "name": "CMP[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Compare value"
+    }
+  ],
+  "errata_notes": []
+}

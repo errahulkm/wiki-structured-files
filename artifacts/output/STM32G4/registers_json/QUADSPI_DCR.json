@@ -1,0 +1,51 @@
+{
+  "peripheral": "QUADSPI",
+  "register_name": "QUADSPI_DCR",
+  "long_name": "QUADSPI device configur ation register (QUADSPI_DCR)",
+  "address_offset": "0x004",
+  "reset_value": "0x00000000",
+  "description": "QUADSPI device configur ation register specification",
+  "bit_fields": [
+    {
+      "name": "EN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "QUADSPI enable"
+    },
+    {
+      "name": "ABORT",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Abort request"
+    },
+    {
+      "name": "DMAEN",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA enable"
+    },
+    {
+      "name": "CSHT[2",
+      "bit_offset": 8,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Chip select high time"
+    },
+    {
+      "name": "FSIZE[4",
+      "bit_offset": 16,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Flash memory size"
+    }
+  ],
+  "errata_notes": []
+}

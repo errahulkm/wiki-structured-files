@@ -1,0 +1,91 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_CR",
+  "long_name": "ADC control register (ADC_CR)",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "ADC control register specification",
+  "bit_fields": [
+    {
+      "name": "ADEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC enable control"
+    },
+    {
+      "name": "ADDIS",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC disable command"
+    },
+    {
+      "name": "ADSTART",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC start of regular conversion"
+    },
+    {
+      "name": "JADSTART",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC start of injected conversion"
+    },
+    {
+      "name": "ADSTP",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC stop of regular conversion command"
+    },
+    {
+      "name": "JADSTP",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC stop of injected conversion command"
+    },
+    {
+      "name": "ADVREGEN",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC voltage regulator enable"
+    },
+    {
+      "name": "DEEPPWD",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Deep-power-down enable"
+    },
+    {
+      "name": "ADCALDIF",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Differential mode for calibration"
+    },
+    {
+      "name": "ADCAL",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC calibration"
+    }
+  ],
+  "errata_notes": []
+}

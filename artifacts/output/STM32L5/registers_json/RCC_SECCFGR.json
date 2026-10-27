@@ -1,0 +1,91 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_SECCFGR",
+  "long_name": "RCC secure configuration register (RCC_SECCFGR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RCC secure configuration register specification",
+  "bit_fields": [
+    {
+      "name": "OCTOSPI1_DLY",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Delay sampling configuration on OCTOSPI1 to be used for internal sampling"
+    },
+    {
+      "name": "LSESEC",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSE clock configuration and status bits security"
+    },
+    {
+      "name": "SYSCLKSEC",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SYSCLK clock selection, STOPWUCK bit, clock output on MCO configuration"
+    },
+    {
+      "name": "PRESCSEC",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "AHBx/APBx prescaler configuration bits security"
+    },
+    {
+      "name": "PLLSEC",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "main PLL clock configuration and status bits security"
+    },
+    {
+      "name": "PLLSAI1SEC",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLSAI1 clock configuration and status bits security"
+    },
+    {
+      "name": "PLLSAI2SEC",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLSAI2 clock configuration and status bits security"
+    },
+    {
+      "name": "CLK48MSEC",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "48 MHz clock source selection security"
+    },
+    {
+      "name": "HSI48SEC",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI48 clock configuration and status bits security"
+    },
+    {
+      "name": "RMVFSEC",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Remove reset flag security"
+    }
+  ],
+  "errata_notes": []
+}

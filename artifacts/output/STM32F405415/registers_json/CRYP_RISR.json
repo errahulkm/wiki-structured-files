@@ -1,0 +1,19 @@
+{
+  "peripheral": "CRYP",
+  "register_name": "CRYP_RISR",
+  "long_name": "CRYP raw interrupt st atus register (CRYP_RISR)",
+  "address_offset": "0x18",
+  "reset_value": "0x00000000",
+  "description": "CRYP raw interrupt st atus register specification",
+  "bit_fields": [
+    {
+      "name": "CRYP_RISR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "CRYP raw interrupt st atus register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

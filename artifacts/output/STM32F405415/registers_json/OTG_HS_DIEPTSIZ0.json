@@ -1,0 +1,51 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_DIEPTSIZ0",
+  "long_name": "1531 OTG_HS device IN endpoint 0 transfer size register (OTG_HS_DIEPTSIZ0)",
+  "address_offset": "0x910",
+  "reset_value": "0x00000000",
+  "description": "1531 OTG_HS device IN endpoint 0 transfer size register specification",
+  "bit_fields": [
+    {
+      "name": "XFRC",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer completed interrupt"
+    },
+    {
+      "name": "EPDISD",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Endpoint disabled interrupt"
+    },
+    {
+      "name": "AHBERR",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "AHB error"
+    },
+    {
+      "name": "STUP",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SETUP phase done"
+    },
+    {
+      "name": "PKTCNT",
+      "bit_offset": 19,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Packet count"
+    }
+  ],
+  "errata_notes": []
+}

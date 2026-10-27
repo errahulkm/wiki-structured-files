@@ -1,0 +1,83 @@
+{
+  "peripheral": "CAN",
+  "register_name": "CAN_MCR",
+  "long_name": "CAN master control register (CAN_MCR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "CAN master control register specification",
+  "bit_fields": [
+    {
+      "name": "SLEEP",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Sleep mode request"
+    },
+    {
+      "name": "TXFP",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmit FIFO priority"
+    },
+    {
+      "name": "RFLM",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive FIFO locked mode"
+    },
+    {
+      "name": "NART",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "No automatic retransmission"
+    },
+    {
+      "name": "AWUM",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Automatic wake-up mode"
+    },
+    {
+      "name": "ABOM",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Automatic bus-off management"
+    },
+    {
+      "name": "TTCM",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time triggered communication mode"
+    },
+    {
+      "name": "RESET",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "bxCAN software master reset"
+    },
+    {
+      "name": "DBF",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Debug freeze"
+    }
+  ],
+  "errata_notes": []
+}

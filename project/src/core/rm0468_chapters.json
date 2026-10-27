@@ -1,0 +1,548 @@
+[
+  {
+    "chapter_id": "front_contents",
+    "title": "Front Matter: Master Table of Contents & Structure",
+    "pdf_page": 1,
+    "file": "front_contents.md",
+    "category": "front_matter"
+  },
+  {
+    "chapter_id": "front_conventions",
+    "title": "Front Matter: Documentation Conventions & General Information",
+    "pdf_page": 104,
+    "file": "front_conventions.md",
+    "category": "front_matter"
+  },
+  {
+    "chapter_id": "front_tables",
+    "title": "Front Matter: Master List of Reference Tables (642 Tables)",
+    "pdf_page": 73,
+    "file": "front_tables.md",
+    "category": "front_matter"
+  },
+  {
+    "chapter_id": "front_figures",
+    "title": "Front Matter: Master List of Reference Figures (866 Figures)",
+    "pdf_page": 85,
+    "file": "front_figures.md",
+    "category": "front_matter"
+  },
+  {
+    "chapter_id": "chapter_1",
+    "chapter_number": 1,
+    "title": "Chapter 1: Documentation conventions",
+    "pdf_page": 104,
+    "file": "chapter_1.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_2",
+    "chapter_number": 2,
+    "title": "Chapter 2: Memory and bus architecture",
+    "pdf_page": 106,
+    "file": "chapter_2.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_3",
+    "chapter_number": 3,
+    "title": "Chapter 3: RAM ECC monitoring (RAMECC)",
+    "pdf_page": 144,
+    "file": "chapter_3.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_4",
+    "chapter_number": 4,
+    "title": "Chapter 4: Embedded Flash memory (FLASH )",
+    "pdf_page": 152,
+    "file": "chapter_4.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_5",
+    "chapter_number": 5,
+    "title": "Chapter 5: Secure memory management (SMM)",
+    "pdf_page": 224,
+    "file": "chapter_5.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_6",
+    "chapter_number": 6,
+    "title": "Chapter 6: Power control (PWR)",
+    "pdf_page": 230,
+    "file": "chapter_6.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_7",
+    "chapter_number": 7,
+    "title": "Chapter 7: Low-power D3 domain appl ication example",
+    "pdf_page": 295,
+    "file": "chapter_7.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_8",
+    "chapter_number": 8,
+    "title": "Chapter 8: Reset and clock control (RCC)",
+    "pdf_page": 307,
+    "file": "chapter_8.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_9",
+    "chapter_number": 9,
+    "title": "Chapter 9: Clock recovery system (CRS)",
+    "pdf_page": 483,
+    "file": "chapter_9.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_10",
+    "chapter_number": 10,
+    "title": "Chapter 10: Hardware semaphore (HSEM)",
+    "pdf_page": 495,
+    "file": "chapter_10.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_11",
+    "chapter_number": 11,
+    "title": "Chapter 11: General-purpose I/Os (GPIO)",
+    "pdf_page": 508,
+    "file": "chapter_11.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_12",
+    "chapter_number": 12,
+    "title": "Chapter 12: System configuration contro ller (SYSCFG)",
+    "pdf_page": 527,
+    "file": "chapter_12.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_13",
+    "chapter_number": 13,
+    "title": "Chapter 13: Block interconnect",
+    "pdf_page": 552,
+    "file": "chapter_13.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_14",
+    "chapter_number": 14,
+    "title": "Chapter 14: MDMA controller (MDMA)",
+    "pdf_page": 588,
+    "file": "chapter_14.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_15",
+    "chapter_number": 15,
+    "title": "Chapter 15: Direct memory access controll er (DMA)",
+    "pdf_page": 613,
+    "file": "chapter_15.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_16",
+    "chapter_number": 16,
+    "title": "Chapter 16: Basic direct memory access controller (B DMA)",
+    "pdf_page": 648,
+    "file": "chapter_16.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_17",
+    "chapter_number": 17,
+    "title": "Chapter 17: DMA request multiplexer (DMA MUX)",
+    "pdf_page": 671,
+    "file": "chapter_17.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_18",
+    "chapter_number": 18,
+    "title": "Chapter 18: Chrom-Art Accelerator controller (DMA2D)",
+    "pdf_page": 693,
+    "file": "chapter_18.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_19",
+    "chapter_number": 19,
+    "title": "Chapter 19: Nested vectored interrupt controller (NVIC)",
+    "pdf_page": 731,
+    "file": "chapter_19.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_20",
+    "chapter_number": 20,
+    "title": "Chapter 20: Extended interrupt and event controller (E XTI)",
+    "pdf_page": 740,
+    "file": "chapter_20.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_21",
+    "chapter_number": 21,
+    "title": "Chapter 21: Cyclic redundancy check calculation unit (CRC)",
+    "pdf_page": 773,
+    "file": "chapter_21.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_22",
+    "chapter_number": 22,
+    "title": "Chapter 22: CORDIC co-processor (CORDIC)",
+    "pdf_page": 780,
+    "file": "chapter_22.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_23",
+    "chapter_number": 23,
+    "title": "Chapter 23: Filter math accelerator (FMAC)",
+    "pdf_page": 798,
+    "file": "chapter_23.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_24",
+    "chapter_number": 24,
+    "title": "Chapter 24: Flexible memory controller (FMC)",
+    "pdf_page": 826,
+    "file": "chapter_24.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_25",
+    "chapter_number": 25,
+    "title": "Chapter 25: Octo-SPI interface (OCTOSPI)",
+    "pdf_page": 908,
+    "file": "chapter_25.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_26",
+    "chapter_number": 26,
+    "title": "Chapter 26: OCTOSPI I/O manager (OCTOSPI M)",
+    "pdf_page": 963,
+    "file": "chapter_26.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_27",
+    "chapter_number": 27,
+    "title": "Chapter 27: Delay block (DLYB)",
+    "pdf_page": 969,
+    "file": "chapter_27.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_28",
+    "chapter_number": 28,
+    "title": "Chapter 28: Analog-to-digital converters (ADC1/ADC2)",
+    "pdf_page": 975,
+    "file": "chapter_28.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_29",
+    "chapter_number": 29,
+    "title": "Chapter 29: Analog-to-digital converters (ADC3)",
+    "pdf_page": 1100,
+    "file": "chapter_29.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_30",
+    "chapter_number": 30,
+    "title": "Chapter 30: Digital temperature sensor (DTS)",
+    "pdf_page": 1200,
+    "file": "chapter_30.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_31",
+    "chapter_number": 31,
+    "title": "Chapter 31: Digital-to-analog converter (D AC)",
+    "pdf_page": 1217,
+    "file": "chapter_31.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_32",
+    "chapter_number": 32,
+    "title": "Chapter 32: Voltage reference buffer (VREFBUF)",
+    "pdf_page": 1255,
+    "file": "chapter_32.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_33",
+    "chapter_number": 33,
+    "title": "Chapter 33: Comparator (COMP)",
+    "pdf_page": 1258,
+    "file": "chapter_33.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_34",
+    "chapter_number": 34,
+    "title": "Chapter 34: Operational amplifiers (OPAMP )",
+    "pdf_page": 1274,
+    "file": "chapter_34.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_35",
+    "chapter_number": 35,
+    "title": "Chapter 35: Digital filter for sigma delta modulato rs (DFSDM)",
+    "pdf_page": 1293,
+    "file": "chapter_35.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_36",
+    "chapter_number": 36,
+    "title": "Chapter 36: Digital camera interface (DCMI)",
+    "pdf_page": 1353,
+    "file": "chapter_36.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_37",
+    "chapter_number": 37,
+    "title": "Chapter 37: Parallel synchronous slave interface (PSSI)",
+    "pdf_page": 1376,
+    "file": "chapter_37.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_38",
+    "chapter_number": 38,
+    "title": "Chapter 38: LCD-TFT display controller (LTDC)",
+    "pdf_page": 1391,
+    "file": "chapter_38.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_39",
+    "chapter_number": 39,
+    "title": "Chapter 39: True random number generator (RNG)",
+    "pdf_page": 1426,
+    "file": "chapter_39.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_40",
+    "chapter_number": 40,
+    "title": "Chapter 40: Cryptographic processor (CRYP)",
+    "pdf_page": 1442,
+    "file": "chapter_40.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_41",
+    "chapter_number": 41,
+    "title": "Chapter 41: Hash processor (HASH)",
+    "pdf_page": 1510,
+    "file": "chapter_41.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_42",
+    "chapter_number": 42,
+    "title": "Chapter 42: On-The-Fly decryption engine - AXI (OTF DEC)",
+    "pdf_page": 1533,
+    "file": "chapter_42.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_43",
+    "chapter_number": 43,
+    "title": "Chapter 43: Advanced-control timers (TIM1/TIM8)",
+    "pdf_page": 1555,
+    "file": "chapter_43.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_44",
+    "chapter_number": 44,
+    "title": "Chapter 44: General-purpose timers (TIM2/TIM3/T IM4/TIM5/TIM23/TIM24)",
+    "pdf_page": 1661,
+    "file": "chapter_44.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_45",
+    "chapter_number": 45,
+    "title": "Chapter 45: General-purpose timers (TIM 12/TIM13/TIM14)",
+    "pdf_page": 1740,
+    "file": "chapter_45.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_46",
+    "chapter_number": 46,
+    "title": "Chapter 46: General-purpose timers (TIM 15/TIM16/TIM17)",
+    "pdf_page": 1793,
+    "file": "chapter_46.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_47",
+    "chapter_number": 47,
+    "title": "Chapter 47: Basic timers (TIM6/TIM7)",
+    "pdf_page": 1883,
+    "file": "chapter_47.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_48",
+    "chapter_number": 48,
+    "title": "Chapter 48: Low-power timer (LPTIM)",
+    "pdf_page": 1896,
+    "file": "chapter_48.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_49",
+    "chapter_number": 49,
+    "title": "Chapter 49: System window watchdog (WWD G)",
+    "pdf_page": 1925,
+    "file": "chapter_49.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_50",
+    "chapter_number": 50,
+    "title": "Chapter 50: Independent watchdog (IWDG)",
+    "pdf_page": 1932,
+    "file": "chapter_50.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_51",
+    "chapter_number": 51,
+    "title": "Chapter 51: Real-time clock (RTC)",
+    "pdf_page": 1942,
+    "file": "chapter_51.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_52",
+    "chapter_number": 52,
+    "title": "Chapter 52: Inter-integrated circuit (I2C) interface",
+    "pdf_page": 1988,
+    "file": "chapter_52.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_55",
+    "chapter_number": 55,
+    "title": "Chapter 55: Serial peripheral interface (SPI)",
+    "pdf_page": 2196,
+    "file": "chapter_55.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_56",
+    "chapter_number": 56,
+    "title": "Chapter 56: Serial audio interface (SAI)",
+    "pdf_page": 2275,
+    "file": "chapter_56.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_57",
+    "chapter_number": 57,
+    "title": "Chapter 57: SPDIF receiver interface (SPD IFRX)",
+    "pdf_page": 2344,
+    "file": "chapter_57.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_58",
+    "chapter_number": 58,
+    "title": "Chapter 58: Single wire protocol master interface (S WPMI)",
+    "pdf_page": 2379,
+    "file": "chapter_58.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_59",
+    "chapter_number": 59,
+    "title": "Chapter 59: Management data input/output (MDIOS)",
+    "pdf_page": 2407,
+    "file": "chapter_59.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_61",
+    "chapter_number": 61,
+    "title": "Chapter 61: Controller area network with flexible data rate (FDCAN)",
+    "pdf_page": 2502,
+    "file": "chapter_61.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_62",
+    "chapter_number": 62,
+    "title": "Chapter 62: USB on-the-go high-speed (OTG_HS)",
+    "pdf_page": 2634,
+    "file": "chapter_62.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_64",
+    "chapter_number": 64,
+    "title": "Chapter 64: HDMI-CEC controller (C EC)",
+    "pdf_page": 3098,
+    "file": "chapter_64.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_65",
+    "chapter_number": 65,
+    "title": "Chapter 65: Debug infrastructure",
+    "pdf_page": 3116,
+    "file": "chapter_65.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_66",
+    "chapter_number": 66,
+    "title": "Chapter 66: Device electronic signature",
+    "pdf_page": 3315,
+    "file": "chapter_66.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "chapter_67",
+    "chapter_number": 67,
+    "title": "Chapter 67: Revision history",
+    "pdf_page": 3318,
+    "file": "chapter_67.md",
+    "category": "main_chapters"
+  },
+  {
+    "chapter_id": "appendix_a",
+    "title": "Appendix A: Document Revision History & Change Log",
+    "pdf_page": 3316,
+    "file": "appendix_a_revision_history.md",
+    "category": "appendix"
+  },
+  {
+    "chapter_id": "appendix_b",
+    "title": "Appendix B: Device Ordering Information & Package Pinouts",
+    "pdf_page": 3350,
+    "file": "appendix_b_device_ordering.md",
+    "category": "appendix"
+  }
+]

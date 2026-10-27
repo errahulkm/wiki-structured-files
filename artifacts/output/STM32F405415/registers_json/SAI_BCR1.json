@@ -1,0 +1,107 @@
+{
+  "peripheral": "SAI",
+  "register_name": "SAI_BCR1",
+  "long_name": "SAI x configuration register 1 (SAI_BCR1)",
+  "address_offset": "0x024",
+  "reset_value": "0x00000000",
+  "description": "SAI x configuration register 1 specification",
+  "bit_fields": [
+    {
+      "name": "MODE[1",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Audio block mode. These bits are set and cleared by software."
+    },
+    {
+      "name": "PRTCFG[1",
+      "bit_offset": 2,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Protocol configuration. These bits are set and cleared by software."
+    },
+    {
+      "name": "DS[2",
+      "bit_offset": 5,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Data size. These bits are set and cleared by software."
+    },
+    {
+      "name": "LSBFIRST",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Least significant bit first. This bit is set and cleared by software."
+    },
+    {
+      "name": "CKSTR",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock strobing edge. This bit is set and cleared by software."
+    },
+    {
+      "name": "SYNCEN[1",
+      "bit_offset": 10,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Synchronization enable. This bit is set and cleared by software."
+    },
+    {
+      "name": "MONO",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Mono mode. This bit is set and cleared by software."
+    },
+    {
+      "name": "OUTDRIV",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output drive. This bit is set and cleared by software."
+    },
+    {
+      "name": "SAIXEN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Audio block enable where x is A or B. This bit is set by software. It is cleared by hardware,"
+    },
+    {
+      "name": "DMAEN",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA enable. This bit is set and cleared by software."
+    },
+    {
+      "name": "NODIV",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "No divider. This bit is set and cleared by software."
+    },
+    {
+      "name": "MCKDIV[3",
+      "bit_offset": 20,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Master clock divider. These bits are set and cleared by software."
+    }
+  ],
+  "errata_notes": []
+}

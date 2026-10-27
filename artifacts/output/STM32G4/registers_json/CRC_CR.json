@@ -1,0 +1,43 @@
+{
+  "peripheral": "CRC",
+  "register_name": "CRC_CR",
+  "long_name": "CRC control register (CRC_CR)",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "CRC control register specification",
+  "bit_fields": [
+    {
+      "name": "RESET",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RESET bit"
+    },
+    {
+      "name": "POLYSIZE[1",
+      "bit_offset": 3,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Polynomial size"
+    },
+    {
+      "name": "REV_IN[1",
+      "bit_offset": 5,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Reverse input data"
+    },
+    {
+      "name": "REV_OUT",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Reverse output data"
+    }
+  ],
+  "errata_notes": []
+}

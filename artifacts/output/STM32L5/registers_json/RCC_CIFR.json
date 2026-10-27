@@ -1,0 +1,91 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_CIFR",
+  "long_name": "RCC clock interrupt flag register (RCC_CIFR)",
+  "address_offset": "0x01C",
+  "reset_value": "0x00000000",
+  "description": "RCC clock interrupt flag register specification",
+  "bit_fields": [
+    {
+      "name": "LSIRDYIE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSI ready interrupt enable"
+    },
+    {
+      "name": "LSERDYIE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSE ready interrupt enable"
+    },
+    {
+      "name": "MSIRDYIE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MSI ready interrupt enable"
+    },
+    {
+      "name": "HSIRDYF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI16 ready interrupt flag"
+    },
+    {
+      "name": "HSERDYF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSE ready interrupt flag"
+    },
+    {
+      "name": "PLLRDYF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLL ready interrupt flag"
+    },
+    {
+      "name": "PLLSAI1RDYF",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLSAI1 ready interrupt flag"
+    },
+    {
+      "name": "PLLSAI2RDYF",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLSAI2 ready interrupt flag"
+    },
+    {
+      "name": "CSSF",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock security system interrupt flag"
+    },
+    {
+      "name": "HSI48RDYF",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI48 ready interrupt flag"
+    }
+  ],
+  "errata_notes": []
+}

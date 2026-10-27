@@ -1,0 +1,115 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_DIEPCTL0",
+  "long_name": "OTG_FS device control IN endpoint 0 control register (OTG_FS_DIEPCTL0)",
+  "address_offset": "0x900",
+  "reset_value": "0x00000000",
+  "description": "OTG_FS device control IN endpoint 0 control register specification",
+  "bit_fields": [
+    {
+      "name": "DVBUSP",
+      "bit_offset": 0,
+      "bit_width": 12,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Device VBUS pulsing time"
+    },
+    {
+      "name": "USBAEP",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB active endpoint"
+    },
+    {
+      "name": "EONUM",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Even/odd frame"
+    },
+    {
+      "name": "NAKSTS",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "NAK status"
+    },
+    {
+      "name": "EPTYP",
+      "bit_offset": 18,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Endpoint type"
+    },
+    {
+      "name": "STALL",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "STALL handshake"
+    },
+    {
+      "name": "TXFNUM",
+      "bit_offset": 22,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TxFIFO number"
+    },
+    {
+      "name": "CNAK",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear NAK"
+    },
+    {
+      "name": "SNAK",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Set NAK"
+    },
+    {
+      "name": "SD0PID",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Set DATA0 PID"
+    },
+    {
+      "name": "SODDFRM",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Set odd frame"
+    },
+    {
+      "name": "EPDIS",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Endpoint disable"
+    },
+    {
+      "name": "EPENA",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Endpoint enable"
+    }
+  ],
+  "errata_notes": []
+}

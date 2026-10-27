@@ -1,0 +1,19 @@
+{
+  "peripheral": "SDMMC",
+  "register_name": "SDMMC_IDMACTRLR",
+  "long_name": "SDMMC DMA control register (SDMMC_IDMACTRLR)",
+  "address_offset": "0x050",
+  "reset_value": "0x00000000",
+  "description": "SDMMC DMA control register specification",
+  "bit_fields": [
+    {
+      "name": "ACKTIME[24",
+      "bit_offset": 0,
+      "bit_width": 25,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Boot acknowledgment timeout period"
+    }
+  ],
+  "errata_notes": []
+}

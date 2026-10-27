@@ -1,0 +1,67 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_DCTL",
+  "long_name": "1368 OTG_FS device control register (OTG_FS_DCTL)",
+  "address_offset": "0x804",
+  "reset_value": "0x00000000",
+  "description": "1368 OTG_FS device control register specification",
+  "bit_fields": [
+    {
+      "name": "GONSTS",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Global OUT NAK status"
+    },
+    {
+      "name": "TCTL",
+      "bit_offset": 4,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Test control"
+    },
+    {
+      "name": "SGINAK",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Set global IN NAK"
+    },
+    {
+      "name": "CGINAK",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear global IN NAK"
+    },
+    {
+      "name": "SGONAK",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Set global OUT NAK"
+    },
+    {
+      "name": "CGONAK",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear global OUT NAK"
+    },
+    {
+      "name": "POPRGDNE",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Power-on programming done"
+    }
+  ],
+  "errata_notes": []
+}

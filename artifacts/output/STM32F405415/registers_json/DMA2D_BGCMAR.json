@@ -1,0 +1,19 @@
+{
+  "peripheral": "DMA2D",
+  "register_name": "DMA2D_BGCMAR",
+  "long_name": "DMA2D background CLUT memory address register (DMA2D_BGCMAR)",
+  "address_offset": "0x0030",
+  "reset_value": "0x00000000",
+  "description": "DMA2D background CLUT memory address register specification",
+  "bit_fields": [
+    {
+      "name": "DMA2D_BGCMAR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "DMA2D background CLUT memory address register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

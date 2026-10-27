@@ -1,0 +1,115 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB2SMENR",
+  "long_name": "RCC AHB2 peripheral clocks enab le in Sleep and Stop modes register (RCC_AHB2SMENR)",
+  "address_offset": "0x06C",
+  "reset_value": "0x00000000",
+  "description": "RCC AHB2 peripheral clocks enab le in Sleep and Stop modes register specification",
+  "bit_fields": [
+    {
+      "name": "GPIODSMEN",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port D clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "GPIOESMEN",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port E clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "GPIOFSMEN",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port F clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "GPIOGSMEN",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port G clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "GPIOHSMEN",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port H clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "SRAM2SMEN",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SRAM2 interface clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "ADCSMEN",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "AESSMEN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "AES accelerator clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "HASHSMEN",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HASH clock enable during Sleep and Stop modes"
+    },
+    {
+      "name": "RNGSMEN",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Random number generator (RNG) clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "PKASMEN",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PKA clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "OTFDEC1SMEN",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OTFDEC1 clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "SDMMC1SMEN",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SDMMC1 clocks enable during Sleep and Stop modes"
+    }
+  ],
+  "errata_notes": []
+}

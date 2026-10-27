@@ -1,0 +1,19 @@
+{
+  "peripheral": "DFSDM",
+  "register_name": "DFSDM_FLTXEXMIN",
+  "long_name": "DFSDM filter x extrem es detector minimum register (DFSDM_FLTXEXMIN)",
+  "address_offset": "0x134",
+  "reset_value": "0x00000000",
+  "description": "DFSDM filter x extrem es detector minimum register specification",
+  "bit_fields": [
+    {
+      "name": "DFSDM_FLTXEXMIN",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "DFSDM filter x extrem es detector minimum register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

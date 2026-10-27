@@ -1,0 +1,35 @@
+{
+  "peripheral": "HASH",
+  "register_name": "HASH_DIN",
+  "long_name": "HASH data input register (HASH_DIN)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "HASH data input register specification",
+  "bit_fields": [
+    {
+      "name": "INIT",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Initialize message digest calculation"
+    },
+    {
+      "name": "DMAE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA enable"
+    },
+    {
+      "name": "DCAL",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Digest calculation"
+    }
+  ],
+  "errata_notes": []
+}

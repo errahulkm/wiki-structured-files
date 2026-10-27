@@ -1,0 +1,35 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_OFRY",
+  "long_name": "ADC offset y register (ADC_OFRY)",
+  "address_offset": "0x60",
+  "reset_value": "0x00000000",
+  "description": "ADC offset y register specification",
+  "bit_fields": [
+    {
+      "name": "JL[1",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Injected channel sequence length"
+    },
+    {
+      "name": "JEXTSEL[4",
+      "bit_offset": 2,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External Trigger Selection for injected group"
+    },
+    {
+      "name": "OFFSET_EN",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Offset y enable"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,91 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_GOTGINT",
+  "long_name": "RM0090 1260/1741 RM0090 Rev 22 OTG_FS interrupt register (OTG_FS_GOTGINT)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "RM0090 1260/1741 RM0090 Rev 22 OTG_FS interrupt register specification",
+  "bit_fields": [
+    {
+      "name": "SRQSCS",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Session request success"
+    },
+    {
+      "name": "SRQ",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Session request"
+    },
+    {
+      "name": "SEDET",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Session end detected"
+    },
+    {
+      "name": "HNGSCS",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Host negotiation success"
+    },
+    {
+      "name": "HNPRQ",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HNP request"
+    },
+    {
+      "name": "HSHNPEN",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "host set HNP enable"
+    },
+    {
+      "name": "DHNPEN",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Device HNP enabled"
+    },
+    {
+      "name": "HNGDET",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Host negotiation detected"
+    },
+    {
+      "name": "ADTOCHG",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "A-device timeout change"
+    },
+    {
+      "name": "DBCDNE",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Debounce done"
+    }
+  ],
+  "errata_notes": []
+}

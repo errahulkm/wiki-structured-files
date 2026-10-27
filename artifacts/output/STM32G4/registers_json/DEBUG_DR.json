@@ -1,0 +1,19 @@
+{
+  "peripheral": "DEBUG",
+  "register_name": "DEBUG_DR",
+  "long_name": "Debug Support (DBG) Data Register",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "Data input and output register for Debug Support (DBG).",
+  "bit_fields": [
+    {
+      "name": "DATA",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "16-bit payload for Debug Support (DBG)"
+    }
+  ],
+  "errata_notes": []
+}

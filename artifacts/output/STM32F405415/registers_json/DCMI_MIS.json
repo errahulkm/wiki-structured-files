@@ -1,0 +1,51 @@
+{
+  "peripheral": "DCMI",
+  "register_name": "DCMI_MIS",
+  "long_name": "DCMI masked interrupt st atus register (DCMI_MIS)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "DCMI masked interrupt st atus register specification",
+  "bit_fields": [
+    {
+      "name": "FRAME_MIS",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture complete masked interrupt status"
+    },
+    {
+      "name": "OVR_MIS",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overrun masked interrupt status"
+    },
+    {
+      "name": "ERR_MIS",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Synchronization error masked interrupt status"
+    },
+    {
+      "name": "VSYNC_MIS",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "VSYNC masked interrupt status"
+    },
+    {
+      "name": "LINE_MIS",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Line masked interrupt status"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "HASH",
+  "register_name": "HASH",
+  "long_name": "Hash Processor (HASH) HASH Register",
+  "address_offset": "0x1022",
+  "reset_value": "0x00000000",
+  "description": "Hash Processor (HASH) HASH hardware register",
+  "bit_fields": [
+    {
+      "name": "HASH",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "HASH register value"
+    }
+  ],
+  "errata_notes": []
+}

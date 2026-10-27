@@ -1,0 +1,19 @@
+{
+  "peripheral": "TIM",
+  "register_name": "TIM_TI1_IN0",
+  "long_name": "tim_ker_ck DMA interface IRQ interface tim_pclk 32-bit APB bus tim_cc1_dma tim_upd_dma tim_trgi_dma tim_com_dma tim_it Trigger controller Slave controller mode DTG registers DTG Output control Output control Repetition counter UEV UEV (TIM_TI1_IN0)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "tim_ker_ck DMA interface IRQ interface tim_pclk 32-bit APB bus tim_cc1_dma tim_upd_dma tim_trgi_dma tim_com_dma tim_it Trigger controller Slave controller mode DTG registers DTG Output control Output control Repetition counter UEV UEV specification",
+  "bit_fields": [
+    {
+      "name": "TIM_TI1_IN0",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "tim_ker_ck DMA interface IRQ interface tim_pclk 32-bit APB bus tim_cc1_dma tim_upd_dma tim_trgi_dma tim_com_dma tim_it Trigger controller Slave controller mode DTG registers DTG Output control Output control Repetition counter UEV UEV full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "SDIO",
+  "register_name": "SDIO_DLEN",
+  "long_name": "SDIO data length register (SDIO_DLEN)",
+  "address_offset": "0x28",
+  "reset_value": "0x00000000",
+  "description": "SDIO data length register specification",
+  "bit_fields": [
+    {
+      "name": "DATATIME",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data timeout period"
+    }
+  ],
+  "errata_notes": []
+}

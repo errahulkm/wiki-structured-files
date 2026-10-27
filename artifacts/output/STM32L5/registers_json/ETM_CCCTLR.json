@@ -1,0 +1,19 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_CCCTLR",
+  "long_name": "0x0000 000A ETM cycle count control register (ETM_CCCTLR)",
+  "address_offset": "0x038",
+  "reset_value": "0x00000000",
+  "description": "0x0000 000A ETM cycle count control register specification",
+  "bit_fields": [
+    {
+      "name": "PERIOD[4",
+      "bit_offset": 0,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: synchronization period"
+    }
+  ],
+  "errata_notes": []
+}

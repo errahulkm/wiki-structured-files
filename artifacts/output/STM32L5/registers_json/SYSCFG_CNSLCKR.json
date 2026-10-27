@@ -1,0 +1,19 @@
+{
+  "peripheral": "SYSCFG",
+  "register_name": "SYSCFG_CNSLCKR",
+  "long_name": "SYSCFG CPU non-secure lock register (SYSCFG_CNSLCKR)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "SYSCFG CPU non-secure lock register specification",
+  "bit_fields": [
+    {
+      "name": "FPU_IE[5",
+      "bit_offset": 0,
+      "bit_width": 6,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Floating point unit interrupts enable bits"
+    }
+  ],
+  "errata_notes": []
+}

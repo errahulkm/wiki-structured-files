@@ -1,0 +1,19 @@
+{
+  "peripheral": "DFSDM",
+  "register_name": "DFSDM_CHYCFGR1",
+  "long_name": "DFSDM channel y configuration register (DFSDM_CHYCFGR1)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "DFSDM channel y configuration register specification",
+  "bit_fields": [
+    {
+      "name": "DATMPX[1",
+      "bit_offset": 12,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Input da ta multiplexer for channel y"
+    }
+  ],
+  "errata_notes": []
+}

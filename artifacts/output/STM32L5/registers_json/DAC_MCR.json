@@ -1,0 +1,27 @@
+{
+  "peripheral": "DAC",
+  "register_name": "DAC_MCR",
+  "long_name": "DAC mode cont rol register (DAC_MCR)",
+  "address_offset": "0x3C",
+  "reset_value": "0x00000000",
+  "description": "DAC mode cont rol register specification",
+  "bit_fields": [
+    {
+      "name": "OTRIM1[4",
+      "bit_offset": 0,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel1 offset trimming value"
+    },
+    {
+      "name": "OTRIM2[4",
+      "bit_offset": 16,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel2 offset trimming value"
+    }
+  ],
+  "errata_notes": []
+}

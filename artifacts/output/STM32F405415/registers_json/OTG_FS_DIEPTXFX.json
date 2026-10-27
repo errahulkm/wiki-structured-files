@@ -1,0 +1,27 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_DIEPTXFX",
+  "long_name": "0x0200 0400 OTG_FS device IN endpoint transmit FIFO size register (OTG_FS_DIEPTXFX)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "0x0200 0400 OTG_FS device IN endpoint transmit FIFO size register specification",
+  "bit_fields": [
+    {
+      "name": "PTXSA",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Host periodic TxFIFO start address"
+    },
+    {
+      "name": "PTXFD",
+      "bit_offset": 16,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Host periodic TxFIFO depth"
+    }
+  ],
+  "errata_notes": []
+}

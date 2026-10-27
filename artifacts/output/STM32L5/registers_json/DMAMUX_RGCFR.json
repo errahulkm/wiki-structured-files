@@ -1,0 +1,19 @@
+{
+  "peripheral": "DMAMUX",
+  "register_name": "DMAMUX_RGCFR",
+  "long_name": "DMAMUX request generator interrupt clear flag register (DMAMUX_RGCFR)",
+  "address_offset": "0x144",
+  "reset_value": "0x00000000",
+  "description": "DMAMUX request generator interrupt clear flag register specification",
+  "bit_fields": [
+    {
+      "name": "COF[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Clear trigger overrun event flag"
+    }
+  ],
+  "errata_notes": []
+}

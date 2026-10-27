@@ -1,0 +1,59 @@
+{
+  "peripheral": "TPIU",
+  "register_name": "TPIU_DEVIDR",
+  "long_name": "2149 TPIU device configuration register (TPIU_DEVIDR)",
+  "address_offset": "0xFC8",
+  "reset_value": "0x00000000",
+  "description": "2149 TPIU device configuration register specification",
+  "bit_fields": [
+    {
+      "name": "CLAIMCLR[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: claim tag bits reset"
+    },
+    {
+      "name": "CLKRELAT",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ATB clock and TRACECLKIN relationship (synchronous or asynchronous)"
+    },
+    {
+      "name": "FIFOSIZE[2",
+      "bit_offset": 6,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: FIFO size in powers of 2"
+    },
+    {
+      "name": "TCLKDATA",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "trace clock plus data support"
+    },
+    {
+      "name": "SWOMAN",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Serial-wire output, Manchester encoded format, support"
+    },
+    {
+      "name": "SWOUARTNRZ",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Serial-wire output, NRZ support"
+    }
+  ],
+  "errata_notes": []
+}

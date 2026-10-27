@@ -1,0 +1,131 @@
+{
+  "peripheral": "UCPD",
+  "register_name": "UCPD_CFGR2",
+  "long_name": "UCPD configuration register 2 (UCPD_CFGR2)",
+  "address_offset": "0x004",
+  "reset_value": "0x00000000",
+  "description": "UCPD configuration register 2 specification",
+  "bit_fields": [
+    {
+      "name": "RXFILTDIS",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "BMC decoder Rx pre-filter enable"
+    },
+    {
+      "name": "RXFILT2N3",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "BMC decoder Rx pre-filter sampling method"
+    },
+    {
+      "name": "FORCECLK",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Force ClkReq clock request"
+    },
+    {
+      "name": "WUPEN",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wake-up from Stop mode enable"
+    },
+    {
+      "name": "RXMODE",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receiver mode"
+    },
+    {
+      "name": "PHYRXEN",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB Power Delivery receiver enable"
+    },
+    {
+      "name": "PHYCCSEL",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CC1/CC2 line selector for USB Power Delivery signaling"
+    },
+    {
+      "name": "ANASUBMODE[1",
+      "bit_offset": 7,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Analog PHY sub-mode"
+    },
+    {
+      "name": "ANAMODE",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog PHY operating mode"
+    },
+    {
+      "name": "CCENABLE[1",
+      "bit_offset": 10,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: CC line enable"
+    },
+    {
+      "name": "FRSRXEN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FRS event detection enable"
+    },
+    {
+      "name": "FRSTX",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FRS Tx signaling enable."
+    },
+    {
+      "name": "RDCH",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rdch condition drive"
+    },
+    {
+      "name": "CC1TCDIS",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CC1 Type-C detector disable"
+    },
+    {
+      "name": "CC2TCDIS",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CC2 Type-C detector disable"
+    }
+  ],
+  "errata_notes": []
+}

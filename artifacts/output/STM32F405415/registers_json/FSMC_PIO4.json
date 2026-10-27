@@ -1,0 +1,43 @@
+{
+  "peripheral": "FSMC",
+  "register_name": "FSMC_PIO4",
+  "long_name": "1589 I/O space timing register 4 (FSMC_PIO4)",
+  "address_offset": "0xA000",
+  "reset_value": "0x00000000",
+  "description": "1589 I/O space timing register 4 specification",
+  "bit_fields": [
+    {
+      "name": "ATTSET[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Attribute memory x setup time"
+    },
+    {
+      "name": "ATTWAIT[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Attribute memory x wait time"
+    },
+    {
+      "name": "ATTHOLD[7",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Attribute memory x hold time"
+    },
+    {
+      "name": "ATTHIZ[7",
+      "bit_offset": 24,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Attribute memory x databus HiZ time"
+    }
+  ],
+  "errata_notes": []
+}

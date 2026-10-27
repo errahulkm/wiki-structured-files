@@ -1,0 +1,19 @@
+{
+  "peripheral": "CRYP",
+  "register_name": "CRYP_DIN",
+  "long_name": "CRYP data input register (CRYP_DIN)",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "CRYP data input register specification",
+  "bit_fields": [
+    {
+      "name": "CORRESPONDS",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "to the MSB (bit 31) of the first word"
+    }
+  ],
+  "errata_notes": []
+}

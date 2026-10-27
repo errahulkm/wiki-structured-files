@@ -1,0 +1,67 @@
+{
+  "peripheral": "OCTOSPI",
+  "register_name": "OCTOSPI_DCR1",
+  "long_name": "OCTOSPI device configurat ion register 1 (OCTOSPI_DCR1)",
+  "address_offset": "0x0008",
+  "reset_value": "0x00000000",
+  "description": "OCTOSPI device configurat ion register 1 specification",
+  "bit_fields": [
+    {
+      "name": "EN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable"
+    },
+    {
+      "name": "ABORT",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Abort request"
+    },
+    {
+      "name": "DMAEN",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA enable"
+    },
+    {
+      "name": "TCEN",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timeout counter enable"
+    },
+    {
+      "name": "CSHT[2",
+      "bit_offset": 8,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Chip-select high time"
+    },
+    {
+      "name": "DEVSIZE[4",
+      "bit_offset": 16,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Device size"
+    },
+    {
+      "name": "MTYP[2",
+      "bit_offset": 24,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Memory type"
+    }
+  ],
+  "errata_notes": []
+}

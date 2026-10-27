@@ -1,0 +1,59 @@
+{
+  "peripheral": "TIMERS",
+  "register_name": "TIM15_OR1",
+  "long_name": "Timers (TIM) TIM15_OR1 Register",
+  "address_offset": "0x50",
+  "reset_value": "0x00000000",
+  "description": "Timers (TIM) TIM15_OR1 hardware register",
+  "bit_fields": [
+    {
+      "name": "TI1_RMP",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Input capture 1 remap"
+    },
+    {
+      "name": "ENCODER_MODE[1",
+      "bit_offset": 1,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Encoder mode"
+    },
+    {
+      "name": "BKDF1BK0E",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "BRK dfsdm1_break[0] enable"
+    },
+    {
+      "name": "BKINP",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "BRK BKIN input polarity"
+    },
+    {
+      "name": "BKCMP1P",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "BRK COMP1 input polarity"
+    },
+    {
+      "name": "BKCMP2P",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "BRK COMP2 input polarity"
+    }
+  ],
+  "errata_notes": []
+}

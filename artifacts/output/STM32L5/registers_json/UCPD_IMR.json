@@ -1,0 +1,83 @@
+{
+  "peripheral": "UCPD",
+  "register_name": "UCPD_IMR",
+  "long_name": "UCPD interrupt m ask register (UCPD_IMR)",
+  "address_offset": "0x010",
+  "reset_value": "0x00000000",
+  "description": "UCPD interrupt m ask register specification",
+  "bit_fields": [
+    {
+      "name": "TXUNDIE",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TXUND interrupt enable"
+    },
+    {
+      "name": "RXNEIE",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RXNE interrupt enable"
+    },
+    {
+      "name": "RXORDDETIE",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RXORDDET interrupt enable"
+    },
+    {
+      "name": "RXHRSTDETIE",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RXHRSTDET interrupt enable"
+    },
+    {
+      "name": "RXOVRIE",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RXOVR interrupt enable"
+    },
+    {
+      "name": "RXMSGENDIE",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RXMSGEND interrupt enable"
+    },
+    {
+      "name": "TYPECEVT1IE",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TYPECEVT1 interrupt enable"
+    },
+    {
+      "name": "TYPECEVT2IE",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TYPECEVT2 interrupt enable"
+    },
+    {
+      "name": "FRSEVTIE",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FRSEVT interrupt enable"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,59 @@
+{
+  "peripheral": "DFSDM",
+  "register_name": "DFSDM_FLTXCR2",
+  "long_name": "DFSDM filter x control register 2 (DFSDM_FLTXCR2)",
+  "address_offset": "0x104",
+  "reset_value": "0x00000000",
+  "description": "DFSDM filter x control register 2 specification",
+  "bit_fields": [
+    {
+      "name": "ROVRIE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Regular data overrun interrupt enable"
+    },
+    {
+      "name": "AWDIE",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog interrupt enable"
+    },
+    {
+      "name": "SCDIE",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Short-circuit detector interrupt enable"
+    },
+    {
+      "name": "CKABIE",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock absence interrupt enable"
+    },
+    {
+      "name": "EXCH[3",
+      "bit_offset": 8,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Extremes detector channel selection"
+    },
+    {
+      "name": "AWDCH[3",
+      "bit_offset": 16,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Analog watchdog channel selection"
+    }
+  ],
+  "errata_notes": []
+}

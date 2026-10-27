@@ -1,0 +1,43 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_GAHBCFG",
+  "long_name": "1531 OTG_HS AHB configuration register (OTG_HS_GAHBCFG)",
+  "address_offset": "0x008",
+  "reset_value": "0x00000000",
+  "description": "1531 OTG_HS AHB configuration register specification",
+  "bit_fields": [
+    {
+      "name": "GINT",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Global interrupt mask"
+    },
+    {
+      "name": "HBSTLEN",
+      "bit_offset": 1,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Burst length/type"
+    },
+    {
+      "name": "TXFELVL",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TxFIFO empty level"
+    },
+    {
+      "name": "PTXFELVL",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Periodic TxFIFO empty level"
+    }
+  ],
+  "errata_notes": []
+}

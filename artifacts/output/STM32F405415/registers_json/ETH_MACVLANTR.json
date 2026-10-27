@@ -1,0 +1,19 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_MACVLANTR",
+  "long_name": "with DMA controller 1227 Ethernet MAC VLAN tag register (ETH_MACVLANTR)",
+  "address_offset": "0x001C",
+  "reset_value": "0x00000000",
+  "description": "with DMA controller 1227 Ethernet MAC VLAN tag register specification",
+  "bit_fields": [
+    {
+      "name": "TFCE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmit flow control enable"
+    }
+  ],
+  "errata_notes": []
+}

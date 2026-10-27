@@ -1,0 +1,19 @@
+{
+  "peripheral": "TIMX",
+  "register_name": "TIMX_ARR",
+  "long_name": "Auto-reload register (TIMX_ARR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Auto-reload register specification",
+  "bit_fields": [
+    {
+      "name": "TIMX_ARR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "Auto-reload register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

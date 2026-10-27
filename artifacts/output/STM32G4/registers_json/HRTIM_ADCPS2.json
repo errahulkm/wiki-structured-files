@@ -1,0 +1,83 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_ADCPS2",
+  "long_name": "HRTIM ADC post scaler register 2 (HRTIM_ADCPS2)",
+  "address_offset": "0x404",
+  "reset_value": "0x00000000",
+  "description": "HRTIM ADC post scaler register 2 specification",
+  "bit_fields": [
+    {
+      "name": "ADC6PSC[4",
+      "bit_offset": 0,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC 6 post scaler"
+    },
+    {
+      "name": "ADC7PSC[4",
+      "bit_offset": 6,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC 7 post scaler"
+    },
+    {
+      "name": "ADC8PSC[4",
+      "bit_offset": 12,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC 8 post scaler"
+    },
+    {
+      "name": "FLT3BLKS",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 3 blanking source"
+    },
+    {
+      "name": "ADC9PSC[4",
+      "bit_offset": 18,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC 9 post scaler"
+    },
+    {
+      "name": "FLT3RSTM",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 3 reset mode"
+    },
+    {
+      "name": "ADC10PSC[4",
+      "bit_offset": 24,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC 10 post scaler"
+    },
+    {
+      "name": "FLT4CRES",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 4 counter reset"
+    },
+    {
+      "name": "FLT4RSTM",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 4 reset mode"
+    }
+  ],
+  "errata_notes": []
+}

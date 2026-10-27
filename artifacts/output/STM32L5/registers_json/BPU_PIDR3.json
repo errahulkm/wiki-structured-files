@@ -1,0 +1,19 @@
+{
+  "peripheral": "BPU",
+  "register_name": "BPU_PIDR3",
+  "long_name": "RM0438 2078/2187 RM0438 Rev 8 BPU CoreSight peripheral identity register 3 (BPU_PIDR3)",
+  "address_offset": "0xFEC",
+  "reset_value": "0x00000000",
+  "description": "RM0438 2078/2187 RM0438 Rev 8 BPU CoreSight peripheral identity register 3 specification",
+  "bit_fields": [
+    {
+      "name": "BPU_PIDR3",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "RM0438 2078/2187 RM0438 Rev 8 BPU CoreSight peripheral identity register 3 full-width value"
+    }
+  ],
+  "errata_notes": []
+}

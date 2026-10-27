@@ -1,0 +1,51 @@
+{
+  "peripheral": "I2C",
+  "register_name": "I2C_TIMEOUTR",
+  "long_name": "I2C timeout regi ster (I2C_TIMEOUTR)",
+  "address_offset": "0x14",
+  "reset_value": "0x00000000",
+  "description": "I2C timeout regi ster specification",
+  "bit_fields": [
+    {
+      "name": "SCLL[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: SCL low period (controller mode)"
+    },
+    {
+      "name": "SCLH[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: SCL high period (controller mode)"
+    },
+    {
+      "name": "SDADEL[3",
+      "bit_offset": 16,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Data hold time"
+    },
+    {
+      "name": "SCLDEL[3",
+      "bit_offset": 20,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Data setup time"
+    },
+    {
+      "name": "PRESC[3",
+      "bit_offset": 28,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Timing prescaler"
+    }
+  ],
+  "errata_notes": []
+}

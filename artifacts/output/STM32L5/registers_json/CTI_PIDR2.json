@@ -1,0 +1,19 @@
+{
+  "peripheral": "CTI",
+  "register_name": "CTI_PIDR2",
+  "long_name": "2149 CTI CoreSight peripheral identity register 2 (CTI_PIDR2)",
+  "address_offset": "0xFE8",
+  "reset_value": "0x00000000",
+  "description": "2149 CTI CoreSight peripheral identity register 2 specification",
+  "bit_fields": [
+    {
+      "name": "CTI_PIDR2",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "2149 CTI CoreSight peripheral identity register 2 full-width value"
+    }
+  ],
+  "errata_notes": []
+}

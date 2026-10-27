@@ -1,0 +1,19 @@
+{
+  "peripheral": "HASH",
+  "register_name": "HASH_DIN",
+  "long_name": "HASH data input register (HASH_DIN)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "HASH data input register specification",
+  "bit_fields": [
+    {
+      "name": "HASH_DIN",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "HASH data input register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

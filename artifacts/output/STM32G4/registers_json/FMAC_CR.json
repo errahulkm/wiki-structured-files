@@ -1,0 +1,59 @@
+{
+  "peripheral": "FMAC",
+  "register_name": "FMAC_CR",
+  "long_name": "FMAC control register (FMAC_CR)",
+  "address_offset": "0x10",
+  "reset_value": "0x00000000",
+  "description": "FMAC control register specification",
+  "bit_fields": [
+    {
+      "name": "UNFLIEN",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable underflow error interrupts"
+    },
+    {
+      "name": "SATIEN",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable saturation error interrupts"
+    },
+    {
+      "name": "DMAREN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable DMA read channel requests"
+    },
+    {
+      "name": "DMAWEN",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable DMA write channel requests"
+    },
+    {
+      "name": "CLIPEN",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable clipping"
+    },
+    {
+      "name": "RESET",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Reset FMAC unit"
+    }
+  ],
+  "errata_notes": []
+}

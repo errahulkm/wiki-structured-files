@@ -1,0 +1,19 @@
+{
+  "peripheral": "OCTOSPI",
+  "register_name": "OCTOSPI_PSMKR",
+  "long_name": "OCTOSPI polling status mask register (OCTOSPI_PSMKR)",
+  "address_offset": "0x0080",
+  "reset_value": "0x00000000",
+  "description": "OCTOSPI polling status mask register specification",
+  "bit_fields": [
+    {
+      "name": "DATA[31",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Data"
+    }
+  ],
+  "errata_notes": []
+}

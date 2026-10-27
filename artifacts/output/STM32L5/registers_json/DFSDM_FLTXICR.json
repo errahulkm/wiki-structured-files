@@ -1,0 +1,43 @@
+{
+  "peripheral": "DFSDM",
+  "register_name": "DFSDM_FLTXICR",
+  "long_name": "DFSDM filter x interrupt fl ag clear register (DFSDM_FLTXICR)",
+  "address_offset": "0x10C",
+  "reset_value": "0x00000000",
+  "description": "DFSDM filter x interrupt fl ag clear register specification",
+  "bit_fields": [
+    {
+      "name": "CLRJOVRF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear the injected conversion overrun flag"
+    },
+    {
+      "name": "CLRROVRF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear the regular conversion overrun flag"
+    },
+    {
+      "name": "CLRCKABF[3",
+      "bit_offset": 16,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Clear the clock absence flag"
+    },
+    {
+      "name": "CLRSCDF[3",
+      "bit_offset": 24,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Clear the short-circuit detector flag"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "EXTI",
+  "register_name": "EXTI_EXTICRN",
+  "long_name": "EXTI external interrupt se lection register (EXTI_EXTICRN)",
+  "address_offset": "0x060",
+  "reset_value": "0x00000000",
+  "description": "EXTI external interrupt se lection register specification",
+  "bit_fields": [
+    {
+      "name": "PRIV[42",
+      "bit_offset": 0,
+      "bit_width": 11,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "32]: Privilege enable on event input x (where x = 32 to 42)"
+    }
+  ],
+  "errata_notes": []
+}

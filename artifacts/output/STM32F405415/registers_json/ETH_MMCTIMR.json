@@ -1,0 +1,51 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_MMCTIMR",
+  "long_name": "Ethernet MMC transmit interrupt mask register (ETH_MMCTIMR)",
+  "address_offset": "0x0110",
+  "reset_value": "0x00000000",
+  "description": "Ethernet MMC transmit interrupt mask register specification",
+  "bit_fields": [
+    {
+      "name": "RFCEM",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Received frame CRC error mask"
+    },
+    {
+      "name": "RFAEM",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Received frames alignment error mask"
+    },
+    {
+      "name": "TGFMSCM",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmitted good frames more single collision mask"
+    },
+    {
+      "name": "RGUFM",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Received good unicast frames mask"
+    },
+    {
+      "name": "TGFM",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmitted good frames mask"
+    }
+  ],
+  "errata_notes": []
+}

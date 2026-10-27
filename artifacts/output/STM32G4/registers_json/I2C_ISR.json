@@ -1,0 +1,123 @@
+{
+  "peripheral": "I2C",
+  "register_name": "I2C_ISR",
+  "long_name": "I2C interrupt and st atus register (I2C_ISR)",
+  "address_offset": "0x18",
+  "reset_value": "0x00000000",
+  "description": "I2C interrupt and st atus register specification",
+  "bit_fields": [
+    {
+      "name": "ADDR",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Address matched (target mode)"
+    },
+    {
+      "name": "NACKF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Not acknowledge received flag"
+    },
+    {
+      "name": "STOPF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "STOP detection flag"
+    },
+    {
+      "name": "TC",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer complete (controller mode)"
+    },
+    {
+      "name": "TCR",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer complete reload"
+    },
+    {
+      "name": "BERR",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Bus error"
+    },
+    {
+      "name": "ARLO",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Arbitration lost"
+    },
+    {
+      "name": "OVR",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overrun/underrun (target mode)"
+    },
+    {
+      "name": "PECERR",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PEC error in reception"
+    },
+    {
+      "name": "TIMEOUT",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timeout or tLOW detection flag"
+    },
+    {
+      "name": "ALERT",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SMBus alert"
+    },
+    {
+      "name": "BUSY",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Bus busy"
+    },
+    {
+      "name": "DIR",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer direction (target mode)"
+    },
+    {
+      "name": "ADDCODE[6",
+      "bit_offset": 17,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Address match code (target mode)"
+    }
+  ],
+  "errata_notes": []
+}

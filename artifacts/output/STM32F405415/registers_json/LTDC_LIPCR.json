@@ -1,0 +1,19 @@
+{
+  "peripheral": "LTDC",
+  "register_name": "LTDC_LIPCR",
+  "long_name": "LTDC Line Interrupt Position Configuration Register (LTDC_LIPCR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "LTDC Line Interrupt Position Configuration Register specification",
+  "bit_fields": [
+    {
+      "name": "LTDC_LIPCR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "LTDC Line Interrupt Position Configuration Register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "FLASH",
+  "register_name": "FLASH_PCROP2SR",
+  "long_name": "Flash PCROP2 Start address register (FLASH_PCROP2SR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Flash PCROP2 Start address register specification",
+  "bit_fields": [
+    {
+      "name": "FLASH_PCROP2SR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "Flash PCROP2 Start address register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

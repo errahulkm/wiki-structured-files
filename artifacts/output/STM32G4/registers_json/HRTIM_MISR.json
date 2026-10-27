@@ -1,0 +1,67 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_MISR",
+  "long_name": "HRTIM master timer interrupt status register (HRTIM_MISR)",
+  "address_offset": "0x004",
+  "reset_value": "0x00000000",
+  "description": "HRTIM master timer interrupt status register specification",
+  "bit_fields": [
+    {
+      "name": "MCMP1",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master compare 1 interrupt flag"
+    },
+    {
+      "name": "MCMP2",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master compare 2 interrupt flag"
+    },
+    {
+      "name": "MCMP3",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master compare 3 interrupt flag"
+    },
+    {
+      "name": "MCMP4",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master compare 4 interrupt flag"
+    },
+    {
+      "name": "MREP",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master repetition interrupt flag"
+    },
+    {
+      "name": "SYNC",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Sync input interrupt flag"
+    },
+    {
+      "name": "MUPD",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master update interrupt flag"
+    }
+  ],
+  "errata_notes": []
+}

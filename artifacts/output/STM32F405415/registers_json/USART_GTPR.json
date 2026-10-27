@@ -1,0 +1,27 @@
+{
+  "peripheral": "USART",
+  "register_name": "USART_GTPR",
+  "long_name": "Guard time and prescal er register (USART_GTPR)",
+  "address_offset": "0x18",
+  "reset_value": "0x00000000",
+  "description": "Guard time and prescal er register specification",
+  "bit_fields": [
+    {
+      "name": "PSC[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Prescaler value"
+    },
+    {
+      "name": "GT[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Guard time value"
+    }
+  ],
+  "errata_notes": []
+}

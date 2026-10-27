@@ -1,0 +1,43 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_SSCGR",
+  "long_name": "RCC spread spectrum clo ck generation register (RCC_SSCGR)",
+  "address_offset": "0x80",
+  "reset_value": "0x00000000",
+  "description": "RCC spread spectrum clo ck generation register specification",
+  "bit_fields": [
+    {
+      "name": "LSION",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal low-speed oscillator enable"
+    },
+    {
+      "name": "LSIRDY",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal low-speed oscillator ready"
+    },
+    {
+      "name": "SPREADSEL",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Spread Select"
+    },
+    {
+      "name": "SSCGEN",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Spread spectrum modulation enable"
+    }
+  ],
+  "errata_notes": []
+}

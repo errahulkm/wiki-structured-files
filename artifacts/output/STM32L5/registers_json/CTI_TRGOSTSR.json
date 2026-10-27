@@ -1,0 +1,19 @@
+{
+  "peripheral": "CTI",
+  "register_name": "CTI_TRGOSTSR",
+  "long_name": "0x0000 0000 CTI trigger output status register (CTI_TRGOSTSR)",
+  "address_offset": "0x134",
+  "reset_value": "0x00000000",
+  "description": "0x0000 0000 CTI trigger output status register specification",
+  "bit_fields": [
+    {
+      "name": "TRIGINSTATUS[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: trigger input status"
+    }
+  ],
+  "errata_notes": []
+}

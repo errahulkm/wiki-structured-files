@@ -1,0 +1,43 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_MACHTHR",
+  "long_name": "with DMA controller 1227 Ethernet MAC hash table high register (ETH_MACHTHR)",
+  "address_offset": "0x0008",
+  "reset_value": "0x00000000",
+  "description": "with DMA controller 1227 Ethernet MAC hash table high register specification",
+  "bit_fields": [
+    {
+      "name": "IN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "the selected register, and a value of 0b1 1111 selects bit 31 in the selected register."
+    },
+    {
+      "name": "HU",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Hash unicast"
+    },
+    {
+      "name": "HM",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Hash multicast"
+    },
+    {
+      "name": "DAIF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Destination address inverse filtering"
+    }
+  ],
+  "errata_notes": []
+}

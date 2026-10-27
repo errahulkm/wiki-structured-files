@@ -1,0 +1,35 @@
+{
+  "peripheral": "TPIU",
+  "register_name": "TPIU_FFSR",
+  "long_name": "RM0438 2116/2187 RM0438 Rev 8 TPIU formatter and flush status register (TPIU_FFSR)",
+  "address_offset": "0x300",
+  "reset_value": "0x00000000",
+  "description": "RM0438 2116/2187 RM0438 Rev 8 TPIU formatter and flush status register specification",
+  "bit_fields": [
+    {
+      "name": "TXMODE[1",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: protocol used for trace output"
+    },
+    {
+      "name": "TCPRESENT",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TRACECTL output pin availability"
+    },
+    {
+      "name": "FTNONSTOP",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "formatter stop"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,35 @@
+{
+  "peripheral": "WWDG",
+  "register_name": "WWDG_CFR",
+  "long_name": "WWDG configuratio n register (WWDG_CFR)",
+  "address_offset": "0x004",
+  "reset_value": "0x00000000",
+  "description": "WWDG configuratio n register specification",
+  "bit_fields": [
+    {
+      "name": "T[6",
+      "bit_offset": 0,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: 7-bit counter (MSB to LSB)"
+    },
+    {
+      "name": "WDGA",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Activation bit"
+    },
+    {
+      "name": "WDGTB[2",
+      "bit_offset": 11,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Timer base"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_DOEPTSIZX",
+  "long_name": "OTG_FS device OUT endpoint-x transfer size register (OTG_FS_DOEPTSIZX)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "OTG_FS device OUT endpoint-x transfer size register specification",
+  "bit_fields": [
+    {
+      "name": "RXDPID",
+      "bit_offset": 29,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Received data PID"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,67 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_GRSTCTL",
+  "long_name": "1368 OTG_FS reset register (OTG_FS_GRSTCTL)",
+  "address_offset": "0x010",
+  "reset_value": "0x00000000",
+  "description": "1368 OTG_FS reset register specification",
+  "bit_fields": [
+    {
+      "name": "CSRST",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Core soft reset"
+    },
+    {
+      "name": "HSRST",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HCLK soft reset"
+    },
+    {
+      "name": "FCRST",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Host frame counter reset"
+    },
+    {
+      "name": "RXFFLSH",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RxFIFO flush"
+    },
+    {
+      "name": "TXFFLSH",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TxFIFO flush"
+    },
+    {
+      "name": "TXFNUM",
+      "bit_offset": 6,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TxFIFO number"
+    },
+    {
+      "name": "AHBIDL",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "AHB master idle"
+    }
+  ],
+  "errata_notes": []
+}

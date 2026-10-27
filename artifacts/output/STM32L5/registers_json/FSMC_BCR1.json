@@ -1,0 +1,35 @@
+{
+  "peripheral": "FSMC",
+  "register_name": "FSMC_BCR1",
+  "long_name": "FSMC SRAM/NOR-Flash Chip-Select Control Register 1",
+  "address_offset": "0x00",
+  "reset_value": "0x000030DB",
+  "description": "NOR/PSRAM control register 1",
+  "bit_fields": [
+    {
+      "name": "MBKEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "1",
+      "description": "Memory bank enable"
+    },
+    {
+      "name": "MUXEN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Address/data multiplexing enable"
+    },
+    {
+      "name": "MTYP",
+      "bit_offset": 2,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "2",
+      "description": "Memory type: 00=SRAM, 01=PSRAM, 10=NOR"
+    }
+  ],
+  "errata_notes": []
+}

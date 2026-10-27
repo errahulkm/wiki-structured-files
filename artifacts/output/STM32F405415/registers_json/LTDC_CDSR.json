@@ -1,0 +1,27 @@
+{
+  "peripheral": "LTDC",
+  "register_name": "LTDC_CDSR",
+  "long_name": "LTDC Current Display Status Register (LTDC_CDSR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "LTDC Current Display Status Register specification",
+  "bit_fields": [
+    {
+      "name": "CYPOS[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Current Y Position"
+    },
+    {
+      "name": "WHSPPOS[11",
+      "bit_offset": 16,
+      "bit_width": 12,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Window Horizontal Stop Position"
+    }
+  ],
+  "errata_notes": []
+}

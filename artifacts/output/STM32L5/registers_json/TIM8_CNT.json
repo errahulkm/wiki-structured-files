@@ -1,0 +1,19 @@
+{
+  "peripheral": "TIMERS",
+  "register_name": "TIM8_CNT",
+  "long_name": "Timers (TIM) TIM8_CNT Register",
+  "address_offset": "0x24",
+  "reset_value": "0x0",
+  "description": "Timers (TIM) TIM8_CNT hardware register",
+  "bit_fields": [
+    {
+      "name": "TIM8_CNT",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x0",
+      "description": "TIM8_CNT register value"
+    }
+  ],
+  "errata_notes": []
+}

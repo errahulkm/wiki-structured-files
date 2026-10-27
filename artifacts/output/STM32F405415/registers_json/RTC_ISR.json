@@ -1,0 +1,115 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_ISR",
+  "long_name": "RTC initialization and status register (RTC_ISR)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "RTC initialization and status register specification",
+  "bit_fields": [
+    {
+      "name": "WUCKSEL[2",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Wake-up clock selection"
+    },
+    {
+      "name": "TSEDGE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timestamp event active edge"
+    },
+    {
+      "name": "REFCKON",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Reference clock detection enable (50 or 60 Hz)"
+    },
+    {
+      "name": "RSF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Registers synchronization flag"
+    },
+    {
+      "name": "INITF",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Initialization flag"
+    },
+    {
+      "name": "INIT",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Initialization mode"
+    },
+    {
+      "name": "ALRAF",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alarm A flag"
+    },
+    {
+      "name": "ALRBF",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alarm B flag"
+    },
+    {
+      "name": "WUTF",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wake-up timer flag"
+    },
+    {
+      "name": "TSF",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timestamp flag"
+    },
+    {
+      "name": "TSOVF",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timestamp overflow flag"
+    },
+    {
+      "name": "TAMP1F",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper detection flag"
+    },
+    {
+      "name": "TAMP2F",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMPER2 detection flag"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,115 @@
+{
+  "peripheral": "TAMP",
+  "register_name": "TAMP_SR",
+  "long_name": "TAMP status register (TAMP_SR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "TAMP status register specification",
+  "bit_fields": [
+    {
+      "name": "TAMP1IE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper 1 interrupt enable"
+    },
+    {
+      "name": "TAMP2IE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper 2 interrupt enable"
+    },
+    {
+      "name": "TAMP3IE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper 3 interrupt enable"
+    },
+    {
+      "name": "TAMP4IE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper 4 interrupt enable"
+    },
+    {
+      "name": "TAMP5IE",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper 5 interrupt enable"
+    },
+    {
+      "name": "TAMP6IE",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper 6 interrupt enable"
+    },
+    {
+      "name": "TAMP7IE",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper 7interrupt enable"
+    },
+    {
+      "name": "TAMP8IE",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper 8 interrupt enable"
+    },
+    {
+      "name": "ITAMP1IE",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal tamper 1 interrupt enable"
+    },
+    {
+      "name": "ITAMP2IE",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal tamper 2 interrupt enable"
+    },
+    {
+      "name": "ITAMP3IE",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal tamper 3 interrupt enable"
+    },
+    {
+      "name": "ITAMP5F",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal tamper 5 flag"
+    },
+    {
+      "name": "ITAMP8F",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal tamper 8 flag"
+    }
+  ],
+  "errata_notes": []
+}

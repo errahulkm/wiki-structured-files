@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "RECEIVERS",
+  "long_name": "Receive data register not empty (RECEIVERS)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Receive data register not empty specification",
+  "bit_fields": [
+    {
+      "name": "TXIS",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmit interrupt status (transmitters)"
+    }
+  ],
+  "errata_notes": []
+}

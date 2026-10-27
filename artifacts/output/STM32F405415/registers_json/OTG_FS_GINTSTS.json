@@ -1,0 +1,211 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_GINTSTS",
+  "long_name": "1368 OTG_FS core interrupt register (OTG_FS_GINTSTS)",
+  "address_offset": "0x014",
+  "reset_value": "0x00000000",
+  "description": "1368 OTG_FS core interrupt register specification",
+  "bit_fields": [
+    {
+      "name": "CMOD",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Current mode of operation"
+    },
+    {
+      "name": "MMIS",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Mode mismatch interrupt"
+    },
+    {
+      "name": "OTGINT",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OTG interrupt"
+    },
+    {
+      "name": "SOF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Start of frame"
+    },
+    {
+      "name": "RXFLVL",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RxFIFO non-empty"
+    },
+    {
+      "name": "NPTXFE",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Non-periodic TxFIFO empty"
+    },
+    {
+      "name": "GINAKEFF",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Global IN non-periodic NAK effective"
+    },
+    {
+      "name": "GONAKEFF",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Global OUT NAK effective"
+    },
+    {
+      "name": "ESUSP",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Early suspend"
+    },
+    {
+      "name": "USBSUSP",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB suspend"
+    },
+    {
+      "name": "USBRST",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB reset"
+    },
+    {
+      "name": "ENUMDNE",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enumeration done"
+    },
+    {
+      "name": "ISOODRP",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Isochronous OUT packet dropped interrupt"
+    },
+    {
+      "name": "EOPF",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "End of periodic frame interrupt"
+    },
+    {
+      "name": "IEPINT",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IN endpoint interrupt"
+    },
+    {
+      "name": "OEPINT",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OUT endpoint interrupt"
+    },
+    {
+      "name": "IISOIXFR",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Incomplete isochronous IN transfer"
+    },
+    {
+      "name": "IPXFR",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Incomplete periodic transfer"
+    },
+    {
+      "name": "HPRTINT",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Host port interrupt"
+    },
+    {
+      "name": "HCINT",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Host channels interrupt"
+    },
+    {
+      "name": "PTXFE",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Periodic TxFIFO empty"
+    },
+    {
+      "name": "CIDSCHG",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Connector ID status change"
+    },
+    {
+      "name": "DISCINT",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Disconnect detected interrupt"
+    },
+    {
+      "name": "SRQINT",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Session request/new session detected interrupt"
+    },
+    {
+      "name": "WKUPINT",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Resume/remote wake-up detected interrupt"
+    }
+  ],
+  "errata_notes": []
+}

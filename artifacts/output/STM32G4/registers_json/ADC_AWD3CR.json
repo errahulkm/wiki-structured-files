@@ -1,0 +1,19 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_AWD3CR",
+  "long_name": "ADC analog wa tchdog 3 configuration register (ADC_AWD3CR)",
+  "address_offset": "0xA4",
+  "reset_value": "0x00000000",
+  "description": "ADC analog wa tchdog 3 configuration register specification",
+  "bit_fields": [
+    {
+      "name": "JDATA[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Injected data"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,59 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_ADCER",
+  "long_name": "HRTIM ADC extended tr igger register (HRTIM_ADCER)",
+  "address_offset": "0x3F8",
+  "reset_value": "0x00000000",
+  "description": "HRTIM ADC extended tr igger register specification",
+  "bit_fields": [
+    {
+      "name": "ADC5TRG[4",
+      "bit_offset": 0,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC trigger 5 selection"
+    },
+    {
+      "name": "ADC6TRG[4",
+      "bit_offset": 5,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC trigger 6 selection"
+    },
+    {
+      "name": "ADC7TRG[4",
+      "bit_offset": 10,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC trigger 7 selection"
+    },
+    {
+      "name": "ADC8TRG[4",
+      "bit_offset": 16,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC trigger 8 selection"
+    },
+    {
+      "name": "ADC9TRG[4",
+      "bit_offset": 21,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC trigger 9 selection"
+    },
+    {
+      "name": "ADC10TRG[4",
+      "bit_offset": 26,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC trigger 10 selection"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "PWR",
+  "register_name": "PWR_PDCRH",
+  "long_name": "Power Port H pull-down control register (PWR_PDCRH)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Power Port H pull-down control register specification",
+  "bit_fields": [
+    {
+      "name": "PWR_PDCRH",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "Power Port H pull-down control register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

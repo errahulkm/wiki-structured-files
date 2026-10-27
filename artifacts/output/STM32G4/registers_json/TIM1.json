@@ -1,0 +1,171 @@
+{
+  "peripheral": "TIMERS",
+  "register_name": "TIM1",
+  "long_name": "Counter register 01 02 03 00 01 02 0332 33 34 35 36 UG tim_ti1 3130 TIF RM0440 Rev 9 1229/2140 RM0440 Advanced-control timers (TIM1)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Counter register 01 02 03 00 01 02 0332 33 34 35 36 UG tim_ti1 3130 TIF RM0440 Rev 9 1229/2140 RM0440 Advanced-control timers specification",
+  "bit_fields": [
+    {
+      "name": "CEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Counter enable"
+    },
+    {
+      "name": "UDIS",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Update disable"
+    },
+    {
+      "name": "URS",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Update request source"
+    },
+    {
+      "name": "OPM",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "One-pulse mode"
+    },
+    {
+      "name": "DIR",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Direction"
+    },
+    {
+      "name": "CMS[1",
+      "bit_offset": 5,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Center-aligned mode selection"
+    },
+    {
+      "name": "ARPE",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Autoreload preload enable"
+    },
+    {
+      "name": "CKD[1",
+      "bit_offset": 8,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Clock division"
+    },
+    {
+      "name": "OIS2",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output idle state 2 (tim_oc2 output)"
+    },
+    {
+      "name": "UIFREMAP",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UIF status bit remapping"
+    },
+    {
+      "name": "DITHEN",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Dithering enable"
+    },
+    {
+      "name": "OIS3N",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output idle state 3 (tim_oc3n output)"
+    },
+    {
+      "name": "OIS4",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output idle state 4 (tim_oc4 output)"
+    },
+    {
+      "name": "OIS4N",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output idle state 4 (tim_oc4n output)"
+    },
+    {
+      "name": "OIS5",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output idle state 5 (tim_oc5 output)"
+    },
+    {
+      "name": "CC6IF",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Compare 6 interrupt flag"
+    },
+    {
+      "name": "OIS6",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output idle state 6 (tim_oc6 output)"
+    },
+    {
+      "name": "MMS2[3",
+      "bit_offset": 20,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Master mode selection 2"
+    },
+    {
+      "name": "SMSPE",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SMS preload enable"
+    },
+    {
+      "name": "SMSPS",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SMS preload source"
+    }
+  ],
+  "errata_notes": []
+}

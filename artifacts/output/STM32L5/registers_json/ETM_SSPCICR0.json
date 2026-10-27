@@ -1,0 +1,51 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_SSPCICR0",
+  "long_name": "0xXXXX XXXX ETM single-shot processor comparator input control register 0 (ETM_SSPCICR0)",
+  "address_offset": "0x2C0",
+  "reset_value": "0x00000000",
+  "description": "0xXXXX XXXX ETM single-shot processor comparator input control register 0 specification",
+  "bit_fields": [
+    {
+      "name": "INST",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "instruction address comparator support"
+    },
+    {
+      "name": "DA",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "data address comparator support"
+    },
+    {
+      "name": "DV",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "data value comparator support"
+    },
+    {
+      "name": "PC",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "processor comparator input sensitivity"
+    },
+    {
+      "name": "STATUS",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "single-shot comparator status"
+    }
+  ],
+  "errata_notes": []
+}

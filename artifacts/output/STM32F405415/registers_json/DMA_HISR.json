@@ -1,0 +1,19 @@
+{
+  "peripheral": "DMA",
+  "register_name": "DMA_HISR",
+  "long_name": "DMA high interrupt st atus register (DMA_HISR)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "DMA high interrupt st atus register specification",
+  "bit_fields": [
+    {
+      "name": "DMA_HISR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "DMA high interrupt st atus register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

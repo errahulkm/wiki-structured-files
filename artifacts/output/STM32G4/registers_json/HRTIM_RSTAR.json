@@ -1,0 +1,243 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_RSTAR",
+  "long_name": "HRTIM timer A reset register (HRTIM_RSTAR)",
+  "address_offset": "0x0D4",
+  "reset_value": "0x00000000",
+  "description": "HRTIM timer A reset register specification",
+  "bit_fields": [
+    {
+      "name": "EE6LTCH",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 6 latch"
+    },
+    {
+      "name": "EE6FLTR[3",
+      "bit_offset": 1,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event 6 filter"
+    },
+    {
+      "name": "MSTCMP1",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master compare 1"
+    },
+    {
+      "name": "MSTCMP2",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master compare 2"
+    },
+    {
+      "name": "MSTCMP3",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master compare 3"
+    },
+    {
+      "name": "MSTCMP4",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master compare 4"
+    },
+    {
+      "name": "EXTEVNT1",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 1"
+    },
+    {
+      "name": "EXTEVNT2",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 2"
+    },
+    {
+      "name": "EXTEVNT3",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 3"
+    },
+    {
+      "name": "EXTEVNT4",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 4"
+    },
+    {
+      "name": "EXTEVNT5",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 5"
+    },
+    {
+      "name": "EXTEVNT6",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 6"
+    },
+    {
+      "name": "EXTEVNT7",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 7"
+    },
+    {
+      "name": "EXTEVNT8",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 8"
+    },
+    {
+      "name": "EXTEVNT9",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 9"
+    },
+    {
+      "name": "EXTEVNT10",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event"
+    },
+    {
+      "name": "TIMBCMP1",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer B compare 1"
+    },
+    {
+      "name": "TIMBCMP2",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer B compare 2"
+    },
+    {
+      "name": "TIMBCMP4",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer B compare 4"
+    },
+    {
+      "name": "TIMCCMP1",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer C compare 1"
+    },
+    {
+      "name": "TIMCCMP2",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer C compare 2"
+    },
+    {
+      "name": "TIMCCMP4",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer C compare 4"
+    },
+    {
+      "name": "TIMDCMP1",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer D compare 1"
+    },
+    {
+      "name": "TIMDCMP2",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer D compare 2"
+    },
+    {
+      "name": "TIMDCMP4",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer D compare 4"
+    },
+    {
+      "name": "TIMECMP1",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer E compare 1"
+    },
+    {
+      "name": "TIMECMP2",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer E compare 2"
+    },
+    {
+      "name": "TIMECMP4",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer E compare 4"
+    },
+    {
+      "name": "TIMFCMP2",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer F compare 2"
+    }
+  ],
+  "errata_notes": []
+}

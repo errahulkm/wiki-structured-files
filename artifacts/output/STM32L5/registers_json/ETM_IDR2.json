@@ -1,0 +1,51 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_IDR2",
+  "long_name": "0x4100 F421 ETM identification register 2 (ETM_IDR2)",
+  "address_offset": "0x1E8",
+  "reset_value": "0x00000000",
+  "description": "0x4100 F421 ETM identification register 2 specification",
+  "bit_fields": [
+    {
+      "name": "INSTP0[1",
+      "bit_offset": 1,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: support for tracing of load and store instructions as P0 elements"
+    },
+    {
+      "name": "TRCDATA[1",
+      "bit_offset": 3,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: data tracing support"
+    },
+    {
+      "name": "TRCBB",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "branch broadcast support"
+    },
+    {
+      "name": "TRCARCHMAJ[3",
+      "bit_offset": 8,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: major trace unit architecture version number"
+    },
+    {
+      "name": "DESIGNER[7",
+      "bit_offset": 24,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: trace unit designer"
+    }
+  ],
+  "errata_notes": []
+}

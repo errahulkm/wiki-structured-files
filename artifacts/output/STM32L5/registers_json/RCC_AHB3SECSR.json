@@ -1,0 +1,43 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB3SECSR",
+  "long_name": "RCC AHB3 security stat us register (RCC_AHB3SECSR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RCC AHB3 security stat us register specification",
+  "bit_fields": [
+    {
+      "name": "GPIOASECF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "GPIOA clock security flag"
+    },
+    {
+      "name": "GPIOBSECF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "GPIOB clock security flag"
+    },
+    {
+      "name": "GPIOCSECF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "GPIOC clock security flag"
+    },
+    {
+      "name": "OSPI1SECF",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OCTOSPI1 clock security flag"
+    }
+  ],
+  "errata_notes": []
+}

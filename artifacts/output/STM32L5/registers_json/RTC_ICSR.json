@@ -1,0 +1,27 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_ICSR",
+  "long_name": "RTC initialization control and status register (RTC_ICSR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RTC initialization control and status register specification",
+  "bit_fields": [
+    {
+      "name": "SS[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Sub second value"
+    },
+    {
+      "name": "RECALPF",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Recalibration pending Flag"
+    }
+  ],
+  "errata_notes": []
+}

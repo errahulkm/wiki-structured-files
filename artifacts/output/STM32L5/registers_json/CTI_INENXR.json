@@ -1,0 +1,19 @@
+{
+  "peripheral": "CTI",
+  "register_name": "CTI_INENXR",
+  "long_name": "2149 CTI trigger input x enable register (CTI_INENXR)",
+  "address_offset": "0x020",
+  "reset_value": "0x00000000",
+  "description": "2149 CTI trigger input x enable register specification",
+  "bit_fields": [
+    {
+      "name": "CTI_INENXR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "2149 CTI trigger input x enable register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

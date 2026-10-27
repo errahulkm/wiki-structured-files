@@ -1,0 +1,27 @@
+{
+  "peripheral": "OTFDEC",
+  "register_name": "OTFDEC_ICR",
+  "long_name": "OTFDEC interrupt clear register (OTFDEC_ICR)",
+  "address_offset": "0x304",
+  "reset_value": "0x00000000",
+  "description": "OTFDEC interrupt clear register specification",
+  "bit_fields": [
+    {
+      "name": "SEIF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Security error interrupt flag status"
+    },
+    {
+      "name": "XONEIF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Execute-only execute-never error interrupt flag status"
+    }
+  ],
+  "errata_notes": []
+}

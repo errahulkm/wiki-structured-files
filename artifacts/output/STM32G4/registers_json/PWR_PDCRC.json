@@ -1,0 +1,19 @@
+{
+  "peripheral": "PWR",
+  "register_name": "PWR_PDCRC",
+  "long_name": "Power Port C pull-down control register (PWR_PDCRC)",
+  "address_offset": "0x34",
+  "reset_value": "0x00000000",
+  "description": "Power Port C pull-down control register specification",
+  "bit_fields": [
+    {
+      "name": "PDY",
+      "bit_offset": 5,
+      "bit_width": 11,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Port B pull-down bit y (y = 15 to 5)"
+    }
+  ],
+  "errata_notes": []
+}

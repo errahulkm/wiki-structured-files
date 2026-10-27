@@ -1,0 +1,27 @@
+{
+  "peripheral": "EXTI",
+  "register_name": "EXTI_SWIER1",
+  "long_name": "EXTI software interrupt event register (EXTI_SWIER1)",
+  "address_offset": "0x008",
+  "reset_value": "0x00000000",
+  "description": "EXTI software interrupt event register specification",
+  "bit_fields": [
+    {
+      "name": "FT[16",
+      "bit_offset": 0,
+      "bit_width": 17,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Falling trigger event configuration bit of configurable event input x (1) (where x = 0 to"
+    },
+    {
+      "name": "FT[22",
+      "bit_offset": 21,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "21]: Falling trigger event configuration bit of configurable event input x (1) (where x = 18"
+    }
+  ],
+  "errata_notes": []
+}

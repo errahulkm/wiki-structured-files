@@ -1,0 +1,35 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_SQR1",
+  "long_name": "ADC regular sequenc e register 1 (ADC_SQR1)",
+  "address_offset": "0x2C",
+  "reset_value": "0x00000000",
+  "description": "ADC regular sequenc e register 1 specification",
+  "bit_fields": [
+    {
+      "name": "LT[11",
+      "bit_offset": 0,
+      "bit_width": 12,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Analog watchdog lower threshold"
+    },
+    {
+      "name": "SQ16[4",
+      "bit_offset": 15,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: 16th conversion in regular sequence"
+    },
+    {
+      "name": "L[3",
+      "bit_offset": 20,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Regular channel sequence length"
+    }
+  ],
+  "errata_notes": []
+}

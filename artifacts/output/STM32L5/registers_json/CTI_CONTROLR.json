@@ -1,0 +1,19 @@
+{
+  "peripheral": "CTI",
+  "register_name": "CTI_CONTROLR",
+  "long_name": "CTI control register (CTI_CONTROLR)",
+  "address_offset": "0x000",
+  "reset_value": "0x00000000",
+  "description": "CTI control register specification",
+  "bit_fields": [
+    {
+      "name": "CTI_CONTROLR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "CTI control register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

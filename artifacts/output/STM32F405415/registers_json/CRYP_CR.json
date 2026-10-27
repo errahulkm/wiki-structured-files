@@ -1,0 +1,19 @@
+{
+  "peripheral": "CRYP",
+  "register_name": "CRYP_CR",
+  "long_name": "Cryptographic Processor (CRYP) CRYP_CR Register",
+  "address_offset": "0x00",
+  "reset_value": "0x00011",
+  "description": "Cryptographic Processor (CRYP) CRYP_CR hardware register",
+  "bit_fields": [
+    {
+      "name": "BIT",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0bit 1bit 2bit 30bit 31 first word written into the CRYP_DIN register"
+    }
+  ],
+  "errata_notes": []
+}

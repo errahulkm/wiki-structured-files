@@ -1,0 +1,155 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_CIR",
+  "long_name": "RCC clock interrupt register (RCC_CIR)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "RCC clock interrupt register specification",
+  "bit_fields": [
+    {
+      "name": "SW",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "System clock switch"
+    },
+    {
+      "name": "SWS",
+      "bit_offset": 2,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "System clock switch status"
+    },
+    {
+      "name": "HPRE",
+      "bit_offset": 4,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "AHB prescaler"
+    },
+    {
+      "name": "LSIRDYIE",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSI ready interrupt enable"
+    },
+    {
+      "name": "LSERDYIE",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSE ready interrupt enable"
+    },
+    {
+      "name": "HSIRDYIE",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI ready interrupt enable"
+    },
+    {
+      "name": "HSERDYIE",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSE ready interrupt enable"
+    },
+    {
+      "name": "PLLRDYIE",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Main PLL (PLL) ready interrupt enable"
+    },
+    {
+      "name": "PLLI2SRDYIE",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLI2S ready interrupt enable"
+    },
+    {
+      "name": "PLLSAIRDYIE",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLSAI Ready Interrupt Enable"
+    },
+    {
+      "name": "LSIRDYC",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSI ready interrupt clear"
+    },
+    {
+      "name": "LSERDYC",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSE ready interrupt clear"
+    },
+    {
+      "name": "HSIRDYC",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI ready interrupt clear"
+    },
+    {
+      "name": "HSERDYC",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSE ready interrupt clear"
+    },
+    {
+      "name": "PLLRDYC",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Main PLL(PLL) ready interrupt clear"
+    },
+    {
+      "name": "PLLI2SRDYC",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLI2S ready interrupt clear"
+    },
+    {
+      "name": "PLLSAIRDYC",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLSAI Ready Interrupt Clear"
+    },
+    {
+      "name": "CSSC",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock security system interrupt clear"
+    }
+  ],
+  "errata_notes": []
+}

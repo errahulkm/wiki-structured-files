@@ -1,0 +1,163 @@
+{
+  "peripheral": "GTZC",
+  "register_name": "GTZC_TZSC_SECCFGR2",
+  "long_name": "GTZC_TZSC secure c onfiguration register 2 (GTZC_TZSC_SECCFGR2)",
+  "address_offset": "0x014",
+  "reset_value": "0x00000000",
+  "description": "GTZC_TZSC secure c onfiguration register 2 specification",
+  "bit_fields": [
+    {
+      "name": "TIM8SEC",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for TIM8"
+    },
+    {
+      "name": "USART1SEC",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for USART1"
+    },
+    {
+      "name": "TIM15SEC",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for TIM15"
+    },
+    {
+      "name": "TIM16SEC",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for TIM16"
+    },
+    {
+      "name": "TIM17SEC",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for TIM17"
+    },
+    {
+      "name": "SAI1SEC",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for SAI1"
+    },
+    {
+      "name": "SAI2SEC",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for SAI2"
+    },
+    {
+      "name": "DFSDM1SEC",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for DFSDM1"
+    },
+    {
+      "name": "CRCSEC",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for CRC"
+    },
+    {
+      "name": "TSCSEC",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for TSC"
+    },
+    {
+      "name": "ICACHE_REGSEC",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for ICACHE registers"
+    },
+    {
+      "name": "ADCSEC",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for ADC"
+    },
+    {
+      "name": "AESSEC",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for AES"
+    },
+    {
+      "name": "HASHSEC",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for HASH"
+    },
+    {
+      "name": "RNGSEC",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for RNG"
+    },
+    {
+      "name": "PKASEC",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for PKA"
+    },
+    {
+      "name": "SDMMC1SEC",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for SDMMC1"
+    },
+    {
+      "name": "FMC_REGSEC",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for FMC registers"
+    },
+    {
+      "name": "OCTOSPI1_REGSEC",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for OCTOSPI1 registers"
+    }
+  ],
+  "errata_notes": []
+}

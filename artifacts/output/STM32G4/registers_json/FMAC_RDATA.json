@@ -1,0 +1,19 @@
+{
+  "peripheral": "FMAC",
+  "register_name": "FMAC_RDATA",
+  "long_name": "FMAC read data register (FMAC_RDATA)",
+  "address_offset": "0x1C",
+  "reset_value": "0x00000000",
+  "description": "FMAC read data register specification",
+  "bit_fields": [
+    {
+      "name": "RDATA[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Read data"
+    }
+  ],
+  "errata_notes": []
+}

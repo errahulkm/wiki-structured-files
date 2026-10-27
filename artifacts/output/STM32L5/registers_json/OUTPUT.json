@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "OUTPUT",
+  "long_name": "MS19882V3 Data register (OUTPUT)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "MS19882V3 Data register specification",
+  "bit_fields": [
+    {
+      "name": "OUTPUT",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "MS19882V3 Data register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,83 @@
+{
+  "peripheral": "DWT",
+  "register_name": "DWT_CTRLR",
+  "long_name": "DWT control register (DWT_CTRLR)",
+  "address_offset": "0x000",
+  "reset_value": "0x00000000",
+  "description": "DWT control register specification",
+  "bit_fields": [
+    {
+      "name": "LSUEVTENA",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "enable for LSU counter overflow event generation"
+    },
+    {
+      "name": "FOLDEVTENA",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "enable for folded instruction counter overflow event generation"
+    },
+    {
+      "name": "CYCEVTENA",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "enable for POSTCNT underflow event counter packet generation"
+    },
+    {
+      "name": "CYCDISS",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "cycle counter disabled secure."
+    },
+    {
+      "name": "NOPRFCNT",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "profiling counter support (read only)"
+    },
+    {
+      "name": "NOCYCCNT",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "cycle counter support (read only)"
+    },
+    {
+      "name": "NOEXTTRIG",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "external match signal, CMPMATCH support (read only)"
+    },
+    {
+      "name": "NOTRCPKT",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "trace sampling and exception tracing support (read only)"
+    },
+    {
+      "name": "NUMCOMP[3",
+      "bit_offset": 28,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: number of comparators implemented (read only)"
+    }
+  ],
+  "errata_notes": []
+}

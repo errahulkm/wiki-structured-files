@@ -1,0 +1,83 @@
+{
+  "peripheral": "TAMP",
+  "register_name": "TAMP_SMISR",
+  "long_name": "TAMP secure masked interr upt status register (TAMP_SMISR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "TAMP secure masked interr upt status register specification",
+  "bit_fields": [
+    {
+      "name": "TAMP1MF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMP1 non-secure interrupt masked flag"
+    },
+    {
+      "name": "TAMP2MF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMP2 non-secure interrupt masked flag"
+    },
+    {
+      "name": "TAMP3MF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMP3 non-secure interrupt masked flag"
+    },
+    {
+      "name": "TAMP4MF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMP4 non-secure interrupt masked flag"
+    },
+    {
+      "name": "TAMP5MF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMP5 non-secure interrupt masked flag"
+    },
+    {
+      "name": "TAMP6MF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMP6 non-secure interrupt masked flag"
+    },
+    {
+      "name": "ITAMP3MF",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal tamper 3 secure interrupt masked flag"
+    },
+    {
+      "name": "ITAMP5MF",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal tamper 5 secure interrupt masked flag"
+    },
+    {
+      "name": "ITAMP8MF",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal tamper 8 secure interrupt masked flag"
+    }
+  ],
+  "errata_notes": []
+}

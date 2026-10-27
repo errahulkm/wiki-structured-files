@@ -1,0 +1,43 @@
+{
+  "peripheral": "FMC",
+  "register_name": "FMC_PIO4",
+  "long_name": "RM0090 1648/1741 RM0090 Rev 22 I/O space timing register 4 (FMC_PIO4)",
+  "address_offset": "0xB0",
+  "reset_value": "0x00000000",
+  "description": "RM0090 1648/1741 RM0090 Rev 22 I/O space timing register 4 specification",
+  "bit_fields": [
+    {
+      "name": "ATTSET[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Attribute memory x setup time"
+    },
+    {
+      "name": "ATTWAIT[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Attribute memory x wait time"
+    },
+    {
+      "name": "ATTHOLD[7",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Attribute memory x hold time"
+    },
+    {
+      "name": "IOHIZ[7",
+      "bit_offset": 24,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: I/O x data bus Hi-Z time"
+    }
+  ],
+  "errata_notes": []
+}

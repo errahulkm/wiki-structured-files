@@ -1,0 +1,67 @@
+{
+  "peripheral": "SPI",
+  "register_name": "SPI_SR",
+  "long_name": "SPI status register (SPI_SR)",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "SPI status register specification",
+  "bit_fields": [
+    {
+      "name": "RXDMAEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx buffer DMA enable"
+    },
+    {
+      "name": "TXDMAEN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tx buffer DMA enable"
+    },
+    {
+      "name": "CRCERR",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CRC error flag"
+    },
+    {
+      "name": "MODF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Mode fault"
+    },
+    {
+      "name": "OVR",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overrun flag"
+    },
+    {
+      "name": "BSY",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Busy flag"
+    },
+    {
+      "name": "FRE",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Frame format error"
+    }
+  ],
+  "errata_notes": []
+}

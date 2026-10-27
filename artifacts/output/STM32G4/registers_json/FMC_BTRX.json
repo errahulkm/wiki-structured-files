@@ -1,0 +1,107 @@
+{
+  "peripheral": "FMC",
+  "register_name": "FMC_BTRX",
+  "long_name": "RM0440 544/2140 RM0440 Rev 9 SRAM/NOR-flash chip-select timing register for bank x (FMC_BTRX)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "RM0440 544/2140 RM0440 Rev 9 SRAM/NOR-flash chip-select timing register for bank x specification",
+  "bit_fields": [
+    {
+      "name": "MBKEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Memory bank enable bit"
+    },
+    {
+      "name": "MUXEN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Address/data multiplexing enable bit"
+    },
+    {
+      "name": "MTYP[1",
+      "bit_offset": 2,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Memory type"
+    },
+    {
+      "name": "MWID[1",
+      "bit_offset": 4,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Memory data bus width"
+    },
+    {
+      "name": "FACCEN",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Flash access enable"
+    },
+    {
+      "name": "BURSTEN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Burst enable bit"
+    },
+    {
+      "name": "WAITPOL",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wait signal polarity bit"
+    },
+    {
+      "name": "BUSTURN[3",
+      "bit_offset": 16,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Bus turnaround phase duration"
+    },
+    {
+      "name": "CLKDIV[3",
+      "bit_offset": 20,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Clock divide ratio (for FMC_CLK signal)"
+    },
+    {
+      "name": "DATLAT[3",
+      "bit_offset": 24,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: (see note below bit descriptions): Data latency for synchronous memory"
+    },
+    {
+      "name": "ACCMOD[1",
+      "bit_offset": 28,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Access mode"
+    },
+    {
+      "name": "DATAHLD[1",
+      "bit_offset": 30,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Data hold phase duration"
+    }
+  ],
+  "errata_notes": []
+}

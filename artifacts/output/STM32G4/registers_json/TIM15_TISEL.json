@@ -1,0 +1,35 @@
+{
+  "peripheral": "TIM15",
+  "register_name": "TIM15_TISEL",
+  "long_name": "TIM15 input selectio n register (TIM15_TISEL)",
+  "address_offset": "0x5C",
+  "reset_value": "0x00000000",
+  "description": "TIM15 input selectio n register specification",
+  "bit_fields": [
+    {
+      "name": "DTGF[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Dead-time falling edge generator setup"
+    },
+    {
+      "name": "TI2SEL[3",
+      "bit_offset": 8,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: selects tim_ti2_in[15:0] input"
+    },
+    {
+      "name": "DTAE",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Deadtime asymmetric enable"
+    }
+  ],
+  "errata_notes": []
+}

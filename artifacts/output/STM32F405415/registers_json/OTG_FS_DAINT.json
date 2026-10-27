@@ -1,0 +1,59 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_DAINT",
+  "long_name": "1368 OTG_FS device all endpoints interrupt register (OTG_FS_DAINT)",
+  "address_offset": "0x818",
+  "reset_value": "0x00000000",
+  "description": "1368 OTG_FS device all endpoints interrupt register specification",
+  "bit_fields": [
+    {
+      "name": "XFRCM",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer completed interrupt mask"
+    },
+    {
+      "name": "EPDM",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Endpoint disabled interrupt mask"
+    },
+    {
+      "name": "STUPM",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SETUP phase done mask"
+    },
+    {
+      "name": "OTEPDM",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OUT token received when endpoint disabled mask"
+    },
+    {
+      "name": "STSPHSRXM",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Status phase received for control write mask"
+    },
+    {
+      "name": "OEPINT",
+      "bit_offset": 16,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OUT endpoint interrupt bits"
+    }
+  ],
+  "errata_notes": []
+}

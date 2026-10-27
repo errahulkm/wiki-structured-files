@@ -1,0 +1,27 @@
+{
+  "peripheral": "FSMC",
+  "register_name": "FSMC_PCR2",
+  "long_name": "FSMC NAND Flash/PC Card Control Register 2",
+  "address_offset": "0x60",
+  "reset_value": "0x00000018",
+  "description": "NAND Flash control register 2",
+  "bit_fields": [
+    {
+      "name": "PWAITEN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wait feature enable"
+    },
+    {
+      "name": "PBKEN",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PC card/NAND Flash bank enable"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "ITM",
+  "register_name": "ITM_STIMRX",
+  "long_name": "ITM stimulus register x (ITM_STIMRX)",
+  "address_offset": "0x000",
+  "reset_value": "0x00000000",
+  "description": "ITM stimulus register x specification",
+  "bit_fields": [
+    {
+      "name": "ITM_STIMRX",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "ITM stimulus register x full-width value"
+    }
+  ],
+  "errata_notes": []
+}

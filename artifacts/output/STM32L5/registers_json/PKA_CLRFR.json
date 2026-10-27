@@ -1,0 +1,35 @@
+{
+  "peripheral": "PKA",
+  "register_name": "PKA_CLRFR",
+  "long_name": "PKA clear flag register (PKA_CLRFR)",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "PKA clear flag register specification",
+  "bit_fields": [
+    {
+      "name": "PROCENDFC",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear PKA End of Operation flag"
+    },
+    {
+      "name": "RAMERRFC",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear PKA RAM error flag"
+    },
+    {
+      "name": "ADDRERRFC",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear Address error flag"
+    }
+  ],
+  "errata_notes": []
+}

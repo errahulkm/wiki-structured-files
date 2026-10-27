@@ -1,0 +1,107 @@
+{
+  "peripheral": "USB",
+  "register_name": "USB_ISTR",
+  "long_name": "RM0440 2034/2140 RM0440 Rev 9 USB interrupt status register (USB_ISTR)",
+  "address_offset": "0x44",
+  "reset_value": "0x00000000",
+  "description": "RM0440 2034/2140 RM0440 Rev 9 USB interrupt status register specification",
+  "bit_fields": [
+    {
+      "name": "FRES",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Force USB Reset"
+    },
+    {
+      "name": "PDWN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Power down"
+    },
+    {
+      "name": "DIR",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Direction of transaction"
+    },
+    {
+      "name": "L1REQ",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LPM L1 state request"
+    },
+    {
+      "name": "ESOF",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Expected start of frame"
+    },
+    {
+      "name": "SOF",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Start of frame"
+    },
+    {
+      "name": "RESET",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB reset request"
+    },
+    {
+      "name": "SUSP",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Suspend mode request"
+    },
+    {
+      "name": "WKUP",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wake-up"
+    },
+    {
+      "name": "ERR",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Error"
+    },
+    {
+      "name": "PMAOVR",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Packet memory area over / underrun"
+    },
+    {
+      "name": "CTR",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Correct transfer"
+    }
+  ],
+  "errata_notes": []
+}

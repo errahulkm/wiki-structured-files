@@ -1,0 +1,67 @@
+{
+  "peripheral": "CRS",
+  "register_name": "CRS_CFGR",
+  "long_name": "CRS configurati on register (CRS_CFGR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "CRS configurati on register specification",
+  "bit_fields": [
+    {
+      "name": "SYNCOKIE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SYNC event OK interrupt enable"
+    },
+    {
+      "name": "SYNCWARNIE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SYNC warning interrupt enable"
+    },
+    {
+      "name": "ERRIE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Synchronization or trimming error interrupt enable"
+    },
+    {
+      "name": "ESYNCIE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Expected SYNC interrupt enable"
+    },
+    {
+      "name": "CEN",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Frequency error counter enable"
+    },
+    {
+      "name": "AUTOTRIMEN",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Automatic trimming enable"
+    },
+    {
+      "name": "SWSYNC",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Generate software SYNC event"
+    }
+  ],
+  "errata_notes": []
+}

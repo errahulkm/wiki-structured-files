@@ -1,0 +1,19 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_DMAMFBOCR",
+  "long_name": "Ethernet DMA missed frame and buffer overflow counter register (ETH_DMAMFBOCR)",
+  "address_offset": "0x1020",
+  "reset_value": "0x00000000",
+  "description": "Ethernet DMA missed frame and buffer overflow counter register specification",
+  "bit_fields": [
+    {
+      "name": "INDICATE",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "missed frames due to the STM32F4xx buffer being"
+    }
+  ],
+  "errata_notes": []
+}

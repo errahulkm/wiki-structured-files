@@ -1,0 +1,19 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB3LPENR",
+  "long_name": "RCC AHB3 peripheral clock enable in low power mode register (RCC_AHB3LPENR)",
+  "address_offset": "0x58",
+  "reset_value": "0x00000000",
+  "description": "RCC AHB3 peripheral clock enable in low power mode register specification",
+  "bit_fields": [
+    {
+      "name": "RCC_AHB3LPENR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "RCC AHB3 peripheral clock enable in low power mode register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

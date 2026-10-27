@@ -1,0 +1,75 @@
+{
+  "peripheral": "USB",
+  "register_name": "USB_LPMCSR",
+  "long_name": "0x0000 LPM control and status register (USB_LPMCSR)",
+  "address_offset": "0x54",
+  "reset_value": "0x00000000",
+  "description": "0x0000 LPM control and status register specification",
+  "bit_fields": [
+    {
+      "name": "ADD[6",
+      "bit_offset": 0,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Device address"
+    },
+    {
+      "name": "PS2DET",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DM pull-up detection status"
+    },
+    {
+      "name": "EP_KIND",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Endpoint kind"
+    },
+    {
+      "name": "EP_TYPE[1",
+      "bit_offset": 9,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Endpoint type"
+    },
+    {
+      "name": "SETUP",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Setup transaction completed"
+    },
+    {
+      "name": "STAT_RX",
+      "bit_offset": 12,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "[1:0]: Status bits, for reception transfers"
+    },
+    {
+      "name": "DTOG_RX",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data toggle, for reception transfers"
+    },
+    {
+      "name": "DPPU",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DP pull-up control"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "DMA",
+  "register_name": "DMA_S4CR",
+  "long_name": "Direct Memory Access Controller (DMA) DMA_S4CR Register",
+  "address_offset": "0x0070",
+  "reset_value": "0x0",
+  "description": "Direct Memory Access Controller (DMA) DMA_S4CR hardware register",
+  "bit_fields": [
+    {
+      "name": "DMA_S4CR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x0",
+      "description": "DMA_S4CR register value"
+    }
+  ],
+  "errata_notes": []
+}

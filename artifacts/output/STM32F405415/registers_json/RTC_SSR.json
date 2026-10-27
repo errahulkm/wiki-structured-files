@@ -1,0 +1,19 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_SSR",
+  "long_name": "RTC sub second register (RTC_SSR)",
+  "address_offset": "0x28",
+  "reset_value": "0x00000000",
+  "description": "RTC sub second register specification",
+  "bit_fields": [
+    {
+      "name": "KEY",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Write protection key"
+    }
+  ],
+  "errata_notes": []
+}

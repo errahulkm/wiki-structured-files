@@ -1,0 +1,131 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB2ENR",
+  "long_name": "RCC AHB2 peripheral clo ck enable register (RCC_AHB2ENR)",
+  "address_offset": "0x04C",
+  "reset_value": "0x00000000",
+  "description": "RCC AHB2 peripheral clo ck enable register specification",
+  "bit_fields": [
+    {
+      "name": "DMA1EN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA1 clock enable"
+    },
+    {
+      "name": "DMA2EN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA2 clock enable"
+    },
+    {
+      "name": "DMAMUX1EN",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMAMUX1 clock enable"
+    },
+    {
+      "name": "GPIODEN",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port D clock enable"
+    },
+    {
+      "name": "GPIOEEN",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port E clock enable"
+    },
+    {
+      "name": "GPIOFEN",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port F clock enable"
+    },
+    {
+      "name": "GPIOGEN",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port G clock enable"
+    },
+    {
+      "name": "GPIOHEN",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port H clock enable"
+    },
+    {
+      "name": "ADCEN",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC clock enable"
+    },
+    {
+      "name": "AESEN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "AES accelerator clock enable"
+    },
+    {
+      "name": "HASHEN",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HASH clock enable"
+    },
+    {
+      "name": "RNGEN",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Random Number Generator clock enable"
+    },
+    {
+      "name": "PKAEN",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PKA clock enable"
+    },
+    {
+      "name": "OTFDEC1EN",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OTFDEC1 clock enable"
+    },
+    {
+      "name": "SDMMC1EN",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SDMMC1 clock enable"
+    }
+  ],
+  "errata_notes": []
+}

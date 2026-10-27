@@ -1,0 +1,19 @@
+{
+  "peripheral": "GPIO",
+  "register_name": "GPIO",
+  "long_name": "Push-pull or Open-drain Output control VDDIOx VSS TTL Schmitt trigger on Input driver Output driver P-MOS N-MOS Input data register Output data registerRead/write Read Bit set/reset registers Write on/off pull pull on/off VDDIOx VSS VSS VDDIOx protection diode protection diodedown up I/O pin MS31478V1 MSv34756V1 Alternate function output Alternate function input push-pull or open-drainFrom on-chip peripheral To on-chip peripheral Output control VDD VSS TTL Schmitt trigger on Input driver Output driver P-MOS N-MOS Input data register Output data registerRead/write Read Bit set/reset registers Write on/off on/off VDDIOx VSS VSS protection diode protection diode Pull Pull I/O pin down up VDDIOx RM0438 Rev 8 443/2187 RM0438 General-purpose I/Os (GPIO)",
+  "address_offset": "0x30",
+  "reset_value": "0x00000000",
+  "description": "Push-pull or Open-drain Output control VDDIOx VSS TTL Schmitt trigger on Input driver Output driver P-MOS N-MOS Input data register Output data registerRead/write Read Bit set/reset registers Write on/off pull pull on/off VDDIOx VSS VSS VDDIOx protection diode protection diodedown up I/O pin MS31478V1 MSv34756V1 Alternate function output Alternate function input push-pull or open-drainFrom on-chip peripheral To on-chip peripheral Output control VDD VSS TTL Schmitt trigger on Input driver Output driver P-MOS N-MOS Input data register Output data registerRead/write Read Bit set/reset registers Write on/off on/off VDDIOx VSS VSS protection diode protection diode Pull Pull I/O pin down up VDDIOx RM0438 Rev 8 443/2187 RM0438 General-purpose I/Os specification",
+  "bit_fields": [
+    {
+      "name": "GPIO",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "Push-pull or Open-drain Output control VDDIOx VSS TTL Schmitt trigger on Input driver Output driver P-MOS N-MOS Input data register Output data registerRead/write Read Bit set/reset registers Write on/off pull pull on/off VDDIOx VSS VSS VDDIOx protection diode protection diodedown up I/O pin MS31478V1 MSv34756V1 Alternate function output Alternate function input push-pull or open-drainFrom on-chip peripheral To on-chip peripheral Output control VDD VSS TTL Schmitt trigger on Input driver Output driver P-MOS N-MOS Input data register Output data registerRead/write Read Bit set/reset registers Write on/off on/off VDDIOx VSS VSS protection diode protection diode Pull Pull I/O pin down up VDDIOx RM0438 Rev 8 443/2187 RM0438 General-purpose I/Os full-width value"
+    }
+  ],
+  "errata_notes": []
+}

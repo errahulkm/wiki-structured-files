@@ -1,0 +1,19 @@
+{
+  "peripheral": "DMA",
+  "register_name": "DMA_CNDTR1",
+  "long_name": "Direct Memory Access Controller (DMA) DMA_CNDTR1 Register",
+  "address_offset": "0x00C",
+  "reset_value": "0x00000000",
+  "description": "Direct Memory Access Controller (DMA) DMA_CNDTR1 hardware register",
+  "bit_fields": [
+    {
+      "name": "DMA_CNDTR1",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "DMA_CNDTR1 register value"
+    }
+  ],
+  "errata_notes": []
+}

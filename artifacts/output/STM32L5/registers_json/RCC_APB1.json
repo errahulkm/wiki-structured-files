@@ -1,0 +1,187 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_APB1",
+  "long_name": "Reset and Clock Control (RCC) RCC_APB1 Register",
+  "address_offset": "0x0FC",
+  "reset_value": "0x00",
+  "description": "Reset and Clock Control (RCC) RCC_APB1 hardware register",
+  "bit_fields": [
+    {
+      "name": "TIM2RST",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM2 timer reset"
+    },
+    {
+      "name": "TIM3RST",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM3 timer reset"
+    },
+    {
+      "name": "TIM4RST",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM3 timer reset"
+    },
+    {
+      "name": "TIM5RST",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM5 timer reset"
+    },
+    {
+      "name": "TIM6RST",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM6 timer reset"
+    },
+    {
+      "name": "TIM7RST",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM7 timer reset"
+    },
+    {
+      "name": "LPTIM3RST",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LPTIM3 reset"
+    },
+    {
+      "name": "FDCAN1RST",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FDCAN1 reset"
+    },
+    {
+      "name": "SPI2RST",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI2 reset"
+    },
+    {
+      "name": "SPI3RST",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI3 reset"
+    },
+    {
+      "name": "USART2RST",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART2 reset"
+    },
+    {
+      "name": "USART3RST",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART3 reset"
+    },
+    {
+      "name": "UART4RST",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UART4 reset"
+    },
+    {
+      "name": "UART5RST",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UART5 reset"
+    },
+    {
+      "name": "I2C1RST",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C1 reset"
+    },
+    {
+      "name": "I2C2RST",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C2 reset"
+    },
+    {
+      "name": "I2C3RST",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C3 reset"
+    },
+    {
+      "name": "CRSRST",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CRS reset"
+    },
+    {
+      "name": "PWRRST",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Power interface reset"
+    },
+    {
+      "name": "DAC1RST",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC1 interface reset"
+    },
+    {
+      "name": "OPAMPRST",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OPAMP interface reset"
+    },
+    {
+      "name": "LPTIM1RST",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Low-power timer 1 reset"
+    }
+  ],
+  "errata_notes": []
+}

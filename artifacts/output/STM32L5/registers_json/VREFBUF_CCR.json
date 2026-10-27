@@ -1,0 +1,19 @@
+{
+  "peripheral": "VREFBUF",
+  "register_name": "VREFBUF_CCR",
+  "long_name": "VREFBUF calibration cont rol register (VREFBUF_CCR)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "VREFBUF calibration cont rol register specification",
+  "bit_fields": [
+    {
+      "name": "TRIM[5",
+      "bit_offset": 0,
+      "bit_width": 6,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Trimming code"
+    }
+  ],
+  "errata_notes": []
+}

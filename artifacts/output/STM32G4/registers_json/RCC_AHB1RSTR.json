@@ -1,0 +1,67 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB1RSTR",
+  "long_name": "AHB1 peripheral reset register (RCC_AHB1RSTR)",
+  "address_offset": "0x28",
+  "reset_value": "0x00000000",
+  "description": "AHB1 peripheral reset register specification",
+  "bit_fields": [
+    {
+      "name": "LSIRDYC",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSI ready interrupt clear"
+    },
+    {
+      "name": "LSERDYC",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSE ready interrupt clear"
+    },
+    {
+      "name": "HSIRDYC",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI16 ready interrupt clear"
+    },
+    {
+      "name": "HSERDYC",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSE ready interrupt clear"
+    },
+    {
+      "name": "PLLRDYC",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLL ready interrupt clear"
+    },
+    {
+      "name": "CSSC",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock security system interrupt clear"
+    },
+    {
+      "name": "LSECSSC",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSE clock security system interrupt clear"
+    }
+  ],
+  "errata_notes": []
+}

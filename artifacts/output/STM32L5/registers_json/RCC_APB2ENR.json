@@ -1,0 +1,59 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_APB2ENR",
+  "long_name": "RCC APB2 peripheral clo ck enable register (RCC_APB2ENR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RCC APB2 peripheral clo ck enable register specification",
+  "bit_fields": [
+    {
+      "name": "TIM15EN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM15 timer clock enable"
+    },
+    {
+      "name": "TIM16EN",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM16 timer clock enable"
+    },
+    {
+      "name": "TIM17EN",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM17 timer clock enable"
+    },
+    {
+      "name": "SAI1EN",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SAI1 clock enable"
+    },
+    {
+      "name": "SAI2EN",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SAI2 clock enable"
+    },
+    {
+      "name": "DFSDM1EN",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DFSDM1 timer clock enable"
+    }
+  ],
+  "errata_notes": []
+}

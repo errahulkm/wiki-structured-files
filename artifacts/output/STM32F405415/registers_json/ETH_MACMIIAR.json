@@ -1,0 +1,19 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_MACMIIAR",
+  "long_name": "Ethernet MAC MII address register (ETH_MACMIIAR)",
+  "address_offset": "0x0010",
+  "reset_value": "0x00000000",
+  "description": "Ethernet MAC MII address register specification",
+  "bit_fields": [
+    {
+      "name": "HTL",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Hash table low"
+    }
+  ],
+  "errata_notes": []
+}

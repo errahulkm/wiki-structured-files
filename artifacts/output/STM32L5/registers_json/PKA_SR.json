@@ -1,0 +1,59 @@
+{
+  "peripheral": "PKA",
+  "register_name": "PKA_SR",
+  "long_name": "PKA status register (PKA_SR)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "PKA status register specification",
+  "bit_fields": [
+    {
+      "name": "EN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PKA enable."
+    },
+    {
+      "name": "START",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "start the operation"
+    },
+    {
+      "name": "BUSY",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PKA operation is in progress"
+    },
+    {
+      "name": "PROCENDF",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PKA End of Operation flag"
+    },
+    {
+      "name": "RAMERRF",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PKA RAM error flag"
+    },
+    {
+      "name": "ADDRERRF",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Address error flag"
+    }
+  ],
+  "errata_notes": []
+}

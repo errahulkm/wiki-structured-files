@@ -1,0 +1,43 @@
+{
+  "peripheral": "SAI",
+  "register_name": "SAI_ASLOTR",
+  "long_name": "SAI slot register (SAI_ASLOTR)",
+  "address_offset": "0x10",
+  "reset_value": "0x00000000",
+  "description": "SAI slot register specification",
+  "bit_fields": [
+    {
+      "name": "FRL[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Frame length."
+    },
+    {
+      "name": "FSALL[6",
+      "bit_offset": 8,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Frame synchronization active level length."
+    },
+    {
+      "name": "FSDEF",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Frame synchronization definition."
+    },
+    {
+      "name": "FSPOL",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Frame synchronization polarity."
+    }
+  ],
+  "errata_notes": []
+}

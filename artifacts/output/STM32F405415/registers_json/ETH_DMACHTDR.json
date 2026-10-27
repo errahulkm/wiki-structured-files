@@ -1,0 +1,43 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_DMACHTDR",
+  "long_name": "Ethernet DMA current host transmit descriptor register (ETH_DMACHTDR)",
+  "address_offset": "0x1048",
+  "reset_value": "0x00000000",
+  "description": "Ethernet DMA current host transmit descriptor register specification",
+  "bit_fields": [
+    {
+      "name": "MFC",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Missed frames by the controller"
+    },
+    {
+      "name": "OMFC",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overflow bit for missed frame counter"
+    },
+    {
+      "name": "MFA",
+      "bit_offset": 17,
+      "bit_width": 11,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Missed frames by the application"
+    },
+    {
+      "name": "OFOC",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overflow bit for FIFO overflow counter"
+    }
+  ],
+  "errata_notes": []
+}

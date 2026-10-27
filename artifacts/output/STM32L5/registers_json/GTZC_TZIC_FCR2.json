@@ -1,0 +1,187 @@
+{
+  "peripheral": "GTZC",
+  "register_name": "GTZC_TZIC_FCR2",
+  "long_name": "GTZC_TZIC flag clear register 2 (GTZC_TZIC_FCR2)",
+  "address_offset": "0x424",
+  "reset_value": "0x00000000",
+  "description": "GTZC_TZIC flag clear register 2 specification",
+  "bit_fields": [
+    {
+      "name": "TIM2FC",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for TIM2"
+    },
+    {
+      "name": "TSCFC",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for TSC"
+    },
+    {
+      "name": "ICACHE_REGFC",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for ICACHE registers"
+    },
+    {
+      "name": "ADCFC",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for ADC"
+    },
+    {
+      "name": "AESFC",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for AES"
+    },
+    {
+      "name": "HASHFC",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for HASH"
+    },
+    {
+      "name": "RNGFC",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for RNG"
+    },
+    {
+      "name": "PKAFC",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for PKA"
+    },
+    {
+      "name": "SDMMC1FC",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for SDMMC1"
+    },
+    {
+      "name": "FMC_REGFC",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for FMC registers"
+    },
+    {
+      "name": "OCTOSPI1_REGFC",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for OCTOPSPI1 registers"
+    },
+    {
+      "name": "RTCFC",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for RTC"
+    },
+    {
+      "name": "PWRFC",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for PWR"
+    },
+    {
+      "name": "SYSCFGFC",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for SYSCFG"
+    },
+    {
+      "name": "DMA1FC",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for DMA1"
+    },
+    {
+      "name": "DMA2FC",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for DMA2"
+    },
+    {
+      "name": "DMAMUX1FC",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for DMAMUX1"
+    },
+    {
+      "name": "RCCFC",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for RCC"
+    },
+    {
+      "name": "FLASHFC",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for FLASH"
+    },
+    {
+      "name": "FLASH_REGFC",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for FLASH registers"
+    },
+    {
+      "name": "EXTIFC",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for EXTI"
+    },
+    {
+      "name": "OTFDEC1FC",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "clear the illegal access flag for OTFDEC1"
+    }
+  ],
+  "errata_notes": []
+}

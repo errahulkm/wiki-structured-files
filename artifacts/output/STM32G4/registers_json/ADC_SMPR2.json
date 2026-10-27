@@ -1,0 +1,27 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_SMPR2",
+  "long_name": "ADC sample time register 2 (ADC_SMPR2)",
+  "address_offset": "0x18",
+  "reset_value": "0x00000000",
+  "description": "ADC sample time register 2 specification",
+  "bit_fields": [
+    {
+      "name": "SMPX[2",
+      "bit_offset": 0,
+      "bit_width": 30,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Channel x sampling time selection (x = 9 to 0)"
+    },
+    {
+      "name": "SMPPLUS",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Addition of one clock cycle to the sampling time"
+    }
+  ],
+  "errata_notes": []
+}

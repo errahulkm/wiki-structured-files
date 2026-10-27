@@ -1,0 +1,51 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB3ENR",
+  "long_name": "AHB3 periphera l clock enable register (RCC_AHB3ENR)",
+  "address_offset": "0x50",
+  "reset_value": "0x00000000",
+  "description": "AHB3 periphera l clock enable register specification",
+  "bit_fields": [
+    {
+      "name": "GPIOAEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port A clock enable"
+    },
+    {
+      "name": "GPIOBEN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port B clock enable"
+    },
+    {
+      "name": "GPIOCEN",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port C clock enable"
+    },
+    {
+      "name": "GPIODEN",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port D clock enable"
+    },
+    {
+      "name": "QSPIEN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "QUADSPI memory interface clock enable"
+    }
+  ],
+  "errata_notes": []
+}

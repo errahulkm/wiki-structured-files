@@ -1,0 +1,99 @@
+{
+  "peripheral": "SAI",
+  "register_name": "SAI_ACR1",
+  "long_name": "SAI configuration register 1 (SAI_ACR1)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "SAI configuration register 1 specification",
+  "bit_fields": [
+    {
+      "name": "LSBFIRST",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Least significant bit first"
+    },
+    {
+      "name": "CKSTR",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock strobing edge"
+    },
+    {
+      "name": "SYNCEN[1",
+      "bit_offset": 10,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Synchronization enable"
+    },
+    {
+      "name": "MONO",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Mono mode"
+    },
+    {
+      "name": "OUTDRIV",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output drive"
+    },
+    {
+      "name": "SAIEN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Audio block enable"
+    },
+    {
+      "name": "DMAEN",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA enable"
+    },
+    {
+      "name": "NODIV",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "No divider"
+    },
+    {
+      "name": "MCKDIV[5",
+      "bit_offset": 20,
+      "bit_width": 6,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Master clock divider"
+    },
+    {
+      "name": "OSR",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Oversampling ratio for master clock"
+    },
+    {
+      "name": "MCKEN",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master clock generation enable"
+    }
+  ],
+  "errata_notes": []
+}

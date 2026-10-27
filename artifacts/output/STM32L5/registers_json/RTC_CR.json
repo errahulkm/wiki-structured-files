@@ -1,0 +1,27 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_CR",
+  "long_name": "RTC control register (RTC_CR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RTC control register specification",
+  "bit_fields": [
+    {
+      "name": "WUT[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Wake-up auto-reload value bits"
+    },
+    {
+      "name": "WUTOCLR[15",
+      "bit_offset": 16,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Wake-up auto-reload output clear value"
+    }
+  ],
+  "errata_notes": []
+}

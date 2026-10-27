@@ -1,0 +1,27 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_PCGCCTL",
+  "long_name": "OTG_FS power and cl ock gating control register (OTG_FS_PCGCCTL)",
+  "address_offset": "0xE00",
+  "reset_value": "0x00000000",
+  "description": "OTG_FS power and cl ock gating control register specification",
+  "bit_fields": [
+    {
+      "name": "XFRSIZ",
+      "bit_offset": 0,
+      "bit_width": 19,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer size"
+    },
+    {
+      "name": "PKTCNT",
+      "bit_offset": 19,
+      "bit_width": 10,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Packet count"
+    }
+  ],
+  "errata_notes": []
+}

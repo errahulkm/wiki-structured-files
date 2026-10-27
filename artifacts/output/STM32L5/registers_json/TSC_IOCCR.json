@@ -1,0 +1,19 @@
+{
+  "peripheral": "TSC",
+  "register_name": "TSC_IOCCR",
+  "long_name": "TSC I/O channel cont rol register (TSC_IOCCR)",
+  "address_offset": "0x28",
+  "reset_value": "0x00000000",
+  "description": "TSC I/O channel cont rol register specification",
+  "bit_fields": [
+    {
+      "name": "GX_IOY",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Gx_IOy sampling mode"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,67 @@
+{
+  "peripheral": "TAMP",
+  "register_name": "TAMP_MISR",
+  "long_name": "TAMP masked interrupt st atus register (TAMP_MISR)",
+  "address_offset": "0x34",
+  "reset_value": "0x00000000",
+  "description": "TAMP masked interrupt st atus register specification",
+  "bit_fields": [
+    {
+      "name": "TAMP1F",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMP1 detection flag"
+    },
+    {
+      "name": "TAMP2F",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMP2 detection flag"
+    },
+    {
+      "name": "TAMP3F",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMP3 detection flag"
+    },
+    {
+      "name": "ITAMP3F",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSE monitoring tamper detection flag"
+    },
+    {
+      "name": "ITAMP4F",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSE monitoring tamper detection flag"
+    },
+    {
+      "name": "ITAMP5F",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RTC calendar overflow tamper detection flag"
+    },
+    {
+      "name": "ITAMP6F",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ST manufacturer readout tamper detection flag"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,67 @@
+{
+  "peripheral": "LPTIM",
+  "register_name": "LPTIM_ISR",
+  "long_name": "LPTIM interrupt and st atus register (LPTIM_ISR)",
+  "address_offset": "0x000",
+  "reset_value": "0x00000000",
+  "description": "LPTIM interrupt and st atus register specification",
+  "bit_fields": [
+    {
+      "name": "CMPM",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Compare match"
+    },
+    {
+      "name": "ARRM",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Autoreload match"
+    },
+    {
+      "name": "EXTTRIG",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External trigger edge event"
+    },
+    {
+      "name": "CMPOK",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Compare register update OK"
+    },
+    {
+      "name": "ARROK",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Autoreload register update OK"
+    },
+    {
+      "name": "UP",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Counter direction change down to up"
+    },
+    {
+      "name": "DOWN",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Counter direction change up to down"
+    }
+  ],
+  "errata_notes": []
+}

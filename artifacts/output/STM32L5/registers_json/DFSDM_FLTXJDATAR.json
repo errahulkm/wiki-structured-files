@@ -1,0 +1,35 @@
+{
+  "peripheral": "DFSDM",
+  "register_name": "DFSDM_FLTXJDATAR",
+  "long_name": "DFSDM filter x data register for injected group (DFSDM_FLTXJDATAR)",
+  "address_offset": "0x118",
+  "reset_value": "0x00000000",
+  "description": "DFSDM filter x data register for injected group specification",
+  "bit_fields": [
+    {
+      "name": "IOSR[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Integrator oversampling ratio (averaging length)"
+    },
+    {
+      "name": "FOSR[9",
+      "bit_offset": 16,
+      "bit_width": 10,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Sinc filter oversampling ratio (decimation rate)"
+    },
+    {
+      "name": "FORD[2",
+      "bit_offset": 29,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Sinc filter order"
+    }
+  ],
+  "errata_notes": []
+}

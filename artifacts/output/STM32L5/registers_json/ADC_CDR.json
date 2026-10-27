@@ -1,0 +1,27 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_CDR",
+  "long_name": "Analog-to-Digital Converter (ADC) ADC_CDR Register",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "Analog-to-Digital Converter (ADC) ADC_CDR hardware register",
+  "bit_fields": [
+    {
+      "name": "RDATA_MST[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Regular data of the master ADC."
+    },
+    {
+      "name": "RDATA_SLV[15",
+      "bit_offset": 16,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Regular data of the slave ADC"
+    }
+  ],
+  "errata_notes": []
+}

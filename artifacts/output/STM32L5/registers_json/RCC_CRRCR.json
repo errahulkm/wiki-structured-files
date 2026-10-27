@@ -1,0 +1,43 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_CRRCR",
+  "long_name": "RCC clock recovery RC register (RCC_CRRCR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RCC clock recovery RC register specification",
+  "bit_fields": [
+    {
+      "name": "LSION",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSI oscillator enable"
+    },
+    {
+      "name": "LSIRDY",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSI oscillator ready"
+    },
+    {
+      "name": "LSIPRE",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSI frequency prescaler (LSI /128) enable"
+    },
+    {
+      "name": "MSISRANGE[3",
+      "bit_offset": 8,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]:MSI range after Standby mode"
+    }
+  ],
+  "errata_notes": []
+}

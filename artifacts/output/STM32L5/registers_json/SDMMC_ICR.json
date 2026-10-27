@@ -1,0 +1,203 @@
+{
+  "peripheral": "SDMMC",
+  "register_name": "SDMMC_ICR",
+  "long_name": "SDMMC interrupt cl ear register (SDMMC_ICR)",
+  "address_offset": "0x038",
+  "reset_value": "0x00000000",
+  "description": "SDMMC interrupt cl ear register specification",
+  "bit_fields": [
+    {
+      "name": "CCRCFAILC",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CCRCFAIL flag clear bit"
+    },
+    {
+      "name": "DCRCFAILC",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DCRCFAIL flag clear bit"
+    },
+    {
+      "name": "CTIMEOUTC",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CTIMEOUT flag clear bit"
+    },
+    {
+      "name": "DTIMEOUTC",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DTIMEOUT flag clear bit"
+    },
+    {
+      "name": "TXUNDERRC",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TXUNDERR flag clear bit"
+    },
+    {
+      "name": "RXOVERRC",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RXOVERR flag clear bit"
+    },
+    {
+      "name": "CMDRENDC",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CMDREND flag clear bit"
+    },
+    {
+      "name": "CMDSENTC",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CMDSENT flag clear bit"
+    },
+    {
+      "name": "DATAENDC",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DATAEND flag clear bit"
+    },
+    {
+      "name": "DHOLDC",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DHOLD flag clear bit"
+    },
+    {
+      "name": "DBCKENDC",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DBCKEND flag clear bit"
+    },
+    {
+      "name": "DABORTC",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DABORT flag clear bit"
+    },
+    {
+      "name": "TXFIFOHEIE",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tx FIFO half empty interrupt enable"
+    },
+    {
+      "name": "RXFIFOHFIE",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx FIFO half full interrupt enable"
+    },
+    {
+      "name": "RXFIFOFIE",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx FIFO full interrupt enable"
+    },
+    {
+      "name": "TXFIFOEIE",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tx FIFO empty interrupt enable"
+    },
+    {
+      "name": "BUSYD0ENDC",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "BUSYD0END flag clear bit"
+    },
+    {
+      "name": "SDIOITC",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SDIOIT flag clear bit"
+    },
+    {
+      "name": "ACKFAILC",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ACKFAIL flag clear bit"
+    },
+    {
+      "name": "ACKTIMEOUTC",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ACKTIMEOUT flag clear bit"
+    },
+    {
+      "name": "VSWENDC",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "VSWEND flag clear bit"
+    },
+    {
+      "name": "CKSTOPC",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CKSTOP flag clear bit"
+    },
+    {
+      "name": "IDMATEC",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IDMA transfer error clear bit"
+    },
+    {
+      "name": "IDMABTCC",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IDMA buffer transfer complete clear bit"
+    }
+  ],
+  "errata_notes": []
+}

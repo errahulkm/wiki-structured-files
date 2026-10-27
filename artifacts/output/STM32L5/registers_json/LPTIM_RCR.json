@@ -1,0 +1,19 @@
+{
+  "peripheral": "LPTIM",
+  "register_name": "LPTIM_RCR",
+  "long_name": "LPTIM repetition register (LPTIM_RCR)",
+  "address_offset": "0x028",
+  "reset_value": "0x00000000",
+  "description": "LPTIM repetition register specification",
+  "bit_fields": [
+    {
+      "name": "REP[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Repetition register value"
+    }
+  ],
+  "errata_notes": []
+}

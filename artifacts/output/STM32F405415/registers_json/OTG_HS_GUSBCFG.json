@@ -1,0 +1,155 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_GUSBCFG",
+  "long_name": "RM0090 1400/1741 RM0090 Rev 22 OTG_HS USB configuration register (OTG_HS_GUSBCFG)",
+  "address_offset": "0x00C",
+  "reset_value": "0x00000000",
+  "description": "RM0090 1400/1741 RM0090 Rev 22 OTG_HS USB configuration register specification",
+  "bit_fields": [
+    {
+      "name": "TOCAL",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FS timeout calibration"
+    },
+    {
+      "name": "PHYSEL",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB 2.0 high-speed ULPI PHY or USB 1.1 full-speed serial transceiver select"
+    },
+    {
+      "name": "SRPCAP",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SRP-capable"
+    },
+    {
+      "name": "HNPCAP",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HNP-capable"
+    },
+    {
+      "name": "TRDT",
+      "bit_offset": 10,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB turnaround time"
+    },
+    {
+      "name": "PHYLPCS",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PHY Low-power clock select"
+    },
+    {
+      "name": "ULPIFSLS",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ULPI FS/LS select"
+    },
+    {
+      "name": "ULPIAR",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ULPI Auto-resume"
+    },
+    {
+      "name": "ULPICSM",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ULPI Clock SuspendM"
+    },
+    {
+      "name": "ULPIEVBUSD",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ULPI External VBUS Drive"
+    },
+    {
+      "name": "ULPIEVBUSI",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ULPI external VBUS indicator"
+    },
+    {
+      "name": "TSDPS",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TermSel DLine pulsing selection"
+    },
+    {
+      "name": "PCCI",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Indicator complement"
+    },
+    {
+      "name": "PTCI",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Indicator pass through"
+    },
+    {
+      "name": "ULPIIPD",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ULPI interface protect disable"
+    },
+    {
+      "name": "FHMOD",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Forced host mode"
+    },
+    {
+      "name": "FDMOD",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Forced peripheral mode"
+    },
+    {
+      "name": "CTXPKT",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Corrupt Tx packet"
+    }
+  ],
+  "errata_notes": []
+}

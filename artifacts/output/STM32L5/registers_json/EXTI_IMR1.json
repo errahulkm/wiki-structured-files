@@ -1,0 +1,19 @@
+{
+  "peripheral": "EXTI",
+  "register_name": "EXTI_IMR1",
+  "long_name": "EXTI CPU wakeup with inte rrupt mask register (EXTI_IMR1)",
+  "address_offset": "0x080",
+  "reset_value": "0x00000000",
+  "description": "EXTI CPU wakeup with inte rrupt mask register specification",
+  "bit_fields": [
+    {
+      "name": "EXTIM[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: EXTIm GPIO port selection (where m = 0, 4, 8, or 12 for respectively"
+    }
+  ],
+  "errata_notes": []
+}

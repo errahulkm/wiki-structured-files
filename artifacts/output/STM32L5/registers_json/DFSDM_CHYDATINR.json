@@ -1,0 +1,19 @@
+{
+  "peripheral": "DFSDM",
+  "register_name": "DFSDM_CHYDATINR",
+  "long_name": "DFSDM channel y data input register (DFSDM_CHYDATINR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "DFSDM channel y data input register specification",
+  "bit_fields": [
+    {
+      "name": "INDAT0[15",
+      "bit_offset": 16,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Input data for channel y or channel y+1"
+    }
+  ],
+  "errata_notes": []
+}

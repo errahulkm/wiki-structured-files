@@ -1,0 +1,43 @@
+{
+  "peripheral": "WWDG",
+  "register_name": "WWDG_SR",
+  "long_name": "Status register (WWDG_SR)",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "Status register specification",
+  "bit_fields": [
+    {
+      "name": "W[6",
+      "bit_offset": 0,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: 7-bit window value"
+    },
+    {
+      "name": "WDGTB[1",
+      "bit_offset": 7,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Timer base"
+    },
+    {
+      "name": "EWI",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Early wake-up interrupt"
+    },
+    {
+      "name": "BIT",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0bit 1bit 2bit 30bit 31 first word written into the CRYP_DIN register"
+    }
+  ],
+  "errata_notes": []
+}

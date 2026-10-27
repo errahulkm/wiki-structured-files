@@ -1,0 +1,19 @@
+{
+  "peripheral": "LPTIM",
+  "register_name": "LPTIM_ICR",
+  "long_name": "LPTIM interrupt clear register (LPTIM_ICR)",
+  "address_offset": "0x004",
+  "reset_value": "0x00000000",
+  "description": "LPTIM interrupt clear register specification",
+  "bit_fields": [
+    {
+      "name": "LPTIM_ICR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "LPTIM interrupt clear register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

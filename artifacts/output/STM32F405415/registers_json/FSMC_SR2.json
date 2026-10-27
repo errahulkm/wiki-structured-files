@@ -1,0 +1,59 @@
+{
+  "peripheral": "FSMC",
+  "register_name": "FSMC_SR2",
+  "long_name": "Flexible Static Memory Controller (FSMC) FSMC_SR2 Register",
+  "address_offset": "0x0064",
+  "reset_value": "0x00000000",
+  "description": "Flexible Static Memory Controller (FSMC) FSMC_SR2 hardware register",
+  "bit_fields": [
+    {
+      "name": "IRS",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Interrupt rising edge status"
+    },
+    {
+      "name": "PWAITEN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wait feature enable bit."
+    },
+    {
+      "name": "PBKEN",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PC Card/NAND flash memory bank enable bit."
+    },
+    {
+      "name": "PTYP",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Memory type."
+    },
+    {
+      "name": "PWID[1",
+      "bit_offset": 4,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Databus width."
+    },
+    {
+      "name": "FEMPT",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FIFO empty."
+    }
+  ],
+  "errata_notes": []
+}

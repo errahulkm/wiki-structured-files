@@ -1,0 +1,19 @@
+{
+  "peripheral": "SYSCFG",
+  "register_name": "SYSCFG_CMPCR",
+  "long_name": "Compensation cell contro l register (SYSCFG_CMPCR)",
+  "address_offset": "0x20",
+  "reset_value": "0x00000000",
+  "description": "Compensation cell contro l register specification",
+  "bit_fields": [
+    {
+      "name": "EXTIX[3",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: EXTI x configuration (x = 12 to 15)"
+    }
+  ],
+  "errata_notes": []
+}

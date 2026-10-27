@@ -1,0 +1,83 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_IER",
+  "long_name": "HRTIM interrupt enab le register (HRTIM_IER)",
+  "address_offset": "0x390",
+  "reset_value": "0x00000000",
+  "description": "HRTIM interrupt enab le register specification",
+  "bit_fields": [
+    {
+      "name": "FLT1IE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 1 interrupt enable"
+    },
+    {
+      "name": "FLT2IE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 2 interrupt enable"
+    },
+    {
+      "name": "FLT3IE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 3 interrupt enable"
+    },
+    {
+      "name": "FLT4IE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 4 interrupt enable"
+    },
+    {
+      "name": "FLT5IE",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 5 interrupt enable"
+    },
+    {
+      "name": "SYSFLTIE",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "System fault interrupt enable"
+    },
+    {
+      "name": "FLT6IE",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 6 interrupt enable"
+    },
+    {
+      "name": "DLLRDYIE",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DLL Ready Interrupt Enable"
+    },
+    {
+      "name": "BMPERIE",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Burst mode period interrupt enable"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,35 @@
+{
+  "peripheral": "OCTOSPI",
+  "register_name": "OCTOSPI_DCR2",
+  "long_name": "OCTOSPI device configurat ion register 2 (OCTOSPI_DCR2)",
+  "address_offset": "0x000C",
+  "reset_value": "0x00000000",
+  "description": "OCTOSPI device configurat ion register 2 specification",
+  "bit_fields": [
+    {
+      "name": "CKMODE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock mode 0/mode 3"
+    },
+    {
+      "name": "FRCK",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Free running clock"
+    },
+    {
+      "name": "WRAPSIZE[2",
+      "bit_offset": 16,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Wrap size"
+    }
+  ],
+  "errata_notes": []
+}

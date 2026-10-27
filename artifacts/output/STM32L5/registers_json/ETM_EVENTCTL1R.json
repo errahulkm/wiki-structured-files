@@ -1,0 +1,51 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_EVENTCTL1R",
+  "long_name": "2149 ETM event control 1 register (ETM_EVENTCTL1R)",
+  "address_offset": "0x024",
+  "reset_value": "0x00000000",
+  "description": "2149 ETM event control 1 register specification",
+  "bit_fields": [
+    {
+      "name": "SEL0[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: resource number based on TYPE0"
+    },
+    {
+      "name": "TYPE0",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "resource type for event0"
+    },
+    {
+      "name": "SEL1[3",
+      "bit_offset": 8,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: resource number based on TYPE1"
+    },
+    {
+      "name": "LPOVERRIDE",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "low-power state behavior override"
+    },
+    {
+      "name": "TYPE1",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "resource type for event1"
+    }
+  ],
+  "errata_notes": []
+}

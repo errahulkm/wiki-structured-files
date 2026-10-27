@@ -1,0 +1,43 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB3RSTR",
+  "long_name": "RCC AHB3 peripheral reset register (RCC_AHB3RSTR)",
+  "address_offset": "0x030",
+  "reset_value": "0x00000000",
+  "description": "RCC AHB3 peripheral reset register specification",
+  "bit_fields": [
+    {
+      "name": "GPIOARST",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port A reset"
+    },
+    {
+      "name": "GPIOBRST",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port B reset"
+    },
+    {
+      "name": "GPIOCRST",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port C reset"
+    },
+    {
+      "name": "OSPI1RST",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OCTOSPI1 memory interface reset"
+    }
+  ],
+  "errata_notes": []
+}

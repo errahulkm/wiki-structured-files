@@ -1,0 +1,203 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_DOEPCTL0",
+  "long_name": "RM0090 1448/1741 RM0090 Rev 22 OTG_HS device control OUT endpoint 0 control register (OTG_HS_DOEPCTL0)",
+  "address_offset": "0xB00",
+  "reset_value": "0x00000000",
+  "description": "RM0090 1448/1741 RM0090 Rev 22 OTG_HS device control OUT endpoint 0 control register specification",
+  "bit_fields": [
+    {
+      "name": "MPSIZ",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Maximum packet size"
+    },
+    {
+      "name": "AHBERR",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "AHB error"
+    },
+    {
+      "name": "TOC",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timeout condition"
+    },
+    {
+      "name": "ITTXFE",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IN token received when TxFIFO is empty"
+    },
+    {
+      "name": "INEPNM",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IN token received with EP mismatch"
+    },
+    {
+      "name": "INEPNE",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IN endpoint NAK effective"
+    },
+    {
+      "name": "TXFE",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmit FIFO empty"
+    },
+    {
+      "name": "TXFIFOUDRN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmit Fifo Underrun (TxfifoUndrn) The core generates this interrupt when it"
+    },
+    {
+      "name": "PKTDRPSTS",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Packet dropped status"
+    },
+    {
+      "name": "BERR",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Babble error interrupt"
+    },
+    {
+      "name": "NAK",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "NAK interrupt"
+    },
+    {
+      "name": "NYET",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "NYET interrupt"
+    },
+    {
+      "name": "USBAEP",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB active endpoint"
+    },
+    {
+      "name": "EONUM",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Even/odd frame"
+    },
+    {
+      "name": "NAKSTS",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "NAK status"
+    },
+    {
+      "name": "EPTYP",
+      "bit_offset": 18,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Endpoint type"
+    },
+    {
+      "name": "SNPM",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Snoop mode"
+    },
+    {
+      "name": "STALL",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "STALL handshake"
+    },
+    {
+      "name": "CNAK",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear NAK"
+    },
+    {
+      "name": "SNAK",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Set NAK"
+    },
+    {
+      "name": "SD0PID",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Set DATA0 PID"
+    },
+    {
+      "name": "SODDFRM",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Set odd frame"
+    },
+    {
+      "name": "EPDIS",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Endpoint disable"
+    },
+    {
+      "name": "EPENA",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Endpoint enable"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,43 @@
+{
+  "peripheral": "SDMMC",
+  "register_name": "SDMMC_IDMABSIZER",
+  "long_name": "SDMMC IDMA buffer size register (SDMMC_IDMABSIZER)",
+  "address_offset": "0x054",
+  "reset_value": "0x00000000",
+  "description": "SDMMC IDMA buffer size register specification",
+  "bit_fields": [
+    {
+      "name": "IDMAEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IDMA enable"
+    },
+    {
+      "name": "IDMABMODE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Buffer mode selection"
+    },
+    {
+      "name": "IDMABACT",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Double buffer mode active buffer indication"
+    },
+    {
+      "name": "IDMABNDT[7",
+      "bit_offset": 5,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Number of bytes per buffer"
+    }
+  ],
+  "errata_notes": []
+}

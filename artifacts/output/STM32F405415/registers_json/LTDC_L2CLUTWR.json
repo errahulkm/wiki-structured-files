@@ -1,0 +1,59 @@
+{
+  "peripheral": "LTDC",
+  "register_name": "LTDC_L2CLUTWR",
+  "long_name": "LCD-TFT Display Controller (LTDC) LTDC_L2CLUTWR Register",
+  "address_offset": "0x0144",
+  "reset_value": "0x00000000",
+  "description": "LCD-TFT Display Controller (LTDC) LTDC_L2CLUTWR hardware register",
+  "bit_fields": [
+    {
+      "name": "IMR",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Immediate Reload"
+    },
+    {
+      "name": "VBR",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Vertical Blanking Reload"
+    },
+    {
+      "name": "TERRIE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer Error Interrupt Enable"
+    },
+    {
+      "name": "RRIE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Register Reload interrupt enable"
+    },
+    {
+      "name": "BCGREEN[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Background Color Green value"
+    },
+    {
+      "name": "BCRED[7",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Background Color Red value"
+    }
+  ],
+  "errata_notes": []
+}

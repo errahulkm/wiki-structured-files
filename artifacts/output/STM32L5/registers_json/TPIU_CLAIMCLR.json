@@ -1,0 +1,19 @@
+{
+  "peripheral": "TPIU",
+  "register_name": "TPIU_CLAIMCLR",
+  "long_name": "0x0000 000F TPIU claim tag clear register (TPIU_CLAIMCLR)",
+  "address_offset": "0xFA4",
+  "reset_value": "0x00000000",
+  "description": "0x0000 000F TPIU claim tag clear register specification",
+  "bit_fields": [
+    {
+      "name": "PSCOUNT[12",
+      "bit_offset": 0,
+      "bit_width": 13,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: formatter frames counter"
+    }
+  ],
+  "errata_notes": []
+}

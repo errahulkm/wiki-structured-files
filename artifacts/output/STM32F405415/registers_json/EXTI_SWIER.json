@@ -1,0 +1,19 @@
+{
+  "peripheral": "EXTI",
+  "register_name": "EXTI_SWIER",
+  "long_name": "Set the required bit in the software interrupt register (EXTI_SWIER)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Set the required bit in the software interrupt register specification",
+  "bit_fields": [
+    {
+      "name": "EXTI_SWIER",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "Set the required bit in the software interrupt register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

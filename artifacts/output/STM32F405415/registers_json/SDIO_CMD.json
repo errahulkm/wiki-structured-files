@@ -1,0 +1,75 @@
+{
+  "peripheral": "SDIO",
+  "register_name": "SDIO_CMD",
+  "long_name": "Secure Digital Input/Output (SDIO) SDIO_CMD Register",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "Secure Digital Input/Output (SDIO) SDIO_CMD hardware register",
+  "bit_fields": [
+    {
+      "name": "CLKDIV",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock divide factor"
+    },
+    {
+      "name": "CLKEN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock enable bit"
+    },
+    {
+      "name": "PWRSAV",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Power saving configuration bit"
+    },
+    {
+      "name": "CPSMEN",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Command path state machine (CPSM) Enable bit"
+    },
+    {
+      "name": "SDIOSUSPEND",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SD I/O suspend command"
+    },
+    {
+      "name": "ENCMDCOMPL",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable CMD completion"
+    },
+    {
+      "name": "NIEN",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "not Interrupt Enable"
+    },
+    {
+      "name": "ATACMD",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CE-ATA command"
+    }
+  ],
+  "errata_notes": []
+}

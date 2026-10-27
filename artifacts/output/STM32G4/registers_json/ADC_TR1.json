@@ -1,0 +1,19 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_TR1",
+  "long_name": "ADC watchdog threshol d register 1 (ADC_TR1)",
+  "address_offset": "0x20",
+  "reset_value": "0x00000000",
+  "description": "ADC watchdog threshol d register 1 specification",
+  "bit_fields": [
+    {
+      "name": "SMPX[2",
+      "bit_offset": 0,
+      "bit_width": 27,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Channel x sampling time selection (x = 18 to 10)"
+    }
+  ],
+  "errata_notes": []
+}

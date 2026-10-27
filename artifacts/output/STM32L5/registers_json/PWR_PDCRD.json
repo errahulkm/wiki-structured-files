@@ -1,0 +1,19 @@
+{
+  "peripheral": "PWR",
+  "register_name": "PWR_PDCRD",
+  "long_name": "Power Port D pull-down control register (PWR_PDCRD)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Power Port D pull-down control register specification",
+  "bit_fields": [
+    {
+      "name": "PU[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Port D pull-up bit y (y=0..15)"
+    }
+  ],
+  "errata_notes": []
+}

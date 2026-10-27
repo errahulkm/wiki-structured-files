@@ -1,0 +1,35 @@
+{
+  "peripheral": "AES",
+  "register_name": "AES_SR",
+  "long_name": "AES status register (AES_SR)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "AES status register specification",
+  "bit_fields": [
+    {
+      "name": "EN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "AES enable"
+    },
+    {
+      "name": "DATATYPE[1",
+      "bit_offset": 1,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Data type selection"
+    },
+    {
+      "name": "MODE[1",
+      "bit_offset": 3,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: AES operating mode"
+    }
+  ],
+  "errata_notes": []
+}

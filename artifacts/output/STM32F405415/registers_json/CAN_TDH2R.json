@@ -1,0 +1,51 @@
+{
+  "peripheral": "CAN",
+  "register_name": "CAN_TDH2R",
+  "long_name": "Controller Area Network (bxCAN) CAN_TDH2R Register",
+  "address_offset": "0x1AC",
+  "reset_value": "0x00000000",
+  "description": "Controller Area Network (bxCAN) CAN_TDH2R hardware register",
+  "bit_fields": [
+    {
+      "name": "TXRQ",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmit mailbox request"
+    },
+    {
+      "name": "RTR",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Remote transmission request"
+    },
+    {
+      "name": "IDE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Identifier extension"
+    },
+    {
+      "name": "EXID[17",
+      "bit_offset": 3,
+      "bit_width": 18,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Extended identifier"
+    },
+    {
+      "name": "STID[10",
+      "bit_offset": 21,
+      "bit_width": 11,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]/EXID[28:18]: Standard identifier or extended identifier"
+    }
+  ],
+  "errata_notes": []
+}

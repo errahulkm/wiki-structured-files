@@ -1,0 +1,35 @@
+{
+  "peripheral": "CRYP",
+  "register_name": "CRYP_SR",
+  "long_name": "Cryptographic Processor (CRYP) Status Register",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "Status flags and event indicators for Cryptographic Processor (CRYP).",
+  "bit_fields": [
+    {
+      "name": "BUSY",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R",
+      "reset_value": "0",
+      "description": "Busy indicator flag for Cryptographic Processor (CRYP)"
+    },
+    {
+      "name": "READY",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R",
+      "reset_value": "1",
+      "description": "Ready state flag for Cryptographic Processor (CRYP)"
+    },
+    {
+      "name": "TC",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R",
+      "reset_value": "0",
+      "description": "Transfer/Operation complete flag for Cryptographic Processor (CRYP)"
+    }
+  ],
+  "errata_notes": []
+}

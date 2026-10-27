@@ -1,0 +1,31 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Shell scripts must always use LF (POSIX line endings)
+*.sh text eol=lf
+
+# Windows batch files must always use CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# PowerShell scripts
+*.ps1 text eol=crlf
+
+# Markdown, JSON, HTML, CSS, JavaScript, and SVG
+*.md text
+*.json text
+*.html text
+*.css text
+*.js text
+*.svg text
+*.txt text
+*.py text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.whl binary

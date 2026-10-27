@@ -1,0 +1,211 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_APB1RSTR",
+  "long_name": "RCC APB1 peripheral reset register (RCC_APB1RSTR)",
+  "address_offset": "0x20",
+  "reset_value": "0x00000000",
+  "description": "RCC APB1 peripheral reset register specification",
+  "bit_fields": [
+    {
+      "name": "FMCRST",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Flexible memory controller module reset"
+    },
+    {
+      "name": "TIM3RST",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM3 reset"
+    },
+    {
+      "name": "TIM4RST",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM4 reset"
+    },
+    {
+      "name": "TIM5RST",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM5 reset"
+    },
+    {
+      "name": "TIM6RST",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM6 reset"
+    },
+    {
+      "name": "TIM7RST",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM7 reset"
+    },
+    {
+      "name": "TIM12RST",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM12 reset"
+    },
+    {
+      "name": "TIM13RST",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM13 reset"
+    },
+    {
+      "name": "TIM14RST",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM14 reset"
+    },
+    {
+      "name": "WWDGRST",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Window watchdog reset"
+    },
+    {
+      "name": "SPI2RST",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI2 reset"
+    },
+    {
+      "name": "SPI3RST",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI3 reset"
+    },
+    {
+      "name": "USART2RST",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART2 reset"
+    },
+    {
+      "name": "USART3RST",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART3 reset"
+    },
+    {
+      "name": "UART4RST",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART4 reset"
+    },
+    {
+      "name": "UART5RST",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UART5 reset"
+    },
+    {
+      "name": "I2C1RST",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C1 reset"
+    },
+    {
+      "name": "I2C2RST",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C2 reset"
+    },
+    {
+      "name": "I2C3RST",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C3 reset"
+    },
+    {
+      "name": "CAN1RST",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CAN1 reset"
+    },
+    {
+      "name": "CAN2RST",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CAN2 reset"
+    },
+    {
+      "name": "PWRRST",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Power interface reset"
+    },
+    {
+      "name": "DACRST",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC reset"
+    },
+    {
+      "name": "UART7RST",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UART7 reset"
+    },
+    {
+      "name": "UART8RST",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UART8 reset"
+    }
+  ],
+  "errata_notes": []
+}

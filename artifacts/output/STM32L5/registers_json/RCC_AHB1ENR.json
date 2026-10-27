@@ -1,0 +1,43 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB1ENR",
+  "long_name": "RCC AHB1 peripheral clo ck enable register (RCC_AHB1ENR)",
+  "address_offset": "0x048",
+  "reset_value": "0x00000000",
+  "description": "RCC AHB1 peripheral clo ck enable register specification",
+  "bit_fields": [
+    {
+      "name": "FLASHEN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Flash memory interface clock enable"
+    },
+    {
+      "name": "CRCEN",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CRC clock enable"
+    },
+    {
+      "name": "TSCEN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Touch sensing controller clock enable"
+    },
+    {
+      "name": "GTZCEN",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "GTZC clock enable"
+    }
+  ],
+  "errata_notes": []
+}

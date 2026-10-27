@@ -1,0 +1,51 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_CFGR",
+  "long_name": "Clock configurati on register (RCC_CFGR)",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "Clock configurati on register specification",
+  "bit_fields": [
+    {
+      "name": "HPRE[3",
+      "bit_offset": 4,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: AHB prescaler"
+    },
+    {
+      "name": "PPRE1[2",
+      "bit_offset": 8,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]:APB1 prescaler"
+    },
+    {
+      "name": "PPRE2[2",
+      "bit_offset": 11,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: APB2 prescaler"
+    },
+    {
+      "name": "HSICAL[7",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: HSI16 clock calibration"
+    },
+    {
+      "name": "HSITRIM[6",
+      "bit_offset": 24,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: HSI16 clock trimming"
+    }
+  ],
+  "errata_notes": []
+}

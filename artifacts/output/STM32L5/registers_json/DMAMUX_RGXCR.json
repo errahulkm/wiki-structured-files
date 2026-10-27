@@ -1,0 +1,27 @@
+{
+  "peripheral": "DMAMUX",
+  "register_name": "DMAMUX_RGXCR",
+  "long_name": "DMAMUX request generator channel x configuration register (DMAMUX_RGXCR)",
+  "address_offset": "0x100",
+  "reset_value": "0x00000000",
+  "description": "DMAMUX request generator channel x configuration register specification",
+  "bit_fields": [
+    {
+      "name": "CSOF[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Clear synchronization overrun event flag"
+    },
+    {
+      "name": "GNBREQ[4",
+      "bit_offset": 19,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Number of DMA requests to be generated (minus 1)"
+    }
+  ],
+  "errata_notes": []
+}

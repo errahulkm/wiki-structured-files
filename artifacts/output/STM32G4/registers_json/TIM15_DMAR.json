@@ -1,0 +1,27 @@
+{
+  "peripheral": "TIMERS",
+  "register_name": "TIM15_DMAR",
+  "long_name": "Timers (TIM) TIM15_DMAR Register",
+  "address_offset": "0x3E0",
+  "reset_value": "0x00",
+  "description": "Timers (TIM) TIM15_DMAR hardware register",
+  "bit_fields": [
+    {
+      "name": "DBA[4",
+      "bit_offset": 0,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DMA base address"
+    },
+    {
+      "name": "DBL[4",
+      "bit_offset": 8,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DMA burst length"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,51 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_DIEPMSK",
+  "long_name": "1368 OTG_FS device IN endpoint common interrupt mask register (OTG_FS_DIEPMSK)",
+  "address_offset": "0x810",
+  "reset_value": "0x00000000",
+  "description": "1368 OTG_FS device IN endpoint common interrupt mask register specification",
+  "bit_fields": [
+    {
+      "name": "SUSPSTS",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Suspend status"
+    },
+    {
+      "name": "ENUMSPD",
+      "bit_offset": 1,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enumerated speed"
+    },
+    {
+      "name": "EERR",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Erratic error"
+    },
+    {
+      "name": "INEPNEM",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IN endpoint NAK effective mask"
+    },
+    {
+      "name": "NAKM",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "NAK interrupt mask"
+    }
+  ],
+  "errata_notes": []
+}

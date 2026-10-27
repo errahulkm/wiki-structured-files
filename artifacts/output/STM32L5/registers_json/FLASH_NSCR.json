@@ -1,0 +1,115 @@
+{
+  "peripheral": "FLASH",
+  "register_name": "FLASH_NSCR",
+  "long_name": "Flash non-secure cont rol register (FLASH_NSCR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Flash non-secure cont rol register specification",
+  "bit_fields": [
+    {
+      "name": "NSPG",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Non-secure programming"
+    },
+    {
+      "name": "NSPER",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Non-secure page erase"
+    },
+    {
+      "name": "NSMER1",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Non-secure bank 1 mass erase"
+    },
+    {
+      "name": "NSPNB[6",
+      "bit_offset": 3,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Non-secure page number selection"
+    },
+    {
+      "name": "NSBKER",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Non-secure page number MSB (bank selection)"
+    },
+    {
+      "name": "NSMER2",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Non-secure Bank 2 Mass erase"
+    },
+    {
+      "name": "NSSTRT",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Non-secure start"
+    },
+    {
+      "name": "OPTSTRT",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Options modification start"
+    },
+    {
+      "name": "NSEOPIE",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Non-secure End of operation interrupt enable"
+    },
+    {
+      "name": "NSERRIE",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Non-secure error interrupt enable"
+    },
+    {
+      "name": "OBL_LAUNCH",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Force the option byte loading"
+    },
+    {
+      "name": "OPTLOCK",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Options Lock"
+    },
+    {
+      "name": "NSLOCK",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FLASH_NSCR Lock"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,51 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_CALR",
+  "long_name": "RTC calibration register (RTC_CALR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RTC calibration register specification",
+  "bit_fields": [
+    {
+      "name": "KEY[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Write protection key"
+    },
+    {
+      "name": "LPCAL",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Calibration low-power mode"
+    },
+    {
+      "name": "CALW16",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Use a 16-second calibration cycle period"
+    },
+    {
+      "name": "CALW8",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Use an 8-second calibration cycle period"
+    },
+    {
+      "name": "CALP",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Increase frequency of RTC by 488.5 ppm"
+    }
+  ],
+  "errata_notes": []
+}

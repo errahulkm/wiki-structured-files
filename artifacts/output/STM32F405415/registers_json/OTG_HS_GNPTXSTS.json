@@ -1,0 +1,27 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_GNPTXSTS",
+  "long_name": "OTG_HS nonperiodic transmit FIFO/queue status register (OTG_HS_GNPTXSTS)",
+  "address_offset": "0x02C",
+  "reset_value": "0x00000000",
+  "description": "OTG_HS nonperiodic transmit FIFO/queue status register specification",
+  "bit_fields": [
+    {
+      "name": "NPTXFSA",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Nonperiodic transmit RAM start address"
+    },
+    {
+      "name": "NPTXFD",
+      "bit_offset": 16,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Nonperiodic TxFIFO depth"
+    }
+  ],
+  "errata_notes": []
+}

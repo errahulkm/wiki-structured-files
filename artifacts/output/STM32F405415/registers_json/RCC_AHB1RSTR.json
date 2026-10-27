@@ -1,0 +1,147 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB1RSTR",
+  "long_name": "RCC AHB1 peripheral reset register (RCC_AHB1RSTR)",
+  "address_offset": "0x10",
+  "reset_value": "0x00000000",
+  "description": "RCC AHB1 peripheral reset register specification",
+  "bit_fields": [
+    {
+      "name": "LSIRDYF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSI ready interrupt flag"
+    },
+    {
+      "name": "LSERDYF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSE ready interrupt flag"
+    },
+    {
+      "name": "HSIRDYF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI ready interrupt flag"
+    },
+    {
+      "name": "HSERDYF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSE ready interrupt flag"
+    },
+    {
+      "name": "GPIOERST",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port E reset"
+    },
+    {
+      "name": "GPIOFRST",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port F reset"
+    },
+    {
+      "name": "GPIOGRST",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port G reset"
+    },
+    {
+      "name": "GPIOHRST",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port H reset"
+    },
+    {
+      "name": "GPIOIRST",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port I reset"
+    },
+    {
+      "name": "GPIOJRST",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port J reset"
+    },
+    {
+      "name": "GPIOKRST",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port K reset"
+    },
+    {
+      "name": "CRCRST",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CRC reset"
+    },
+    {
+      "name": "DMA1RST",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA2 reset"
+    },
+    {
+      "name": "DMA2RST",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA2 reset"
+    },
+    {
+      "name": "DMA2DRST",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA2D reset"
+    },
+    {
+      "name": "ETHMACRST",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Ethernet MAC reset"
+    },
+    {
+      "name": "OTGHSRST",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB OTG HS module reset"
+    }
+  ],
+  "errata_notes": []
+}

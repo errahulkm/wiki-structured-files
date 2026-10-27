@@ -1,0 +1,107 @@
+{
+  "peripheral": "I2C",
+  "register_name": "I2C_CR1",
+  "long_name": "I 2C Control register 1 (I2C_CR1)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "I 2C Control register 1 specification",
+  "bit_fields": [
+    {
+      "name": "SMBTYPE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SMBus type"
+    },
+    {
+      "name": "ENARP",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ARP enable"
+    },
+    {
+      "name": "ENPEC",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PEC enable"
+    },
+    {
+      "name": "ENGC",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "General call enable"
+    },
+    {
+      "name": "NOSTRETCH",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock stretching disable (Target mode)"
+    },
+    {
+      "name": "START",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Start generation"
+    },
+    {
+      "name": "STOP",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Stop generation"
+    },
+    {
+      "name": "ACK",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Acknowledge enable"
+    },
+    {
+      "name": "POS",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Acknowledge/PEC Position (for data reception)"
+    },
+    {
+      "name": "PEC",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Packet error checking"
+    },
+    {
+      "name": "ALERT",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SMBus alert"
+    },
+    {
+      "name": "SWRST",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Software reset"
+    }
+  ],
+  "errata_notes": []
+}

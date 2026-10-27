@@ -1,0 +1,19 @@
+{
+  "peripheral": "AES",
+  "register_name": "AES_IVR1",
+  "long_name": "AES initialization vector register 1 (AES_IVR1)",
+  "address_offset": "0x24",
+  "reset_value": "0x00000000",
+  "description": "AES initialization vector register 1 specification",
+  "bit_fields": [
+    {
+      "name": "AES_IVR1",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "AES initialization vector register 1 full-width value"
+    }
+  ],
+  "errata_notes": []
+}

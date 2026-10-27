@@ -1,0 +1,19 @@
+{
+  "peripheral": "CTI",
+  "register_name": "CTI_PIDR1",
+  "long_name": "0x0000 0006 CTI CoreSight peripheral identity register 1 (CTI_PIDR1)",
+  "address_offset": "0xFE4",
+  "reset_value": "0x00000000",
+  "description": "0x0000 0006 CTI CoreSight peripheral identity register 1 specification",
+  "bit_fields": [
+    {
+      "name": "PARTNUM[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: part number bits [7:0]"
+    }
+  ],
+  "errata_notes": []
+}

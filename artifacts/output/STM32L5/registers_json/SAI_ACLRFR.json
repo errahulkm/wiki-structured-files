@@ -1,0 +1,51 @@
+{
+  "peripheral": "SAI",
+  "register_name": "SAI_ACLRFR",
+  "long_name": "SAI clear flag register (SAI_ACLRFR)",
+  "address_offset": "0x1C",
+  "reset_value": "0x00000000",
+  "description": "SAI clear flag register specification",
+  "bit_fields": [
+    {
+      "name": "OVRUDR",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overrun / underrun."
+    },
+    {
+      "name": "CWCKCFG",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear wrong clock configuration flag."
+    },
+    {
+      "name": "CCNRDY",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear Codec not ready flag."
+    },
+    {
+      "name": "CAFSDET",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear anticipated frame synchronization detection flag."
+    },
+    {
+      "name": "CLFSDET",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear late frame synchronization detection flag."
+    }
+  ],
+  "errata_notes": []
+}

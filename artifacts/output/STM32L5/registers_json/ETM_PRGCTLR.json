@@ -1,0 +1,19 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_PRGCTLR",
+  "long_name": "ETM programming control register (ETM_PRGCTLR)",
+  "address_offset": "0x004",
+  "reset_value": "0x00000000",
+  "description": "ETM programming control register specification",
+  "bit_fields": [
+    {
+      "name": "ETM_PRGCTLR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "ETM programming control register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

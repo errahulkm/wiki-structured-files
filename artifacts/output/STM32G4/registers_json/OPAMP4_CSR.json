@@ -1,0 +1,123 @@
+{
+  "peripheral": "OPAMP4",
+  "register_name": "OPAMP4_CSR",
+  "long_name": "OPAMP4 control/status register (OPAMP4_CSR)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "OPAMP4 control/status register specification",
+  "bit_fields": [
+    {
+      "name": "OPAEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Operational amplifier Enable"
+    },
+    {
+      "name": "FORCE_VP",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Force internal reference on VP (reserved for test)"
+    },
+    {
+      "name": "VP_SEL[1",
+      "bit_offset": 2,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Non inverted input selection"
+    },
+    {
+      "name": "USERTRIM",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "User trimming enable"
+    },
+    {
+      "name": "VM_SEL[1",
+      "bit_offset": 5,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Inverting input selection"
+    },
+    {
+      "name": "OPAHSM",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Operational amplifier high-speed mode"
+    },
+    {
+      "name": "OPAINTOEN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Operational amplifier internal output enable."
+    },
+    {
+      "name": "CALON",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Calibration mode enabled"
+    },
+    {
+      "name": "CALSEL[1",
+      "bit_offset": 12,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Calibration selection"
+    },
+    {
+      "name": "PGA_GAIN[4",
+      "bit_offset": 14,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Operational amplifier Programmable amplifier gain value"
+    },
+    {
+      "name": "TRIMOFFSETP[4",
+      "bit_offset": 19,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Trim for PMOS differential pairs"
+    },
+    {
+      "name": "TRIMOFFSETN[4",
+      "bit_offset": 24,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Trim for NMOS differential pairs"
+    },
+    {
+      "name": "CALOUT",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Operational amplifier calibration output"
+    },
+    {
+      "name": "LOCK",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OPAMP4_CSR lock"
+    }
+  ],
+  "errata_notes": []
+}

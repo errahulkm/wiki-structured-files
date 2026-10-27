@@ -1,0 +1,27 @@
+{
+  "peripheral": "LPUART",
+  "register_name": "LPUART_RQR",
+  "long_name": "LPUART request register (LPUART_RQR)",
+  "address_offset": "0x18",
+  "reset_value": "0x00000000",
+  "description": "LPUART request register specification",
+  "bit_fields": [
+    {
+      "name": "EIE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Error interrupt enable"
+    },
+    {
+      "name": "HDSEL",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Half-duplex selection"
+    }
+  ],
+  "errata_notes": []
+}

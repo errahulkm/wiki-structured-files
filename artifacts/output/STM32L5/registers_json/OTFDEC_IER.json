@@ -1,0 +1,35 @@
+{
+  "peripheral": "OTFDEC",
+  "register_name": "OTFDEC_IER",
+  "long_name": "OTFDEC interrupt en able register (OTFDEC_IER)",
+  "address_offset": "0x308",
+  "reset_value": "0x00000000",
+  "description": "OTFDEC interrupt en able register specification",
+  "bit_fields": [
+    {
+      "name": "SEIF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Security error interrupt flag clear"
+    },
+    {
+      "name": "XONEIF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Execute-only execute-never error interrupt flag clear"
+    },
+    {
+      "name": "KEIF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Key error interrupt flag clear"
+    }
+  ],
+  "errata_notes": []
+}

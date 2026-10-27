@@ -1,0 +1,27 @@
+{
+  "peripheral": "FMC",
+  "register_name": "FMC_SDRTR",
+  "long_name": "RM0090 1666/1741 RM0090 Rev 22 SDRAM Refresh Timer register (FMC_SDRTR)",
+  "address_offset": "0x154",
+  "reset_value": "0x00000000",
+  "description": "RM0090 1666/1741 RM0090 Rev 22 SDRAM Refresh Timer register specification",
+  "bit_fields": [
+    {
+      "name": "MODE[2",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Command mode"
+    },
+    {
+      "name": "CTB2",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Command Target Bank 2"
+    }
+  ],
+  "errata_notes": []
+}

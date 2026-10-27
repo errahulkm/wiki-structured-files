@@ -1,0 +1,19 @@
+{
+  "peripheral": "PWR",
+  "register_name": "PWR_PUCRB",
+  "long_name": "Power Port B pull-up control register (PWR_PUCRB)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Power Port B pull-up control register specification",
+  "bit_fields": [
+    {
+      "name": "PD[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Port A pull-down bit y (y=0..15)"
+    }
+  ],
+  "errata_notes": []
+}

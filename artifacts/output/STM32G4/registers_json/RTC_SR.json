@@ -1,0 +1,27 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_SR",
+  "long_name": "RTC status register (RTC_SR)",
+  "address_offset": "0x50",
+  "reset_value": "0x00000000",
+  "description": "RTC status register specification",
+  "bit_fields": [
+    {
+      "name": "SS[14",
+      "bit_offset": 0,
+      "bit_width": 15,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Sub seconds value"
+    },
+    {
+      "name": "MASKSS[3",
+      "bit_offset": 24,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Mask the most-significant bits starting at this bit"
+    }
+  ],
+  "errata_notes": []
+}

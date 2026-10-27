@@ -1,0 +1,35 @@
+{
+  "peripheral": "FDCAN",
+  "register_name": "FDCAN_RWD",
+  "long_name": "FDCAN RAM watchdog register (FDCAN_RWD)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "FDCAN RAM watchdog register specification",
+  "bit_fields": [
+    {
+      "name": "LBCK",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Loop-back mode"
+    },
+    {
+      "name": "TX[1",
+      "bit_offset": 5,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Control of transmit pin"
+    },
+    {
+      "name": "RX",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive pin"
+    }
+  ],
+  "errata_notes": []
+}

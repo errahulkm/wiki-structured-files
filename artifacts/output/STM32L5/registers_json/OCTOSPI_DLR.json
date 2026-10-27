@@ -1,0 +1,43 @@
+{
+  "peripheral": "OCTOSPI",
+  "register_name": "OCTOSPI_DLR",
+  "long_name": "OCTOSPI data length register (OCTOSPI_DLR)",
+  "address_offset": "0x0040",
+  "reset_value": "0x00000000",
+  "description": "OCTOSPI data length register specification",
+  "bit_fields": [
+    {
+      "name": "TEF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer error flag"
+    },
+    {
+      "name": "CTCF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear transfer complete flag"
+    },
+    {
+      "name": "CSMF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear status match flag"
+    },
+    {
+      "name": "CTOF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear timeout flag"
+    }
+  ],
+  "errata_notes": []
+}

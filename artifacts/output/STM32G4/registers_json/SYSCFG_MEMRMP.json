@@ -1,0 +1,19 @@
+{
+  "peripheral": "SYSCFG",
+  "register_name": "SYSCFG_MEMRMP",
+  "long_name": "SYSCFG memory remap register (SYSCFG_MEMRMP)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "SYSCFG memory remap register specification",
+  "bit_fields": [
+    {
+      "name": "FB_MODE",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Flash Bank mode selection"
+    }
+  ],
+  "errata_notes": []
+}

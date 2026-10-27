@@ -1,0 +1,91 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_APB1ENR2",
+  "long_name": "RCC APB1 peripheral clock enable register 2 (RCC_APB1ENR2)",
+  "address_offset": "0x05C",
+  "reset_value": "0x00000000",
+  "description": "RCC APB1 peripheral clock enable register 2 specification",
+  "bit_fields": [
+    {
+      "name": "TIM2EN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM2 timer clock enable"
+    },
+    {
+      "name": "TIM3EN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM3 timer clock enable"
+    },
+    {
+      "name": "TIM4EN",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM4 timer clock enable"
+    },
+    {
+      "name": "TIM5EN",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM5 timer clock enable"
+    },
+    {
+      "name": "TIM6EN",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM6 timer clock enable"
+    },
+    {
+      "name": "TIM7EN",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM7 timer clock enable"
+    },
+    {
+      "name": "LPTIM3EN",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Low-power timer 3clock enable"
+    },
+    {
+      "name": "FDCAN1EN",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FDCAN1 clock enable"
+    },
+    {
+      "name": "USBFSEN",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB FS clock enable"
+    },
+    {
+      "name": "UCPD1EN",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UCPD1 clock enable"
+    }
+  ],
+  "errata_notes": []
+}

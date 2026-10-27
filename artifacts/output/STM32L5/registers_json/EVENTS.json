@@ -1,0 +1,27 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "EVENTS",
+  "long_name": "Status register (EVENTS)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Status register specification",
+  "bit_fields": [
+    {
+      "name": "BIT",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0Bit 2Bit 3"
+    },
+    {
+      "name": "TRANSMIT",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "first"
+    }
+  ],
+  "errata_notes": []
+}

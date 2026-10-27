@@ -1,0 +1,19 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_WPR",
+  "long_name": "RTC write protect ion register (RTC_WPR)",
+  "address_offset": "0x24",
+  "reset_value": "0x00000000",
+  "description": "RTC write protect ion register specification",
+  "bit_fields": [
+    {
+      "name": "RTC_WPR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "RTC write protect ion register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

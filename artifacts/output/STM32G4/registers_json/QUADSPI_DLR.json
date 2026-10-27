@@ -1,0 +1,43 @@
+{
+  "peripheral": "QUADSPI",
+  "register_name": "QUADSPI_DLR",
+  "long_name": "QUADSPI data length register (QUADSPI_DLR)",
+  "address_offset": "0x010",
+  "reset_value": "0x00000000",
+  "description": "QUADSPI data length register specification",
+  "bit_fields": [
+    {
+      "name": "CTEF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear transfer error flag"
+    },
+    {
+      "name": "CTCF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear transfer complete flag"
+    },
+    {
+      "name": "CSMF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear status match flag"
+    },
+    {
+      "name": "CTOF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear timeout flag"
+    }
+  ],
+  "errata_notes": []
+}

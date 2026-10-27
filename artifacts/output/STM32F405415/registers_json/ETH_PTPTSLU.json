@@ -1,0 +1,27 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_PTPTSLU",
+  "long_name": "Ethernet MAC (ETH) ETH_PTPTSLU Register",
+  "address_offset": "0x714",
+  "reset_value": "0x00000000",
+  "description": "Ethernet MAC (ETH) ETH_PTPTSLU hardware register",
+  "bit_fields": [
+    {
+      "name": "TSUSS",
+      "bit_offset": 0,
+      "bit_width": 31,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp update subseconds"
+    },
+    {
+      "name": "TSUPNS",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp update positive or negative sign"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,51 @@
+{
+  "peripheral": "TAMP",
+  "register_name": "TAMP_CR3",
+  "long_name": "TAMP control register 3 (TAMP_CR3)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "TAMP control register 3 specification",
+  "bit_fields": [
+    {
+      "name": "TAMP1NOER",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper 1 no erase"
+    },
+    {
+      "name": "TAMP2NOER",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper 2 no erase"
+    },
+    {
+      "name": "TAMP3NOER",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper 3 no erase"
+    },
+    {
+      "name": "ITAMP5NOER",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal Tamper 5 no erase"
+    },
+    {
+      "name": "ITAMP8NOER",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal Tamper 8 no erase"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,107 @@
+{
+  "peripheral": "AES",
+  "register_name": "AES_CR",
+  "long_name": "AES control register (AES_CR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "AES control register specification",
+  "bit_fields": [
+    {
+      "name": "EN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "AES enable"
+    },
+    {
+      "name": "DATATYPE[1",
+      "bit_offset": 1,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Data type selection"
+    },
+    {
+      "name": "MODE[1",
+      "bit_offset": 3,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: AES operating mode"
+    },
+    {
+      "name": "CCFC",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Computation complete flag clear"
+    },
+    {
+      "name": "ERRC",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Error flag clear"
+    },
+    {
+      "name": "CCFIE",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CCF interrupt enable"
+    },
+    {
+      "name": "ERRIE",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Error interrupt enable"
+    },
+    {
+      "name": "DMAINEN",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA input enable"
+    },
+    {
+      "name": "DMAOUTEN",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA output enable"
+    },
+    {
+      "name": "GCMPH[1",
+      "bit_offset": 13,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: GCM or CCM phase selection"
+    },
+    {
+      "name": "KEYSIZE",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Key size selection"
+    },
+    {
+      "name": "NPBLB[3",
+      "bit_offset": 20,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Number of padding bytes in last block"
+    }
+  ],
+  "errata_notes": []
+}

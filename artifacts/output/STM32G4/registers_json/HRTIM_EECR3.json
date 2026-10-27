@@ -1,0 +1,67 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_EECR3",
+  "long_name": "HRTIM timer external event c ontrol register 3 (HRTIM_EECR3)",
+  "address_offset": "0x3B8",
+  "reset_value": "0x00000000",
+  "description": "HRTIM timer external event c ontrol register 3 specification",
+  "bit_fields": [
+    {
+      "name": "EE6SRC[1",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event 6 source"
+    },
+    {
+      "name": "EE6POL",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 6 polarity"
+    },
+    {
+      "name": "EE6SNS[1",
+      "bit_offset": 3,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event 6 sensitivity"
+    },
+    {
+      "name": "EE8F[3",
+      "bit_offset": 12,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event 8 filter"
+    },
+    {
+      "name": "EE9F[3",
+      "bit_offset": 18,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event 9 filter"
+    },
+    {
+      "name": "EE10F[3",
+      "bit_offset": 24,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event 10 filter"
+    },
+    {
+      "name": "EEVSD[1",
+      "bit_offset": 30,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event sampling clock division"
+    }
+  ],
+  "errata_notes": []
+}

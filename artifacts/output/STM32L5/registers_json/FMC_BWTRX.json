@@ -1,0 +1,59 @@
+{
+  "peripheral": "FMC",
+  "register_name": "FMC_BWTRX",
+  "long_name": "SRAM/NOR-flash write timing registers x (FMC_BWTRX)",
+  "address_offset": "0x104",
+  "reset_value": "0x00000000",
+  "description": "SRAM/NOR-flash write timing registers x specification",
+  "bit_fields": [
+    {
+      "name": "ADDSET[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Address setup phase duration"
+    },
+    {
+      "name": "ADDHLD[3",
+      "bit_offset": 4,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Address-hold phase duration."
+    },
+    {
+      "name": "DATAST[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Data-phase duration."
+    },
+    {
+      "name": "BUSTURN[3",
+      "bit_offset": 16,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Bus turnaround phase duration"
+    },
+    {
+      "name": "ACCMOD[1",
+      "bit_offset": 28,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Access mode."
+    },
+    {
+      "name": "DATAHLD[1",
+      "bit_offset": 30,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Data hold phase duration"
+    }
+  ],
+  "errata_notes": []
+}

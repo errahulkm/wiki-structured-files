@@ -1,0 +1,19 @@
+{
+  "peripheral": "DAC",
+  "register_name": "DAC_DOR1",
+  "long_name": "DAC channel1 data output register (DAC_DOR1)",
+  "address_offset": "0x2C",
+  "reset_value": "0x00000000",
+  "description": "DAC channel1 data output register specification",
+  "bit_fields": [
+    {
+      "name": "DAC_DOR1",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "DAC channel1 data output register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

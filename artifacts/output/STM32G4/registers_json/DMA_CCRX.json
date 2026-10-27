@@ -1,0 +1,107 @@
+{
+  "peripheral": "DMA",
+  "register_name": "DMA_CCRX",
+  "long_name": "DMA channel x configur ation register (DMA_CCRX)",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "DMA channel x configur ation register specification",
+  "bit_fields": [
+    {
+      "name": "CGIF1",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Global interrupt flag clear for channel 1"
+    },
+    {
+      "name": "CTCIF1",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer complete flag clear for channel 1"
+    },
+    {
+      "name": "CHTIF1",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Half transfer flag clear for channel 1"
+    },
+    {
+      "name": "CTEIF1",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer error flag clear for channel 1"
+    },
+    {
+      "name": "CGIF2",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Global interrupt flag clear for channel 2"
+    },
+    {
+      "name": "CTCIF2",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer complete flag clear for channel 2"
+    },
+    {
+      "name": "CHTIF2",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Half transfer flag clear for channel 2"
+    },
+    {
+      "name": "MINC",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Memory increment mode"
+    },
+    {
+      "name": "PSIZE[1",
+      "bit_offset": 8,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Peripheral size"
+    },
+    {
+      "name": "MSIZE[1",
+      "bit_offset": 10,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Memory size"
+    },
+    {
+      "name": "PL[1",
+      "bit_offset": 12,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Priority level"
+    },
+    {
+      "name": "MEM2MEM",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Memory-to-memory mode"
+    }
+  ],
+  "errata_notes": []
+}

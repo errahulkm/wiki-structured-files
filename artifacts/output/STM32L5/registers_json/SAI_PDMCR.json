@@ -1,0 +1,43 @@
+{
+  "peripheral": "SAI",
+  "register_name": "SAI_PDMCR",
+  "long_name": "SAI PDM control register (SAI_PDMCR)",
+  "address_offset": "0x44",
+  "reset_value": "0x00000000",
+  "description": "SAI PDM control register specification",
+  "bit_fields": [
+    {
+      "name": "PDMEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PDM enable"
+    },
+    {
+      "name": "MICNBR[1",
+      "bit_offset": 4,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Number of microphones"
+    },
+    {
+      "name": "CKEN1",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock enable of bitstream clock number 1"
+    },
+    {
+      "name": "CKEN2",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock enable of bitstream clock number 2"
+    }
+  ],
+  "errata_notes": []
+}

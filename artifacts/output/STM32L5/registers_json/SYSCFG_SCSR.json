@@ -1,0 +1,27 @@
+{
+  "peripheral": "SYSCFG",
+  "register_name": "SYSCFG_SCSR",
+  "long_name": "SYSCFG SRAM2 control and status register (SYSCFG_SCSR)",
+  "address_offset": "0x18",
+  "reset_value": "0x00000000",
+  "description": "SYSCFG SRAM2 control and status register specification",
+  "bit_fields": [
+    {
+      "name": "CLL",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Cortex-M33 LOCKUP (HardFault) output enable bit"
+    },
+    {
+      "name": "SRAM2BSY",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SRAM2 busy by erase operation"
+    }
+  ],
+  "errata_notes": []
+}

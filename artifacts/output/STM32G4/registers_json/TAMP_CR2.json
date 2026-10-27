@@ -1,0 +1,59 @@
+{
+  "peripheral": "TAMP",
+  "register_name": "TAMP_CR2",
+  "long_name": "TAMP control register 2 (TAMP_CR2)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "TAMP control register 2 specification",
+  "bit_fields": [
+    {
+      "name": "TAMP1E",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper detection on TAMP_IN1 enable(1)"
+    },
+    {
+      "name": "TAMP2E",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper detection on TAMP_IN2 enable(1)"
+    },
+    {
+      "name": "TAMP3E",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper detection on TAMP_IN3 enable(1)"
+    },
+    {
+      "name": "TAMP1TRG",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Active level for tamper 1 input (active mode disabled)"
+    },
+    {
+      "name": "TAMP2TRG",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Active level for tamper 2 input (active mode disabled)"
+    },
+    {
+      "name": "TAMP3TRG",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Active level for tamper 3 input (active mode disabled)"
+    }
+  ],
+  "errata_notes": []
+}

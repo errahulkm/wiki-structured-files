@@ -1,0 +1,19 @@
+{
+  "peripheral": "FLASH",
+  "register_name": "FLASH_SECHDPCR",
+  "long_name": "FLASH secure HDP contro l register (FLASH_SECHDPCR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "FLASH secure HDP contro l register specification",
+  "bit_fields": [
+    {
+      "name": "FLASH_SECHDPCR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "FLASH secure HDP contro l register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

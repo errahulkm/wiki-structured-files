@@ -1,0 +1,203 @@
+{
+  "peripheral": "SDIO",
+  "register_name": "SDIO_MASK",
+  "long_name": "SDIO mask regi ster (SDIO_MASK)",
+  "address_offset": "0x3C",
+  "reset_value": "0x00000000",
+  "description": "SDIO mask regi ster specification",
+  "bit_fields": [
+    {
+      "name": "CCRCFAILC",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CCRCFAIL flag clear bit"
+    },
+    {
+      "name": "DCRCFAILC",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DCRCFAIL flag clear bit"
+    },
+    {
+      "name": "CTIMEOUTC",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CTIMEOUT flag clear bit"
+    },
+    {
+      "name": "DTIMEOUTC",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DTIMEOUT flag clear bit"
+    },
+    {
+      "name": "TXUNDERRC",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TXUNDERR flag clear bit"
+    },
+    {
+      "name": "RXOVERRC",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RXOVERR flag clear bit"
+    },
+    {
+      "name": "CMDRENDIE",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Command response received interrupt enable"
+    },
+    {
+      "name": "CMDSENTIE",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Command sent interrupt enable"
+    },
+    {
+      "name": "DATAENDIE",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data end interrupt enable"
+    },
+    {
+      "name": "STBITERRIE",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Start bit error interrupt enable"
+    },
+    {
+      "name": "DBCKENDIE",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data block end interrupt enable"
+    },
+    {
+      "name": "CMDACTIE",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Command acting interrupt enable"
+    },
+    {
+      "name": "TXACTIE",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data transmit acting interrupt enable"
+    },
+    {
+      "name": "RXACTIE",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data receive acting interrupt enable"
+    },
+    {
+      "name": "TXFIFOHEIE",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tx FIFO half empty interrupt enable"
+    },
+    {
+      "name": "RXFIFOHFIE",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx FIFO half full interrupt enable"
+    },
+    {
+      "name": "TXFIFOFIE",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tx FIFO full interrupt enable"
+    },
+    {
+      "name": "RXFIFOFIE",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx FIFO full interrupt enable"
+    },
+    {
+      "name": "TXFIFOEIE",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tx FIFO empty interrupt enable"
+    },
+    {
+      "name": "RXFIFOEIE",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx FIFO empty interrupt enable"
+    },
+    {
+      "name": "TXDAVLIE",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data available in Tx FIFO interrupt enable"
+    },
+    {
+      "name": "RXDAVLIE",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data available in Rx FIFO interrupt enable"
+    },
+    {
+      "name": "SDIOITIE",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SDIO mode interrupt received interrupt enable"
+    },
+    {
+      "name": "CEATAENDIE",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CE-ATA command completion signal received interrupt enable"
+    }
+  ],
+  "errata_notes": []
+}

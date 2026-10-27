@@ -1,0 +1,19 @@
+{
+  "peripheral": "FSMC",
+  "register_name": "FSMC_BTR4",
+  "long_name": "FSMC SRAM/NOR-Flash Chip-Select Timing Register 4",
+  "address_offset": "0x1C",
+  "reset_value": "0x0FFFFFFF",
+  "description": "NOR/PSRAM timing register 4",
+  "bit_fields": [
+    {
+      "name": "ADDSET",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0xF",
+      "description": "Address setup duration"
+    }
+  ],
+  "errata_notes": []
+}

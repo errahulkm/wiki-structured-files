@@ -1,0 +1,19 @@
+{
+  "peripheral": "SDIO",
+  "register_name": "SDIO_DCOUNT",
+  "long_name": "SDIO data counter register (SDIO_DCOUNT)",
+  "address_offset": "0x30",
+  "reset_value": "0x00000000",
+  "description": "SDIO data counter register specification",
+  "bit_fields": [
+    {
+      "name": "SDIO_DCOUNT",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "SDIO data counter register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

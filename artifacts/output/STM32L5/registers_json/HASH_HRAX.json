@@ -1,0 +1,19 @@
+{
+  "peripheral": "HASH",
+  "register_name": "HASH_HRAX",
+  "long_name": "HASH aliased digest register x (HASH_HRAX)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "HASH aliased digest register x specification",
+  "bit_fields": [
+    {
+      "name": "HASH_HRAX",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "HASH aliased digest register x full-width value"
+    }
+  ],
+  "errata_notes": []
+}

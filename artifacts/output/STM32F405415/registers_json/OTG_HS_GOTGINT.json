@@ -1,0 +1,83 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_GOTGINT",
+  "long_name": "1531 OTG_HS interrupt register (OTG_HS_GOTGINT)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "1531 OTG_HS interrupt register specification",
+  "bit_fields": [
+    {
+      "name": "SRQSCS",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Session request success"
+    },
+    {
+      "name": "SRQ",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Session request"
+    },
+    {
+      "name": "SEDET",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Session end detected"
+    },
+    {
+      "name": "HNGSCS",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Host negotiation success"
+    },
+    {
+      "name": "HNPRQ",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HNP request"
+    },
+    {
+      "name": "HSHNPEN",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Host set HNP enable"
+    },
+    {
+      "name": "HNGDET",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Host negotiation detected"
+    },
+    {
+      "name": "ADTOCHG",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "A-device timeout change"
+    },
+    {
+      "name": "DBCDNE",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Debounce done"
+    }
+  ],
+  "errata_notes": []
+}

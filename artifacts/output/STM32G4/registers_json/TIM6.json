@@ -1,0 +1,59 @@
+{
+  "peripheral": "TIMERS",
+  "register_name": "TIM6",
+  "long_name": "02 03 04 05 06 07F1 F2 F3 F4 F5F0 01 CEN Auto-reload preload register Write a new value in TIMx_ARR Auto-reload shadow register F5 36 RM0440 Rev 9 1519/2140 RM0440 Basic timers (TIM6)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "02 03 04 05 06 07F1 F2 F3 F4 F5F0 01 CEN Auto-reload preload register Write a new value in TIMx_ARR Auto-reload shadow register F5 36 RM0440 Rev 9 1519/2140 RM0440 Basic timers specification",
+  "bit_fields": [
+    {
+      "name": "CEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Counter enable"
+    },
+    {
+      "name": "UDIS",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Update disable"
+    },
+    {
+      "name": "URS",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Update request source"
+    },
+    {
+      "name": "OPM",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "One-pulse mode"
+    },
+    {
+      "name": "AND",
+      "bit_offset": 4,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "are coding for the base value."
+    },
+    {
+      "name": "UIFCPY",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UIF copy"
+    }
+  ],
+  "errata_notes": []
+}

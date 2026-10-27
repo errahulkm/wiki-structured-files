@@ -1,0 +1,19 @@
+{
+  "peripheral": "OTG_FS",
+  "register_name": "OTG_FS_DIEPEMPMSK",
+  "long_name": "USB On-The-Go Full-Speed (OTG_FS) OTG_FS_DIEPEMPMSK Register",
+  "address_offset": "0x834",
+  "reset_value": "0x00000000",
+  "description": "USB On-The-Go Full-Speed (OTG_FS) OTG_FS_DIEPEMPMSK hardware register",
+  "bit_fields": [
+    {
+      "name": "BSVLD",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "B-session valid"
+    }
+  ],
+  "errata_notes": []
+}

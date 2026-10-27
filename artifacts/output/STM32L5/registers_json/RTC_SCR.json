@@ -1,0 +1,59 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_SCR",
+  "long_name": "RTC status clear register (RTC_SCR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RTC status clear register specification",
+  "bit_fields": [
+    {
+      "name": "CALRAF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear alarm A flag"
+    },
+    {
+      "name": "CALRBF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear alarm B flag"
+    },
+    {
+      "name": "CWUTF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear wake-up timer flag"
+    },
+    {
+      "name": "CTSF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear timestamp flag"
+    },
+    {
+      "name": "CTSOVF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear timestamp overflow flag"
+    },
+    {
+      "name": "CITSF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear internal timestamp flag"
+    }
+  ],
+  "errata_notes": []
+}

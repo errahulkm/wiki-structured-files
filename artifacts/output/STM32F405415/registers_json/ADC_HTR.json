@@ -1,0 +1,19 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_HTR",
+  "long_name": "ADC watchdog higher thr eshold register (ADC_HTR)",
+  "address_offset": "0x24",
+  "reset_value": "0x00000000",
+  "description": "ADC watchdog higher thr eshold register specification",
+  "bit_fields": [
+    {
+      "name": "SMPX[2",
+      "bit_offset": 0,
+      "bit_width": 30,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Channel x sampling time selection"
+    }
+  ],
+  "errata_notes": []
+}

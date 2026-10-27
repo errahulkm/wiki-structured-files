@@ -1,0 +1,67 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_MICR",
+  "long_name": "HRTIM master timer interr upt clear register (HRTIM_MICR)",
+  "address_offset": "0x008",
+  "reset_value": "0x00000000",
+  "description": "HRTIM master timer interr upt clear register specification",
+  "bit_fields": [
+    {
+      "name": "MCMP1C",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master compare 1 interrupt flag clear"
+    },
+    {
+      "name": "MCMP2C",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master compare 2 interrupt flag clear"
+    },
+    {
+      "name": "MCMP3C",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master compare 3 interrupt flag clear"
+    },
+    {
+      "name": "MCMP4C",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master compare 4 interrupt flag clear"
+    },
+    {
+      "name": "MREPC",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Repetition interrupt flag clear"
+    },
+    {
+      "name": "SYNCC",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Sync input interrupt flag clear"
+    },
+    {
+      "name": "MUPDC",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master update interrupt flag clear"
+    }
+  ],
+  "errata_notes": []
+}

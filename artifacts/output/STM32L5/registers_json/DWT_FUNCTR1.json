@@ -1,0 +1,51 @@
+{
+  "peripheral": "DWT",
+  "register_name": "DWT_FUNCTR1",
+  "long_name": "2149 DWT function register 1 (DWT_FUNCTR1)",
+  "address_offset": "0x038",
+  "reset_value": "0x00000000",
+  "description": "2149 DWT function register 1 specification",
+  "bit_fields": [
+    {
+      "name": "MATCH[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: match type"
+    },
+    {
+      "name": "ACTION[1",
+      "bit_offset": 4,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: action on match"
+    },
+    {
+      "name": "DATAVSIZE[1",
+      "bit_offset": 10,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: data value size"
+    },
+    {
+      "name": "MATCHED",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Comparator match"
+    },
+    {
+      "name": "ID[4",
+      "bit_offset": 27,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: capability identification"
+    }
+  ],
+  "errata_notes": []
+}

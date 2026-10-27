@@ -1,0 +1,179 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_APB1SMENR1",
+  "long_name": "APB1 peripheral clocks enable in Sleep and Stop modes register 1 (RCC_APB1SMENR1)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "APB1 peripheral clocks enable in Sleep and Stop modes register 1 specification",
+  "bit_fields": [
+    {
+      "name": "FMCSMEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Flexible static memory controller clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "TIM4SMEN",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM4 timer clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "TIM5SMEN",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM5 timer clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "TIM6SMEN",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM6 timer clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "TIM7SMEN",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM7 timer clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "QSPISMEN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "QUADSPI memory interface clock enable during Sleep and Stop modes"
+    },
+    {
+      "name": "RTCAPBSMEN",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RTC APB clock enable during Sleep and Stop modes"
+    },
+    {
+      "name": "WWDGSMEN",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Window watchdog clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "SPI2SMEN",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI2 clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "SPI3SMEN",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI3 clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "USART2SMEN",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART2 clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "USART3SMEN",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART3 clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "UART4SMEN",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UART4 clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "UART5SMEN",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UART5 clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "I2C1SMEN",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C1 clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "I2C2SMEN",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C2 clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "USBSMEN",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB device clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "FDCANSMEN",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FDCAN clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "PWRSMEN",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Power interface clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "I2C3SMEN",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C3 clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "LPTIM1SMEN",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Low power timer 1 clocks enable during Sleep and Stop modes"
+    }
+  ],
+  "errata_notes": []
+}

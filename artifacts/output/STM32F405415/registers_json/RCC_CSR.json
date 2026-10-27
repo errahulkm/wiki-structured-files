@@ -1,0 +1,107 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_CSR",
+  "long_name": "status register (RCC_CSR)",
+  "address_offset": "0x74",
+  "reset_value": "0x00000000",
+  "description": "status register specification",
+  "bit_fields": [
+    {
+      "name": "LSEON",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External low-speed oscillator enable"
+    },
+    {
+      "name": "LSERDY",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External low-speed oscillator ready"
+    },
+    {
+      "name": "LSEBYP",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External low-speed oscillator bypass"
+    },
+    {
+      "name": "RTCSEL[1",
+      "bit_offset": 8,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: RTC clock source selection"
+    },
+    {
+      "name": "RMVF",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Remove reset flag"
+    },
+    {
+      "name": "BORRSTF",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "BOR reset flag"
+    },
+    {
+      "name": "PINRSTF",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PIN reset flag"
+    },
+    {
+      "name": "PORRSTF",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "POR/PDR reset flag"
+    },
+    {
+      "name": "SFTRSTF",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Software reset flag"
+    },
+    {
+      "name": "IWDGRSTF",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Independent watchdog reset flag"
+    },
+    {
+      "name": "WWDGRSTF",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Window watchdog reset flag"
+    },
+    {
+      "name": "LPWRRSTF",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Low-power reset flag"
+    }
+  ],
+  "errata_notes": []
+}

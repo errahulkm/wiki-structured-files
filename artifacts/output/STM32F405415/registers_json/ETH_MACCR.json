@@ -1,0 +1,99 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_MACCR",
+  "long_name": "MAC register description Ethernet MAC configuration register (ETH_MACCR)",
+  "address_offset": "0x0000",
+  "reset_value": "0x00000000",
+  "description": "MAC register description Ethernet MAC configuration register specification",
+  "bit_fields": [
+    {
+      "name": "RD",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Retry disable"
+    },
+    {
+      "name": "IPCO",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IPv4 checksum offload"
+    },
+    {
+      "name": "DM",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Duplex mode"
+    },
+    {
+      "name": "LM",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Loopback mode"
+    },
+    {
+      "name": "ROD",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive own disable"
+    },
+    {
+      "name": "FES",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fast Ethernet speed"
+    },
+    {
+      "name": "CSD",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Carrier sense disable"
+    },
+    {
+      "name": "IFG",
+      "bit_offset": 17,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Interframe gap"
+    },
+    {
+      "name": "JD",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Jabber disable"
+    },
+    {
+      "name": "WD",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Watchdog disable"
+    },
+    {
+      "name": "CSTF",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CRC stripping for Type frames"
+    }
+  ],
+  "errata_notes": []
+}

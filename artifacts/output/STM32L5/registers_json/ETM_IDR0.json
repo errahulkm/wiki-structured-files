@@ -1,0 +1,83 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_IDR0",
+  "long_name": "RM0438 2092/2187 RM0438 Rev 8 ETM identification register 0 (ETM_IDR0)",
+  "address_offset": "0x1E0",
+  "reset_value": "0x00000000",
+  "description": "RM0438 2092/2187 RM0438 Rev 8 ETM identification register 0 specification",
+  "bit_fields": [
+    {
+      "name": "SUPPORT[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: implementation specific extension support"
+    },
+    {
+      "name": "TRCCOND",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "conditional instruction support"
+    },
+    {
+      "name": "TRCCCI",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "cycle counting support"
+    },
+    {
+      "name": "RETSTACK",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "return stack support"
+    },
+    {
+      "name": "NUMEVENT[1",
+      "bit_offset": 10,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Number of events supported"
+    },
+    {
+      "name": "CONDTYPE[1",
+      "bit_offset": 12,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: conditional results tracing"
+    },
+    {
+      "name": "QSUPP[1",
+      "bit_offset": 15,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Q element support"
+    },
+    {
+      "name": "TRCEXDATA",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "trace data transfers for exceptions"
+    },
+    {
+      "name": "COMMOPT",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "commit field meaning"
+    }
+  ],
+  "errata_notes": []
+}

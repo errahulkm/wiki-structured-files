@@ -1,0 +1,27 @@
+{
+  "peripheral": "TIM15",
+  "register_name": "TIM15_DIER",
+  "long_name": "TIM15 DMA/interrupt en able register (TIM15_DIER)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "TIM15 DMA/interrupt en able register specification",
+  "bit_fields": [
+    {
+      "name": "COMDE",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "COM DMA request enable"
+    },
+    {
+      "name": "TDE",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Trigger DMA request enable"
+    }
+  ],
+  "errata_notes": []
+}

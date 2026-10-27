@@ -1,0 +1,187 @@
+{
+  "peripheral": "GTZC",
+  "register_name": "GTZC_TZIC_IER2",
+  "long_name": "GTZC_TZIC interrupt enable register 2 (GTZC_TZIC_IER2)",
+  "address_offset": "0x404",
+  "reset_value": "0x00000000",
+  "description": "GTZC_TZIC interrupt enable register 2 specification",
+  "bit_fields": [
+    {
+      "name": "CRCIE",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for CRC"
+    },
+    {
+      "name": "TSCIE",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for TSC"
+    },
+    {
+      "name": "ICACHE_REGIE",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for ICACHE registers"
+    },
+    {
+      "name": "ADCIE",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for ADC"
+    },
+    {
+      "name": "AESIE",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for AES"
+    },
+    {
+      "name": "HASHIE",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for HASH"
+    },
+    {
+      "name": "RNGIE",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for RNG"
+    },
+    {
+      "name": "PKAIE",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for PKA"
+    },
+    {
+      "name": "SDMMC1IE",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for SDMMC1"
+    },
+    {
+      "name": "FMC_REGIE",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for FMC registers"
+    },
+    {
+      "name": "OCTOSPI1_REGIE",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for OCTOSPI1 registers"
+    },
+    {
+      "name": "RTCIE",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for RTC"
+    },
+    {
+      "name": "PWRIE",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for PWR"
+    },
+    {
+      "name": "SYSCFGIE",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for SYSCFG"
+    },
+    {
+      "name": "DMA1IE",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for DMA1"
+    },
+    {
+      "name": "DMA2IE",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for DMA2"
+    },
+    {
+      "name": "DMAMUX1IE",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for DMAMUX1"
+    },
+    {
+      "name": "RCCIE",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for RCC"
+    },
+    {
+      "name": "FLASHIE",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for FLASH"
+    },
+    {
+      "name": "FLASH_REGIE",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for FLASH registers"
+    },
+    {
+      "name": "EXTIIE",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for EXTI"
+    },
+    {
+      "name": "OTFDEC1IE",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for OTFDEC"
+    }
+  ],
+  "errata_notes": []
+}

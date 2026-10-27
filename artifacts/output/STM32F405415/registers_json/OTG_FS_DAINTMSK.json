@@ -1,0 +1,19 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_DAINTMSK",
+  "long_name": "RM0090 1296/1741 RM0090 Rev 22 OTG_FS all endpoints interrupt mask register (OTG_FS_DAINTMSK)",
+  "address_offset": "0x81C",
+  "reset_value": "0x00000000",
+  "description": "RM0090 1296/1741 RM0090 Rev 22 OTG_FS all endpoints interrupt mask register specification",
+  "bit_fields": [
+    {
+      "name": "OTG_FS_DAINTMSK",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "RM0090 1296/1741 RM0090 Rev 22 OTG_FS all endpoints interrupt mask register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

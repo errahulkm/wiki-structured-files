@@ -1,0 +1,267 @@
+{
+  "peripheral": "DMA",
+  "register_name": "DMA_IFCR",
+  "long_name": "DMA interrupt flag clear register (DMA_IFCR)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "DMA interrupt flag clear register specification",
+  "bit_fields": [
+    {
+      "name": "GIF1",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Global interrupt flag for channel 1"
+    },
+    {
+      "name": "TCIF1",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer complete (TC) flag for channel 1"
+    },
+    {
+      "name": "HTIF1",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Half transfer (HT) flag for channel 1"
+    },
+    {
+      "name": "TEIF1",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer error (TE) flag for channel 1"
+    },
+    {
+      "name": "GIF2",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Global interrupt flag for channel 2"
+    },
+    {
+      "name": "TCIF2",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer complete (TC) flag for channel 2"
+    },
+    {
+      "name": "HTIF2",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Half transfer (HT) flag for channel 2"
+    },
+    {
+      "name": "TEIF2",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer error (TE) flag for channel 2"
+    },
+    {
+      "name": "GIF3",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Global interrupt flag for channel 3"
+    },
+    {
+      "name": "TCIF3",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer complete (TC) flag for channel 3"
+    },
+    {
+      "name": "HTIF3",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Half transfer (HT) flag for channel 3"
+    },
+    {
+      "name": "TEIF3",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer error (TE) flag for channel 3"
+    },
+    {
+      "name": "GIF4",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "global interrupt flag for channel 4"
+    },
+    {
+      "name": "CTCIF4",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer complete flag clear for channel 4"
+    },
+    {
+      "name": "CHTIF4",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Half transfer flag clear for channel 4"
+    },
+    {
+      "name": "CTEIF4",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer error flag clear for channel 4"
+    },
+    {
+      "name": "CGIF5",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Global interrupt flag clear for channel 5"
+    },
+    {
+      "name": "CTCIF5",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer complete flag clear for channel 5"
+    },
+    {
+      "name": "CHTIF5",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Half transfer flag clear for channel 5"
+    },
+    {
+      "name": "CTEIF5",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer error flag clear for channel 5"
+    },
+    {
+      "name": "CGIF6",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Global interrupt flag clear for channel 6"
+    },
+    {
+      "name": "CTCIF6",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer complete flag clear for channel 6"
+    },
+    {
+      "name": "CHTIF6",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Half transfer flag clear for channel 6"
+    },
+    {
+      "name": "CTEIF6",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer error flag clear for channel 6"
+    },
+    {
+      "name": "CGIF7",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Global interrupt flag clear for channel 7"
+    },
+    {
+      "name": "CTCIF7",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer complete flag clear for channel 7"
+    },
+    {
+      "name": "CHTIF7",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Half transfer flag clear for channel 7"
+    },
+    {
+      "name": "CTEIF7",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer error flag clear for channel 7"
+    },
+    {
+      "name": "CGIF8",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Global interrupt flag clear for channel 8"
+    },
+    {
+      "name": "CTCIF8",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer complete flag clear for channel 8"
+    },
+    {
+      "name": "CHTIF8",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Half transfer flag clear for channel 8"
+    },
+    {
+      "name": "CTEIF8",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer error flag clear for channel 8"
+    }
+  ],
+  "errata_notes": []
+}

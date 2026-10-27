@@ -1,0 +1,19 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_BMPER",
+  "long_name": "HRTIM burst mode pe riod register (HRTIM_BMPER)",
+  "address_offset": "0x3AC",
+  "reset_value": "0x00000000",
+  "description": "HRTIM burst mode pe riod register specification",
+  "bit_fields": [
+    {
+      "name": "BMCMP[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Burst mode compare value"
+    }
+  ],
+  "errata_notes": []
+}

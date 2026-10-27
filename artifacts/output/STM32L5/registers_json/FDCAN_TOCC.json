@@ -1,0 +1,27 @@
+{
+  "peripheral": "FDCAN",
+  "register_name": "FDCAN_TOCC",
+  "long_name": "FDCAN timeout counter c onfiguration register (FDCAN_TOCC)",
+  "address_offset": "0x0028",
+  "reset_value": "0x00000000",
+  "description": "FDCAN timeout counter c onfiguration register specification",
+  "bit_fields": [
+    {
+      "name": "TSC[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Timestamp counter"
+    },
+    {
+      "name": "TOP[15",
+      "bit_offset": 16,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Timeout period"
+    }
+  ],
+  "errata_notes": []
+}

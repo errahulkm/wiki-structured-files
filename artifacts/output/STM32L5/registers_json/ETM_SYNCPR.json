@@ -1,0 +1,19 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_SYNCPR",
+  "long_name": "2149 ETM synchronization period register (ETM_SYNCPR)",
+  "address_offset": "0x034",
+  "reset_value": "0x00000000",
+  "description": "2149 ETM synchronization period register specification",
+  "bit_fields": [
+    {
+      "name": "ETM_SYNCPR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "2149 ETM synchronization period register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

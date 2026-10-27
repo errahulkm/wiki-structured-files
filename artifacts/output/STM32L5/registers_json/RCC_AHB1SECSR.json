@@ -1,0 +1,43 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB1SECSR",
+  "long_name": "RCC AHB1 security stat us register (RCC_AHB1SECSR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RCC AHB1 security stat us register specification",
+  "bit_fields": [
+    {
+      "name": "CRCSECF",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CRC clock security flag"
+    },
+    {
+      "name": "TSCSECF",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Touch sensing controller (TSC) clock security flag"
+    },
+    {
+      "name": "GTZCSECF",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "GTZC controller clock security flag"
+    },
+    {
+      "name": "ICACHESECF",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Instruction cache (ICACHE) clock security flag"
+    }
+  ],
+  "errata_notes": []
+}

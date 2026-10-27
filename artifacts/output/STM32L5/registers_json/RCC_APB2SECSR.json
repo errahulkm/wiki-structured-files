@@ -1,0 +1,115 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_APB2SECSR",
+  "long_name": "RCC APB2 security stat us register (RCC_APB2SECSR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RCC APB2 security stat us register specification",
+  "bit_fields": [
+    {
+      "name": "LPUART1SECF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LPUART1 clock security flag"
+    },
+    {
+      "name": "I2C4SECF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C4 clock security flag"
+    },
+    {
+      "name": "LPTIM2SECF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LPTIM2 clock security flag"
+    },
+    {
+      "name": "TIM1SECF",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM1 clock security flag"
+    },
+    {
+      "name": "SPI1SECF",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI1 clock security flag"
+    },
+    {
+      "name": "TIM8SECF",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM8 clock security flag"
+    },
+    {
+      "name": "USART1SECF",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART1 clock security flag"
+    },
+    {
+      "name": "TIM15SECF",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM15 clock security flag"
+    },
+    {
+      "name": "TIM16SECF",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM16 clock security flag"
+    },
+    {
+      "name": "TIM17SECF",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM17 clock security flag"
+    },
+    {
+      "name": "SAI1SECF",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SAI1 clock security flag"
+    },
+    {
+      "name": "SAI2SECF",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SAI2 clock security flag"
+    },
+    {
+      "name": "DFSDM1SECF",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DFSDM1 clock security flag"
+    }
+  ],
+  "errata_notes": []
+}

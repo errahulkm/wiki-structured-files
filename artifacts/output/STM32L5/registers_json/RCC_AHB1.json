@@ -1,0 +1,19 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB1",
+  "long_name": "Reset and Clock Control (RCC) RCC_AHB1 Register",
+  "address_offset": "0x068",
+  "reset_value": "0x11",
+  "description": "Reset and Clock Control (RCC) RCC_AHB1 hardware register",
+  "bit_fields": [
+    {
+      "name": "RCC_AHB1",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x11",
+      "description": "RCC_AHB1 register value"
+    }
+  ],
+  "errata_notes": []
+}

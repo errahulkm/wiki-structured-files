@@ -1,0 +1,19 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_DTHRCTL",
+  "long_name": "on page 1440 OTG_HS_DTHRCTL 0x830 OTG_HS Device threshold control register (OTG_HS_DTHRCTL)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "on page 1440 OTG_HS_DTHRCTL 0x830 OTG_HS Device threshold control register specification",
+  "bit_fields": [
+    {
+      "name": "OTG_HS_DTHRCTL",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "on page 1440 OTG_HS_DTHRCTL 0x830 OTG_HS Device threshold control register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,27 @@
+{
+  "peripheral": "WWDG",
+  "register_name": "WWDG_CR",
+  "long_name": "Control register (WWDG_CR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Control register specification",
+  "bit_fields": [
+    {
+      "name": "T[6",
+      "bit_offset": 0,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: 7-bit counter (MSB to LSB)"
+    },
+    {
+      "name": "WDGA",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Activation bit"
+    }
+  ],
+  "errata_notes": []
+}

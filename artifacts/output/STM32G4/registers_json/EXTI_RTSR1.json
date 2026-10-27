@@ -1,0 +1,19 @@
+{
+  "peripheral": "EXTI",
+  "register_name": "EXTI_RTSR1",
+  "long_name": "Rising trigger selecti on register 1 (EXTI_RTSR1)",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "Rising trigger selecti on register 1 specification",
+  "bit_fields": [
+    {
+      "name": "IMX",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Interrupt mask on line x (x = 31 to 0)"
+    }
+  ],
+  "errata_notes": []
+}

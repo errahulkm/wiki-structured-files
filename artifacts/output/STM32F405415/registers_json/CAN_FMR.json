@@ -1,0 +1,43 @@
+{
+  "peripheral": "CAN",
+  "register_name": "CAN_FMR",
+  "long_name": "CAN filter registers CAN filter master register (CAN_FMR)",
+  "address_offset": "0x200",
+  "reset_value": "0x00000000",
+  "description": "CAN filter registers CAN filter master register specification",
+  "bit_fields": [
+    {
+      "name": "DATA0[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Data Byte 0"
+    },
+    {
+      "name": "DATA1[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Data Byte 1"
+    },
+    {
+      "name": "DATA2[7",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Data Byte 2"
+    },
+    {
+      "name": "DATA3[7",
+      "bit_offset": 24,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Data Byte 3"
+    }
+  ],
+  "errata_notes": []
+}

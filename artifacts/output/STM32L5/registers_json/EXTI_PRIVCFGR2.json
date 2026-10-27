@@ -1,0 +1,19 @@
+{
+  "peripheral": "EXTI",
+  "register_name": "EXTI_PRIVCFGR2",
+  "long_name": "EXTI privilege enable register (EXTI_PRIVCFGR2)",
+  "address_offset": "0x038",
+  "reset_value": "0x00000000",
+  "description": "EXTI privilege enable register specification",
+  "bit_fields": [
+    {
+      "name": "FPIF[38",
+      "bit_offset": 3,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "35]: configurable event inputs x pending bit (where x = 35 to 38)."
+    }
+  ],
+  "errata_notes": []
+}

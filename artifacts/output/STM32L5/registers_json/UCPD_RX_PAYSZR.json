@@ -1,0 +1,35 @@
+{
+  "peripheral": "UCPD",
+  "register_name": "UCPD_RX_PAYSZR",
+  "long_name": "UCPD Rx payload size register (UCPD_RX_PAYSZR)",
+  "address_offset": "0x02C",
+  "reset_value": "0x00000000",
+  "description": "UCPD Rx payload size register specification",
+  "bit_fields": [
+    {
+      "name": "RXORDSET[2",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Rx ordered set code detected"
+    },
+    {
+      "name": "RXSOP3OF4",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "The bit indicates the number of correct K-codes. For debug purposes only."
+    },
+    {
+      "name": "RXSOPKINVALID[2",
+      "bit_offset": 4,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]:"
+    }
+  ],
+  "errata_notes": []
+}

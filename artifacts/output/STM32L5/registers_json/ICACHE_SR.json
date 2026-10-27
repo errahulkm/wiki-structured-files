@@ -1,0 +1,51 @@
+{
+  "peripheral": "ICACHE",
+  "register_name": "ICACHE_SR",
+  "long_name": "ICACHE status register (ICACHE_SR)",
+  "address_offset": "0x004",
+  "reset_value": "0x00000000",
+  "description": "ICACHE status register specification",
+  "bit_fields": [
+    {
+      "name": "EN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "enable"
+    },
+    {
+      "name": "CACHEINV",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "cache invalidation"
+    },
+    {
+      "name": "WAYSEL",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "cache associativity mode selection"
+    },
+    {
+      "name": "HITMEN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "hit monitor enable"
+    },
+    {
+      "name": "MISSMEN",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "miss monitor enable"
+    }
+  ],
+  "errata_notes": []
+}

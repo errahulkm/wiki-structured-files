@@ -1,0 +1,19 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_APBXENRY",
+  "long_name": "Peripheral clock enable register (RCC_APBXENRY)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Peripheral clock enable register specification",
+  "bit_fields": [
+    {
+      "name": "RCC_APBXENRY",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "Peripheral clock enable register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

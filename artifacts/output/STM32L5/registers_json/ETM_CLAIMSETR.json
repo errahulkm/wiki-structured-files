@@ -1,0 +1,19 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_CLAIMSETR",
+  "long_name": "2149 ETM claim tag set register (ETM_CLAIMSETR)",
+  "address_offset": "0xFA0",
+  "reset_value": "0x00000000",
+  "description": "2149 ETM claim tag set register specification",
+  "bit_fields": [
+    {
+      "name": "ETM_CLAIMSETR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "2149 ETM claim tag set register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

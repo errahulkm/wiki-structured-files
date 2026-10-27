@@ -1,0 +1,27 @@
+{
+  "peripheral": "CRYP",
+  "register_name": "CRYP_MISR",
+  "long_name": "CRYP masked interrupt st atus register (CRYP_MISR)",
+  "address_offset": "0x1C",
+  "reset_value": "0x00000000",
+  "description": "CRYP masked interrupt st atus register specification",
+  "bit_fields": [
+    {
+      "name": "INRIS",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Input FIFO service raw interrupt status"
+    },
+    {
+      "name": "OUTRIS",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output FIFO service raw interrupt status"
+    }
+  ],
+  "errata_notes": []
+}

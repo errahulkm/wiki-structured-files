@@ -1,0 +1,59 @@
+{
+  "peripheral": "TIM15",
+  "register_name": "TIM15_EGR",
+  "long_name": "TIM15 event generation register (TIM15_EGR)",
+  "address_offset": "0x14",
+  "reset_value": "0x00000000",
+  "description": "TIM15 event generation register specification",
+  "bit_fields": [
+    {
+      "name": "UG",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Update generation"
+    },
+    {
+      "name": "CC1G",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 1 generation"
+    },
+    {
+      "name": "CC2G",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 2 generation"
+    },
+    {
+      "name": "COMG",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare control update generation"
+    },
+    {
+      "name": "TG",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Trigger generation"
+    },
+    {
+      "name": "BG",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Break generation"
+    }
+  ],
+  "errata_notes": []
+}

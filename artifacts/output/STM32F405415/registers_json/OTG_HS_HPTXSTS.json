@@ -1,0 +1,35 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_HPTXSTS",
+  "long_name": "1531 OTG_HS_Host periodic transmit FIFO/queue status register (OTG_HS_HPTXSTS)",
+  "address_offset": "0x410",
+  "reset_value": "0x00000000",
+  "description": "1531 OTG_HS_Host periodic transmit FIFO/queue status register specification",
+  "bit_fields": [
+    {
+      "name": "PTXFSAVL",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Periodic transmit data FIFO space available"
+    },
+    {
+      "name": "PTXQSAV",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Periodic transmit request queue space available"
+    },
+    {
+      "name": "PTXQTOP",
+      "bit_offset": 24,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Top of the periodic transmit request queue"
+    }
+  ],
+  "errata_notes": []
+}

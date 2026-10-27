@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "UEV",
+  "long_name": "Counter timing diagram with prescaler division change from 1 to 4 MSv50998V1 tim_psc_ck 00 CEN Counter register Update event (UEV)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Counter timing diagram with prescaler division change from 1 to 4 MSv50998V1 tim_psc_ck 00 CEN Counter register Update event specification",
+  "bit_fields": [
+    {
+      "name": "UEV",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "Counter timing diagram with prescaler division change from 1 to 4 MSv50998V1 tim_psc_ck 00 CEN Counter register Update event full-width value"
+    }
+  ],
+  "errata_notes": []
+}

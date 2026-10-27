@@ -1,0 +1,19 @@
+{
+  "peripheral": "SPIX",
+  "register_name": "SPIX_I2SCFGR",
+  "long_name": "SPIx_I2S configurati on register (SPIX_I2SCFGR)",
+  "address_offset": "0x1C",
+  "reset_value": "0x00000000",
+  "description": "SPIx_I2S configurati on register specification",
+  "bit_fields": [
+    {
+      "name": "RXCRC[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Rx CRC register"
+    }
+  ],
+  "errata_notes": []
+}

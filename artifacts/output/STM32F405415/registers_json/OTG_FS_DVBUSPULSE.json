@@ -1,0 +1,19 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_DVBUSPULSE",
+  "long_name": "on page 1296 OTG_FS_DVBUSPULSE 0x82C OTG_FS device VBUS pulsing time register (OTG_FS_DVBUSPULSE)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "on page 1296 OTG_FS_DVBUSPULSE 0x82C OTG_FS device VBUS pulsing time register specification",
+  "bit_fields": [
+    {
+      "name": "OTG_FS_DVBUSPULSE",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "on page 1296 OTG_FS_DVBUSPULSE 0x82C OTG_FS device VBUS pulsing time register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

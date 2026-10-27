@@ -1,0 +1,19 @@
+{
+  "peripheral": "LTDC",
+  "register_name": "LTDC_L2CFBAR",
+  "long_name": "LCD-TFT Display Controller (LTDC) LTDC_L2CFBAR Register",
+  "address_offset": "0x012C",
+  "reset_value": "0x00000000000",
+  "description": "LCD-TFT Display Controller (LTDC) LTDC_L2CFBAR hardware register",
+  "bit_fields": [
+    {
+      "name": "LTDC_L2CFBAR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000000",
+      "description": "LTDC_L2CFBAR register value"
+    }
+  ],
+  "errata_notes": []
+}

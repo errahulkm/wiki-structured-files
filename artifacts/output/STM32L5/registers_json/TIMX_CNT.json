@@ -1,0 +1,19 @@
+{
+  "peripheral": "TIMX",
+  "register_name": "TIMX_CNT",
+  "long_name": "Counter register (TIMX_CNT)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Counter register specification",
+  "bit_fields": [
+    {
+      "name": "TIMX_CNT",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "Counter register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

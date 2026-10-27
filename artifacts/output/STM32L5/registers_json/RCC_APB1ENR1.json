@@ -1,0 +1,139 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_APB1ENR1",
+  "long_name": "RCC APB1 peripheral clock enable register 1 (RCC_APB1ENR1)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RCC APB1 peripheral clock enable register 1 specification",
+  "bit_fields": [
+    {
+      "name": "RTCAPBEN",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RTC APB clock enable"
+    },
+    {
+      "name": "WWDGEN",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Window watchdog clock enable"
+    },
+    {
+      "name": "SPI2EN",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI2 clock enable"
+    },
+    {
+      "name": "SPI3EN",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI3 clock enable"
+    },
+    {
+      "name": "USART2EN",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART2 clock enable"
+    },
+    {
+      "name": "USART3EN",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART3 clock enable"
+    },
+    {
+      "name": "UART4EN",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UART4 clock enable"
+    },
+    {
+      "name": "UART5EN",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UART5 clock enable"
+    },
+    {
+      "name": "I2C1EN",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C1 clock enable"
+    },
+    {
+      "name": "I2C2EN",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C2 clock enable"
+    },
+    {
+      "name": "I2C3EN",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C3 clock enable"
+    },
+    {
+      "name": "CRSEN",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CRS clock enable"
+    },
+    {
+      "name": "PWREN",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Power interface clock enable"
+    },
+    {
+      "name": "DAC1EN",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC1 interface clock enable"
+    },
+    {
+      "name": "OPAMPEN",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OPAMP interface clock enable"
+    },
+    {
+      "name": "LPTIM1EN",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Low-power timer 1 clock enable"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,35 @@
+{
+  "peripheral": "BKP",
+  "register_name": "BKP_SR",
+  "long_name": "Backup Registers (BKP) Status Register",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "Status flags and event indicators for Backup Registers (BKP).",
+  "bit_fields": [
+    {
+      "name": "BUSY",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R",
+      "reset_value": "0",
+      "description": "Busy indicator flag for Backup Registers (BKP)"
+    },
+    {
+      "name": "READY",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R",
+      "reset_value": "1",
+      "description": "Ready state flag for Backup Registers (BKP)"
+    },
+    {
+      "name": "TC",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R",
+      "reset_value": "0",
+      "description": "Transfer/Operation complete flag for Backup Registers (BKP)"
+    }
+  ],
+  "errata_notes": []
+}

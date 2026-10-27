@@ -1,0 +1,51 @@
+{
+  "peripheral": "OPAMP2",
+  "register_name": "OPAMP2_LPOTR",
+  "long_name": "OPAMP2 offset trimming register in low-power mode (OPAMP2_LPOTR)",
+  "address_offset": "0x18",
+  "reset_value": "0x00000000",
+  "description": "OPAMP2 offset trimming register in low-power mode specification",
+  "bit_fields": [
+    {
+      "name": "OPAEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Operational amplifier Enable"
+    },
+    {
+      "name": "OPALPM",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Operational amplifier Low Power Mode"
+    },
+    {
+      "name": "OPAMODE",
+      "bit_offset": 2,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Operational amplifier PGA mode"
+    },
+    {
+      "name": "PGA_GAIN",
+      "bit_offset": 4,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Operational amplifier Programmable amplifier gain value"
+    },
+    {
+      "name": "VM_SEL",
+      "bit_offset": 8,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Inverting input selection"
+    }
+  ],
+  "errata_notes": []
+}

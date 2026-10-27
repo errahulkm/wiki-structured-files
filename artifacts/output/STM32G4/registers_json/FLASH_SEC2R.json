@@ -1,0 +1,27 @@
+{
+  "peripheral": "FLASH",
+  "register_name": "FLASH_SEC2R",
+  "long_name": "Flash securable area bank2 register (FLASH_SEC2R)",
+  "address_offset": "0x74",
+  "reset_value": "0x00000000",
+  "description": "Flash securable area bank2 register specification",
+  "bit_fields": [
+    {
+      "name": "SEC_SIZE1[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: sets the number of pages used in the bank 1 securable memory"
+    },
+    {
+      "name": "BOOT_LOCK",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "used to force boot from user flash area."
+    }
+  ],
+  "errata_notes": []
+}

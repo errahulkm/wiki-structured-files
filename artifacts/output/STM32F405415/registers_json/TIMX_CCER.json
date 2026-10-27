@@ -1,0 +1,123 @@
+{
+  "peripheral": "TIMX",
+  "register_name": "TIMX_CCER",
+  "long_name": "TIM1 and TIM8 capture/compa re enable register (TIMX_CCER)",
+  "address_offset": "0x20",
+  "reset_value": "0x00000000",
+  "description": "TIM1 and TIM8 capture/compa re enable register specification",
+  "bit_fields": [
+    {
+      "name": "CC3S",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/compare 3 selection"
+    },
+    {
+      "name": "CC1NE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 1 complementary output enable"
+    },
+    {
+      "name": "CC1NP",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 1 complementary output polarity"
+    },
+    {
+      "name": "CC2E",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 2 output enable"
+    },
+    {
+      "name": "CC2P",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 2 output polarity"
+    },
+    {
+      "name": "CC2NE",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 2 complementary output enable"
+    },
+    {
+      "name": "CC2NP",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 2 complementary output polarity"
+    },
+    {
+      "name": "CC3E",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 3 output enable"
+    },
+    {
+      "name": "CC3P",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 3 output polarity"
+    },
+    {
+      "name": "CC3NE",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 3 complementary output enable"
+    },
+    {
+      "name": "CC3NP",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 3 complementary output polarity"
+    },
+    {
+      "name": "CC4E",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 4 output enable"
+    },
+    {
+      "name": "CC4P",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 4 output polarity"
+    },
+    {
+      "name": "CC4NP",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 4 complementary output polarity"
+    }
+  ],
+  "errata_notes": []
+}

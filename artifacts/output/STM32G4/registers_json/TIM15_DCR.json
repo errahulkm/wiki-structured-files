@@ -1,0 +1,27 @@
+{
+  "peripheral": "TIM15",
+  "register_name": "TIM15_DCR",
+  "long_name": "TIM15 DMA cont rol register (TIM15_DCR)",
+  "address_offset": "0x3DC",
+  "reset_value": "0x00000000",
+  "description": "TIM15 DMA cont rol register specification",
+  "bit_fields": [
+    {
+      "name": "DBA[4",
+      "bit_offset": 0,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DMA base address"
+    },
+    {
+      "name": "DBL[4",
+      "bit_offset": 8,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DMA burst length"
+    }
+  ],
+  "errata_notes": []
+}

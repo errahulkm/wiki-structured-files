@@ -1,0 +1,67 @@
+# ==============================================================================
+# Git Ignore Configuration for STM32 Karpathy-Wiki Generator
+# ==============================================================================
+
+# Python Bytecode & Compilation Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+
+# Python Virtual Environments (Crucial: Never commit virtual environments)
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Testing & Coverage Artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Offline Wheelhouse Cache (Bundled binary wheels should not bloat Git history)
+wheels/
+*.whl
+/tmp/wheels_test/
+
+# Local User Settings & Runtime Logs
+artifacts/gui_settings.json
+*.log
+native_viewer.log
+log.md
+
+# Raw Silicon Reference Manual PDFs (> 100MB violates GitHub push limits)
+# Users provide their own official PDF reference manuals via GUI or CLI
+artifacts/st/
+artifacts/output/*/raw/*.pdf
+artifacts/output/*/raw/
+*.pdf
+
+# Operating System & IDE Junk
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Tt]humbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

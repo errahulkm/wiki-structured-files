@@ -1,0 +1,19 @@
+{
+  "peripheral": "TIMERS",
+  "register_name": "TIM7",
+  "long_name": "02 03 04 05 06 0732 33 34 35 3631 01 CEN Auto-reload preload register Write a new value in TIMx_ARR RM0438 Rev 8 1345/2187 RM0438 Basic timers (TIM7)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "02 03 04 05 06 0732 33 34 35 3631 01 CEN Auto-reload preload register Write a new value in TIMx_ARR RM0438 Rev 8 1345/2187 RM0438 Basic timers specification",
+  "bit_fields": [
+    {
+      "name": "TIM7",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "02 03 04 05 06 0732 33 34 35 3631 01 CEN Auto-reload preload register Write a new value in TIMx_ARR RM0438 Rev 8 1345/2187 RM0438 Basic timers full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,27 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_CIDR0",
+  "long_name": "0x0000 0000 ETM CoreSight component identity register 0 (ETM_CIDR0)",
+  "address_offset": "0xFF0",
+  "reset_value": "0x00000000",
+  "description": "0x0000 0000 ETM CoreSight component identity register 0 specification",
+  "bit_fields": [
+    {
+      "name": "CMOD[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: customer modified"
+    },
+    {
+      "name": "REVAND[3",
+      "bit_offset": 4,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: metal fix version"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "UCPD",
+  "register_name": "UCPD_RX_ORDEXTR1",
+  "long_name": "UCPD Rx ordered set extension register 1 (UCPD_RX_ORDEXTR1)",
+  "address_offset": "0x034",
+  "reset_value": "0x00000000",
+  "description": "UCPD Rx ordered set extension register 1 specification",
+  "bit_fields": [
+    {
+      "name": "RXDATA[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Data byte received"
+    }
+  ],
+  "errata_notes": []
+}

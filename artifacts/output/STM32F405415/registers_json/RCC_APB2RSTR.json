@@ -1,0 +1,139 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_APB2RSTR",
+  "long_name": "RCC APB2 peripheral reset register (RCC_APB2RSTR)",
+  "address_offset": "0x24",
+  "reset_value": "0x00000000",
+  "description": "RCC APB2 peripheral reset register specification",
+  "bit_fields": [
+    {
+      "name": "TIM1RST",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM1 reset"
+    },
+    {
+      "name": "TIM8RST",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM8 reset"
+    },
+    {
+      "name": "USART1RST",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART1 reset"
+    },
+    {
+      "name": "USART6RST",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART6 reset"
+    },
+    {
+      "name": "ADCRST",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC interface reset (common to all ADCs)"
+    },
+    {
+      "name": "SDIORST",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SDIO reset"
+    },
+    {
+      "name": "SPI1RST",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI1 reset"
+    },
+    {
+      "name": "SPI4RST",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI4 reset"
+    },
+    {
+      "name": "SYSCFGRST",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "System configuration controller reset"
+    },
+    {
+      "name": "TIM9RST",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM9 reset"
+    },
+    {
+      "name": "TIM10RST",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM10 reset"
+    },
+    {
+      "name": "TIM11RST",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM11 reset"
+    },
+    {
+      "name": "SPI5RST",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI5 reset"
+    },
+    {
+      "name": "SPI6RST",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI6 reset"
+    },
+    {
+      "name": "SAI1RST",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SAI1 reset"
+    },
+    {
+      "name": "LTDCRST",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LTDC reset"
+    }
+  ],
+  "errata_notes": []
+}

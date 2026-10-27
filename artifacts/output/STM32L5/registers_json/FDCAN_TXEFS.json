@@ -1,0 +1,43 @@
+{
+  "peripheral": "FDCAN",
+  "register_name": "FDCAN_TXEFS",
+  "long_name": "FDCAN Tx event FIFO st atus register (FDCAN_TXEFS)",
+  "address_offset": "0x00E4",
+  "reset_value": "0x00000000",
+  "description": "FDCAN Tx event FIFO st atus register specification",
+  "bit_fields": [
+    {
+      "name": "CFIE[2",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Cancellation finished interrupt enable."
+    },
+    {
+      "name": "EFPI[1",
+      "bit_offset": 16,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Event FIFO put index"
+    },
+    {
+      "name": "EFF",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Event FIFO full"
+    },
+    {
+      "name": "TEFL",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tx event FIFO element lost"
+    }
+  ],
+  "errata_notes": []
+}

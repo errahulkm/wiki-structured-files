@@ -1,0 +1,67 @@
+{
+  "peripheral": "TAMP",
+  "register_name": "TAMP_ATCR2",
+  "long_name": "TAMP active tamper cont rol register 2 (TAMP_ATCR2)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "TAMP active tamper cont rol register 2 specification",
+  "bit_fields": [
+    {
+      "name": "PRNG[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Pseudo-random generator value"
+    },
+    {
+      "name": "SEEDF",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Seed running flag"
+    },
+    {
+      "name": "INITS",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Active tamper initialization status"
+    },
+    {
+      "name": "ATOSEL5[2",
+      "bit_offset": 20,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Active tamper shared output 5 selection"
+    },
+    {
+      "name": "ATOSEL6[2",
+      "bit_offset": 23,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Active tamper shared output 6 selection"
+    },
+    {
+      "name": "ATOSEL7[2",
+      "bit_offset": 26,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Active tamper shared output 7 selection"
+    },
+    {
+      "name": "ATOSEL8[2",
+      "bit_offset": 29,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Active tamper shared output 8 selection"
+    }
+  ],
+  "errata_notes": []
+}

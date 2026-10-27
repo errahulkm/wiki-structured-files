@@ -1,0 +1,19 @@
+{
+  "peripheral": "FLASH",
+  "register_name": "FLASH_NSBOOTADD1R",
+  "long_name": "Flash non-secure boot address 1 register (FLASH_NSBOOTADD1R)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Flash non-secure boot address 1 register specification",
+  "bit_fields": [
+    {
+      "name": "FLASH_NSBOOTADD1R",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "Flash non-secure boot address 1 register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

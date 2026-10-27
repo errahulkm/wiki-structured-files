@@ -1,0 +1,59 @@
+{
+  "peripheral": "OTFDEC",
+  "register_name": "OTFDEC_RXCFGR",
+  "long_name": "OTFDEC region x configur ation register (OTFDEC_RXCFGR)",
+  "address_offset": "0x20",
+  "reset_value": "0x00000000",
+  "description": "OTFDEC region x configur ation register specification",
+  "bit_fields": [
+    {
+      "name": "PRIV",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Privileged access protection."
+    },
+    {
+      "name": "CONFIGLOCK",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "region config lock"
+    },
+    {
+      "name": "KEYLOCK",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "region key lock"
+    },
+    {
+      "name": "MODE[1",
+      "bit_offset": 4,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: operating mode"
+    },
+    {
+      "name": "KEYCRC[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: region key 8-bit CRC"
+    },
+    {
+      "name": "REG_VERSION[15",
+      "bit_offset": 16,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: region firmware version"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,75 @@
+{
+  "peripheral": "DAC",
+  "register_name": "DAC_SR",
+  "long_name": "DAC status register (DAC_SR)",
+  "address_offset": "0x34",
+  "reset_value": "0x00000000",
+  "description": "DAC status register specification",
+  "bit_fields": [
+    {
+      "name": "DACC2DOR[11",
+      "bit_offset": 0,
+      "bit_width": 12,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel2 data output"
+    },
+    {
+      "name": "CAL_FLAG1",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel1 calibration offset status"
+    },
+    {
+      "name": "BWST1",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel1 busy writing sample time flag"
+    },
+    {
+      "name": "DACC2DORB[11",
+      "bit_offset": 16,
+      "bit_width": 12,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel2 data output"
+    },
+    {
+      "name": "DORSTAT2",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel2 output register status bit"
+    },
+    {
+      "name": "DMAUDR2",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel2 DMA underrun flag"
+    },
+    {
+      "name": "CAL_FLAG2",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel2 calibration offset status"
+    },
+    {
+      "name": "BWST2",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel2 busy writing sample time flag"
+    }
+  ],
+  "errata_notes": []
+}

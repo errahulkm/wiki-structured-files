@@ -1,0 +1,19 @@
+{
+  "peripheral": "USART",
+  "register_name": "USART_GTPR",
+  "long_name": "USART guard time and pr escaler register (USART_GTPR)",
+  "address_offset": "0x10",
+  "reset_value": "0x00000000",
+  "description": "USART guard time and pr escaler register specification",
+  "bit_fields": [
+    {
+      "name": "EIE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Error interrupt enable"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,27 @@
+{
+  "peripheral": "FDCAN",
+  "register_name": "FDCAN_CCCR",
+  "long_name": "FDCAN CC control register (FDCAN_CCCR)",
+  "address_offset": "0x0018",
+  "reset_value": "0x00000000",
+  "description": "FDCAN CC control register specification",
+  "bit_fields": [
+    {
+      "name": "WDC[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Watchdog configuration"
+    },
+    {
+      "name": "WDV[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Watchdog value"
+    }
+  ],
+  "errata_notes": []
+}

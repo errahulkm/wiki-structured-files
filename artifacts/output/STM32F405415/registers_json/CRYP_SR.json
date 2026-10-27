@@ -1,0 +1,51 @@
+{
+  "peripheral": "CRYP",
+  "register_name": "CRYP_SR",
+  "long_name": "CRYP status register (CRYP_SR)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "CRYP status register specification",
+  "bit_fields": [
+    {
+      "name": "IFEM",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Input FIFO empty"
+    },
+    {
+      "name": "IFNF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Input FIFO not full"
+    },
+    {
+      "name": "OFNE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output FIFO not empty"
+    },
+    {
+      "name": "OFFU",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output FIFO full"
+    },
+    {
+      "name": "BUSY",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Busy bit"
+    }
+  ],
+  "errata_notes": []
+}

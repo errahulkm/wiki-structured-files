@@ -1,0 +1,43 @@
+{
+  "peripheral": "FMC",
+  "register_name": "FMC_SDCMR",
+  "long_name": "SDRAM Command Mode register (FMC_SDCMR)",
+  "address_offset": "0x150",
+  "reset_value": "0x00000000",
+  "description": "SDRAM Command Mode register specification",
+  "bit_fields": [
+    {
+      "name": "TMRD[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Load Mode Register to Active"
+    },
+    {
+      "name": "CTB1",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Command Target Bank 1"
+    },
+    {
+      "name": "NRFS[3",
+      "bit_offset": 5,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Number of Auto-refresh"
+    },
+    {
+      "name": "MRD[11",
+      "bit_offset": 9,
+      "bit_width": 13,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Mode Register definition"
+    }
+  ],
+  "errata_notes": []
+}

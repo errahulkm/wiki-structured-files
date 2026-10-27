@@ -1,0 +1,19 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_CALFACT",
+  "long_name": "Analog-to-Digital Converter (ADC) ADC_CALFACT Register",
+  "address_offset": "0xB4",
+  "reset_value": "0x00000000",
+  "description": "Analog-to-Digital Converter (ADC) ADC_CALFACT hardware register",
+  "bit_fields": [
+    {
+      "name": "AWD3CH[18",
+      "bit_offset": 0,
+      "bit_width": 19,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Analog watchdog 3 channel selection"
+    }
+  ],
+  "errata_notes": []
+}

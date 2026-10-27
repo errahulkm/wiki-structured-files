@@ -1,0 +1,107 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_OENR",
+  "long_name": "HRTIM output enable register (HRTIM_OENR)",
+  "address_offset": "0x394",
+  "reset_value": "0x00000000",
+  "description": "HRTIM output enable register specification",
+  "bit_fields": [
+    {
+      "name": "TA1OEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer A output 1 enable"
+    },
+    {
+      "name": "TA2OEN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer A output 2 enable"
+    },
+    {
+      "name": "TB1OEN",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer B output 1 enable"
+    },
+    {
+      "name": "TB2OEN",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer B output 2 enable"
+    },
+    {
+      "name": "TC1OEN",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer C output 1 enable"
+    },
+    {
+      "name": "TC2OEN",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer C output 2 enable"
+    },
+    {
+      "name": "TD1OEN",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer D output 1 enable"
+    },
+    {
+      "name": "TD2OEN",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer D output 2 enable"
+    },
+    {
+      "name": "TE1OEN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer E output 1 enable"
+    },
+    {
+      "name": "TE2OEN",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer E output 2 enable"
+    },
+    {
+      "name": "TF1OEN",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer F output 1 enable"
+    },
+    {
+      "name": "TF2OEN",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer F output 2 enable"
+    }
+  ],
+  "errata_notes": []
+}

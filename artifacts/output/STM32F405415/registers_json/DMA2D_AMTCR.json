@@ -1,0 +1,19 @@
+{
+  "peripheral": "DMA2D",
+  "register_name": "DMA2D_AMTCR",
+  "long_name": "DMA2D AHB master timer conf iguration register (DMA2D_AMTCR)",
+  "address_offset": "0x004C",
+  "reset_value": "0x00000000",
+  "description": "DMA2D AHB master timer conf iguration register specification",
+  "bit_fields": [
+    {
+      "name": "LW[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Line watermark"
+    }
+  ],
+  "errata_notes": []
+}

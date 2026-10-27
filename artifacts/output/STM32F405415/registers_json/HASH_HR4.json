@@ -1,0 +1,43 @@
+{
+  "peripheral": "HASH",
+  "register_name": "HASH_HR4",
+  "long_name": "Hash Processor (HASH) HASH_HR4 Register",
+  "address_offset": "0x320",
+  "reset_value": "0x00000000",
+  "description": "Hash Processor (HASH) HASH_HR4 hardware register",
+  "bit_fields": [
+    {
+      "name": "DINIE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data input interrupt enable"
+    },
+    {
+      "name": "DCIE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Digest calculation completion interrupt enable"
+    },
+    {
+      "name": "DMAS",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA Status"
+    },
+    {
+      "name": "BUSY",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Busy bit"
+    }
+  ],
+  "errata_notes": []
+}

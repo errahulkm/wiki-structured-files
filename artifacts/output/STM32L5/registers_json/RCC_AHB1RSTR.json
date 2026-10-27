@@ -1,0 +1,59 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB1RSTR",
+  "long_name": "RCC AHB1 peripheral reset register (RCC_AHB1RSTR)",
+  "address_offset": "0x028",
+  "reset_value": "0x00000000",
+  "description": "RCC AHB1 peripheral reset register specification",
+  "bit_fields": [
+    {
+      "name": "LSIRDYC",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSI ready interrupt clear"
+    },
+    {
+      "name": "LSERDYC",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSE ready interrupt clear"
+    },
+    {
+      "name": "MSIRDYC",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MSI ready interrupt clear"
+    },
+    {
+      "name": "FLASHRST",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Flash memory interface reset"
+    },
+    {
+      "name": "CRCRST",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CRC reset"
+    },
+    {
+      "name": "TSCRST",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Touch sensing controller reset"
+    }
+  ],
+  "errata_notes": []
+}

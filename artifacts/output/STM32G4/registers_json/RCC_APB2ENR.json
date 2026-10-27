@@ -1,0 +1,59 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_APB2ENR",
+  "long_name": "APB2 peripheral clock enable register (RCC_APB2ENR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "APB2 peripheral clock enable register specification",
+  "bit_fields": [
+    {
+      "name": "LPUART1EN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Low power UART 1 clock enable"
+    },
+    {
+      "name": "I",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "2C4EN: I2C4 clock enable"
+    },
+    {
+      "name": "TIM17EN",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM17 timer clock enable"
+    },
+    {
+      "name": "TIM20EN",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM20 timer clock enable"
+    },
+    {
+      "name": "SAI1EN",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SAI1 clock enable"
+    },
+    {
+      "name": "HRTIM1EN",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HRTIM1 clock enable"
+    }
+  ],
+  "errata_notes": []
+}

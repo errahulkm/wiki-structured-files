@@ -1,0 +1,19 @@
+{
+  "peripheral": "EXTI",
+  "register_name": "EXTI_PR",
+  "long_name": "Pending register (EXTI_PR)",
+  "address_offset": "0x14",
+  "reset_value": "0x00000000",
+  "description": "Pending register specification",
+  "bit_fields": [
+    {
+      "name": "SWIERX",
+      "bit_offset": 0,
+      "bit_width": 23,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Software Interrupt on line x"
+    }
+  ],
+  "errata_notes": []
+}

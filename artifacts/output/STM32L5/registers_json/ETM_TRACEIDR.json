@@ -1,0 +1,19 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_TRACEIDR",
+  "long_name": "RM0438 2088/2187 RM0438 Rev 8 ETM trace identification register (ETM_TRACEIDR)",
+  "address_offset": "0x040",
+  "reset_value": "0x00000000",
+  "description": "RM0438 2088/2187 RM0438 Rev 8 ETM trace identification register specification",
+  "bit_fields": [
+    {
+      "name": "ETM_TRACEIDR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "RM0438 2088/2187 RM0438 Rev 8 ETM trace identification register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

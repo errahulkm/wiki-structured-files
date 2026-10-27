@@ -1,0 +1,19 @@
+{
+  "peripheral": "TIMERS",
+  "register_name": "TIM1_CCMR3",
+  "long_name": "Timers (TIM) TIM1_CCMR3 Register",
+  "address_offset": "0x54",
+  "reset_value": "0x0",
+  "description": "Timers (TIM) TIM1_CCMR3 hardware register",
+  "bit_fields": [
+    {
+      "name": "TIM1_CCMR3",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x0",
+      "description": "TIM1_CCMR3 register value"
+    }
+  ],
+  "errata_notes": []
+}

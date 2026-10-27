@@ -1,0 +1,27 @@
+{
+  "peripheral": "LTDC",
+  "register_name": "LTDC_AWCR",
+  "long_name": "LTDC Active Width Confi guration Register (LTDC_AWCR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "LTDC Active Width Confi guration Register specification",
+  "bit_fields": [
+    {
+      "name": "AVBP[10",
+      "bit_offset": 0,
+      "bit_width": 11,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Accumulated Vertical back porch (in units of horizontal scan line)"
+    },
+    {
+      "name": "AHBP[11",
+      "bit_offset": 16,
+      "bit_width": 12,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Accumulated Horizontal back porch (in units of pixel clock period)"
+    }
+  ],
+  "errata_notes": []
+}

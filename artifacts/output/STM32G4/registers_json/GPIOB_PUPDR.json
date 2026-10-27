@@ -1,0 +1,19 @@
+{
+  "peripheral": "GPIO",
+  "register_name": "GPIOB_PUPDR",
+  "long_name": "General-Purpose and Alternate-Function I/Os (GPIOs/AFIOs) GPIOB_PUPDR Register",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "General-Purpose and Alternate-Function I/Os (GPIOs/AFIOs) GPIOB_PUPDR hardware register",
+  "bit_fields": [
+    {
+      "name": "GPIOB_PUPDR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "GPIOB_PUPDR register value"
+    }
+  ],
+  "errata_notes": []
+}

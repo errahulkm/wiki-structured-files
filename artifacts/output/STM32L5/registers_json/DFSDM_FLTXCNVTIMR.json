@@ -1,0 +1,27 @@
+{
+  "peripheral": "DFSDM",
+  "register_name": "DFSDM_FLTXCNVTIMR",
+  "long_name": "DFSDM filter x conversion ti mer register (DFSDM_FLTXCNVTIMR)",
+  "address_offset": "0x138",
+  "reset_value": "0x00000000",
+  "description": "DFSDM filter x conversion ti mer register specification",
+  "bit_fields": [
+    {
+      "name": "EXMINCH[1",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Extremes detector minimum data channel"
+    },
+    {
+      "name": "EXMIN[23",
+      "bit_offset": 8,
+      "bit_width": 24,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Extremes detector minimum value"
+    }
+  ],
+  "errata_notes": []
+}

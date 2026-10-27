@@ -1,0 +1,19 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_ALRMBSSR",
+  "long_name": "RTC alarm B sub second register (RTC_ALRMBSSR)",
+  "address_offset": "0x48",
+  "reset_value": "0x00000000",
+  "description": "RTC alarm B sub second register specification",
+  "bit_fields": [
+    {
+      "name": "UP",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "to MASKSS-1 are compared."
+    }
+  ],
+  "errata_notes": []
+}

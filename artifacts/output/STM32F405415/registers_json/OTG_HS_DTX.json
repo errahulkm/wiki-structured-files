@@ -1,0 +1,35 @@
+{
+  "peripheral": "OTG_HS",
+  "register_name": "OTG_HS_DTX",
+  "long_name": "USB On-The-Go High-Speed (OTG_HS) OTG_HS_DTX Register",
+  "address_offset": "0x918",
+  "reset_value": "0x00000000",
+  "description": "USB On-The-Go High-Speed (OTG_HS) OTG_HS_DTX hardware register",
+  "bit_fields": [
+    {
+      "name": "DBCT",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Long/short debounce time"
+    },
+    {
+      "name": "ASVLD",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "A-session valid"
+    },
+    {
+      "name": "BSVLD",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "B-session valid"
+    }
+  ],
+  "errata_notes": []
+}

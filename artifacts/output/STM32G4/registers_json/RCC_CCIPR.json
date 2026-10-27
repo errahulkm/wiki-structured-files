@@ -1,0 +1,147 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_CCIPR",
+  "long_name": "Peripherals independent clock configuration register (RCC_CCIPR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Peripherals independent clock configuration register specification",
+  "bit_fields": [
+    {
+      "name": "SYSCFGSMEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SYSCFG + COMP + VREFBUF + OPAMP clocks enable during Sleep and"
+    },
+    {
+      "name": "USART2SEL[1",
+      "bit_offset": 2,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: USART2 clock source selection"
+    },
+    {
+      "name": "USART3SEL[1",
+      "bit_offset": 4,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: USART3 clock source selection"
+    },
+    {
+      "name": "UART4SEL[1",
+      "bit_offset": 6,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: UART4 clock source selection"
+    },
+    {
+      "name": "UART5SEL[1",
+      "bit_offset": 8,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: UART5 clock source selection"
+    },
+    {
+      "name": "TIM1SMEN",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM1 timer clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "SPI1SMEN",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI1 clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "T",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IM8SMEN: TIM8 timer clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "USART1SMEN",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART1clocks enable during Sleep and Stop modes"
+    },
+    {
+      "name": "I2C3SEL[1",
+      "bit_offset": 16,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: I2C3 clock source selection"
+    },
+    {
+      "name": "LPTIM1SEL[1",
+      "bit_offset": 18,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Low power timer 1 clock source selection"
+    },
+    {
+      "name": "SAI1SEL[1",
+      "bit_offset": 20,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: clock source selection"
+    },
+    {
+      "name": "I2S23SEL[1",
+      "bit_offset": 22,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: clock source selection"
+    },
+    {
+      "name": "FDCANSEL[1",
+      "bit_offset": 24,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: clock source selection"
+    },
+    {
+      "name": "CLK48SEL[1",
+      "bit_offset": 26,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: 48 MHz clock source selection"
+    },
+    {
+      "name": "ADC12SEL[1",
+      "bit_offset": 28,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC1/2 clock source selection"
+    },
+    {
+      "name": "ADC345SEL[1",
+      "bit_offset": 30,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC3/4/5 clock source selection"
+    }
+  ],
+  "errata_notes": []
+}

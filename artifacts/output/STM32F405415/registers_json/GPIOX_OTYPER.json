@@ -1,0 +1,19 @@
+{
+  "peripheral": "GPIOX",
+  "register_name": "GPIOX_OTYPER",
+  "long_name": "GPIO port output type register (GPIOX_OTYPER)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "GPIO port output type register specification",
+  "bit_fields": [
+    {
+      "name": "GPIOX_OTYPER",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "GPIO port output type register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,75 @@
+{
+  "peripheral": "SDMMC",
+  "register_name": "SDMMC_CLKCR",
+  "long_name": "SDMMC clock control register (SDMMC_CLKCR)",
+  "address_offset": "0x004",
+  "reset_value": "0x00000000",
+  "description": "SDMMC clock control register specification",
+  "bit_fields": [
+    {
+      "name": "CLKDIV[9",
+      "bit_offset": 0,
+      "bit_width": 10,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Clock divide factor"
+    },
+    {
+      "name": "PWRSAV",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Power saving configuration bit"
+    },
+    {
+      "name": "WIDBUS[1",
+      "bit_offset": 14,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Wide bus mode enable bit"
+    },
+    {
+      "name": "NEGEDGE",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SDMMC_CK dephasing selection bit for data and command"
+    },
+    {
+      "name": "HWFC_EN",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Hardware flow control enable"
+    },
+    {
+      "name": "DDR",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data rate signaling selection"
+    },
+    {
+      "name": "BUSSPEED",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Bus speed for selection of SDMMC operating modes"
+    },
+    {
+      "name": "SELCLKRX[1",
+      "bit_offset": 20,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Receive clock selection"
+    }
+  ],
+  "errata_notes": []
+}

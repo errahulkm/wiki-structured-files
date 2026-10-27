@@ -1,0 +1,19 @@
+{
+  "peripheral": "DWT",
+  "register_name": "DWT_LSUCNTR",
+  "long_name": "0xXXXX XXXX DWT LSU count register (DWT_LSUCNTR)",
+  "address_offset": "0x014",
+  "reset_value": "0x00000000",
+  "description": "0xXXXX XXXX DWT LSU count register specification",
+  "bit_fields": [
+    {
+      "name": "DWT_LSUCNTR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "0xXXXX XXXX DWT LSU count register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

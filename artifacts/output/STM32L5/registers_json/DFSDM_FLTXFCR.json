@@ -1,0 +1,19 @@
+{
+  "peripheral": "DFSDM",
+  "register_name": "DFSDM_FLTXFCR",
+  "long_name": "DFSDM filter x contro l register (DFSDM_FLTXFCR)",
+  "address_offset": "0x114",
+  "reset_value": "0x00000000",
+  "description": "DFSDM filter x contro l register specification",
+  "bit_fields": [
+    {
+      "name": "JCHG[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Injected channel group selection"
+    }
+  ],
+  "errata_notes": []
+}

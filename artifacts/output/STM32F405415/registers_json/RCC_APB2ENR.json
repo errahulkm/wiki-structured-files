@@ -1,0 +1,155 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_APB2ENR",
+  "long_name": "RCC APB2 peripheral clo ck enable register (RCC_APB2ENR)",
+  "address_offset": "0x44",
+  "reset_value": "0x00000000",
+  "description": "RCC APB2 peripheral clo ck enable register specification",
+  "bit_fields": [
+    {
+      "name": "TIM1EN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM1 clock enable"
+    },
+    {
+      "name": "TIM8EN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM8 clock enable"
+    },
+    {
+      "name": "USART1EN",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART1 clock enable"
+    },
+    {
+      "name": "USART6EN",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART6 clock enable"
+    },
+    {
+      "name": "ADC1EN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC1 clock enable"
+    },
+    {
+      "name": "ADC2EN",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC2 clock enable"
+    },
+    {
+      "name": "ADC3EN",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC3 clock enable"
+    },
+    {
+      "name": "SDIOEN",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SDIO clock enable"
+    },
+    {
+      "name": "SPI1EN",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI1 clock enable"
+    },
+    {
+      "name": "SPI4EN",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI4 clock enable"
+    },
+    {
+      "name": "SYSCFGEN",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "System configuration controller clock enable"
+    },
+    {
+      "name": "TIM9EN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM9 clock enable"
+    },
+    {
+      "name": "TIM10EN",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM10 clock enable"
+    },
+    {
+      "name": "TIM11EN",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM11 clock enable"
+    },
+    {
+      "name": "SPI5EN",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI5 clock enable"
+    },
+    {
+      "name": "SPI6EN",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI6 clock enable"
+    },
+    {
+      "name": "SAI1EN",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SAI1 clock enable"
+    },
+    {
+      "name": "LTDCEN",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LTDC clock enable"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,75 @@
+{
+  "peripheral": "PWR",
+  "register_name": "PWR_CR4",
+  "long_name": "Power Control (PWR) PWR_CR4 Register",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "Power Control (PWR) PWR_CR4 hardware register",
+  "bit_fields": [
+    {
+      "name": "EWUP1",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable Wakeup pin WKUP1"
+    },
+    {
+      "name": "EWUP2",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable Wakeup pin WKUP2"
+    },
+    {
+      "name": "EWUP3",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable Wakeup pin WKUP3"
+    },
+    {
+      "name": "WP4",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wakeup pin WKUP4 polarity"
+    },
+    {
+      "name": "WP5",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wakeup pin WKUP5 polarity"
+    },
+    {
+      "name": "VBE",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "VBAT battery charging enable"
+    },
+    {
+      "name": "VBRS",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "VBAT battery charging resistor selection"
+    },
+    {
+      "name": "WUFI",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wakeup flag internal"
+    }
+  ],
+  "errata_notes": []
+}

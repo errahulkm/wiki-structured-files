@@ -1,0 +1,35 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_MACA3HR",
+  "long_name": "Ethernet MAC address 3 high register (ETH_MACA3HR)",
+  "address_offset": "0x0058",
+  "reset_value": "0x00000000",
+  "description": "Ethernet MAC address 3 high register specification",
+  "bit_fields": [
+    {
+      "name": "MACA2H",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MAC address2 high [47:32]"
+    },
+    {
+      "name": "MBC",
+      "bit_offset": 24,
+      "bit_width": 6,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Mask byte control"
+    },
+    {
+      "name": "SA",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Source address"
+    }
+  ],
+  "errata_notes": []
+}

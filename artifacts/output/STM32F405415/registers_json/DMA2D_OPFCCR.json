@@ -1,0 +1,19 @@
+{
+  "peripheral": "DMA2D",
+  "register_name": "DMA2D_OPFCCR",
+  "long_name": "DMA2D output PFC cont rol register (DMA2D_OPFCCR)",
+  "address_offset": "0x0034",
+  "reset_value": "0x00000000",
+  "description": "DMA2D output PFC cont rol register specification",
+  "bit_fields": [
+    {
+      "name": "DMA2D_OPFCCR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "DMA2D output PFC cont rol register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

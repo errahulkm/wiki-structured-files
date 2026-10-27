@@ -1,0 +1,267 @@
+{
+  "peripheral": "GTZC",
+  "register_name": "GTZC_TZSC_SECCFGR1",
+  "long_name": "GTZC_TZSC secure c onfiguration register 1 (GTZC_TZSC_SECCFGR1)",
+  "address_offset": "0x010",
+  "reset_value": "0x00000000",
+  "description": "GTZC_TZSC secure c onfiguration register 1 specification",
+  "bit_fields": [
+    {
+      "name": "TIM2SEC",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for TIM2"
+    },
+    {
+      "name": "TIM3SEC",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for TIM3"
+    },
+    {
+      "name": "TIM4SEC",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for TIM4"
+    },
+    {
+      "name": "TIM5SEC",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for TIM5"
+    },
+    {
+      "name": "TIM6SEC",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for TIM6"
+    },
+    {
+      "name": "TIM7SEC",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for TIM7"
+    },
+    {
+      "name": "WWDGSEC",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for WWDG"
+    },
+    {
+      "name": "IWDGSEC",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for IWDG"
+    },
+    {
+      "name": "SPI2SEC",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for SPI2"
+    },
+    {
+      "name": "SPI3SEC",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for SPI3"
+    },
+    {
+      "name": "USART2SEC",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for USART2"
+    },
+    {
+      "name": "USART3SEC",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for USART3"
+    },
+    {
+      "name": "UART4SEC",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for UART4"
+    },
+    {
+      "name": "UART5SEC",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for UART5"
+    },
+    {
+      "name": "I2C1SEC",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for I2C1"
+    },
+    {
+      "name": "I2C2SEC",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for I2C2"
+    },
+    {
+      "name": "I2C3SEC",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for I2C3"
+    },
+    {
+      "name": "CRSSEC",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for CRS"
+    },
+    {
+      "name": "DAC1SEC",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for DAC1"
+    },
+    {
+      "name": "OPAMPSEC",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for OPAMP"
+    },
+    {
+      "name": "LPTIM1SEC",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for LPTIM1"
+    },
+    {
+      "name": "LPUART1SEC",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for LPUART1"
+    },
+    {
+      "name": "I2C4SEC",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for I2C4"
+    },
+    {
+      "name": "LPTIM2SEC",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for LPTIM2"
+    },
+    {
+      "name": "LPTIM3SEC",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for LPTIM3"
+    },
+    {
+      "name": "FDCAN1SEC",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for FDCAN1"
+    },
+    {
+      "name": "USBFSSEC",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for USB FS"
+    },
+    {
+      "name": "UCPD1SEC",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for UCPD1"
+    },
+    {
+      "name": "VREFBUFSEC",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for VREFBUF"
+    },
+    {
+      "name": "COMPSEC",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for COMP"
+    },
+    {
+      "name": "TIM1SEC",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for TIM1"
+    },
+    {
+      "name": "SPI1SEC",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "secure access mode for SPI1"
+    }
+  ],
+  "errata_notes": []
+}

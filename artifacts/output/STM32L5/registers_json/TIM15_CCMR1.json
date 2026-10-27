@@ -1,0 +1,59 @@
+{
+  "peripheral": "TIM15",
+  "register_name": "TIM15_CCMR1",
+  "long_name": "TIM15 capture/compare m ode register 1 (TIM15_CCMR1)",
+  "address_offset": "0x18",
+  "reset_value": "0x00000000",
+  "description": "TIM15 capture/compare m ode register 1 specification",
+  "bit_fields": [
+    {
+      "name": "CC1S[1",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Capture/Compare 1 Selection"
+    },
+    {
+      "name": "IC1PSC[1",
+      "bit_offset": 2,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Input capture 1 prescaler"
+    },
+    {
+      "name": "IC1F[3",
+      "bit_offset": 4,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Input capture 1 filter"
+    },
+    {
+      "name": "CC2S[1",
+      "bit_offset": 8,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Capture/Compare 2 selection"
+    },
+    {
+      "name": "IC2PSC[1",
+      "bit_offset": 10,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Input capture 2 prescaler"
+    },
+    {
+      "name": "IC2F[3",
+      "bit_offset": 12,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Input capture 2 filter"
+    }
+  ],
+  "errata_notes": []
+}

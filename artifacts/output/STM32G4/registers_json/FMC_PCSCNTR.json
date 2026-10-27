@@ -1,0 +1,51 @@
+{
+  "peripheral": "FMC",
+  "register_name": "FMC_PCSCNTR",
+  "long_name": "562 PSRAM chip select counter register (FMC_PCSCNTR)",
+  "address_offset": "0x20",
+  "reset_value": "0x00000000",
+  "description": "562 PSRAM chip select counter register specification",
+  "bit_fields": [
+    {
+      "name": "CSCOUNT[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Chip select counter."
+    },
+    {
+      "name": "CNTB1EN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Counter Bank 1 enable"
+    },
+    {
+      "name": "CNTB2EN",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Counter Bank 2 enable"
+    },
+    {
+      "name": "CNTB3EN",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Counter Bank 3 enable"
+    },
+    {
+      "name": "CNTB4EN",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Counter Bank 4 enable"
+    }
+  ],
+  "errata_notes": []
+}

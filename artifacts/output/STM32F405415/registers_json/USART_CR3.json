@@ -1,0 +1,83 @@
+{
+  "peripheral": "USART",
+  "register_name": "USART_CR3",
+  "long_name": "Control register 3 (USART_CR3)",
+  "address_offset": "0x14",
+  "reset_value": "0x00000000",
+  "description": "Control register 3 specification",
+  "bit_fields": [
+    {
+      "name": "ADD[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Address of the USART node"
+    },
+    {
+      "name": "NACK",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Smartcard NACK enable"
+    },
+    {
+      "name": "LBDL",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "lin break detection length"
+    },
+    {
+      "name": "LBDIE",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LIN break detection interrupt enable"
+    },
+    {
+      "name": "DMAT",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA enable transmitter"
+    },
+    {
+      "name": "LBCL",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Last bit clock pulse"
+    },
+    {
+      "name": "CTSE",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CTS enable"
+    },
+    {
+      "name": "CTSIE",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CTS interrupt enable"
+    },
+    {
+      "name": "ONEBIT",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "One sample bit method enable"
+    }
+  ],
+  "errata_notes": []
+}

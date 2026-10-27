@@ -1,0 +1,83 @@
+{
+  "peripheral": "TAMP",
+  "register_name": "TAMP_ATCR1",
+  "long_name": "TAMP active tamper cont rol register 1 (TAMP_ATCR1)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "TAMP active tamper cont rol register 1 specification",
+  "bit_fields": [
+    {
+      "name": "TAMPFREQ[2",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Tamper sampling frequency"
+    },
+    {
+      "name": "TAMPFLT[1",
+      "bit_offset": 3,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: TAMP_INx filter count"
+    },
+    {
+      "name": "TAMPPRCH[1",
+      "bit_offset": 5,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: TAMP_INx precharge duration"
+    },
+    {
+      "name": "ATOSEL3[1",
+      "bit_offset": 12,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Active tamper shared output 3 selection"
+    },
+    {
+      "name": "ATOSEL4[1",
+      "bit_offset": 14,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Active tamper shared output 4 selection"
+    },
+    {
+      "name": "ATCKSEL[2",
+      "bit_offset": 16,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Active tamper RTC asynchronous prescaler clock selection"
+    },
+    {
+      "name": "ATPER[2",
+      "bit_offset": 24,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Active tamper output change period"
+    },
+    {
+      "name": "ATOSHARE",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Active tamper output sharing"
+    },
+    {
+      "name": "FLTEN",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Active tamper filter enable"
+    }
+  ],
+  "errata_notes": []
+}

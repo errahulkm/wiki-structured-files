@@ -1,0 +1,147 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB2RSTR",
+  "long_name": "AHB2 peripheral reset register (RCC_AHB2RSTR)",
+  "address_offset": "0x2C",
+  "reset_value": "0x00000000",
+  "description": "AHB2 peripheral reset register specification",
+  "bit_fields": [
+    {
+      "name": "DMA1RST",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA1 reset"
+    },
+    {
+      "name": "DMA2RST",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA2 reset"
+    },
+    {
+      "name": "DMAMUX1RST",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Set and cleared by software."
+    },
+    {
+      "name": "CORDICRST",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Set and cleared by software"
+    },
+    {
+      "name": "FMACRST",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Set and cleared by software"
+    },
+    {
+      "name": "GPIOFRST",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port F reset"
+    },
+    {
+      "name": "GPIOGRST",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port G reset"
+    },
+    {
+      "name": "FLASHRST",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Flash memory interface reset"
+    },
+    {
+      "name": "CRCRST",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CRC reset"
+    },
+    {
+      "name": "ADC12RST",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC12 reset"
+    },
+    {
+      "name": "ADC345RST",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC345 reset"
+    },
+    {
+      "name": "DAC1RST",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC1 reset"
+    },
+    {
+      "name": "DAC2RST",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC2 reset"
+    },
+    {
+      "name": "DAC3RST",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC3 reset"
+    },
+    {
+      "name": "DAC4RST",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC4 reset"
+    },
+    {
+      "name": "AESRST",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "AESRST reset"
+    },
+    {
+      "name": "RNGRST",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RNG reset"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,27 @@
+{
+  "peripheral": "SYSCFG",
+  "register_name": "SYSCFG_PMC",
+  "long_name": "SYSCFG peripheral mode conf iguration register (SYSCFG_PMC)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "SYSCFG peripheral mode conf iguration register specification",
+  "bit_fields": [
+    {
+      "name": "MEM_MODE",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Memory mapping selection"
+    },
+    {
+      "name": "MII_RMII_SEL",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Ethernet PHY interface selection"
+    }
+  ],
+  "errata_notes": []
+}

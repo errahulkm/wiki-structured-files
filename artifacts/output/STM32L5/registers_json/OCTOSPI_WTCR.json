@@ -1,0 +1,35 @@
+{
+  "peripheral": "OCTOSPI",
+  "register_name": "OCTOSPI_WTCR",
+  "long_name": "OCTOSPI write timing configuration register (OCTOSPI_WTCR)",
+  "address_offset": "0x0188",
+  "reset_value": "0x00000000",
+  "description": "OCTOSPI write timing configuration register specification",
+  "bit_fields": [
+    {
+      "name": "IMODE[2",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Instruction mode"
+    },
+    {
+      "name": "IDTR",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Instruction double transfer rate"
+    },
+    {
+      "name": "ISIZE[1",
+      "bit_offset": 4,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Instruction size"
+    }
+  ],
+  "errata_notes": []
+}

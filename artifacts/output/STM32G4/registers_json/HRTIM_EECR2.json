@@ -1,0 +1,107 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_EECR2",
+  "long_name": "HRTIM timer external event c ontrol register 2 (HRTIM_EECR2)",
+  "address_offset": "0x3B4",
+  "reset_value": "0x00000000",
+  "description": "HRTIM timer external event c ontrol register 2 specification",
+  "bit_fields": [
+    {
+      "name": "EE7SRC[1",
+      "bit_offset": 6,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event 7 source"
+    },
+    {
+      "name": "EE7POL",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 7 polarity"
+    },
+    {
+      "name": "EE7SNS[1",
+      "bit_offset": 9,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event 7 sensitivity"
+    },
+    {
+      "name": "EE8SRC[1",
+      "bit_offset": 12,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event 8 source"
+    },
+    {
+      "name": "EE8POL",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 8 polarity"
+    },
+    {
+      "name": "EE8SNS[1",
+      "bit_offset": 15,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event 8 sensitivity"
+    },
+    {
+      "name": "EE9SRC[1",
+      "bit_offset": 18,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event 9 source"
+    },
+    {
+      "name": "EE9POL",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 9 polarity"
+    },
+    {
+      "name": "EE9SNS[1",
+      "bit_offset": 21,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event 9 sensitivity"
+    },
+    {
+      "name": "EE10SRC[1",
+      "bit_offset": 24,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event 10 source"
+    },
+    {
+      "name": "EE10POL",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 10 polarity"
+    },
+    {
+      "name": "EE10SNS[1",
+      "bit_offset": 27,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event 10 sensitivity"
+    }
+  ],
+  "errata_notes": []
+}

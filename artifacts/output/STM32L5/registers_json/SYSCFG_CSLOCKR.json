@@ -1,0 +1,35 @@
+{
+  "peripheral": "SYSCFG",
+  "register_name": "SYSCFG_CSLOCKR",
+  "long_name": "SYSCFG CPU secure lock register (SYSCFG_CSLOCKR)",
+  "address_offset": "0x10",
+  "reset_value": "0x00000000",
+  "description": "SYSCFG CPU secure lock register specification",
+  "bit_fields": [
+    {
+      "name": "LOCKNSVTOR",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "VTOR_NS register lock"
+    },
+    {
+      "name": "LOCKNSMPU",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Non-secure MPU registers lock"
+    },
+    {
+      "name": "LOCKSAU",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SAU registers lock"
+    }
+  ],
+  "errata_notes": []
+}

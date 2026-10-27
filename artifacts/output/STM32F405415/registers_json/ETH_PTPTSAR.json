@@ -1,0 +1,27 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_PTPTSAR",
+  "long_name": "Ethernet PTP time stamp addend register (ETH_PTPTSAR)",
+  "address_offset": "0x0718",
+  "reset_value": "0x00000000",
+  "description": "Ethernet PTP time stamp addend register specification",
+  "bit_fields": [
+    {
+      "name": "TSUSS",
+      "bit_offset": 0,
+      "bit_width": 31,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp update subseconds"
+    },
+    {
+      "name": "TSUPNS",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp update positive or negative sign"
+    }
+  ],
+  "errata_notes": []
+}

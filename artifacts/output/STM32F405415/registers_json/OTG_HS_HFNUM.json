@@ -1,0 +1,27 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_HFNUM",
+  "long_name": "OTG_HS host frame number/frame time remaining register (OTG_HS_HFNUM)",
+  "address_offset": "0x408",
+  "reset_value": "0x00000000",
+  "description": "OTG_HS host frame number/frame time remaining register specification",
+  "bit_fields": [
+    {
+      "name": "FRIVL",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Frame interval"
+    },
+    {
+      "name": "FTREM",
+      "bit_offset": 16,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Frame time remaining"
+    }
+  ],
+  "errata_notes": []
+}

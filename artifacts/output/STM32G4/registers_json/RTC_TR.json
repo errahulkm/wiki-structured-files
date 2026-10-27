@@ -1,0 +1,19 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_TR",
+  "long_name": "RTC time register (RTC_TR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RTC time register specification",
+  "bit_fields": [
+    {
+      "name": "RTC_TR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "RTC time register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

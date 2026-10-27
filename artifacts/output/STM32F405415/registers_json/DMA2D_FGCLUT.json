@@ -1,0 +1,19 @@
+{
+  "peripheral": "DMA",
+  "register_name": "DMA2D_FGCLUT",
+  "long_name": "Direct Memory Access Controller (DMA) DMA2D_FGCLUT Register",
+  "address_offset": "0x07FF",
+  "reset_value": "0x00000000",
+  "description": "Direct Memory Access Controller (DMA) DMA2D_FGCLUT hardware register",
+  "bit_fields": [
+    {
+      "name": "DMA2D_FGCLUT",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "DMA2D_FGCLUT register value"
+    }
+  ],
+  "errata_notes": []
+}

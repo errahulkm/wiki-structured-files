@@ -1,0 +1,107 @@
+{
+  "peripheral": "UCPD",
+  "register_name": "UCPD_ICR",
+  "long_name": "UCPD interrupt clear register (UCPD_ICR)",
+  "address_offset": "0x018",
+  "reset_value": "0x00000000",
+  "description": "UCPD interrupt clear register specification",
+  "bit_fields": [
+    {
+      "name": "TXMSGSENTCF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tx message send flag (TXMSGSENT) clear"
+    },
+    {
+      "name": "TXMSGABTCF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tx message abort flag (TXMSGABT) clear"
+    },
+    {
+      "name": "HRSTDISCCF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Hard reset discard flag (HRSTDISC) clear"
+    },
+    {
+      "name": "HRSTSENTCF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Hard reset send flag (HRSTSENT) clear"
+    },
+    {
+      "name": "TXUNDCF",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tx underflow flag (TXUND) clear"
+    },
+    {
+      "name": "RXORDDETCF",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx ordered set detect flag (RXORDDET) clear"
+    },
+    {
+      "name": "RXHRSTDETCF",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx Hard Reset detect flag (RXHRSTDET) clear"
+    },
+    {
+      "name": "RXOVRCF",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx overflow flag (RXOVR) clear"
+    },
+    {
+      "name": "RXMSGENDCF",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx message received flag (RXMSGEND) clear"
+    },
+    {
+      "name": "TYPECEVT1CF",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Type-C CC1 event flag (TYPECEVT1) clear"
+    },
+    {
+      "name": "TYPECEVT2CF",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Type-C CC2 line event flag (TYPECEVT2) clear"
+    },
+    {
+      "name": "FRSEVTCF",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FRS event flag (FRSEVT) clear"
+    }
+  ],
+  "errata_notes": []
+}

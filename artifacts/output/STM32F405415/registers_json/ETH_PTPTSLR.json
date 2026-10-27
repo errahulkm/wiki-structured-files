@@ -1,0 +1,19 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_PTPTSLR",
+  "long_name": "with DMA controller 1227 Ethernet PTP time stamp low register (ETH_PTPTSLR)",
+  "address_offset": "0x070C",
+  "reset_value": "0x00000000",
+  "description": "with DMA controller 1227 Ethernet PTP time stamp low register specification",
+  "bit_fields": [
+    {
+      "name": "ETH_PTPTSLR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "with DMA controller 1227 Ethernet PTP time stamp low register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

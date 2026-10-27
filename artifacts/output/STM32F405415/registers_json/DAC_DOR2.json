@@ -1,0 +1,27 @@
+{
+  "peripheral": "DAC",
+  "register_name": "DAC_DOR2",
+  "long_name": "DAC channel2 data output register (DAC_DOR2)",
+  "address_offset": "0x30",
+  "reset_value": "0x00000000",
+  "description": "DAC channel2 data output register specification",
+  "bit_fields": [
+    {
+      "name": "DACC1DHR[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel1 8-bit right-aligned data"
+    },
+    {
+      "name": "DACC2DHR[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel2 8-bit right-aligned data"
+    }
+  ],
+  "errata_notes": []
+}

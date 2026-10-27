@@ -1,0 +1,43 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_EVENTCTL0R",
+  "long_name": "0xXXXX XXXX ETM event control 0 register (ETM_EVENTCTL0R)",
+  "address_offset": "0x020",
+  "reset_value": "0x00000000",
+  "description": "0xXXXX XXXX ETM event control 0 register specification",
+  "bit_fields": [
+    {
+      "name": "BB",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "branch broadcast mode"
+    },
+    {
+      "name": "CCI",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "cycle counting in instruction trace"
+    },
+    {
+      "name": "COND[5",
+      "bit_offset": 5,
+      "bit_width": 6,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: conditional instruction tracing"
+    },
+    {
+      "name": "RS",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "return stack enable"
+    }
+  ],
+  "errata_notes": []
+}

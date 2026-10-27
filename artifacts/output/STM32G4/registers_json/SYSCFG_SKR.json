@@ -1,0 +1,19 @@
+{
+  "peripheral": "SYSCFG",
+  "register_name": "SYSCFG_SKR",
+  "long_name": "SYSCFG CCM SRAM key register (SYSCFG_SKR)",
+  "address_offset": "0x24",
+  "reset_value": "0x00000000",
+  "description": "SYSCFG CCM SRAM key register specification",
+  "bit_fields": [
+    {
+      "name": "CLL",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Cortex®-M4 LOCKUP (Hardfault) output enable bit"
+    }
+  ],
+  "errata_notes": []
+}

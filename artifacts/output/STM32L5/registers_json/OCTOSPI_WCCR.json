@@ -1,0 +1,19 @@
+{
+  "peripheral": "OCTOSPI",
+  "register_name": "OCTOSPI_WCCR",
+  "long_name": "OCTOSPI write communi cation configuration register (OCTOSPI_WCCR)",
+  "address_offset": "0x0180",
+  "reset_value": "0x00000000",
+  "description": "OCTOSPI write communi cation configuration register specification",
+  "bit_fields": [
+    {
+      "name": "INSTRUCTION[31",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Instruction"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,163 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB2",
+  "long_name": "Reset and Clock Control (RCC) RCC_AHB2 Register",
+  "address_offset": "0x06C",
+  "reset_value": "0x11",
+  "description": "Reset and Clock Control (RCC) RCC_AHB2 hardware register",
+  "bit_fields": [
+    {
+      "name": "DMA1RST",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA1 reset"
+    },
+    {
+      "name": "DMA2RST",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA2 reset"
+    },
+    {
+      "name": "DMAMUX1RST",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMAMUX1 reset"
+    },
+    {
+      "name": "GPIODRST",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port D reset"
+    },
+    {
+      "name": "GPIOERST",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port E reset"
+    },
+    {
+      "name": "GPIOFRST",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port F reset"
+    },
+    {
+      "name": "GPIOGRST",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port G reset"
+    },
+    {
+      "name": "GPIOHRST",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port H reset"
+    },
+    {
+      "name": "OSPI1RST",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OCTOSPI1 memory interface reset"
+    },
+    {
+      "name": "ADCRST",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC reset"
+    },
+    {
+      "name": "AESRST",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "AES hardware accelerator reset"
+    },
+    {
+      "name": "HASHRST",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Hash reset"
+    },
+    {
+      "name": "RNGRST",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Random number generator reset"
+    },
+    {
+      "name": "PKARST",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PKA reset"
+    },
+    {
+      "name": "OTFDEC1RST",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OTFDEC reset"
+    },
+    {
+      "name": "SDMMC1RST",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SDMMC1 reset"
+    },
+    {
+      "name": "DAC1RST",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC"
+    },
+    {
+      "name": "OPAMPRST",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OPAMP interface reset"
+    },
+    {
+      "name": "LPTIM1RST",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Low-power timer 1 reset"
+    }
+  ],
+  "errata_notes": []
+}

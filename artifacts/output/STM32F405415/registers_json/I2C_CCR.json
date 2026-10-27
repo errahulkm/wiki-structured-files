@@ -1,0 +1,27 @@
+{
+  "peripheral": "I2C",
+  "register_name": "I2C_CCR",
+  "long_name": "I 2C Clock control register (I2C_CCR)",
+  "address_offset": "0x1C",
+  "reset_value": "0x00000000",
+  "description": "I 2C Clock control register specification",
+  "bit_fields": [
+    {
+      "name": "CCR[11",
+      "bit_offset": 0,
+      "bit_width": 12,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]:"
+    },
+    {
+      "name": "DUTY",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fm mode duty cycle"
+    }
+  ],
+  "errata_notes": []
+}

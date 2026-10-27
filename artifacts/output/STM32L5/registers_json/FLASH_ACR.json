@@ -1,0 +1,27 @@
+{
+  "peripheral": "FLASH",
+  "register_name": "FLASH_ACR",
+  "long_name": "Flash access control register (FLASH_ACR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Flash access control register specification",
+  "bit_fields": [
+    {
+      "name": "SLEEP_PD",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Flash power-down mode during Sleep or Low-power sleep mode"
+    },
+    {
+      "name": "LVEN",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Flash low-voltage enable"
+    }
+  ],
+  "errata_notes": []
+}

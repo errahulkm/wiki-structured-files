@@ -1,0 +1,51 @@
+{
+  "peripheral": "OPAMP2",
+  "register_name": "OPAMP2_CRS",
+  "long_name": "OPAMP2 control/status register (OPAMP2_CRS)",
+  "address_offset": "0x10",
+  "reset_value": "0x00000000",
+  "description": "OPAMP2 control/status register specification",
+  "bit_fields": [
+    {
+      "name": "TRIMLPOFFSETN[4",
+      "bit_offset": 0,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Low-power mode trim for NMOS differential pairs"
+    },
+    {
+      "name": "TRIMLPOFFSETP[4",
+      "bit_offset": 8,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Low-power mode trim for PMOS differential pairs"
+    },
+    {
+      "name": "CALSEL",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Calibration selection"
+    },
+    {
+      "name": "USERTRIM",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "allows to switch from ‘factory’ AOP offset trimmed values to AOP offset ‘user’"
+    },
+    {
+      "name": "CALOUT",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Operational amplifier calibration output"
+    }
+  ],
+  "errata_notes": []
+}

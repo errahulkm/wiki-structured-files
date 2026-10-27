@@ -1,0 +1,43 @@
+{
+  "peripheral": "PWR",
+  "register_name": "PWR_PRIVCF",
+  "long_name": "Power Control (PWR) PWR_PRIVCF Register",
+  "address_offset": "0x80",
+  "reset_value": "0x00000000",
+  "description": "Power Control (PWR) PWR_PRIVCF hardware register",
+  "bit_fields": [
+    {
+      "name": "LPMS[2",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Low-power mode selection"
+    },
+    {
+      "name": "DBP",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Disable backup domain write protection."
+    },
+    {
+      "name": "VOS[1",
+      "bit_offset": 9,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Voltage scaling range selection"
+    },
+    {
+      "name": "LPR",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Low-power run"
+    }
+  ],
+  "errata_notes": []
+}

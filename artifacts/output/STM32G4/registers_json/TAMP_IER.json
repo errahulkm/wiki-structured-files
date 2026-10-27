@@ -1,0 +1,43 @@
+{
+  "peripheral": "TAMP",
+  "register_name": "TAMP_IER",
+  "long_name": "TAMP interrupt enable register (TAMP_IER)",
+  "address_offset": "0x2C",
+  "reset_value": "0x00000000",
+  "description": "TAMP interrupt enable register specification",
+  "bit_fields": [
+    {
+      "name": "TAMPFREQ[2",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Tamper sampling frequency"
+    },
+    {
+      "name": "TAMPFLT[1",
+      "bit_offset": 3,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: TAMP_INx filter count"
+    },
+    {
+      "name": "TAMPPRCH[1",
+      "bit_offset": 5,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: TAMP_INx precharge duration"
+    },
+    {
+      "name": "TAMPPUDIS",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMP_INx pull-up disable"
+    }
+  ],
+  "errata_notes": []
+}

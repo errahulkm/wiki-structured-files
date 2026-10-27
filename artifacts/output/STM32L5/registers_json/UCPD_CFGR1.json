@@ -1,0 +1,75 @@
+{
+  "peripheral": "UCPD",
+  "register_name": "UCPD_CFGR1",
+  "long_name": "UCPD configuration register 1 (UCPD_CFGR1)",
+  "address_offset": "0x000",
+  "reset_value": "0x00000000",
+  "description": "UCPD configuration register 1 specification",
+  "bit_fields": [
+    {
+      "name": "HBITCLKDIV[5",
+      "bit_offset": 0,
+      "bit_width": 6,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Division ratio for producing half-bit clock"
+    },
+    {
+      "name": "IFRGAP[4",
+      "bit_offset": 6,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Division ratio for producing inter-frame gap timer clock"
+    },
+    {
+      "name": "TRANSWIN[4",
+      "bit_offset": 11,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Transition window duration"
+    },
+    {
+      "name": "PSC_UCPDCLK[2",
+      "bit_offset": 17,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Pre-scaler division ratio for generating ucpd_clk"
+    },
+    {
+      "name": "RXORDSETEN[8",
+      "bit_offset": 20,
+      "bit_width": 9,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Receiver ordered set enable"
+    },
+    {
+      "name": "TXDMAEN",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmission DMA mode enable"
+    },
+    {
+      "name": "RXDMAEN",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Reception DMA mode enable"
+    },
+    {
+      "name": "UCPDEN",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UCPD peripheral enable"
+    }
+  ],
+  "errata_notes": []
+}

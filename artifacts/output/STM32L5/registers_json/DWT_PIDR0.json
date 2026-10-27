@@ -1,0 +1,27 @@
+{
+  "peripheral": "DWT",
+  "register_name": "DWT_PIDR0",
+  "long_name": "0x0000 0004 DWT CoreSight peripheral identity register 0 (DWT_PIDR0)",
+  "address_offset": "0xFE0",
+  "reset_value": "0x00000000",
+  "description": "0x0000 0004 DWT CoreSight peripheral identity register 0 specification",
+  "bit_fields": [
+    {
+      "name": "JEP106CON[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: JEP106 continuation code"
+    },
+    {
+      "name": "4KCOUNT[3",
+      "bit_offset": 4,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: register file size"
+    }
+  ],
+  "errata_notes": []
+}

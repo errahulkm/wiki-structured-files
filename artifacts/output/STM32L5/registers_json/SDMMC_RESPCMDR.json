@@ -1,0 +1,35 @@
+{
+  "peripheral": "SDMMC",
+  "register_name": "SDMMC_RESPCMDR",
+  "long_name": "SDMMC command response register (SDMMC_RESPCMDR)",
+  "address_offset": "0x010",
+  "reset_value": "0x00000000",
+  "description": "SDMMC command response register specification",
+  "bit_fields": [
+    {
+      "name": "CMDINDEX[5",
+      "bit_offset": 0,
+      "bit_width": 6,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Command index"
+    },
+    {
+      "name": "CMDTRANS",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "The CPSM treats the command as a data transfer command, stops the interrupt"
+    },
+    {
+      "name": "CMDSTOP",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "The CPSM treats the command as a Stop Transmission command and signals"
+    }
+  ],
+  "errata_notes": []
+}

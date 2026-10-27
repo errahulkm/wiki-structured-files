@@ -1,0 +1,99 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_DMAIER",
+  "long_name": "with DMA controller 1227 Ethernet DMA interrupt enable register (ETH_DMAIER)",
+  "address_offset": "0x101C",
+  "reset_value": "0x00000000",
+  "description": "with DMA controller 1227 Ethernet DMA interrupt enable register specification",
+  "bit_fields": [
+    {
+      "name": "SR",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Start/stop receive"
+    },
+    {
+      "name": "OSF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Operate on second frame"
+    },
+    {
+      "name": "RTC",
+      "bit_offset": 3,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive threshold control"
+    },
+    {
+      "name": "RBUIE",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive buffer unavailable interrupt enable"
+    },
+    {
+      "name": "RPSIE",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive process stopped interrupt enable"
+    },
+    {
+      "name": "RWTIE",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "receive watchdog timeout interrupt enable"
+    },
+    {
+      "name": "ETIE",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Early transmit interrupt enable"
+    },
+    {
+      "name": "FBEIE",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fatal bus error interrupt enable"
+    },
+    {
+      "name": "ERIE",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Early receive interrupt enable"
+    },
+    {
+      "name": "AISE",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Abnormal interrupt summary enable"
+    },
+    {
+      "name": "NISE",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Normal interrupt summary enable"
+    }
+  ],
+  "errata_notes": []
+}

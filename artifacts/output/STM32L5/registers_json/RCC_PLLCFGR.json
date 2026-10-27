@@ -1,0 +1,91 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_PLLCFGR",
+  "long_name": "RCC PLL configurati on register (RCC_PLLCFGR)",
+  "address_offset": "0x00C",
+  "reset_value": "0x00000000",
+  "description": "RCC PLL configurati on register specification",
+  "bit_fields": [
+    {
+      "name": "PLLSRC[1",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Main PLL entry clock source"
+    },
+    {
+      "name": "PLLM[3",
+      "bit_offset": 4,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Division factor for the main PLL input clock"
+    },
+    {
+      "name": "PLLN[6",
+      "bit_offset": 8,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Main PLL multiplication factor for VCO"
+    },
+    {
+      "name": "PLLPEN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Main PLL PLLSAI3CLK output enable"
+    },
+    {
+      "name": "PLLP",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Main PLL division factor for PLLSAI3CLK (SAI1 and SAI2 clock)"
+    },
+    {
+      "name": "PLLQEN",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Main PLL PLL48M1CLK output enable"
+    },
+    {
+      "name": "PLLQ[1",
+      "bit_offset": 21,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Main PLL division factor for PLL48M1CLK (48 MHz clock)"
+    },
+    {
+      "name": "PLLREN",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Main PLL PLLCLK output enable"
+    },
+    {
+      "name": "PLLR[1",
+      "bit_offset": 25,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Main PLL division factor for PLLCLK (system clock)"
+    },
+    {
+      "name": "PLLPDIV[4",
+      "bit_offset": 27,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Main PLL division factor for PLLSAI3CLK"
+    }
+  ],
+  "errata_notes": []
+}

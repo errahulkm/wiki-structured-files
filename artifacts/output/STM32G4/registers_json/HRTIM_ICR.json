@@ -1,0 +1,83 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_ICR",
+  "long_name": "HRTIM interrupt cl ear register (HRTIM_ICR)",
+  "address_offset": "0x38C",
+  "reset_value": "0x00000000",
+  "description": "HRTIM interrupt cl ear register specification",
+  "bit_fields": [
+    {
+      "name": "FLT1C",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 1 interrupt flag clear"
+    },
+    {
+      "name": "FLT2C",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 2 interrupt flag clear"
+    },
+    {
+      "name": "FLT3C",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 3 interrupt flag clear"
+    },
+    {
+      "name": "FLT4C",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 4 interrupt flag clear"
+    },
+    {
+      "name": "FLT5C",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 5 interrupt flag clear"
+    },
+    {
+      "name": "SYSFLTC",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "System fault interrupt flag clear"
+    },
+    {
+      "name": "FLT6C",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fault 6 interrupt flag clear"
+    },
+    {
+      "name": "DLLRDYC",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DLL Ready Interrupt flag Clear"
+    },
+    {
+      "name": "BMPERC",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Burst mode period flag clear"
+    }
+  ],
+  "errata_notes": []
+}

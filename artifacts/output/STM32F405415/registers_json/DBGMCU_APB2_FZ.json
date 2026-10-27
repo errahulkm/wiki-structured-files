@@ -1,0 +1,43 @@
+{
+  "peripheral": "DBGMCU",
+  "register_name": "DBGMCU_APB2_FZ",
+  "long_name": "Debug MCU APB2 Freeze register (DBGMCU_APB2_FZ)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Debug MCU APB2 Freeze register specification",
+  "bit_fields": [
+    {
+      "name": "DBG_TIMX_STOP",
+      "bit_offset": 0,
+      "bit_width": 9,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIMx counter stopped when core is halted (x=2..7, 12..14)"
+    },
+    {
+      "name": "DBG_RTC_STOP",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RTC stopped when Core is halted"
+    },
+    {
+      "name": "DBG_WWDG_STOP",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Debug Window Watchdog stopped when Core is halted"
+    },
+    {
+      "name": "DBG_IWDG_STOP",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Debug independent watchdog stopped when core is halted"
+    }
+  ],
+  "errata_notes": []
+}

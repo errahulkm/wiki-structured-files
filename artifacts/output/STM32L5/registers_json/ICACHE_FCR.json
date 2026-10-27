@@ -1,0 +1,27 @@
+{
+  "peripheral": "ICACHE",
+  "register_name": "ICACHE_FCR",
+  "long_name": "ICACHE flag clea r register (ICACHE_FCR)",
+  "address_offset": "0x00C",
+  "reset_value": "0x00000000",
+  "description": "ICACHE flag clea r register specification",
+  "bit_fields": [
+    {
+      "name": "BSYENDIE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "interrupt enable on busy end"
+    },
+    {
+      "name": "ERRIE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "interrupt enable on cache error"
+    }
+  ],
+  "errata_notes": []
+}

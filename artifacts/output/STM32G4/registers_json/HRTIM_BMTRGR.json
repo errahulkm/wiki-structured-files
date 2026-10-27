@@ -1,0 +1,267 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_BMTRGR",
+  "long_name": "HRTIM burst mode tri gger register (HRTIM_BMTRGR)",
+  "address_offset": "0x3A4",
+  "reset_value": "0x00000000",
+  "description": "HRTIM burst mode tri gger register specification",
+  "bit_fields": [
+    {
+      "name": "SW",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Software start"
+    },
+    {
+      "name": "MSTRST",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master reset or roll-over"
+    },
+    {
+      "name": "MSTREP",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master repetition"
+    },
+    {
+      "name": "MSTCMP1",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master compare 1"
+    },
+    {
+      "name": "MSTCMP2",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master compare 2"
+    },
+    {
+      "name": "MSTCMP3",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master compare 3"
+    },
+    {
+      "name": "MSTCMP4",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master compare 4"
+    },
+    {
+      "name": "TARST",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer A reset or roll-over"
+    },
+    {
+      "name": "TAREP",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer A repetition"
+    },
+    {
+      "name": "TACMP1",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer A compare 1 event"
+    },
+    {
+      "name": "TACMP2",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer A compare 2 event"
+    },
+    {
+      "name": "TBRST",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer B reset or roll-over"
+    },
+    {
+      "name": "TBREP",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer B repetition"
+    },
+    {
+      "name": "TBCMP1",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer B compare 1 event"
+    },
+    {
+      "name": "TBCMP2",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer B compare 2 event"
+    },
+    {
+      "name": "TCRST",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer C reset or roll-over"
+    },
+    {
+      "name": "TCREP",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer C repetition"
+    },
+    {
+      "name": "TCCMP1",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer C compare 1 event"
+    },
+    {
+      "name": "TFRST",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer F reset"
+    },
+    {
+      "name": "TDRST",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer D reset or roll-over"
+    },
+    {
+      "name": "TDREP",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer D repetition"
+    },
+    {
+      "name": "TFREP",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer F repetition"
+    },
+    {
+      "name": "TDCMP2",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer D compare 2 event"
+    },
+    {
+      "name": "TFCMP1",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer F compare 1 event"
+    },
+    {
+      "name": "TEREP",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer E repetition"
+    },
+    {
+      "name": "TECMP1",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer E compare 1 event"
+    },
+    {
+      "name": "TECMP2",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer E compare 2 event"
+    },
+    {
+      "name": "TAEEV7",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer A period following external event 7"
+    },
+    {
+      "name": "TDEEV8",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer D period following external event 8"
+    },
+    {
+      "name": "EEV7",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 7 (TIMA filters applied)"
+    },
+    {
+      "name": "EEV8",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External event 8 (TIMD filters applied)"
+    },
+    {
+      "name": "OCHPEV",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "On-chip event"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,35 @@
+{
+  "peripheral": "LPTIM",
+  "register_name": "LPTIM_CR",
+  "long_name": "LPTIM control register (LPTIM_CR)",
+  "address_offset": "0x010",
+  "reset_value": "0x00000000",
+  "description": "LPTIM control register specification",
+  "bit_fields": [
+    {
+      "name": "CKSEL",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock selector"
+    },
+    {
+      "name": "CKPOL[1",
+      "bit_offset": 1,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Clock polarity"
+    },
+    {
+      "name": "CKFLT[1",
+      "bit_offset": 3,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Configurable digital filter for external clock"
+    }
+  ],
+  "errata_notes": []
+}

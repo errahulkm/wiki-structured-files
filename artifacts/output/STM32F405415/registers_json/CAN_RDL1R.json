@@ -1,0 +1,19 @@
+{
+  "peripheral": "CAN",
+  "register_name": "CAN_RDL1R",
+  "long_name": "Controller Area Network (bxCAN) CAN_RDL1R Register",
+  "address_offset": "0x1C8",
+  "reset_value": "0x00000000",
+  "description": "Controller Area Network (bxCAN) CAN_RDL1R hardware register",
+  "bit_fields": [
+    {
+      "name": "CAN_RDL1R",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "CAN_RDL1R register value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "EXTI",
+  "register_name": "EXTI_IMR",
+  "long_name": "Interrupt mask register (EXTI_IMR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Interrupt mask register specification",
+  "bit_fields": [
+    {
+      "name": "MRX",
+      "bit_offset": 0,
+      "bit_width": 23,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Interrupt mask on line x"
+    }
+  ],
+  "errata_notes": []
+}

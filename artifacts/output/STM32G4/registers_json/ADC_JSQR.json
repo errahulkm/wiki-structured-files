@@ -1,0 +1,51 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_JSQR",
+  "long_name": "ADC injected seque nce register (ADC_JSQR)",
+  "address_offset": "0x4C",
+  "reset_value": "0x00000000",
+  "description": "ADC injected seque nce register specification",
+  "bit_fields": [
+    {
+      "name": "SQ15[4",
+      "bit_offset": 0,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: 15th conversion in regular sequence"
+    },
+    {
+      "name": "SQ16[4",
+      "bit_offset": 6,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: 16th conversion in regular sequence"
+    },
+    {
+      "name": "JSQ2[4",
+      "bit_offset": 15,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: second conversion in the injected sequence"
+    },
+    {
+      "name": "JSQ3[4",
+      "bit_offset": 21,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: third conversion in the injected sequence"
+    },
+    {
+      "name": "JSQ4[4",
+      "bit_offset": 27,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: fourth conversion in the injected sequence"
+    }
+  ],
+  "errata_notes": []
+}

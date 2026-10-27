@@ -1,0 +1,171 @@
+{
+  "peripheral": "USART",
+  "register_name": "USART_CR2",
+  "long_name": "USART control register 2 (USART_CR2)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "USART control register 2 specification",
+  "bit_fields": [
+    {
+      "name": "UE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART enable"
+    },
+    {
+      "name": "DIS_NSS",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "NSS pin enable"
+    },
+    {
+      "name": "ADDM7",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "7-bit address detection/4-bit address detection"
+    },
+    {
+      "name": "LBDL",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LIN break detection length"
+    },
+    {
+      "name": "LBDIE",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LIN break detection interrupt enable"
+    },
+    {
+      "name": "LBCL",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Last bit clock pulse"
+    },
+    {
+      "name": "CPHA",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock phase"
+    },
+    {
+      "name": "CPOL",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock polarity"
+    },
+    {
+      "name": "CLKEN",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock enable"
+    },
+    {
+      "name": "STOP[1",
+      "bit_offset": 12,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Stop bits"
+    },
+    {
+      "name": "LINEN",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LIN mode enable"
+    },
+    {
+      "name": "SWAP",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Swap TX/RX pins"
+    },
+    {
+      "name": "RXINV",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RX pin active level inversion"
+    },
+    {
+      "name": "TXINV",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TX pin active level inversion"
+    },
+    {
+      "name": "DATAINV",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Binary data inversion"
+    },
+    {
+      "name": "MSBFIRST",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Most significant bit first"
+    },
+    {
+      "name": "ABREN",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Auto baud rate enable"
+    },
+    {
+      "name": "ABRMOD[1",
+      "bit_offset": 21,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Auto baud rate mode"
+    },
+    {
+      "name": "RTOEN",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receiver timeout enable"
+    },
+    {
+      "name": "ADD[7",
+      "bit_offset": 24,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Address of the USART node"
+    }
+  ],
+  "errata_notes": []
+}

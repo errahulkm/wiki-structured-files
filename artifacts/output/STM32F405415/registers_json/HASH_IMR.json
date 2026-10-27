@@ -1,0 +1,27 @@
+{
+  "peripheral": "HASH",
+  "register_name": "HASH_IMR",
+  "long_name": "HASH interrupt enable register (HASH_IMR)",
+  "address_offset": "0x20",
+  "reset_value": "0x00000000",
+  "description": "HASH interrupt enable register specification",
+  "bit_fields": [
+    {
+      "name": "DINIE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data input interrupt enable"
+    },
+    {
+      "name": "DCIE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Digest calculation completion interrupt enable"
+    }
+  ],
+  "errata_notes": []
+}

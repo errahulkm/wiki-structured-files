@@ -1,0 +1,27 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_CLAIMCLR",
+  "long_name": "0x0000 000F ETM claim tag clear register (ETM_CLAIMCLR)",
+  "address_offset": "0xFA4",
+  "reset_value": "0x00000000",
+  "description": "0x0000 000F ETM claim tag clear register specification",
+  "bit_fields": [
+    {
+      "name": "POWER",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ETM power-up status"
+    },
+    {
+      "name": "STICKYPD",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "sticky power-down state"
+    }
+  ],
+  "errata_notes": []
+}

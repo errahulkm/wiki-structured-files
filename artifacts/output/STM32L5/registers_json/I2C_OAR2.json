@@ -1,0 +1,35 @@
+{
+  "peripheral": "I2C",
+  "register_name": "I2C_OAR2",
+  "long_name": "I2C own address 2 register (I2C_OAR2)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "I2C own address 2 register specification",
+  "bit_fields": [
+    {
+      "name": "SADD[9",
+      "bit_offset": 0,
+      "bit_width": 10,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Target address (controller mode)"
+    },
+    {
+      "name": "OA1MODE",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Own address 1 10-bit mode"
+    },
+    {
+      "name": "OA1EN",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Own address 1 enable"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_SMPR1",
+  "long_name": "ADC sample time register 1 (ADC_SMPR1)",
+  "address_offset": "0x14",
+  "reset_value": "0x00000000",
+  "description": "ADC sample time register 1 specification",
+  "bit_fields": [
+    {
+      "name": "ADC_SMPR1",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "ADC sample time register 1 full-width value"
+    }
+  ],
+  "errata_notes": []
+}

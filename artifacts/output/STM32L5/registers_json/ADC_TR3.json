@@ -1,0 +1,27 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_TR3",
+  "long_name": "ADC watchdog threshol d register 3 (ADC_TR3)",
+  "address_offset": "0x28",
+  "reset_value": "0x00000000",
+  "description": "ADC watchdog threshol d register 3 specification",
+  "bit_fields": [
+    {
+      "name": "LT2[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Analog watchdog 2 lower threshold"
+    },
+    {
+      "name": "HT2[7",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Analog watchdog 2 higher threshold"
+    }
+  ],
+  "errata_notes": []
+}

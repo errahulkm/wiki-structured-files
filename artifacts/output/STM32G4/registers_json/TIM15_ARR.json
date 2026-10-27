@@ -1,0 +1,19 @@
+{
+  "peripheral": "TIM15",
+  "register_name": "TIM15_ARR",
+  "long_name": "TIM15 autorelo ad register (TIM15_ARR)",
+  "address_offset": "0x2C",
+  "reset_value": "0x00000000",
+  "description": "TIM15 autorelo ad register specification",
+  "bit_fields": [
+    {
+      "name": "TIM15_ARR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "TIM15 autorelo ad register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

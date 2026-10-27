@@ -1,0 +1,43 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_DCFG",
+  "long_name": "Device-mode registers OTG_FS device configuration register (OTG_FS_DCFG)",
+  "address_offset": "0x800",
+  "reset_value": "0x00000000",
+  "description": "Device-mode registers OTG_FS device configuration register specification",
+  "bit_fields": [
+    {
+      "name": "DSPD",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Device speed"
+    },
+    {
+      "name": "NZLSOHSK",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Non-zero-length status OUT handshake"
+    },
+    {
+      "name": "DAD",
+      "bit_offset": 4,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Device address"
+    },
+    {
+      "name": "PFIVL",
+      "bit_offset": 11,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Periodic frame interval"
+    }
+  ],
+  "errata_notes": []
+}

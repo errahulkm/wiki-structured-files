@@ -1,0 +1,59 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_IDR4",
+  "long_name": "2149 ETM identification register 4 (ETM_IDR4)",
+  "address_offset": "0x1F0",
+  "reset_value": "0x00000000",
+  "description": "2149 ETM identification register 4 specification",
+  "bit_fields": [
+    {
+      "name": "CCITMIN[11",
+      "bit_offset": 0,
+      "bit_width": 12,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: minimum value that can be programmed to TRCCCCTLR.THRESHOLD"
+    },
+    {
+      "name": "NUMPC[3",
+      "bit_offset": 12,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: number of processor comparator inputs for the DWT"
+    },
+    {
+      "name": "EXLEVEL_S[3",
+      "bit_offset": 16,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: privilege levels implementation"
+    },
+    {
+      "name": "NUMSSCC[3",
+      "bit_offset": 20,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: number of single-shot comparator controls"
+    },
+    {
+      "name": "NUMCIDC[3",
+      "bit_offset": 24,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: number of context ID comparators"
+    },
+    {
+      "name": "NUMVMIDC[3",
+      "bit_offset": 28,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: number of virtual machine ID (VMID) comparators"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "OTFDEC",
+  "register_name": "OTFDEC_CR",
+  "long_name": "OTFDEC control register (OTFDEC_CR)",
+  "address_offset": "0x0",
+  "reset_value": "0x00000000",
+  "description": "OTFDEC control register specification",
+  "bit_fields": [
+    {
+      "name": "ENC",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Encryption mode bit"
+    }
+  ],
+  "errata_notes": []
+}

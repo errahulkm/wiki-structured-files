@@ -1,0 +1,67 @@
+{
+  "peripheral": "FMC",
+  "register_name": "FMC_BCRX",
+  "long_name": "NOR/PSRAM controller registers SRAM/NOR-flash chip-select control register for bank x (FMC_BCRX)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "NOR/PSRAM controller registers SRAM/NOR-flash chip-select control register for bank x specification",
+  "bit_fields": [
+    {
+      "name": "EXTMOD",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Extended mode enable"
+    },
+    {
+      "name": "ASYNCWAIT",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wait signal during asynchronous transfers"
+    },
+    {
+      "name": "CPSIZE[2",
+      "bit_offset": 16,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: CRAM page size"
+    },
+    {
+      "name": "CBURSTRW",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Write burst enable"
+    },
+    {
+      "name": "CCLKEN",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Continuous clock enable"
+    },
+    {
+      "name": "WFDIS",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Write FIFO disable"
+    },
+    {
+      "name": "NBLSET[1",
+      "bit_offset": 22,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Byte lane (NBL) setup"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,43 @@
+{
+  "peripheral": "FSMC",
+  "register_name": "FSMC_ECCR2",
+  "long_name": "RM0090 1586/1741 RM0090 Rev 22 ECC result registers 2/3 (FSMC_ECCR2)",
+  "address_offset": "0xA000",
+  "reset_value": "0x00000000",
+  "description": "RM0090 1586/1741 RM0090 Rev 22 ECC result registers 2/3 specification",
+  "bit_fields": [
+    {
+      "name": "IOSET[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: I/O x setup time"
+    },
+    {
+      "name": "IOWAIT[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: I/O x wait time"
+    },
+    {
+      "name": "IOHOLD[7",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: I/O x hold time"
+    },
+    {
+      "name": "IOHIZ[7",
+      "bit_offset": 24,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: I/O x databus HiZ time"
+    }
+  ],
+  "errata_notes": []
+}

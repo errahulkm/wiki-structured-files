@@ -1,0 +1,19 @@
+{
+  "peripheral": "AP",
+  "register_name": "AP_TAR",
+  "long_name": "2149 AP transfer address register (AP_TAR)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "2149 AP transfer address register specification",
+  "bit_fields": [
+    {
+      "name": "AP_TAR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "2149 AP transfer address register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

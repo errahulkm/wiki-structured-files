@@ -1,0 +1,19 @@
+{
+  "peripheral": "DMA",
+  "register_name": "DMA_S3FCR",
+  "long_name": "Direct Memory Access Controller (DMA) DMA_S3FCR Register",
+  "address_offset": "0x006C",
+  "reset_value": "0x00000000",
+  "description": "Direct Memory Access Controller (DMA) DMA_S3FCR hardware register",
+  "bit_fields": [
+    {
+      "name": "DMA_S3FCR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "DMA_S3FCR register value"
+    }
+  ],
+  "errata_notes": []
+}

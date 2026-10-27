@@ -1,0 +1,51 @@
+{
+  "peripheral": "FLASH",
+  "register_name": "FLASH_PDKEYR",
+  "long_name": "Flash power-down key register (FLASH_PDKEYR)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "Flash power-down key register specification",
+  "bit_fields": [
+    {
+      "name": "LATENCY[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Latency"
+    },
+    {
+      "name": "PRFTEN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Prefetch enable"
+    },
+    {
+      "name": "ICEN",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Instruction cache enable"
+    },
+    {
+      "name": "DCEN",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data cache enable"
+    },
+    {
+      "name": "ICRST",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Instruction cache reset"
+    }
+  ],
+  "errata_notes": []
+}

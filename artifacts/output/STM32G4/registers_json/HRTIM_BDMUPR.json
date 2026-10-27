@@ -1,0 +1,91 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_BDMUPR",
+  "long_name": "HRTIM burst DMA master time r update register (HRTIM_BDMUPR)",
+  "address_offset": "0x3D8",
+  "reset_value": "0x00000000",
+  "description": "HRTIM burst DMA master time r update register specification",
+  "bit_fields": [
+    {
+      "name": "MCR",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MCR register update enable"
+    },
+    {
+      "name": "MICR",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MICR register update enable"
+    },
+    {
+      "name": "MDIER",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MDIER register update enable"
+    },
+    {
+      "name": "MCNT",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MCNTR register update enable"
+    },
+    {
+      "name": "MPER",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MPER register update enable"
+    },
+    {
+      "name": "MREP",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MREP register update enable"
+    },
+    {
+      "name": "MCMP1",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MCMP1R register update enable"
+    },
+    {
+      "name": "MCMP2",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MCMP2R register update enable"
+    },
+    {
+      "name": "MCMP3",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MCMP3R register update enable"
+    },
+    {
+      "name": "MCMP4",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MCMP4R register update enable"
+    }
+  ],
+  "errata_notes": []
+}

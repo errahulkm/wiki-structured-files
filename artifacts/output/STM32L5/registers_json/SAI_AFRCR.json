@@ -1,0 +1,43 @@
+{
+  "peripheral": "SAI",
+  "register_name": "SAI_AFRCR",
+  "long_name": "SAI frame configurat ion register (SAI_AFRCR)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "SAI frame configurat ion register specification",
+  "bit_fields": [
+    {
+      "name": "FTH[2",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: FIFO threshold."
+    },
+    {
+      "name": "FSDEF",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Frame synchronization definition."
+    },
+    {
+      "name": "FSPOL",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Frame synchronization polarity."
+    },
+    {
+      "name": "FSOFF",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Frame synchronization offset."
+    }
+  ],
+  "errata_notes": []
+}

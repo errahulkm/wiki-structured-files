@@ -1,0 +1,19 @@
+{
+  "peripheral": "SPI",
+  "register_name": "I2S",
+  "long_name": "0x76A3 Only one access to the SPIx-DR register MS19598V1 MS30106V1 CK WS short frame SD WS long frame 13-bits MSB LSB MSB RM0440 Rev 9 1863/2140 RM0440 Serial peripheral interface / integrated interchip sound (I2S)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "0x76A3 Only one access to the SPIx-DR register MS19598V1 MS30106V1 CK WS short frame SD WS long frame 13-bits MSB LSB MSB RM0440 Rev 9 1863/2140 RM0440 Serial peripheral interface / integrated interchip sound specification",
+  "bit_fields": [
+    {
+      "name": "I2S",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "0x76A3 Only one access to the SPIx-DR register MS19598V1 MS30106V1 CK WS short frame SD WS long frame 13-bits MSB LSB MSB RM0440 Rev 9 1863/2140 RM0440 Serial peripheral interface / integrated interchip sound full-width value"
+    }
+  ],
+  "errata_notes": []
+}

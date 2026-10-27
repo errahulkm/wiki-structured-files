@@ -1,0 +1,19 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_PTPTTLR",
+  "long_name": "Ethernet PTP target time low register (ETH_PTPTTLR)",
+  "address_offset": "0x0720",
+  "reset_value": "0x00000000",
+  "description": "Ethernet PTP target time low register specification",
+  "bit_fields": [
+    {
+      "name": "ETH_PTPTTLR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "Ethernet PTP target time low register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

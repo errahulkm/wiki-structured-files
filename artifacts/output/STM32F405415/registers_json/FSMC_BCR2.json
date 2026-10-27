@@ -1,0 +1,19 @@
+{
+  "peripheral": "FSMC",
+  "register_name": "FSMC_BCR2",
+  "long_name": "Flexible Static Memory Controller (FSMC) FSMC_BCR2 Register",
+  "address_offset": "0x0008",
+  "reset_value": "0x00000000",
+  "description": "Flexible Static Memory Controller (FSMC) FSMC_BCR2 hardware register",
+  "bit_fields": [
+    {
+      "name": "FSMC_BCR2",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "FSMC_BCR2 register value"
+    }
+  ],
+  "errata_notes": []
+}

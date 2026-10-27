@@ -1,0 +1,99 @@
+{
+  "peripheral": "PWR",
+  "register_name": "PWR_CR1",
+  "long_name": "Power control register 1 (PWR_CR1)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Power control register 1 specification",
+  "bit_fields": [
+    {
+      "name": "LSEON",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSE oscillator enable"
+    },
+    {
+      "name": "LSERDY",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSE oscillator ready"
+    },
+    {
+      "name": "LSEBYP",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSE oscillator bypass"
+    },
+    {
+      "name": "LSEDRV[1",
+      "bit_offset": 3,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: LSE oscillator drive capability"
+    },
+    {
+      "name": "LSECSSON",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CSS on LSE enable"
+    },
+    {
+      "name": "LSECSSD",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CSS on LSE failure detection"
+    },
+    {
+      "name": "RTCSEL[1",
+      "bit_offset": 8,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: RTC clock source selection"
+    },
+    {
+      "name": "RTCEN",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RTC clock enable"
+    },
+    {
+      "name": "BDRST",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RTC domain software reset"
+    },
+    {
+      "name": "LSCOEN",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Low speed clock output enable"
+    },
+    {
+      "name": "LSCOSEL",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Low speed clock output selection"
+    }
+  ],
+  "errata_notes": []
+}

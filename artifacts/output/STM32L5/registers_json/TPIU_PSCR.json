@@ -1,0 +1,35 @@
+{
+  "peripheral": "TPIU",
+  "register_name": "TPIU_PSCR",
+  "long_name": "0x0000 0102 TPIU periodic synchronization counter register (TPIU_PSCR)",
+  "address_offset": "0x308",
+  "reset_value": "0x00000000",
+  "description": "0x0000 0102 TPIU periodic synchronization counter register specification",
+  "bit_fields": [
+    {
+      "name": "ENFCONT",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "continuous formatting enable"
+    },
+    {
+      "name": "FONMAN",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "flush on manual"
+    },
+    {
+      "name": "TRIGIN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "trigger on trigger in"
+    }
+  ],
+  "errata_notes": []
+}

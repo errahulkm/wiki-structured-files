@@ -1,0 +1,27 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_PIDR2",
+  "long_name": "0x0000 00B9 ETM CoreSight peripheral identity register 2 (ETM_PIDR2)",
+  "address_offset": "0xFE8",
+  "reset_value": "0x00000000",
+  "description": "0x0000 00B9 ETM CoreSight peripheral identity register 2 specification",
+  "bit_fields": [
+    {
+      "name": "PARTNUM[11",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "8]: part number bits [11:8]"
+    },
+    {
+      "name": "JEP106ID[3",
+      "bit_offset": 4,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: JEP106 identity code bits [3:0]"
+    }
+  ],
+  "errata_notes": []
+}

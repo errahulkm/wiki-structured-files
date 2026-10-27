@@ -1,0 +1,43 @@
+{
+  "peripheral": "TIM15",
+  "register_name": "TIM15_AF2",
+  "long_name": "TIM15 alternate func tion register 2 (TIM15_AF2)",
+  "address_offset": "0x064",
+  "reset_value": "0x00000000",
+  "description": "TIM15 alternate func tion register 2 specification",
+  "bit_fields": [
+    {
+      "name": "BKINE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIMx_BKIN input enable"
+    },
+    {
+      "name": "BKCMP1E",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "tim_brk_cmp1 enable"
+    },
+    {
+      "name": "BKCMP2E",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "tim_brk_cmp2 enable"
+    },
+    {
+      "name": "OCRSEL[2",
+      "bit_offset": 16,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ocref_clr source selection"
+    }
+  ],
+  "errata_notes": []
+}

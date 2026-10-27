@@ -1,0 +1,51 @@
+{
+  "peripheral": "USB",
+  "register_name": "USB_FNR",
+  "long_name": "2049 USB frame number register (USB_FNR)",
+  "address_offset": "0x48",
+  "reset_value": "0x00000000",
+  "description": "2049 USB frame number register specification",
+  "bit_fields": [
+    {
+      "name": "EP_ID[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Endpoint Identifier"
+    },
+    {
+      "name": "LSOF[1",
+      "bit_offset": 11,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Lost SOF"
+    },
+    {
+      "name": "LCK",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Locked"
+    },
+    {
+      "name": "RXDM",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive data - line status"
+    },
+    {
+      "name": "RXDP",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive data + line status"
+    }
+  ],
+  "errata_notes": []
+}

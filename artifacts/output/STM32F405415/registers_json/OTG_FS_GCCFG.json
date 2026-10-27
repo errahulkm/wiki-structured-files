@@ -1,0 +1,35 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_GCCFG",
+  "long_name": "1368 OTG_FS general core configuration register (OTG_FS_GCCFG)",
+  "address_offset": "0x038",
+  "reset_value": "0x00000000",
+  "description": "1368 OTG_FS general core configuration register specification",
+  "bit_fields": [
+    {
+      "name": "NPTXFSAV",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Non-periodic TxFIFO space available"
+    },
+    {
+      "name": "NPTQXSAV",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Non-periodic transmit request queue space available"
+    },
+    {
+      "name": "NPTXQTOP",
+      "bit_offset": 24,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Top of the non-periodic transmit request queue"
+    }
+  ],
+  "errata_notes": []
+}

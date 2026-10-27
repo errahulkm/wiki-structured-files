@@ -1,0 +1,43 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_RSCTLR3",
+  "long_name": "0xXXXX XXXX ETM resource register 3 (ETM_RSCTLR3)",
+  "address_offset": "0x20C",
+  "reset_value": "0x00000000",
+  "description": "0xXXXX XXXX ETM resource register 3 specification",
+  "bit_fields": [
+    {
+      "name": "SELECT[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: more resources selection"
+    },
+    {
+      "name": "GROUP[2",
+      "bit_offset": 16,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: group of resources selection"
+    },
+    {
+      "name": "INV",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "selected resources inversion"
+    },
+    {
+      "name": "PAIRINV",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "result of a combined pair of resources inversion"
+    }
+  ],
+  "errata_notes": []
+}

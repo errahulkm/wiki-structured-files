@@ -1,0 +1,35 @@
+{
+  "peripheral": "FMAC",
+  "register_name": "FMAC_YBUFCFG",
+  "long_name": "FMAC Y buffer configur ation register (FMAC_YBUFCFG)",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "FMAC Y buffer configur ation register specification",
+  "bit_fields": [
+    {
+      "name": "X2_BASE[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Base address of X2 buffer"
+    },
+    {
+      "name": "X2_BUF_SIZE[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Size of X2 buffer in 16-bit words"
+    },
+    {
+      "name": "EMPTY_WM[1",
+      "bit_offset": 24,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Watermark for buffer empty flag"
+    }
+  ],
+  "errata_notes": []
+}

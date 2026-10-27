@@ -1,0 +1,147 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_DMAOMR",
+  "long_name": "with DMA controller RM0090 1216/1741 RM0090 Rev 22 Ethernet DMA operation mode register (ETH_DMAOMR)",
+  "address_offset": "0x1018",
+  "reset_value": "0x00000000",
+  "description": "with DMA controller RM0090 1216/1741 RM0090 Rev 22 Ethernet DMA operation mode register specification",
+  "bit_fields": [
+    {
+      "name": "TS",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmit status"
+    },
+    {
+      "name": "TPSS",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmit process stopped status"
+    },
+    {
+      "name": "TBUS",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmit buffer unavailable status"
+    },
+    {
+      "name": "TJTS",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmit jabber timeout status"
+    },
+    {
+      "name": "ROS",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive overflow status"
+    },
+    {
+      "name": "TUS",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmit underflow status"
+    },
+    {
+      "name": "RS",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive status"
+    },
+    {
+      "name": "RBUS",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive buffer unavailable status"
+    },
+    {
+      "name": "RPSS",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive process stopped status"
+    },
+    {
+      "name": "RWTS",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive watchdog timeout status"
+    },
+    {
+      "name": "ETS",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Early transmit status"
+    },
+    {
+      "name": "FBES",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Fatal bus error status"
+    },
+    {
+      "name": "ARE",
+      "bit_offset": 14,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ignored."
+    },
+    {
+      "name": "EXPLAIN",
+      "bit_offset": 20,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "the transmit"
+    },
+    {
+      "name": "DFRF",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Disable flushing of received frames"
+    },
+    {
+      "name": "RSF",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive store and forward"
+    },
+    {
+      "name": "DTCEFD",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Dropping of TCP/IP checksum error frames disable"
+    }
+  ],
+  "errata_notes": []
+}

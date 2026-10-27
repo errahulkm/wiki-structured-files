@@ -1,0 +1,35 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_GCCFG",
+  "long_name": "RM0090 1416/1741 RM0090 Rev 22 OTG_HS general core configuration register (OTG_HS_GCCFG)",
+  "address_offset": "0x038",
+  "reset_value": "0x00000000",
+  "description": "RM0090 1416/1741 RM0090 Rev 22 OTG_HS general core configuration register specification",
+  "bit_fields": [
+    {
+      "name": "NPTXFSAV",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Nonperiodic TxFIFO space available"
+    },
+    {
+      "name": "NPTQXSAV",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Nonperiodic transmit request queue space available"
+    },
+    {
+      "name": "NPTXQTOP",
+      "bit_offset": 24,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Top of the nonperiodic transmit request queue"
+    }
+  ],
+  "errata_notes": []
+}

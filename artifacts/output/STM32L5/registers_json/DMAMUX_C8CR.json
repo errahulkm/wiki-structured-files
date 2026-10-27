@@ -1,0 +1,19 @@
+{
+  "peripheral": "DMA",
+  "register_name": "DMAMUX_C8CR",
+  "long_name": "Direct Memory Access Controller (DMA) DMAMUX_C8CR Register",
+  "address_offset": "0x020",
+  "reset_value": "0x00000000",
+  "description": "Direct Memory Access Controller (DMA) DMAMUX_C8CR hardware register",
+  "bit_fields": [
+    {
+      "name": "DMAMUX_C8CR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "DMAMUX_C8CR register value"
+    }
+  ],
+  "errata_notes": []
+}

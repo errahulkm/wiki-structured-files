@@ -1,0 +1,43 @@
+{
+  "peripheral": "PKA",
+  "register_name": "PKA_CR",
+  "long_name": "PKA control register (PKA_CR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "PKA control register specification",
+  "bit_fields": [
+    {
+      "name": "MODE[5",
+      "bit_offset": 8,
+      "bit_width": 6,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: PKA operation code"
+    },
+    {
+      "name": "PROCENDIE",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "End of operation interrupt enable"
+    },
+    {
+      "name": "RAMERRIE",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RAM error interrupt enable"
+    },
+    {
+      "name": "ADDRERRIE",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Address error interrupt enable"
+    }
+  ],
+  "errata_notes": []
+}

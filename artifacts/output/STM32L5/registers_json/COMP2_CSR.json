@@ -1,0 +1,107 @@
+{
+  "peripheral": "COMP2",
+  "register_name": "COMP2_CSR",
+  "long_name": "Comparator 2 control and status register (COMP2_CSR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Comparator 2 control and status register specification",
+  "bit_fields": [
+    {
+      "name": "EN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Comparator 1 enable bit"
+    },
+    {
+      "name": "PWRMODE[1",
+      "bit_offset": 2,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Power Mode of the comparator 1"
+    },
+    {
+      "name": "INMSEL[2",
+      "bit_offset": 4,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Comparator 2 input minus selection bits"
+    },
+    {
+      "name": "INPSEL",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Comparator 1 input plus selection bit"
+    },
+    {
+      "name": "WINMODE",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Windows mode selection bit"
+    },
+    {
+      "name": "POLARITY",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Comparator 2 polarity selection bit"
+    },
+    {
+      "name": "HYST[1",
+      "bit_offset": 16,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Comparator 2 hysteresis selection bits"
+    },
+    {
+      "name": "BLANKING[2",
+      "bit_offset": 18,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Comparator 2 blanking source selection bits"
+    },
+    {
+      "name": "BRGEN",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Scaler bridge enable"
+    },
+    {
+      "name": "SCALEN",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Voltage scaler enable bit"
+    },
+    {
+      "name": "VALUE",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Comparator 2 output status bit"
+    },
+    {
+      "name": "LOCK",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CSR register lock bit"
+    }
+  ],
+  "errata_notes": []
+}

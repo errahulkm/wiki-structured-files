@@ -1,0 +1,19 @@
+{
+  "peripheral": "CRS",
+  "register_name": "CRS_CR",
+  "long_name": "CRS control register (CRS_CR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "CRS control register specification",
+  "bit_fields": [
+    {
+      "name": "TRIM[6",
+      "bit_offset": 8,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: HSI48 oscillator smooth trimming"
+    }
+  ],
+  "errata_notes": []
+}

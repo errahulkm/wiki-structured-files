@@ -1,0 +1,91 @@
+{
+  "peripheral": "TIMX",
+  "register_name": "TIMX_SR",
+  "long_name": "TIM1 and TIM8 stat us register (TIMX_SR)",
+  "address_offset": "0x10",
+  "reset_value": "0x00000000",
+  "description": "TIM1 and TIM8 stat us register specification",
+  "bit_fields": [
+    {
+      "name": "CC2IF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 2 interrupt flag"
+    },
+    {
+      "name": "CC3IF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 3 interrupt flag"
+    },
+    {
+      "name": "CC4IF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 4 interrupt flag"
+    },
+    {
+      "name": "COMIF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "COM interrupt flag"
+    },
+    {
+      "name": "TIF",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Trigger interrupt flag"
+    },
+    {
+      "name": "BIF",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Break interrupt flag"
+    },
+    {
+      "name": "CC1OF",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 1 overcapture flag"
+    },
+    {
+      "name": "CC2OF",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 2 overcapture flag"
+    },
+    {
+      "name": "CC3OF",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 3 overcapture flag"
+    },
+    {
+      "name": "CC4OF",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 4 overcapture flag"
+    }
+  ],
+  "errata_notes": []
+}

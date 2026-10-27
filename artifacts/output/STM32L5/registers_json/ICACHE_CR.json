@@ -1,0 +1,27 @@
+{
+  "peripheral": "ICACHE",
+  "register_name": "ICACHE_CR",
+  "long_name": "ICACHE control register (ICACHE_CR)",
+  "address_offset": "0x000",
+  "reset_value": "0x00000000",
+  "description": "ICACHE control register specification",
+  "bit_fields": [
+    {
+      "name": "HITMRST",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "hit monitor reset"
+    },
+    {
+      "name": "MISSMRST",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "miss monitor reset"
+    }
+  ],
+  "errata_notes": []
+}

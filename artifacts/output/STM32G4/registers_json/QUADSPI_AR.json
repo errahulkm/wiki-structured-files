@@ -1,0 +1,19 @@
+{
+  "peripheral": "QUADSPI",
+  "register_name": "QUADSPI_AR",
+  "long_name": "QUADSPI address register (QUADSPI_AR)",
+  "address_offset": "0x018",
+  "reset_value": "0x00000000",
+  "description": "QUADSPI address register specification",
+  "bit_fields": [
+    {
+      "name": "QUADSPI_AR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "QUADSPI address register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

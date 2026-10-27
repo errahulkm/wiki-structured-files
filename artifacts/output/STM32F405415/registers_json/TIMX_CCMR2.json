@@ -1,0 +1,75 @@
+{
+  "peripheral": "TIMX",
+  "register_name": "TIMX_CCMR2",
+  "long_name": "TIM1 and TIM8 capture/compa re mode register 2 (TIMX_CCMR2)",
+  "address_offset": "0x1C",
+  "reset_value": "0x00000000",
+  "description": "TIM1 and TIM8 capture/compa re mode register 2 specification",
+  "bit_fields": [
+    {
+      "name": "CC1S",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 1 Selection"
+    },
+    {
+      "name": "IC1PSC",
+      "bit_offset": 2,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Input capture 1 prescaler"
+    },
+    {
+      "name": "IC1F[3",
+      "bit_offset": 4,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Input capture 1 filter"
+    },
+    {
+      "name": "CC4S",
+      "bit_offset": 8,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 4 selection"
+    },
+    {
+      "name": "OC4FE",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output compare 4 fast enable"
+    },
+    {
+      "name": "OC4PE",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output compare 4 preload enable"
+    },
+    {
+      "name": "OC4M",
+      "bit_offset": 12,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output compare 4 mode"
+    },
+    {
+      "name": "OC4CE",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output compare 4 clear enable"
+    }
+  ],
+  "errata_notes": []
+}

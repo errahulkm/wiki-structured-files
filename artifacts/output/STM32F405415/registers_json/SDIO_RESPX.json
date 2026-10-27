@@ -1,0 +1,19 @@
+{
+  "peripheral": "SDIO",
+  "register_name": "SDIO_RESPX",
+  "long_name": "4 register (SDIO_RESPX)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "4 register specification",
+  "bit_fields": [
+    {
+      "name": "RESPCMD",
+      "bit_offset": 0,
+      "bit_width": 6,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Response command index"
+    }
+  ],
+  "errata_notes": []
+}

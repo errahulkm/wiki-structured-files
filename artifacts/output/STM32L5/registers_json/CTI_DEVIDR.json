@@ -1,0 +1,35 @@
+{
+  "peripheral": "CTI",
+  "register_name": "CTI_DEVIDR",
+  "long_name": "0x0000 000F CTI device configuration register (CTI_DEVIDR)",
+  "address_offset": "0xFC8",
+  "reset_value": "0x00000000",
+  "description": "0x0000 000F CTI device configuration register specification",
+  "bit_fields": [
+    {
+      "name": "GATEEN[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: channel output enable"
+    },
+    {
+      "name": "NUMTRIG[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: number of ECT triggers available"
+    },
+    {
+      "name": "NUMCH[3",
+      "bit_offset": 16,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: number of ECT channels available"
+    }
+  ],
+  "errata_notes": []
+}

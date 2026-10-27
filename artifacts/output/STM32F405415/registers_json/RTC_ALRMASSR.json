@@ -1,0 +1,27 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_ALRMASSR",
+  "long_name": "RTC alarm A sub sec ond register (RTC_ALRMASSR)",
+  "address_offset": "0x44",
+  "reset_value": "0x00000000",
+  "description": "RTC alarm A sub sec ond register specification",
+  "bit_fields": [
+    {
+      "name": "TAMP1E",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper 1 detection enable"
+    },
+    {
+      "name": "TAMP1TRG",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Active level for tamper 1"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,155 @@
+{
+  "peripheral": "UCPD",
+  "register_name": "UCPD_SR",
+  "long_name": "UCPD status register (UCPD_SR)",
+  "address_offset": "0x014",
+  "reset_value": "0x00000000",
+  "description": "UCPD status register specification",
+  "bit_fields": [
+    {
+      "name": "TXISIE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TXIS interrupt enable"
+    },
+    {
+      "name": "TXMSGDISCIE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TXMSGDISC interrupt enable"
+    },
+    {
+      "name": "TXMSGSENTIE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TXMSGSENT interrupt enable"
+    },
+    {
+      "name": "TXMSGABTIE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TXMSGABT interrupt enable"
+    },
+    {
+      "name": "HRSTDISCIE",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HRSTDISC interrupt enable"
+    },
+    {
+      "name": "HRSTSENTIE",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HRSTSENT interrupt enable"
+    },
+    {
+      "name": "TXUND",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tx data underrun detection"
+    },
+    {
+      "name": "RXNE",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive data register not empty detection"
+    },
+    {
+      "name": "RXORDDET",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx ordered set (4 K-codes) detection"
+    },
+    {
+      "name": "RXHRSTDET",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx Hard Reset receipt detection"
+    },
+    {
+      "name": "RXOVR",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx data overflow detection"
+    },
+    {
+      "name": "RXMSGEND",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rx message received"
+    },
+    {
+      "name": "RXERR",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Receive message error"
+    },
+    {
+      "name": "TYPECEVT1",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Type-C voltage level event on CC1 line"
+    },
+    {
+      "name": "TYPECEVT2",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Type-C voltage level event on CC2 line"
+    },
+    {
+      "name": "TYPEC_VSTATE_CC1[1",
+      "bit_offset": 16,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]:"
+    },
+    {
+      "name": "TYPEC_VSTATE_CC2[1",
+      "bit_offset": 18,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: CC2 line voltage level"
+    },
+    {
+      "name": "FRSEVT",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FRS detection event"
+    }
+  ],
+  "errata_notes": []
+}

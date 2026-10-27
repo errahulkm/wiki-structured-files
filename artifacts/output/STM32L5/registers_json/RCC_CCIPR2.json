@@ -1,0 +1,43 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_CCIPR2",
+  "long_name": "RCC peripherals independent clock configuration register 2 (RCC_CCIPR2)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RCC peripherals independent clock configuration register 2 specification",
+  "bit_fields": [
+    {
+      "name": "HSI48ON",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI48 clock enable"
+    },
+    {
+      "name": "HSI48RDY",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSI48 clock ready flag"
+    },
+    {
+      "name": "HSI48CAL[8",
+      "bit_offset": 7,
+      "bit_width": 9,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: HSI48 clock calibration"
+    },
+    {
+      "name": "OSPISEL[1",
+      "bit_offset": 20,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: OCTOSPI clock source selection"
+    }
+  ],
+  "errata_notes": []
+}

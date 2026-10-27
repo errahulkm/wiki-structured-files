@@ -1,0 +1,19 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_MMCRGUFCR",
+  "long_name": "MMC received good unicast frames counter register (ETH_MMCRGUFCR)",
+  "address_offset": "0x01C4",
+  "reset_value": "0x00000000",
+  "description": "MMC received good unicast frames counter register specification",
+  "bit_fields": [
+    {
+      "name": "TGFC",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmitted good frames counter"
+    }
+  ],
+  "errata_notes": []
+}

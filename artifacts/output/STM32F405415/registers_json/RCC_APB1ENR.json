@@ -1,0 +1,211 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_APB1ENR",
+  "long_name": "RCC APB1 peripheral clo ck enable register (RCC_APB1ENR)",
+  "address_offset": "0x40",
+  "reset_value": "0x00000000",
+  "description": "RCC APB1 peripheral clo ck enable register specification",
+  "bit_fields": [
+    {
+      "name": "DCMIEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Camera interface enable"
+    },
+    {
+      "name": "TIM3EN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM3 clock enable"
+    },
+    {
+      "name": "TIM4EN",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM4 clock enable"
+    },
+    {
+      "name": "TIM5EN",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM5 clock enable"
+    },
+    {
+      "name": "CRYPEN",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Cryptographic modules clock enable"
+    },
+    {
+      "name": "HASHEN",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Hash modules clock enable"
+    },
+    {
+      "name": "TIM12EN",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM12 clock enable"
+    },
+    {
+      "name": "TIM13EN",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM13 clock enable"
+    },
+    {
+      "name": "TIM14EN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM14 clock enable"
+    },
+    {
+      "name": "WWDGEN",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Window watchdog clock enable"
+    },
+    {
+      "name": "SPI2EN",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI2 clock enable"
+    },
+    {
+      "name": "SPI3EN",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI3 clock enable"
+    },
+    {
+      "name": "USART2EN",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART2 clock enable"
+    },
+    {
+      "name": "USART3EN",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART3 clock enable"
+    },
+    {
+      "name": "UART4EN",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UART4 clock enable"
+    },
+    {
+      "name": "UART5EN",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UART5 clock enable"
+    },
+    {
+      "name": "I2C1EN",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C1 clock enable"
+    },
+    {
+      "name": "I2C2EN",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C2 clock enable"
+    },
+    {
+      "name": "I2C3EN",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C3 clock enable"
+    },
+    {
+      "name": "CAN1EN",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CAN 1 clock enable"
+    },
+    {
+      "name": "CAN2EN",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CAN 2 clock enable"
+    },
+    {
+      "name": "PWREN",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Power interface clock enable"
+    },
+    {
+      "name": "DACEN",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC interface clock enable"
+    },
+    {
+      "name": "UART7EN",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UART7 clock enable"
+    },
+    {
+      "name": "UART8EN",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UART8 clock enable"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "I2C",
+  "register_name": "I2C_SIDR",
+  "long_name": "I2C size identification register (I2C_SIDR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "I2C size identification register specification",
+  "bit_fields": [
+    {
+      "name": "I2C_SIDR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "I2C size identification register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

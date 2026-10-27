@@ -1,0 +1,27 @@
+{
+  "peripheral": "FLASH",
+  "register_name": "FLASH_PDKEYR",
+  "long_name": "Flash power-down key register (FLASH_PDKEYR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Flash power-down key register specification",
+  "bit_fields": [
+    {
+      "name": "LATENCY[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Latency"
+    },
+    {
+      "name": "RUN_PD",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Flash power-down mode during Run or Low-power run mode"
+    }
+  ],
+  "errata_notes": []
+}

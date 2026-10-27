@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "INTERNAL",
+  "long_name": "tim_psc_ck Counter register CEN UG counter initialization (INTERNAL)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "tim_psc_ck Counter register CEN UG counter initialization specification",
+  "bit_fields": [
+    {
+      "name": "AND",
+      "bit_offset": 4,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "are coding for the base value."
+    }
+  ],
+  "errata_notes": []
+}

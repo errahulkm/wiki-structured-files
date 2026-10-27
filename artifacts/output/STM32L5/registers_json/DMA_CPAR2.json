@@ -1,0 +1,19 @@
+{
+  "peripheral": "DMA",
+  "register_name": "DMA_CPAR2",
+  "long_name": "Direct Memory Access Controller (DMA) DMA_CPAR2 Register",
+  "address_offset": "0x024",
+  "reset_value": "0x00000000",
+  "description": "Direct Memory Access Controller (DMA) DMA_CPAR2 hardware register",
+  "bit_fields": [
+    {
+      "name": "DMA_CPAR2",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "DMA_CPAR2 register value"
+    }
+  ],
+  "errata_notes": []
+}

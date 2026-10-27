@@ -1,0 +1,27 @@
+{
+  "peripheral": "EXTI",
+  "register_name": "EXTI_PR2",
+  "long_name": "Pending register 2 (EXTI_PR2)",
+  "address_offset": "0x34",
+  "reset_value": "0x00000000",
+  "description": "Pending register 2 specification",
+  "bit_fields": [
+    {
+      "name": "PIFX",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Pending interrupt flag on line x (x = 32 to 33)"
+    },
+    {
+      "name": "SWIX",
+      "bit_offset": 8,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Software interrupt on line x (x = 40 to 41)"
+    }
+  ],
+  "errata_notes": []
+}

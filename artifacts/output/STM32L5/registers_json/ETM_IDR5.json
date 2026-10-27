@@ -1,0 +1,75 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_IDR5",
+  "long_name": "RM0438 2096/2187 RM0438 Rev 8 ETM identification register 5 (ETM_IDR5)",
+  "address_offset": "0x1F4",
+  "reset_value": "0x00000000",
+  "description": "RM0438 2096/2187 RM0438 Rev 8 ETM identification register 5 specification",
+  "bit_fields": [
+    {
+      "name": "NUMEXTIN[8",
+      "bit_offset": 0,
+      "bit_width": 9,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: number of external inputs"
+    },
+    {
+      "name": "NUMEXTINSEL[2",
+      "bit_offset": 9,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: number of external input selectors"
+    },
+    {
+      "name": "TRACEIDSIZE[5",
+      "bit_offset": 16,
+      "bit_width": 6,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: number of bits of trace identification"
+    },
+    {
+      "name": "ATBTRIG",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ATB trigger support"
+    },
+    {
+      "name": "LPOVERRIDE",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "low-power state override support"
+    },
+    {
+      "name": "NUMSEQSTATE[2",
+      "bit_offset": 25,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: number of sequencer states"
+    },
+    {
+      "name": "NUMCNTR[2",
+      "bit_offset": 28,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: number of counters"
+    },
+    {
+      "name": "REDFUNCNTR",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "reduced function counter"
+    }
+  ],
+  "errata_notes": []
+}

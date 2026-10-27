@@ -1,0 +1,19 @@
+{
+  "peripheral": "TRUSTZONE",
+  "register_name": "TRUSTZONE_DR",
+  "long_name": "Global TrustZone Security Controller Data Register",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "Data input and output register for Global TrustZone Security Controller.",
+  "bit_fields": [
+    {
+      "name": "DATA",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "16-bit payload for Global TrustZone Security Controller"
+    }
+  ],
+  "errata_notes": []
+}

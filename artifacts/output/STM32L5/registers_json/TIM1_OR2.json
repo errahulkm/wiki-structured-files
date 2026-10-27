@@ -1,0 +1,19 @@
+{
+  "peripheral": "TIMERS",
+  "register_name": "TIM1_OR2",
+  "long_name": "Timers (TIM) TIM1_OR2 Register",
+  "address_offset": "0x60",
+  "reset_value": "0x000",
+  "description": "Timers (TIM) TIM1_OR2 hardware register",
+  "bit_fields": [
+    {
+      "name": "CCR6[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Capture/Compare 6 value"
+    }
+  ],
+  "errata_notes": []
+}

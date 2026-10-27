@@ -1,0 +1,123 @@
+{
+  "peripheral": "LPTIM",
+  "register_name": "LPTIM_CFGR",
+  "long_name": "LPTIM configuration register (LPTIM_CFGR)",
+  "address_offset": "0x00C",
+  "reset_value": "0x00000000",
+  "description": "LPTIM configuration register specification",
+  "bit_fields": [
+    {
+      "name": "CMPMIE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Compare match Interrupt Enable"
+    },
+    {
+      "name": "ARRMIE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Autoreload match Interrupt Enable"
+    },
+    {
+      "name": "EXTTRIGIE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External trigger valid edge Interrupt Enable"
+    },
+    {
+      "name": "CMPOKIE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Compare register update OK Interrupt Enable"
+    },
+    {
+      "name": "TRGFLT[1",
+      "bit_offset": 6,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Configurable digital filter for trigger"
+    },
+    {
+      "name": "PRESC[2",
+      "bit_offset": 9,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Clock prescaler"
+    },
+    {
+      "name": "TRIGSEL[2",
+      "bit_offset": 13,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Trigger selector"
+    },
+    {
+      "name": "TRIGEN[1",
+      "bit_offset": 17,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Trigger enable and polarity"
+    },
+    {
+      "name": "TIMOUT",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timeout enable"
+    },
+    {
+      "name": "WAVE",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Waveform shape"
+    },
+    {
+      "name": "WAVPOL",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Waveform shape polarity"
+    },
+    {
+      "name": "PRELOAD",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Registers update mode"
+    },
+    {
+      "name": "COUNTMODE",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "counter mode enabled"
+    },
+    {
+      "name": "ENC",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Encoder mode enable"
+    }
+  ],
+  "errata_notes": []
+}

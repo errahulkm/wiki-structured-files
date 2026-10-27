@@ -1,0 +1,51 @@
+{
+  "peripheral": "DP",
+  "register_name": "DP_DPIDR",
+  "long_name": "DP debug port identification register (DP_DPIDR)",
+  "address_offset": "0x0",
+  "reset_value": "0x00000000",
+  "description": "DP debug port identification register specification",
+  "bit_fields": [
+    {
+      "name": "DESIGNER[10",
+      "bit_offset": 1,
+      "bit_width": 11,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: JEDEC designer identity code"
+    },
+    {
+      "name": "VERSION[3",
+      "bit_offset": 12,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: debug port architecture version"
+    },
+    {
+      "name": "MIN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "minimal debug port (MINDP) implementation"
+    },
+    {
+      "name": "PARTNO[7",
+      "bit_offset": 20,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: part number for the debug port"
+    },
+    {
+      "name": "REVISION[3",
+      "bit_offset": 28,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: revision code"
+    }
+  ],
+  "errata_notes": []
+}

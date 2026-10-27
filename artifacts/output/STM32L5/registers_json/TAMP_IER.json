@@ -1,0 +1,51 @@
+{
+  "peripheral": "TAMP",
+  "register_name": "TAMP_IER",
+  "long_name": "TAMP interrupt enable register (TAMP_IER)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "TAMP interrupt enable register specification",
+  "bit_fields": [
+    {
+      "name": "ITAMP5IE",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal tamper 5 interrupt enable"
+    },
+    {
+      "name": "ITAMP8IE",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal tamper 8 interrupt enable"
+    },
+    {
+      "name": "BKPRWPRIV",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Backup registers zone 1 privilege protection"
+    },
+    {
+      "name": "BKPWPRIV",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Backup registers zone 2 privilege protection"
+    },
+    {
+      "name": "TAMPPRIV",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper privilege protection (excluding backup registers)"
+    }
+  ],
+  "errata_notes": []
+}

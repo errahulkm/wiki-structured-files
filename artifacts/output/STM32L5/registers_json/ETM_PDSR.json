@@ -1,0 +1,19 @@
+{
+  "peripheral": "ETM",
+  "register_name": "ETM_PDSR",
+  "long_name": "0x0000 0000 ETM power-down status register (ETM_PDSR)",
+  "address_offset": "0x314",
+  "reset_value": "0x00000000",
+  "description": "0x0000 0000 ETM power-down status register specification",
+  "bit_fields": [
+    {
+      "name": "PC[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: processor comparator inputs selection for single-shot control"
+    }
+  ],
+  "errata_notes": []
+}

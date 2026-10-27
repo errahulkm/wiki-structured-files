@@ -1,0 +1,115 @@
+{
+  "peripheral": "USB",
+  "register_name": "USB_CNTR",
+  "long_name": "USB control register (USB_CNTR)",
+  "address_offset": "0x40",
+  "reset_value": "0x00000000",
+  "description": "USB control register specification",
+  "bit_fields": [
+    {
+      "name": "LP_MODE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Low-power mode"
+    },
+    {
+      "name": "FSUSP",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Force suspend"
+    },
+    {
+      "name": "RESUME",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Resume request"
+    },
+    {
+      "name": "L1RESUME",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LPM L1 Resume request"
+    },
+    {
+      "name": "L1REQM",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LPM L1 state request interrupt mask"
+    },
+    {
+      "name": "ESOFM",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Expected start of frame interrupt mask"
+    },
+    {
+      "name": "SOFM",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Start of frame interrupt mask"
+    },
+    {
+      "name": "RESETM",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB reset interrupt mask"
+    },
+    {
+      "name": "SUSPM",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Suspend mode interrupt mask"
+    },
+    {
+      "name": "WKUPM",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wake-up interrupt mask"
+    },
+    {
+      "name": "ERRM",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Error interrupt mask"
+    },
+    {
+      "name": "PMAOVRM",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Packet memory area over / underrun interrupt mask"
+    },
+    {
+      "name": "CTRM",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Correct transfer interrupt mask"
+    }
+  ],
+  "errata_notes": []
+}

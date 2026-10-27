@@ -1,0 +1,59 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_APB1RSTR2",
+  "long_name": "RCC APB1 peripheral re set register 2 (RCC_APB1RSTR2)",
+  "address_offset": "0x03C",
+  "reset_value": "0x00000000",
+  "description": "RCC APB1 peripheral re set register 2 specification",
+  "bit_fields": [
+    {
+      "name": "TIM2RST",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM2 timer reset"
+    },
+    {
+      "name": "TIM3RST",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM3 timer reset"
+    },
+    {
+      "name": "TIM4RST",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM3 timer reset"
+    },
+    {
+      "name": "FDCAN1RST",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FDCAN1 reset"
+    },
+    {
+      "name": "USBFSRST",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB FS reset"
+    },
+    {
+      "name": "UCPD1RST",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UCPD1 reset"
+    }
+  ],
+  "errata_notes": []
+}

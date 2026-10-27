@@ -1,0 +1,43 @@
+{
+  "peripheral": "FLASH",
+  "register_name": "FLASH_ACR",
+  "long_name": "Flash access control register (FLASH_ACR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Flash access control register specification",
+  "bit_fields": [
+    {
+      "name": "DCRST",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data cache reset"
+    },
+    {
+      "name": "RUN_PD",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Flash Power-down mode during Run or Low-power run mode"
+    },
+    {
+      "name": "SLEEP_PD",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Flash Power-down mode during Sleep or Low-power sleep mode"
+    },
+    {
+      "name": "DBG_SWEN",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Debug software enable"
+    }
+  ],
+  "errata_notes": []
+}

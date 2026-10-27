@@ -1,0 +1,19 @@
+{
+  "peripheral": "DAC",
+  "register_name": "DAC_STR1",
+  "long_name": "DAC channel1 sawt ooth register (DAC_STR1)",
+  "address_offset": "0x58",
+  "reset_value": "0x00000000",
+  "description": "DAC channel1 sawt ooth register specification",
+  "bit_fields": [
+    {
+      "name": "DAC_STR1",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "DAC channel1 sawt ooth register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,107 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_APB2RSTR",
+  "long_name": "APB2 peripheral rese t register (RCC_APB2RSTR)",
+  "address_offset": "0x40",
+  "reset_value": "0x00000000",
+  "description": "APB2 peripheral rese t register specification",
+  "bit_fields": [
+    {
+      "name": "TIM2RST",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM2 timer reset"
+    },
+    {
+      "name": "TIM3RST",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM3 timer reset"
+    },
+    {
+      "name": "TIM4RST",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM3 timer reset"
+    },
+    {
+      "name": "UCPD1RST",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UCPD1 reset"
+    },
+    {
+      "name": "USART1RST",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART1 reset"
+    },
+    {
+      "name": "SPI4RST",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI4 reset"
+    },
+    {
+      "name": "TIM15RST",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM15 timer reset"
+    },
+    {
+      "name": "TIM16RST",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM16 timer reset"
+    },
+    {
+      "name": "TIM17RST",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM17 timer reset"
+    },
+    {
+      "name": "TIM20RST",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM20 reset"
+    },
+    {
+      "name": "SAI1RST",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Serial audio interface 1 (SAI1) reset"
+    },
+    {
+      "name": "HRTIM1RST",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HRTIM1 reset"
+    }
+  ],
+  "errata_notes": []
+}

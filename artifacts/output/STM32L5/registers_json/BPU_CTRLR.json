@@ -1,0 +1,19 @@
+{
+  "peripheral": "BPU",
+  "register_name": "BPU_CTRLR",
+  "long_name": "BPU control register (BPU_CTRLR)",
+  "address_offset": "0x000",
+  "reset_value": "0x00000000",
+  "description": "BPU control register specification",
+  "bit_fields": [
+    {
+      "name": "BPU_CTRLR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "BPU control register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,27 @@
+{
+  "peripheral": "I2C",
+  "register_name": "I2C_TXDR",
+  "long_name": "I2C transmit da ta register (I2C_TXDR)",
+  "address_offset": "0x28",
+  "reset_value": "0x00000000",
+  "description": "I2C transmit da ta register specification",
+  "bit_fields": [
+    {
+      "name": "TXDATA[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: 8-bit transmit data"
+    },
+    {
+      "name": "AND",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "M1:"
+    }
+  ],
+  "errata_notes": []
+}

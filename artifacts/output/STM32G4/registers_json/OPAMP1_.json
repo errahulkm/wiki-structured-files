@@ -1,0 +1,19 @@
+{
+  "peripheral": "OPAMP",
+  "register_name": "OPAMP1_",
+  "long_name": "Operational Amplifier (OPAMP) OPAMP1_ Register",
+  "address_offset": "0x18",
+  "reset_value": "0x0",
+  "description": "Operational Amplifier (OPAMP) OPAMP1_ hardware register",
+  "bit_fields": [
+    {
+      "name": "OPAMP1_",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x0",
+      "description": "OPAMP1_ register value"
+    }
+  ],
+  "errata_notes": []
+}

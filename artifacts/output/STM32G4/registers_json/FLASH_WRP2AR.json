@@ -1,0 +1,155 @@
+{
+  "peripheral": "FLASH",
+  "register_name": "FLASH_WRP2AR",
+  "long_name": "Flash Bank 2 WRP area A address register (FLASH_WRP2AR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Flash Bank 2 WRP area A address register specification",
+  "bit_fields": [
+    {
+      "name": "RDP",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Read protection level"
+    },
+    {
+      "name": "NRST_STOP",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0: Reset generated when entering the Stop mode"
+    },
+    {
+      "name": "NRST_STDBY",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0: Reset generated when entering the Standby mode"
+    },
+    {
+      "name": "NRST_SHDW",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0: Reset generated when entering the Shutdown mode"
+    },
+    {
+      "name": "IWDG_SW",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Independent watchdog selection"
+    },
+    {
+      "name": "IWDG_STOP",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Independent watchdog counter freeze in Stop mode"
+    },
+    {
+      "name": "IWDG_STDBY",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Independent watchdog counter freeze in Standby mode"
+    },
+    {
+      "name": "WWDG_SW",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Window watchdog selection"
+    },
+    {
+      "name": "BFB2",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Dual-bank boot"
+    },
+    {
+      "name": "DBANK",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0: Single bank mode with 128 bits data read width"
+    },
+    {
+      "name": "NBOOT1",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Boot configuration"
+    },
+    {
+      "name": "SRAM_PE",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SRAM1 and CCM SRAM parity check enable"
+    },
+    {
+      "name": "CCMSRAM_RST",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CCM SRAM erase when system reset"
+    },
+    {
+      "name": "NSWBOOT0",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Software BOOT0"
+    },
+    {
+      "name": "NBOOT0",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "nBOOT0 option bit"
+    },
+    {
+      "name": "NRST_MODE[1",
+      "bit_offset": 28,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: PG10 pad mode"
+    },
+    {
+      "name": "IRH_EN",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal reset holder on NRST pin"
+    },
+    {
+      "name": "PCROP_RDP",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PCROP area preserved when RDP level decreased"
+    }
+  ],
+  "errata_notes": []
+}

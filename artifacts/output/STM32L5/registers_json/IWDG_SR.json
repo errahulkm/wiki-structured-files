@@ -1,0 +1,35 @@
+{
+  "peripheral": "IWDG",
+  "register_name": "IWDG_SR",
+  "long_name": "IWDG status register (IWDG_SR)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "IWDG status register specification",
+  "bit_fields": [
+    {
+      "name": "PVU",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Watchdog prescaler value update"
+    },
+    {
+      "name": "RVU",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Watchdog counter reload value update"
+    },
+    {
+      "name": "WVU",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Watchdog counter window value update"
+    }
+  ],
+  "errata_notes": []
+}

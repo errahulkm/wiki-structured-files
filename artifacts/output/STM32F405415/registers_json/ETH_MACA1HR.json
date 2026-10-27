@@ -1,0 +1,35 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_MACA1HR",
+  "long_name": "Ethernet MAC address 1 high register (ETH_MACA1HR)",
+  "address_offset": "0x0048",
+  "reset_value": "0x00000000",
+  "description": "Ethernet MAC address 1 high register specification",
+  "bit_fields": [
+    {
+      "name": "MACA0H",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MAC address0 high [47:32]"
+    },
+    {
+      "name": "SA",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Source address"
+    },
+    {
+      "name": "MO",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Always 1."
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,187 @@
+{
+  "peripheral": "FLASH",
+  "register_name": "FLASH_ECCR",
+  "long_name": "Flash ECC regi ster (FLASH_ECCR)",
+  "address_offset": "0x18",
+  "reset_value": "0x00000000",
+  "description": "Flash ECC regi ster specification",
+  "bit_fields": [
+    {
+      "name": "PG",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Programming"
+    },
+    {
+      "name": "PER",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Page erase"
+    },
+    {
+      "name": "MER1",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Bank 1 mass erase"
+    },
+    {
+      "name": "PNB[6",
+      "bit_offset": 3,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Page number selection"
+    },
+    {
+      "name": "BKER",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Bank erase"
+    },
+    {
+      "name": "MER2",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Bank 2 mass erase"
+    },
+    {
+      "name": "START",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Start"
+    },
+    {
+      "name": "IWDG_STOP",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Independent watchdog counter freeze in Stop mode"
+    },
+    {
+      "name": "IWDG_STDBY",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Independent watchdog counter freeze in Standby mode"
+    },
+    {
+      "name": "WWDG_SW",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Window watchdog selection"
+    },
+    {
+      "name": "BFB2",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Dual-bank boot"
+    },
+    {
+      "name": "BK_ECC",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ECC fail bank"
+    },
+    {
+      "name": "SYSF_ECC",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "System flash ECC fail"
+    },
+    {
+      "name": "NBOOT1",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Boot configuration"
+    },
+    {
+      "name": "ECCCIE",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ECC correction interrupt enable"
+    },
+    {
+      "name": "CCMSRAM_RST",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CCM SRAM erase when system reset"
+    },
+    {
+      "name": "NSWBOOT0",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Software BOOT0"
+    },
+    {
+      "name": "NBOOT0",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "nBOOT0 option bit"
+    },
+    {
+      "name": "ECCC2",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ECC correction"
+    },
+    {
+      "name": "ECCD2",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ECC2 detection"
+    },
+    {
+      "name": "ECCC",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ECC correction"
+    },
+    {
+      "name": "ECCD",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ECC detection"
+    }
+  ],
+  "errata_notes": []
+}

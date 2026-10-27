@@ -1,0 +1,35 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_SMPR1",
+  "long_name": "ADC sample time register 1 (ADC_SMPR1)",
+  "address_offset": "0x14",
+  "reset_value": "0x00000000",
+  "description": "ADC sample time register 1 specification",
+  "bit_fields": [
+    {
+      "name": "ROVSE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Regular Oversampling Enable"
+    },
+    {
+      "name": "JOVSE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Injected Oversampling Enable"
+    },
+    {
+      "name": "OVSR[2",
+      "bit_offset": 2,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Oversampling ratio"
+    }
+  ],
+  "errata_notes": []
+}

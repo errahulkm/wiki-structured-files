@@ -1,0 +1,19 @@
+{
+  "peripheral": "ITM",
+  "register_name": "ITM_TER",
+  "long_name": "0xXXXX XXXX ITM trace enable register (ITM_TER)",
+  "address_offset": "0xE00",
+  "reset_value": "0x00000000",
+  "description": "0xXXXX XXXX ITM trace enable register specification",
+  "bit_fields": [
+    {
+      "name": "STIMULUS[31",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: trace output data"
+    }
+  ],
+  "errata_notes": []
+}

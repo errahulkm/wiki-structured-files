@@ -1,0 +1,107 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_CCR",
+  "long_name": "ADC common contro l register (ADC_CCR)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "ADC common contro l register specification",
+  "bit_fields": [
+    {
+      "name": "AWD1",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog flag of ADC1"
+    },
+    {
+      "name": "EOC1",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "End of conversion of ADC1"
+    },
+    {
+      "name": "JEOC1",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Injected channel end of conversion of ADC1"
+    },
+    {
+      "name": "JSTRT1",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Injected channel Start flag of ADC1"
+    },
+    {
+      "name": "STRT1",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Regular channel Start flag of ADC1"
+    },
+    {
+      "name": "OVR1",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overrun flag of ADC1"
+    },
+    {
+      "name": "DELAY",
+      "bit_offset": 8,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Delay between 2 sampling phases"
+    },
+    {
+      "name": "DDS",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA disable selection (for multi-ADC mode)"
+    },
+    {
+      "name": "DMA",
+      "bit_offset": 14,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Direct memory access mode for multi ADC mode"
+    },
+    {
+      "name": "ADCPRE",
+      "bit_offset": 16,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC prescaler"
+    },
+    {
+      "name": "VBATE",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "VBAT enable"
+    },
+    {
+      "name": "TSVREFE",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Temperature sensor and VREFINT enable"
+    }
+  ],
+  "errata_notes": []
+}

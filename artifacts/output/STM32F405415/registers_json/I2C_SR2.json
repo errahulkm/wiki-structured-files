@@ -1,0 +1,75 @@
+{
+  "peripheral": "I2C",
+  "register_name": "I2C_SR2",
+  "long_name": "I 2C Status register 2 (I2C_SR2)",
+  "address_offset": "0x18",
+  "reset_value": "0x00000000",
+  "description": "I 2C Status register 2 specification",
+  "bit_fields": [
+    {
+      "name": "SB",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Start bit (Controller mode)"
+    },
+    {
+      "name": "ADDR",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Address sent (controller mode)/matched (target mode)"
+    },
+    {
+      "name": "BTF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Byte transfer finished"
+    },
+    {
+      "name": "GENCALL",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "General call address (Target mode)"
+    },
+    {
+      "name": "SMBDEFAULT",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SMBus device default address (Target mode)"
+    },
+    {
+      "name": "SMBHOST",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SMBus host header (Target mode)"
+    },
+    {
+      "name": "DUALF",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Dual flag (Target mode)"
+    },
+    {
+      "name": "PEC[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0] Packet error checking register"
+    }
+  ],
+  "errata_notes": []
+}

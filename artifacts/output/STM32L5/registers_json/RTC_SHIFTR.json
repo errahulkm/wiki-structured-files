@@ -1,0 +1,27 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_SHIFTR",
+  "long_name": "RTC shift contro l register (RTC_SHIFTR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RTC shift contro l register specification",
+  "bit_fields": [
+    {
+      "name": "SUBFS[14",
+      "bit_offset": 0,
+      "bit_width": 15,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Subtract a fraction of a second"
+    },
+    {
+      "name": "ADD1S",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Add one second"
+    }
+  ],
+  "errata_notes": []
+}

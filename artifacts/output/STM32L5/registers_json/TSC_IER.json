@@ -1,0 +1,35 @@
+{
+  "peripheral": "TSC",
+  "register_name": "TSC_IER",
+  "long_name": "TSC interrupt enable register (TSC_IER)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "TSC interrupt enable register specification",
+  "bit_fields": [
+    {
+      "name": "TSCE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Touch sensing controller enable"
+    },
+    {
+      "name": "START",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Start a new acquisition"
+    },
+    {
+      "name": "AM",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Acquisition mode"
+    }
+  ],
+  "errata_notes": []
+}

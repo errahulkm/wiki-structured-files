@@ -1,0 +1,35 @@
+{
+  "peripheral": "DP",
+  "register_name": "DP_RDBUFFR",
+  "long_name": "2149 DP read buffer register (DP_RDBUFFR)",
+  "address_offset": "0xC",
+  "reset_value": "0x00000000",
+  "description": "2149 DP read buffer register specification",
+  "bit_fields": [
+    {
+      "name": "DPBANKSEL[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DP register bank select"
+    },
+    {
+      "name": "APBANKSEL[3",
+      "bit_offset": 4,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: AP register bank select."
+    },
+    {
+      "name": "APSEL[7",
+      "bit_offset": 24,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: access port select"
+    }
+  ],
+  "errata_notes": []
+}

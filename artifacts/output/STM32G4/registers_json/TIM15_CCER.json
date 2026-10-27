@@ -1,0 +1,67 @@
+{
+  "peripheral": "TIM15",
+  "register_name": "TIM15_CCER",
+  "long_name": "TIM15 capture/compare enable register (TIM15_CCER)",
+  "address_offset": "0x20",
+  "reset_value": "0x00000000",
+  "description": "TIM15 capture/compare enable register specification",
+  "bit_fields": [
+    {
+      "name": "CC1S[1",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Capture/Compare 1 selection"
+    },
+    {
+      "name": "OC1FE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output Compare 1 fast enable"
+    },
+    {
+      "name": "OC1PE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output Compare 1 preload enable"
+    },
+    {
+      "name": "CC2E",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 2 output enable"
+    },
+    {
+      "name": "CC2P",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 2 output polarity"
+    },
+    {
+      "name": "CC2NP",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 2 complementary output polarity"
+    },
+    {
+      "name": "UIFCPY",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UIF Copy"
+    }
+  ],
+  "errata_notes": []
+}

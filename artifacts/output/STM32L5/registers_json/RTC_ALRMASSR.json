@@ -1,0 +1,91 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_ALRMASSR",
+  "long_name": "RTC alarm A sub sec ond register (RTC_ALRMASSR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RTC alarm A sub sec ond register specification",
+  "bit_fields": [
+    {
+      "name": "SS[14",
+      "bit_offset": 0,
+      "bit_width": 15,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Sub seconds value"
+    },
+    {
+      "name": "MSK2",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alarm B minutes mask"
+    },
+    {
+      "name": "HU[3",
+      "bit_offset": 16,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Hour units in BCD format"
+    },
+    {
+      "name": "HT[1",
+      "bit_offset": 20,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Hour tens in BCD format"
+    },
+    {
+      "name": "PM",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "AM/PM notation"
+    },
+    {
+      "name": "MSK3",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alarm B hours mask"
+    },
+    {
+      "name": "MASKSS[3",
+      "bit_offset": 24,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Mask the most-significant bits starting at this bit"
+    },
+    {
+      "name": "DT[1",
+      "bit_offset": 28,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Date tens in BCD format"
+    },
+    {
+      "name": "WDSEL",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Week day selection"
+    },
+    {
+      "name": "MSK4",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alarm B date mask"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,99 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_HPRT",
+  "long_name": "1531 OTG_HS host port control and status register (OTG_HS_HPRT)",
+  "address_offset": "0x440",
+  "reset_value": "0x00000000",
+  "description": "1531 OTG_HS host port control and status register specification",
+  "bit_fields": [
+    {
+      "name": "IN",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "this register changes."
+    },
+    {
+      "name": "PENCHNG",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Port enable/disable change"
+    },
+    {
+      "name": "POCA",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Port overcurrent active"
+    },
+    {
+      "name": "POCCHNG",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Port overcurrent change"
+    },
+    {
+      "name": "PRES",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Port resume"
+    },
+    {
+      "name": "PSUSP",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Port suspend"
+    },
+    {
+      "name": "PRST",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Port reset"
+    },
+    {
+      "name": "PLSTS",
+      "bit_offset": 10,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Port line status"
+    },
+    {
+      "name": "PPWR",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Port power"
+    },
+    {
+      "name": "PTCTL",
+      "bit_offset": 13,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Port test control"
+    },
+    {
+      "name": "PSPD",
+      "bit_offset": 17,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Port speed"
+    }
+  ],
+  "errata_notes": []
+}

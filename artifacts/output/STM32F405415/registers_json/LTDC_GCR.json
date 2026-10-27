@@ -1,0 +1,67 @@
+{
+  "peripheral": "LTDC",
+  "register_name": "LTDC_GCR",
+  "long_name": "LTDC Global Contro l Register (LTDC_GCR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "LTDC Global Contro l Register specification",
+  "bit_fields": [
+    {
+      "name": "TOTALH[10",
+      "bit_offset": 0,
+      "bit_width": 11,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Total Height (in units of horizontal scan line)"
+    },
+    {
+      "name": "DRW[2",
+      "bit_offset": 12,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Dither Red Width"
+    },
+    {
+      "name": "TOTALW[11",
+      "bit_offset": 16,
+      "bit_width": 12,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Total Width (in units of pixel clock period)"
+    },
+    {
+      "name": "PCPOL",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Pixel Clock Polarity"
+    },
+    {
+      "name": "DEPOL",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Data Enable Polarity"
+    },
+    {
+      "name": "VSPOL",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Vertical Synchronization Polarity"
+    },
+    {
+      "name": "HSPOL",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Horizontal Synchronization Polarity"
+    }
+  ],
+  "errata_notes": []
+}

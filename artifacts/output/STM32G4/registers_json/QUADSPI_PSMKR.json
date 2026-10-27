@@ -1,0 +1,19 @@
+{
+  "peripheral": "QUADSPI",
+  "register_name": "QUADSPI_PSMKR",
+  "long_name": "QUADSPI polli ng status mask register (QUADSPI_PSMKR)",
+  "address_offset": "0x024",
+  "reset_value": "0x00000000",
+  "description": "QUADSPI polli ng status mask register specification",
+  "bit_fields": [
+    {
+      "name": "ALTERNATE[31",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Alternate bytes"
+    }
+  ],
+  "errata_notes": []
+}

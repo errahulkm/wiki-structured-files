@@ -1,0 +1,59 @@
+{
+  "peripheral": "LPUART",
+  "register_name": "LPUART_TDR",
+  "long_name": "LPUART transmit da ta register (LPUART_TDR)",
+  "address_offset": "0x28",
+  "reset_value": "0x00000000",
+  "description": "LPUART transmit da ta register specification",
+  "bit_fields": [
+    {
+      "name": "PECF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Parity error clear flag"
+    },
+    {
+      "name": "FECF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Framing error clear flag"
+    },
+    {
+      "name": "NECF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Noise detected clear flag"
+    },
+    {
+      "name": "ORECF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overrun error clear flag"
+    },
+    {
+      "name": "IDLECF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Idle line detected clear flag"
+    },
+    {
+      "name": "TCCF",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmission complete clear flag"
+    }
+  ],
+  "errata_notes": []
+}

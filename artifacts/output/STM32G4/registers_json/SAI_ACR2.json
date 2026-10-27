@@ -1,0 +1,51 @@
+{
+  "peripheral": "SAI",
+  "register_name": "SAI_ACR2",
+  "long_name": "SAI configuration register 2 (SAI_ACR2)",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "SAI configuration register 2 specification",
+  "bit_fields": [
+    {
+      "name": "MODE[1",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: SAIx audio block mode"
+    },
+    {
+      "name": "PRTCFG[1",
+      "bit_offset": 2,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Protocol configuration"
+    },
+    {
+      "name": "DS[2",
+      "bit_offset": 5,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Data size"
+    },
+    {
+      "name": "CPL",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Complement bit."
+    },
+    {
+      "name": "COMP[1",
+      "bit_offset": 14,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Companding mode."
+    }
+  ],
+  "errata_notes": []
+}

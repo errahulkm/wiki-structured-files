@@ -1,0 +1,75 @@
+{
+  "peripheral": "FMC",
+  "register_name": "FMC_BCR2",
+  "long_name": "Flexible Memory Controller (FMC) FMC_BCR2 Register",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "Flexible Memory Controller (FMC) FMC_BCR2 hardware register",
+  "bit_fields": [
+    {
+      "name": "WRAPMOD",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wrapped burst mode support."
+    },
+    {
+      "name": "WAITCFG",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wait timing configuration."
+    },
+    {
+      "name": "WREN",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Write enable bit."
+    },
+    {
+      "name": "WAITEN",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wait enable bit."
+    },
+    {
+      "name": "EXTMOD",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Extended mode enable."
+    },
+    {
+      "name": "ASYNCWAIT",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wait signal during asynchronous transfers"
+    },
+    {
+      "name": "CPSIZE[2",
+      "bit_offset": 16,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: CRAM page size."
+    },
+    {
+      "name": "CBURSTRW",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Write burst enable."
+    }
+  ],
+  "errata_notes": []
+}

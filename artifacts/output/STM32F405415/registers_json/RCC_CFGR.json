@@ -1,0 +1,75 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_CFGR",
+  "long_name": "RCC clock configurat ion register (RCC_CFGR)",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "RCC clock configurat ion register specification",
+  "bit_fields": [
+    {
+      "name": "PPRE1",
+      "bit_offset": 10,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "APB Low speed prescaler (APB1)"
+    },
+    {
+      "name": "PPRE2",
+      "bit_offset": 13,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "APB high-speed prescaler (APB2)"
+    },
+    {
+      "name": "RTCPRE",
+      "bit_offset": 16,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSE division factor for RTC clock"
+    },
+    {
+      "name": "MCO1",
+      "bit_offset": 21,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Microcontroller clock output 1"
+    },
+    {
+      "name": "I2SSRC",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2S clock selection"
+    },
+    {
+      "name": "MCO1PRE",
+      "bit_offset": 24,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MCO1 prescaler"
+    },
+    {
+      "name": "MCO2PRE",
+      "bit_offset": 27,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MCO2 prescaler"
+    },
+    {
+      "name": "MCO2[1",
+      "bit_offset": 30,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Microcontroller clock output 2"
+    }
+  ],
+  "errata_notes": []
+}

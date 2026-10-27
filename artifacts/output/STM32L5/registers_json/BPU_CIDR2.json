@@ -1,0 +1,27 @@
+{
+  "peripheral": "BPU",
+  "register_name": "BPU_CIDR2",
+  "long_name": "0x0000 0090 BPU CoreSight component identity register 2 (BPU_CIDR2)",
+  "address_offset": "0xFF8",
+  "reset_value": "0x00000000",
+  "description": "0x0000 0090 BPU CoreSight component identity register 2 specification",
+  "bit_fields": [
+    {
+      "name": "PREAMBLE[11",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "8]: component identification bits [11:8]"
+    },
+    {
+      "name": "CLASS[3",
+      "bit_offset": 4,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: component identification bits [15:12] - component class"
+    }
+  ],
+  "errata_notes": []
+}

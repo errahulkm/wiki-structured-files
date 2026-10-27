@@ -1,0 +1,139 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_PTPTSCR",
+  "long_name": "Ethernet PTP time stamp control register (ETH_PTPTSCR)",
+  "address_offset": "0x0700",
+  "reset_value": "0x00000000",
+  "description": "Ethernet PTP time stamp control register specification",
+  "bit_fields": [
+    {
+      "name": "TSE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp enable"
+    },
+    {
+      "name": "TSFCU",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp fine or coarse update"
+    },
+    {
+      "name": "TSSTI",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp system time initialize"
+    },
+    {
+      "name": "TSSTU",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp system time update"
+    },
+    {
+      "name": "TSITE",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp interrupt trigger enable"
+    },
+    {
+      "name": "TSARU",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp addend register update"
+    },
+    {
+      "name": "TSSARFE",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp snapshot for all received frames enable"
+    },
+    {
+      "name": "TSSSR",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp subsecond rollover: digital or binary rollover control"
+    },
+    {
+      "name": "TSPTPPSV2E",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp PTP packet snooping for version2 format enable"
+    },
+    {
+      "name": "TSSPTPOEFE",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp snapshot for PTP over ethernet frames enable"
+    },
+    {
+      "name": "TSSIPV6FE",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp snapshot for IPv6 frames enable"
+    },
+    {
+      "name": "TSSIPV4FE",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp snapshot for IPv4 frames enable"
+    },
+    {
+      "name": "TSSEME",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp snapshot for event message enable"
+    },
+    {
+      "name": "TSSMRME",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp snapshot for message relevant to master enable"
+    },
+    {
+      "name": "TSCNT",
+      "bit_offset": 16,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp clock node type"
+    },
+    {
+      "name": "TSPFFMAE",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Time stamp PTP frame filtering MAC address enable"
+    }
+  ],
+  "errata_notes": []
+}

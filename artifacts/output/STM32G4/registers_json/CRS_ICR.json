@@ -1,0 +1,43 @@
+{
+  "peripheral": "CRS",
+  "register_name": "CRS_ICR",
+  "long_name": "CRS interrupt flag clear register (CRS_ICR)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "CRS interrupt flag clear register specification",
+  "bit_fields": [
+    {
+      "name": "SYNCOKF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SYNC event OK flag"
+    },
+    {
+      "name": "SYNCWARNF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SYNC warning flag"
+    },
+    {
+      "name": "ERRC",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Error clear flag"
+    },
+    {
+      "name": "ESYNCC",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Expected SYNC clear flag"
+    }
+  ],
+  "errata_notes": []
+}

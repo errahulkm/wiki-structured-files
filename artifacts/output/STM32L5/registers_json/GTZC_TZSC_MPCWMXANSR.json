@@ -1,0 +1,19 @@
+{
+  "peripheral": "GTZC",
+  "register_name": "GTZC_TZSC_MPCWMXANSR",
+  "long_name": "GTZC_TZSC external memory x non-secure watermark register 1 (GTZC_TZSC_MPCWMXANSR)",
+  "address_offset": "0x030",
+  "reset_value": "0x00000000",
+  "description": "GTZC_TZSC external memory x non-secure watermark register 1 specification",
+  "bit_fields": [
+    {
+      "name": "GTZC_TZSC_MPCWMXANSR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "GTZC_TZSC external memory x non-secure watermark register 1 full-width value"
+    }
+  ],
+  "errata_notes": []
+}

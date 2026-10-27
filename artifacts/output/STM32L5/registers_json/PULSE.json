@@ -1,0 +1,19 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "PULSE",
+  "long_name": "MSv66135V1 Analog PHY UCPDRegisters 4b5b encode 4b5b decode Ordered set insert BMC frequency estimate Tx byte register Rx byte register Tx ordered set register Rx ordered set register BMC decode Ordered set detect / filter BMC encodeCRC add CRC check FRS (PULSE)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "MSv66135V1 Analog PHY UCPDRegisters 4b5b encode 4b5b decode Ordered set insert BMC frequency estimate Tx byte register Rx byte register Tx ordered set register Rx ordered set register BMC decode Ordered set detect / filter BMC encodeCRC add CRC check FRS specification",
+  "bit_fields": [
+    {
+      "name": "PULSE",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "MSv66135V1 Analog PHY UCPDRegisters 4b5b encode 4b5b decode Ordered set insert BMC frequency estimate Tx byte register Rx byte register Tx ordered set register Rx ordered set register BMC decode Ordered set detect / filter BMC encodeCRC add CRC check FRS full-width value"
+    }
+  ],
+  "errata_notes": []
+}

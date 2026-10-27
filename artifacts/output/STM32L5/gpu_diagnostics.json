@@ -1,0 +1,15 @@
+{
+  "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.39",
+  "python_version": "3.12.3",
+  "system_architecture": "DEDICATED_NVIDIA",
+  "display_server": "x11",
+  "is_wayland": false,
+  "switcher_tool": "prime-select (nvidia)",
+  "detected_gpus": [
+    "Intel Corporation Raptor Lake-P [Iris Xe Graphics] (rev 04)",
+    "NVIDIA Corporation AD107GLM [RTX 2000 Ada Generation Laptop GPU] (rev a1)"
+  ],
+  "recommended_launch_strategy": "Dedicated NVIDIA Primary Display (prime-select (nvidia))",
+  "chromium_flags_tier1": "--no-sandbox --enable-gpu-rasterization --enable-zero-copy --ignore-gpu-blocklist --enable-webgl --enable-webgl2-compute-context",
+  "chromium_flags_tier2": "--no-sandbox --ignore-gpu-blocklist --enable-webgl --disable-gpu-sandbox --use-gl=angle"
+}

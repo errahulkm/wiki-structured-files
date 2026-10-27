@@ -1,0 +1,19 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_PTPPPSCR",
+  "long_name": "with DMA controller RM0090 1210/1741 RM0090 Rev 22 Ethernet PTP PPS control register (ETH_PTPPPSCR)",
+  "address_offset": "0x072C",
+  "reset_value": "0x00000000",
+  "description": "with DMA controller RM0090 1210/1741 RM0090 Rev 22 Ethernet PTP PPS control register specification",
+  "bit_fields": [
+    {
+      "name": "ETH_PTPPPSCR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "with DMA controller RM0090 1210/1741 RM0090 Rev 22 Ethernet PTP PPS control register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

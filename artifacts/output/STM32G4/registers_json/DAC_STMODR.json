@@ -1,0 +1,43 @@
+{
+  "peripheral": "DAC",
+  "register_name": "DAC_STMODR",
+  "long_name": "DAC sawtooth mode register (DAC_STMODR)",
+  "address_offset": "0x60",
+  "reset_value": "0x00000000",
+  "description": "DAC sawtooth mode register specification",
+  "bit_fields": [
+    {
+      "name": "STRSTTRIGSEL1[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel1 sawtooth reset trigger (STRSTTRIG) selection"
+    },
+    {
+      "name": "STINCTRIGSEL1[3",
+      "bit_offset": 8,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel1 sawtooth increment trigger (STINCTRIG) selection"
+    },
+    {
+      "name": "STRSTTRIGSEL2[3",
+      "bit_offset": 16,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel2 sawtooth reset trigger (STRSTTRIG) selection"
+    },
+    {
+      "name": "STINCTRIGSEL2[3",
+      "bit_offset": 24,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel2 sawtooth increment trigger (STINCTRIG) selection"
+    }
+  ],
+  "errata_notes": []
+}

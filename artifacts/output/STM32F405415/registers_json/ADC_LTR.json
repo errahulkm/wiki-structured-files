@@ -1,0 +1,19 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_LTR",
+  "long_name": "ADC watchdog lower thr eshold register (ADC_LTR)",
+  "address_offset": "0x28",
+  "reset_value": "0x00000000",
+  "description": "ADC watchdog lower thr eshold register specification",
+  "bit_fields": [
+    {
+      "name": "ADC_LTR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "ADC watchdog lower thr eshold register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

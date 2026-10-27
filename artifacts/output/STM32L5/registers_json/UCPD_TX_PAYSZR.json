@@ -1,0 +1,27 @@
+{
+  "peripheral": "UCPD",
+  "register_name": "UCPD_TX_PAYSZR",
+  "long_name": "UCPD Tx payload size register (UCPD_TX_PAYSZR)",
+  "address_offset": "0x020",
+  "reset_value": "0x00000000",
+  "description": "UCPD Tx payload size register specification",
+  "bit_fields": [
+    {
+      "name": "OF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "K-code1) is the first, the bit 19 (bit"
+    },
+    {
+      "name": "TXMSGDISCCF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tx message discard flag (TXMSGDISC) clear"
+    }
+  ],
+  "errata_notes": []
+}

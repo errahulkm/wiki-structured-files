@@ -1,0 +1,59 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_SMISR",
+  "long_name": "RTC secure masked interrupt status register (RTC_SMISR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RTC secure masked interrupt status register specification",
+  "bit_fields": [
+    {
+      "name": "ALRAMF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alarm A interrupt secure masked flag"
+    },
+    {
+      "name": "ALRBMF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alarm B interrupt secure masked flag"
+    },
+    {
+      "name": "WUTMF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wakeup timer interrupt secure masked flag"
+    },
+    {
+      "name": "TSMF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timestamp interrupt secure masked flag"
+    },
+    {
+      "name": "TSOVMF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timestamp overflow interrupt secure masked flag"
+    },
+    {
+      "name": "ITSMF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal timestamp interrupt secure masked flag"
+    }
+  ],
+  "errata_notes": []
+}

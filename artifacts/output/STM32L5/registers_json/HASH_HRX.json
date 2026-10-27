@@ -1,0 +1,19 @@
+{
+  "peripheral": "HASH",
+  "register_name": "HASH_HRX",
+  "long_name": "HASH digest register x (HASH_HRX)",
+  "address_offset": "0x310",
+  "reset_value": "0x00000000",
+  "description": "HASH digest register x specification",
+  "bit_fields": [
+    {
+      "name": "HX[31",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Hash data x"
+    }
+  ],
+  "errata_notes": []
+}

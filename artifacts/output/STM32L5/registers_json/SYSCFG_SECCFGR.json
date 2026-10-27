@@ -1,0 +1,43 @@
+{
+  "peripheral": "SYSCFG",
+  "register_name": "SYSCFG_SECCFGR",
+  "long_name": "SYSCFG secure configurat ion register (SYSCFG_SECCFGR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "SYSCFG secure configurat ion register specification",
+  "bit_fields": [
+    {
+      "name": "SYSCFGSEC",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SYSCFG clock control security"
+    },
+    {
+      "name": "CLASSBSEC",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ClassB security"
+    },
+    {
+      "name": "SRAM2SEC",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SRAM2 security"
+    },
+    {
+      "name": "FPUSEC",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FPU security"
+    }
+  ],
+  "errata_notes": []
+}

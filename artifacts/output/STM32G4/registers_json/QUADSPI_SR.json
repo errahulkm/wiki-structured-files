@@ -1,0 +1,67 @@
+{
+  "peripheral": "QUADSPI",
+  "register_name": "QUADSPI_SR",
+  "long_name": "QUADSPI status register (QUADSPI_SR)",
+  "address_offset": "0x008",
+  "reset_value": "0x00000000",
+  "description": "QUADSPI status register specification",
+  "bit_fields": [
+    {
+      "name": "CKMODE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Mode 0/mode 3"
+    },
+    {
+      "name": "TCF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer complete flag"
+    },
+    {
+      "name": "FTF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FIFO threshold flag"
+    },
+    {
+      "name": "SMF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Status match flag"
+    },
+    {
+      "name": "TOF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timeout flag"
+    },
+    {
+      "name": "BUSY",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Busy"
+    },
+    {
+      "name": "FLEVEL[4",
+      "bit_offset": 8,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: FIFO level"
+    }
+  ],
+  "errata_notes": []
+}

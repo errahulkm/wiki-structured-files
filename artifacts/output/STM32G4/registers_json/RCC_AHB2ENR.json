@@ -1,0 +1,131 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB2ENR",
+  "long_name": "AHB2 periphera l clock enable register (RCC_AHB2ENR)",
+  "address_offset": "0x4C",
+  "reset_value": "0x00000000",
+  "description": "AHB2 periphera l clock enable register specification",
+  "bit_fields": [
+    {
+      "name": "DMA1EN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA1 clock enable"
+    },
+    {
+      "name": "DMA2EN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA2 clock enable"
+    },
+    {
+      "name": "DMAMUX1EN",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMAMUX1 clock enable"
+    },
+    {
+      "name": "CORDICEN",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CORDIC clock enable"
+    },
+    {
+      "name": "FMACEN",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FMAC enable"
+    },
+    {
+      "name": "GPIOFEN",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port F clock enable"
+    },
+    {
+      "name": "GPIOGEN",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port G clock enable"
+    },
+    {
+      "name": "ADC12EN",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC12 clock enable"
+    },
+    {
+      "name": "ADC345EN",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ADC345 clock enable"
+    },
+    {
+      "name": "DAC1EN",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC1 clock enable"
+    },
+    {
+      "name": "DAC2EN",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC2 clock enable"
+    },
+    {
+      "name": "DAC3EN",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC3 clock enable"
+    },
+    {
+      "name": "DAC4EN",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC4 clock enable"
+    },
+    {
+      "name": "AESEN",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "AES clock enable"
+    },
+    {
+      "name": "RNGEN",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RNG enable"
+    }
+  ],
+  "errata_notes": []
+}

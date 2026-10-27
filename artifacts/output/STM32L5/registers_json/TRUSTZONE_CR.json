@@ -1,0 +1,27 @@
+{
+  "peripheral": "TRUSTZONE",
+  "register_name": "TRUSTZONE_CR",
+  "long_name": "Global TrustZone Security Controller Control Register",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Main hardware control and configuration register for Global TrustZone Security Controller.",
+  "bit_fields": [
+    {
+      "name": "EN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable bit for Global TrustZone Security Controller"
+    },
+    {
+      "name": "MODE",
+      "bit_offset": 1,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Operational mode configuration for Global TrustZone Security Controller"
+    }
+  ],
+  "errata_notes": []
+}

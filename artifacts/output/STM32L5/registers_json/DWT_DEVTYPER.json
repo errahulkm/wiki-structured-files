@@ -1,0 +1,51 @@
+{
+  "peripheral": "DWT",
+  "register_name": "DWT_DEVTYPER",
+  "long_name": "0x4770 1A02 DWT device type register (DWT_DEVTYPER)",
+  "address_offset": "0xFCC",
+  "reset_value": "0x00000000",
+  "description": "0x4770 1A02 DWT device type register specification",
+  "bit_fields": [
+    {
+      "name": "ARCHPART[11",
+      "bit_offset": 0,
+      "bit_width": 12,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: architecture part"
+    },
+    {
+      "name": "ARCHVER[3",
+      "bit_offset": 12,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: architecture version"
+    },
+    {
+      "name": "REVISION[3",
+      "bit_offset": 16,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: architecture revision"
+    },
+    {
+      "name": "PRESENT",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DWT_DEVARCH register present"
+    },
+    {
+      "name": "ARCHITECT[10",
+      "bit_offset": 21,
+      "bit_width": 11,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: architect JEP106 code"
+    }
+  ],
+  "errata_notes": []
+}

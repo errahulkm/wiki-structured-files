@@ -1,0 +1,203 @@
+{
+  "peripheral": "USART",
+  "register_name": "USART_CR3",
+  "long_name": "USART control register 3 (USART_CR3)",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "USART control register 3 specification",
+  "bit_fields": [
+    {
+      "name": "SLVEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Synchronous slave mode enable"
+    },
+    {
+      "name": "IREN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IrDA mode enable"
+    },
+    {
+      "name": "IRLP",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IrDA low-power"
+    },
+    {
+      "name": "HDSEL",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Half-duplex selection"
+    },
+    {
+      "name": "NACK",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Smartcard NACK enable"
+    },
+    {
+      "name": "SCEN",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Smartcard mode enable"
+    },
+    {
+      "name": "DMAR",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA enable receiver"
+    },
+    {
+      "name": "DMAT",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA enable transmitter"
+    },
+    {
+      "name": "RTSE",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RTS enable"
+    },
+    {
+      "name": "CTSE",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CTS enable"
+    },
+    {
+      "name": "CTSIE",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "CTS interrupt enable"
+    },
+    {
+      "name": "ONEBIT",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "One sample bit method enable"
+    },
+    {
+      "name": "OVRDIS",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overrun disable"
+    },
+    {
+      "name": "DDRE",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DMA Disable on reception error"
+    },
+    {
+      "name": "DEM",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Driver enable mode"
+    },
+    {
+      "name": "DEP",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Driver enable polarity selection"
+    },
+    {
+      "name": "SCARCNT[2",
+      "bit_offset": 17,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Smartcard auto-retry count"
+    },
+    {
+      "name": "WUS[1",
+      "bit_offset": 20,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Wake-up from low-power mode interrupt flag selection"
+    },
+    {
+      "name": "WUFIE",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wake-up from low-power mode interrupt enable"
+    },
+    {
+      "name": "TXFTIE",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TXFIFO threshold interrupt enable"
+    },
+    {
+      "name": "TCBGTIE",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmission complete before guard time, interrupt enable"
+    },
+    {
+      "name": "RXFTCFG[2",
+      "bit_offset": 25,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Receive FIFO threshold configuration"
+    },
+    {
+      "name": "RXFTIE",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RXFIFO threshold interrupt enable"
+    },
+    {
+      "name": "TXFTCFG[2",
+      "bit_offset": 29,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: TXFIFO threshold configuration"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,59 @@
+{
+  "peripheral": "I2C",
+  "register_name": "I2C_ISR",
+  "long_name": "I2C interrupt and st atus register (I2C_ISR)",
+  "address_offset": "0x18",
+  "reset_value": "0x00000000",
+  "description": "I2C interrupt and st atus register specification",
+  "bit_fields": [
+    {
+      "name": "TIMEOUTA[11",
+      "bit_offset": 0,
+      "bit_width": 12,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Bus timeout A"
+    },
+    {
+      "name": "TIDLE",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Idle clock timeout detection"
+    },
+    {
+      "name": "ALERT",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SMBus alert"
+    },
+    {
+      "name": "TIMOUTEN",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock timeout enable"
+    },
+    {
+      "name": "TIMEOUTB[11",
+      "bit_offset": 16,
+      "bit_width": 12,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Bus timeout B"
+    },
+    {
+      "name": "TEXTEN",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Extended clock timeout enable"
+    }
+  ],
+  "errata_notes": []
+}

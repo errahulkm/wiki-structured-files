@@ -1,0 +1,51 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB2LPENR",
+  "long_name": "RCC AHB2 peripheral clock enable in low power mode register (RCC_AHB2LPENR)",
+  "address_offset": "0x54",
+  "reset_value": "0x00000000",
+  "description": "RCC AHB2 peripheral clock enable in low power mode register specification",
+  "bit_fields": [
+    {
+      "name": "DCMILPEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Camera interface enable during Sleep mode"
+    },
+    {
+      "name": "CRYPLPEN",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Cryptography modules clock enable during Sleep mode"
+    },
+    {
+      "name": "HASHLPEN",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Hash modules clock enable during Sleep mode"
+    },
+    {
+      "name": "RNGLPEN",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Random number generator clock enable during Sleep mode"
+    },
+    {
+      "name": "OTGFSLPEN",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USB OTG FS clock enable during Sleep mode"
+    }
+  ],
+  "errata_notes": []
+}

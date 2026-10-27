@@ -1,0 +1,19 @@
+{
+  "peripheral": "OTG_HS",
+  "register_name": "OTG_HS_DIEPEMPMSK",
+  "long_name": "USB On-The-Go High-Speed (OTG_HS) OTG_HS_DIEPEMPMSK Register",
+  "address_offset": "0x834",
+  "reset_value": "0x00000000",
+  "description": "USB On-The-Go High-Speed (OTG_HS) OTG_HS_DIEPEMPMSK hardware register",
+  "bit_fields": [
+    {
+      "name": "OTG_HS_DIEPEMPMSK",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "OTG_HS_DIEPEMPMSK register value"
+    }
+  ],
+  "errata_notes": []
+}

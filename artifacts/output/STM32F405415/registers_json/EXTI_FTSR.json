@@ -1,0 +1,19 @@
+{
+  "peripheral": "EXTI",
+  "register_name": "EXTI_FTSR",
+  "long_name": "Falling trigger select ion register (EXTI_FTSR)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "Falling trigger select ion register specification",
+  "bit_fields": [
+    {
+      "name": "TRX",
+      "bit_offset": 0,
+      "bit_width": 23,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Rising trigger event configuration bit of line x"
+    }
+  ],
+  "errata_notes": []
+}

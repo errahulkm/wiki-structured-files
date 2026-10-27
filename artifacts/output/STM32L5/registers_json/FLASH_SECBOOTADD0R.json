@@ -1,0 +1,19 @@
+{
+  "peripheral": "FLASH",
+  "register_name": "FLASH_SECBOOTADD0R",
+  "long_name": "Flash secure boot address 0 register (FLASH_SECBOOTADD0R)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Flash secure boot address 0 register specification",
+  "bit_fields": [
+    {
+      "name": "FLASH_SECBOOTADD0R",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "Flash secure boot address 0 register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

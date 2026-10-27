@@ -1,0 +1,43 @@
+{
+  "peripheral": "SYSCFG",
+  "register_name": "SYSCFG_CFGR2",
+  "long_name": "SYSCFG configuration register 2 (SYSCFG_CFGR2)",
+  "address_offset": "0x1C",
+  "reset_value": "0x00000000",
+  "description": "SYSCFG configuration register 2 specification",
+  "bit_fields": [
+    {
+      "name": "SPL",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SRAM1 and CCM SRAM parity lock bit"
+    },
+    {
+      "name": "PVDL",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PVD lock enable bit"
+    },
+    {
+      "name": "ECCL",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ECC Lock"
+    },
+    {
+      "name": "SPF",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SRAM1 and CCM SRAM parity error flag"
+    }
+  ],
+  "errata_notes": []
+}

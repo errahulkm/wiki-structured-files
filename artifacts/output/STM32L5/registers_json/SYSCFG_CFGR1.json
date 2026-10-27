@@ -1,0 +1,91 @@
+{
+  "peripheral": "SYSCFG",
+  "register_name": "SYSCFG_CFGR1",
+  "long_name": "SYSCFG configuration register 1 (SYSCFG_CFGR1)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "SYSCFG configuration register 1 specification",
+  "bit_fields": [
+    {
+      "name": "BOOSTEN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I/O analog switch voltage booster enable."
+    },
+    {
+      "name": "ANASWVDD",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "GPIO analog switch control voltage selection"
+    },
+    {
+      "name": "I2C_PB6_FMP",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "12C1 fast-mode plus driving capability activation on PB6"
+    },
+    {
+      "name": "I2C_PB7_FMP",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "12C1 fast-mode plus driving capability activation on PB7"
+    },
+    {
+      "name": "I2C_PB8_FMP",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "12C1 fast-mode plus driving capability activation on PB8"
+    },
+    {
+      "name": "I2C_PB9_FMP",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "12C1 fast-mode plus driving capability activation on PB9"
+    },
+    {
+      "name": "I2C1_FMP",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "12C1 fast-mode plus driving capability activation"
+    },
+    {
+      "name": "I2C2_FMP",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "12C2 fast-mode plus driving capability activation"
+    },
+    {
+      "name": "I2C3_FMP",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "12C3 fast-mode plus driving capability activation"
+    },
+    {
+      "name": "I2C4_FMP",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C4 fast-mode plus (Fm+) driving capability activation."
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,59 @@
+{
+  "peripheral": "FMC",
+  "register_name": "FMC_SR",
+  "long_name": "562 FIFO status and interrupt register (FMC_SR)",
+  "address_offset": "0x84",
+  "reset_value": "0x00000000",
+  "description": "562 FIFO status and interrupt register specification",
+  "bit_fields": [
+    {
+      "name": "ILS",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Interrupt high-level status"
+    },
+    {
+      "name": "IFS",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Interrupt falling edge status"
+    },
+    {
+      "name": "IREN",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Interrupt rising edge detection enable bit"
+    },
+    {
+      "name": "ILEN",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Interrupt high-level detection enable bit"
+    },
+    {
+      "name": "IFEN",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Interrupt falling edge detection enable bit"
+    },
+    {
+      "name": "FEMPT",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FIFO empty"
+    }
+  ],
+  "errata_notes": []
+}

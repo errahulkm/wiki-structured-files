@@ -1,0 +1,59 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_DCKCFGR",
+  "long_name": "RCC Dedicated Clock Confi guration Register (RCC_DCKCFGR)",
+  "address_offset": "0x8C",
+  "reset_value": "0x00000000",
+  "description": "RCC Dedicated Clock Confi guration Register specification",
+  "bit_fields": [
+    {
+      "name": "PLLI2SDIVQ",
+      "bit_offset": 0,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLI2S division factor for SAI1 clock"
+    },
+    {
+      "name": "PLLSAIN",
+      "bit_offset": 6,
+      "bit_width": 9,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLSAI division factor for VCO"
+    },
+    {
+      "name": "PLLSAIDIVR",
+      "bit_offset": 16,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "division factor for LCD_CLK"
+    },
+    {
+      "name": "SAI1ASRC",
+      "bit_offset": 20,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SAI1-A clock source selection"
+    },
+    {
+      "name": "SAI1BSRC",
+      "bit_offset": 22,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SAI1-B clock source selection"
+    },
+    {
+      "name": "TIMPRE",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timers clocks prescalers selection"
+    }
+  ],
+  "errata_notes": []
+}

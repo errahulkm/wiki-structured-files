@@ -1,0 +1,43 @@
+{
+  "peripheral": "FMC",
+  "register_name": "FMC_PMEM",
+  "long_name": "RM0440 558/2140 RM0440 Rev 9 Common memory space timing register (FMC_PMEM)",
+  "address_offset": "0x88",
+  "reset_value": "0x00000000",
+  "description": "RM0440 558/2140 RM0440 Rev 9 Common memory space timing register specification",
+  "bit_fields": [
+    {
+      "name": "IRS",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Interrupt rising edge status"
+    },
+    {
+      "name": "MEMWAIT[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Common memory wait time"
+    },
+    {
+      "name": "MEMHOLD[7",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Common memory hold time"
+    },
+    {
+      "name": "MEMHIZ[7",
+      "bit_offset": 24,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Common memory x data bus Hi-Z time"
+    }
+  ],
+  "errata_notes": []
+}

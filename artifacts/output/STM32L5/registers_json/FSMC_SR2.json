@@ -1,0 +1,27 @@
+{
+  "peripheral": "FSMC",
+  "register_name": "FSMC_SR2",
+  "long_name": "FSMC FIFO Status and Interrupt Register 2",
+  "address_offset": "0x64",
+  "reset_value": "0x00000040",
+  "description": "NAND Flash status register 2",
+  "bit_fields": [
+    {
+      "name": "IRS",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Interrupt rising edge status"
+    },
+    {
+      "name": "FEMPT",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R",
+      "reset_value": "1",
+      "description": "FIFO empty flag"
+    }
+  ],
+  "errata_notes": []
+}

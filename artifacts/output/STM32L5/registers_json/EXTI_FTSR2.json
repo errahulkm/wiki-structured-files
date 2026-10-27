@@ -1,0 +1,19 @@
+{
+  "peripheral": "EXTI",
+  "register_name": "EXTI_FTSR2",
+  "long_name": "EXTI falling trigger selec tion register (EXTI_FTSR2)",
+  "address_offset": "0x024",
+  "reset_value": "0x00000000",
+  "description": "EXTI falling trigger selec tion register specification",
+  "bit_fields": [
+    {
+      "name": "RT[38",
+      "bit_offset": 3,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "35]: Rising trigger event configuration bit of configurable event input x(1) (where x = 35"
+    }
+  ],
+  "errata_notes": []
+}

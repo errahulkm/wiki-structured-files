@@ -1,0 +1,35 @@
+{
+  "peripheral": "FDCAN",
+  "register_name": "FDCAN_TXBC",
+  "long_name": "FDCAN Tx buffer confi guration register (FDCAN_TXBC)",
+  "address_offset": "0x00C0",
+  "reset_value": "0x00000000",
+  "description": "FDCAN Tx buffer confi guration register specification",
+  "bit_fields": [
+    {
+      "name": "F1FL[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Rx FIFO 1 fill level"
+    },
+    {
+      "name": "F1GI[1",
+      "bit_offset": 8,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Rx FIFO 1 get index"
+    },
+    {
+      "name": "TFQM",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tx FIFO/queue mode"
+    }
+  ],
+  "errata_notes": []
+}

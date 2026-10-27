@@ -1,0 +1,27 @@
+{
+  "peripheral": "GTZC",
+  "register_name": "GTZC_TZSC_MPCWMXBNSR",
+  "long_name": "GTZC_TZSC external memory x non-secure watermark register 2 (GTZC_TZSC_MPCWMXBNSR)",
+  "address_offset": "0x034",
+  "reset_value": "0x00000000",
+  "description": "GTZC_TZSC external memory x non-secure watermark register 2 specification",
+  "bit_fields": [
+    {
+      "name": "NSWM1STRT[10",
+      "bit_offset": 0,
+      "bit_width": 11,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: offset address for the first non-secure area (multiple of 128 Kbytes)"
+    },
+    {
+      "name": "NSWM1LGTH[11",
+      "bit_offset": 16,
+      "bit_width": 12,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: length of the first non-secure area (multiple of 128 Kbytes)"
+    }
+  ],
+  "errata_notes": []
+}

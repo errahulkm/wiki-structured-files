@@ -1,0 +1,19 @@
+{
+  "peripheral": "QUADSPI",
+  "register_name": "QUADSPI_LPTR",
+  "long_name": "QUADSPI low-power time out register (QUADSPI_LPTR)",
+  "address_offset": "0x030",
+  "reset_value": "0x00000000",
+  "description": "QUADSPI low-power time out register specification",
+  "bit_fields": [
+    {
+      "name": "TIMEOUT[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Timeout period"
+    }
+  ],
+  "errata_notes": []
+}

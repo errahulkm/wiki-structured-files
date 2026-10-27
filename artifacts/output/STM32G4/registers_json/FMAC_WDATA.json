@@ -1,0 +1,27 @@
+{
+  "peripheral": "FMAC",
+  "register_name": "FMAC_WDATA",
+  "long_name": "FMAC write data register (FMAC_WDATA)",
+  "address_offset": "0x18",
+  "reset_value": "0x00000000",
+  "description": "FMAC write data register specification",
+  "bit_fields": [
+    {
+      "name": "YEMPTY",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Y buffer empty flag"
+    },
+    {
+      "name": "X1FULL",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "X1 buffer full flag"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "CTI",
+  "register_name": "CTI_INTACKR",
+  "long_name": "0x0000 0000 CTI trigger acknowledge register (CTI_INTACKR)",
+  "address_offset": "0x010",
+  "reset_value": "0x00000000",
+  "description": "0x0000 0000 CTI trigger acknowledge register specification",
+  "bit_fields": [
+    {
+      "name": "GLBEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "global CTI enable"
+    }
+  ],
+  "errata_notes": []
+}

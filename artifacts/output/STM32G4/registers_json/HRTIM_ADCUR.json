@@ -1,0 +1,59 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_ADCUR",
+  "long_name": "HRTIM ADC trigger upda te register (HRTIM_ADCUR)",
+  "address_offset": "0x3FC",
+  "reset_value": "0x00000000",
+  "description": "HRTIM ADC trigger upda te register specification",
+  "bit_fields": [
+    {
+      "name": "AD5USRC[2",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC trigger 5 update source"
+    },
+    {
+      "name": "AD6USRC[2",
+      "bit_offset": 4,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC trigger 6 update source"
+    },
+    {
+      "name": "AD7USRC[2",
+      "bit_offset": 8,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC trigger 7 update source"
+    },
+    {
+      "name": "AD8USRC[2",
+      "bit_offset": 12,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC trigger 8 update source"
+    },
+    {
+      "name": "AD9USRC[2",
+      "bit_offset": 16,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC trigger 9 update source"
+    },
+    {
+      "name": "AD10USRC[2",
+      "bit_offset": 20,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADC trigger 10 update source"
+    }
+  ],
+  "errata_notes": []
+}

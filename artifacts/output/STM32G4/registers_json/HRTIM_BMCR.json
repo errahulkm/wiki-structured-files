@@ -1,0 +1,115 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_BMCR",
+  "long_name": "HRTIM burst mode co ntrol register (HRTIM_BMCR)",
+  "address_offset": "0x3A0",
+  "reset_value": "0x00000000",
+  "description": "HRTIM burst mode co ntrol register specification",
+  "bit_fields": [
+    {
+      "name": "BME",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Burst mode enable"
+    },
+    {
+      "name": "BMOM",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Burst mode operating mode"
+    },
+    {
+      "name": "BMCLK[3",
+      "bit_offset": 2,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Burst mode clock source"
+    },
+    {
+      "name": "BMPRSC[3",
+      "bit_offset": 6,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Burst mode prescaler"
+    },
+    {
+      "name": "BMPREN",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Burst mode preload enable"
+    },
+    {
+      "name": "MTBM",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master timer burst mode"
+    },
+    {
+      "name": "TABM",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer A burst mode"
+    },
+    {
+      "name": "TBBM",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer B burst mode"
+    },
+    {
+      "name": "TCBM",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer C burst mode"
+    },
+    {
+      "name": "TDBM",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer D burst mode"
+    },
+    {
+      "name": "TEBM",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer E burst mode"
+    },
+    {
+      "name": "TFBM",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer F burst mode"
+    },
+    {
+      "name": "BMSTAT",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Burst mode status"
+    }
+  ],
+  "errata_notes": []
+}

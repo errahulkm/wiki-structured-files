@@ -1,0 +1,35 @@
+{
+  "peripheral": "DMA2D",
+  "register_name": "DMA2D_FGCMAR",
+  "long_name": "DMA2D foreground CLUT memory address register (DMA2D_FGCMAR)",
+  "address_offset": "0x002C",
+  "reset_value": "0x00000000",
+  "description": "DMA2D foreground CLUT memory address register specification",
+  "bit_fields": [
+    {
+      "name": "BLUE[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Blue Value"
+    },
+    {
+      "name": "GREEN[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Green Value"
+    },
+    {
+      "name": "RED[7",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Red Value"
+    }
+  ],
+  "errata_notes": []
+}

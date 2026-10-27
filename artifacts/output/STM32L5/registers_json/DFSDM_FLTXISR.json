@@ -1,0 +1,83 @@
+{
+  "peripheral": "DFSDM",
+  "register_name": "DFSDM_FLTXISR",
+  "long_name": "DFSDM filter x interrupt and status register (DFSDM_FLTXISR)",
+  "address_offset": "0x108",
+  "reset_value": "0x00000000",
+  "description": "DFSDM filter x interrupt and status register specification",
+  "bit_fields": [
+    {
+      "name": "JEOCIE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Injected end of conversion interrupt enable"
+    },
+    {
+      "name": "REOCIE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Regular end of conversion interrupt enable"
+    },
+    {
+      "name": "JOVRIE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Injected data overrun interrupt enable"
+    },
+    {
+      "name": "ROVRF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Regular conversion overrun flag"
+    },
+    {
+      "name": "AWDF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog"
+    },
+    {
+      "name": "JCIP",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Injected conversion in progress status"
+    },
+    {
+      "name": "RCIP",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Regular conversion in progress status"
+    },
+    {
+      "name": "CKABF[3",
+      "bit_offset": 16,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Clock absence flag"
+    },
+    {
+      "name": "SCDF[3",
+      "bit_offset": 24,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: short-circuit detector flag"
+    }
+  ],
+  "errata_notes": []
+}

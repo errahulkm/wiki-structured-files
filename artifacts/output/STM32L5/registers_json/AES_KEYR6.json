@@ -1,0 +1,19 @@
+{
+  "peripheral": "AES",
+  "register_name": "AES_KEYR6",
+  "long_name": "AES key regi ster 6 (AES_KEYR6)",
+  "address_offset": "0x38",
+  "reset_value": "0x00000000",
+  "description": "AES key regi ster 6 specification",
+  "bit_fields": [
+    {
+      "name": "IVI[127",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "96]: Initialization vector input, bits [127:96]"
+    }
+  ],
+  "errata_notes": []
+}

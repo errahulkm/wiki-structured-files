@@ -1,0 +1,27 @@
+{
+  "peripheral": "MEMORY_MAP",
+  "register_name": "MEMORY_MAP_CR",
+  "long_name": "Master System Memory Map Control Register",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Main hardware control and configuration register for Master System Memory Map.",
+  "bit_fields": [
+    {
+      "name": "EN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable bit for Master System Memory Map"
+    },
+    {
+      "name": "MODE",
+      "bit_offset": 1,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Operational mode configuration for Master System Memory Map"
+    }
+  ],
+  "errata_notes": []
+}

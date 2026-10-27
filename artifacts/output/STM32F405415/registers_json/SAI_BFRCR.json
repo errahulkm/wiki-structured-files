@@ -1,0 +1,51 @@
+{
+  "peripheral": "SAI",
+  "register_name": "SAI_BFRCR",
+  "long_name": "SAI x frame configuration regist er (SAI_BFRCR)",
+  "address_offset": "0x02C",
+  "reset_value": "0x00000000",
+  "description": "SAI x frame configuration regist er specification",
+  "bit_fields": [
+    {
+      "name": "FRL[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Frame length. These bits are set and cleared by software."
+    },
+    {
+      "name": "FSALL[6",
+      "bit_offset": 8,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Frame synchronization active level length. These bits are set and cleared by software"
+    },
+    {
+      "name": "FSDEF",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Frame synchronization definition. This bit is set and cleared by software."
+    },
+    {
+      "name": "FSPOL",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Frame synchronization polarity. This bit is set and cleared by software"
+    },
+    {
+      "name": "FSOFF",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Frame synchronization offset. This bit is set and cleared by software."
+    }
+  ],
+  "errata_notes": []
+}

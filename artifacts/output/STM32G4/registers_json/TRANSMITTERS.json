@@ -1,0 +1,83 @@
+{
+  "peripheral": "PERIPH",
+  "register_name": "TRANSMITTERS",
+  "long_name": "Transmit data register empty (TRANSMITTERS)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Transmit data register empty specification",
+  "bit_fields": [
+    {
+      "name": "ADDRCF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Address matched flag clear"
+    },
+    {
+      "name": "NACKCF",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Not acknowledge flag clear"
+    },
+    {
+      "name": "STOPCF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "STOP detection flag clear"
+    },
+    {
+      "name": "BERRCF",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Bus error flag clear"
+    },
+    {
+      "name": "ARLOCF",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Arbitration lost flag clear"
+    },
+    {
+      "name": "OVRCF",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overrun/underrun flag clear"
+    },
+    {
+      "name": "PECCF",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PEC error flag clear"
+    },
+    {
+      "name": "TIMOUTCF",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timeout detection flag clear"
+    },
+    {
+      "name": "ALERTCF",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alert flag clear"
+    }
+  ],
+  "errata_notes": []
+}

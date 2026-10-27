@@ -1,0 +1,43 @@
+{
+  "peripheral": "DAC",
+  "register_name": "DAC_STR2",
+  "long_name": "DAC channel2 sawt ooth register (DAC_STR2)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "DAC channel2 sawt ooth register specification",
+  "bit_fields": [
+    {
+      "name": "STRSTDATA1[11",
+      "bit_offset": 0,
+      "bit_width": 12,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel1 sawtooth reset value"
+    },
+    {
+      "name": "STDIR1",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel1 sawtooth direction setting"
+    },
+    {
+      "name": "STEXT2",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel2 sawtooth extended setting"
+    },
+    {
+      "name": "STINCDATA1[15",
+      "bit_offset": 16,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel1 sawtooth increment value (12.4 bit format)"
+    }
+  ],
+  "errata_notes": []
+}

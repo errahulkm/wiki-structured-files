@@ -1,0 +1,59 @@
+{
+  "peripheral": "OPAMP1",
+  "register_name": "OPAMP1_CSR",
+  "long_name": "OPAMP1 control/status register (OPAMP1_CSR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "OPAMP1 control/status register specification",
+  "bit_fields": [
+    {
+      "name": "VP_SEL",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Non inverted input selection"
+    },
+    {
+      "name": "CALON",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Calibration mode enabled"
+    },
+    {
+      "name": "CALSEL",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Calibration selection"
+    },
+    {
+      "name": "USERTRIM",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "allows to switch from ‘factory’ AOP offset trimmed values to AOP offset ‘user’"
+    },
+    {
+      "name": "CALOUT",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Operational amplifier calibration output"
+    },
+    {
+      "name": "OPA_RANGE",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Operational amplifier power supply range for stability"
+    }
+  ],
+  "errata_notes": []
+}

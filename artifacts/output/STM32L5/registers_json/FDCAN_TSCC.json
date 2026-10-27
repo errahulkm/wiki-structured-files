@@ -1,0 +1,19 @@
+{
+  "peripheral": "FDCAN",
+  "register_name": "FDCAN_TSCC",
+  "long_name": "FDCAN timestamp counter c onfiguration register (FDCAN_TSCC)",
+  "address_offset": "0x0020",
+  "reset_value": "0x00000000",
+  "description": "FDCAN timestamp counter c onfiguration register specification",
+  "bit_fields": [
+    {
+      "name": "FDCAN_TSCC",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "FDCAN timestamp counter c onfiguration register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

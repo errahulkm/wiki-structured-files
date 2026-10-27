@@ -1,0 +1,19 @@
+{
+  "peripheral": "OCTOSPI",
+  "register_name": "OCTOSPI_PSMAR",
+  "long_name": "OCTOSPI polling status match register (OCTOSPI_PSMAR)",
+  "address_offset": "0x0088",
+  "reset_value": "0x00000000",
+  "description": "OCTOSPI polling status match register specification",
+  "bit_fields": [
+    {
+      "name": "OCTOSPI_PSMAR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "OCTOSPI polling status match register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

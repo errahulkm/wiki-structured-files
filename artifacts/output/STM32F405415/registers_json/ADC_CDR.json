@@ -1,0 +1,27 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_CDR",
+  "long_name": "ADC common regular data register for dual and triple modes (ADC_CDR)",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "ADC common regular data register for dual and triple modes specification",
+  "bit_fields": [
+    {
+      "name": "DATA1[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: 1st data item of a pair of regular conversions"
+    },
+    {
+      "name": "DATA2[15",
+      "bit_offset": 16,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: 2nd data item of a pair of regular conversions"
+    }
+  ],
+  "errata_notes": []
+}

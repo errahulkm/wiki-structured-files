@@ -1,0 +1,67 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_SMCR",
+  "long_name": "RTC secure mode cont rol register (RTC_SMCR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RTC secure mode cont rol register specification",
+  "bit_fields": [
+    {
+      "name": "ALRAPRIV",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alarm A privilege protection"
+    },
+    {
+      "name": "ALRBPRIV",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alarm B privilege protection"
+    },
+    {
+      "name": "WUTPRIV",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wakeup timer privilege protection"
+    },
+    {
+      "name": "TSPRIV",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timestamp privilege protection"
+    },
+    {
+      "name": "CALDPROT",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Shift register, daylight saving, calibration and reference clock protection"
+    },
+    {
+      "name": "INITDPROT",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Initialization protection"
+    },
+    {
+      "name": "DECPROT",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RTC global protection"
+    }
+  ],
+  "errata_notes": []
+}

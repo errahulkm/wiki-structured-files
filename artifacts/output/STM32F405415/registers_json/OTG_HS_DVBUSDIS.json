@@ -1,0 +1,27 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_DVBUSDIS",
+  "long_name": "OTG_HS device VBUS discharge time register (OTG_HS_DVBUSDIS)",
+  "address_offset": "0x0828",
+  "reset_value": "0x00000000",
+  "description": "OTG_HS device VBUS discharge time register specification",
+  "bit_fields": [
+    {
+      "name": "IEPINT",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IN endpoint interrupt bits"
+    },
+    {
+      "name": "OEPINT",
+      "bit_offset": 16,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OUT endpoint interrupt bits"
+    }
+  ],
+  "errata_notes": []
+}

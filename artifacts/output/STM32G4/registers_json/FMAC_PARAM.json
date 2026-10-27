@@ -1,0 +1,51 @@
+{
+  "peripheral": "FMAC",
+  "register_name": "FMAC_PARAM",
+  "long_name": "FMAC parameter register (FMAC_PARAM)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "FMAC parameter register specification",
+  "bit_fields": [
+    {
+      "name": "P[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Input parameter P."
+    },
+    {
+      "name": "Q[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Input parameter Q."
+    },
+    {
+      "name": "R[7",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Input parameter R."
+    },
+    {
+      "name": "FUNC[6",
+      "bit_offset": 24,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Function"
+    },
+    {
+      "name": "START",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable execution"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,35 @@
+{
+  "peripheral": "PWR",
+  "register_name": "PWR_PDCRA",
+  "long_name": "Power Port A pull-down co ntrol register (PWR_PDCRA)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "Power Port A pull-down co ntrol register specification",
+  "bit_fields": [
+    {
+      "name": "CWUF1",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear wakeup flag 1"
+    },
+    {
+      "name": "CWUF2",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear wakeup flag 2"
+    },
+    {
+      "name": "CWUF3",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clear wakeup flag 3"
+    }
+  ],
+  "errata_notes": []
+}

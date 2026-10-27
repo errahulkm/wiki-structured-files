@@ -1,0 +1,19 @@
+{
+  "peripheral": "HASH",
+  "register_name": "HASH_HR6",
+  "long_name": "Hash Processor (HASH) HASH_HR6 Register",
+  "address_offset": "0x328",
+  "reset_value": "0x00000000",
+  "description": "Hash Processor (HASH) HASH_HR6 hardware register",
+  "bit_fields": [
+    {
+      "name": "HX[31",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Hash data x"
+    }
+  ],
+  "errata_notes": []
+}

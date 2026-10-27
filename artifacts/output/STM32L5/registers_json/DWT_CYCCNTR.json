@@ -1,0 +1,91 @@
+{
+  "peripheral": "DWT",
+  "register_name": "DWT_CYCCNTR",
+  "long_name": "RM0438 2046/2187 RM0438 Rev 8 DWT cycle count register (DWT_CYCCNTR)",
+  "address_offset": "0x004",
+  "reset_value": "0x00000000",
+  "description": "RM0438 2046/2187 RM0438 Rev 8 DWT cycle count register specification",
+  "bit_fields": [
+    {
+      "name": "CYCCNTENA",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "enable CYCCNT counter"
+    },
+    {
+      "name": "POSTRESET[3",
+      "bit_offset": 1,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: reload value of the POSTCNT counter"
+    },
+    {
+      "name": "POSTINIT[3",
+      "bit_offset": 5,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: initial value of the POSTCNT counter"
+    },
+    {
+      "name": "CYCTAP",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Selects the position of the POSTCNT tap on the CYCCNT counter."
+    },
+    {
+      "name": "SYNCTAP[1",
+      "bit_offset": 10,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: position of the synchronization packet counter tap on the CYCCNT counter"
+    },
+    {
+      "name": "PCSAMPLENA",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "enable for POSTCNT counter to be used as a timer for periodic PC sample"
+    },
+    {
+      "name": "EXCTRCENA",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "enable for exception trace generation"
+    },
+    {
+      "name": "CPIEVTENA",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "enable for CPI counter overflow event generation"
+    },
+    {
+      "name": "EXCEVTENA",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "enable for exception overhead counter overflow event generation"
+    },
+    {
+      "name": "SLEEPEVTENA",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "enable for sleep counter overflow event generation"
+    }
+  ],
+  "errata_notes": []
+}

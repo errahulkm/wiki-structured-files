@@ -1,0 +1,27 @@
+{
+  "peripheral": "CAN",
+  "register_name": "CAN_FS1R",
+  "long_name": "CAN filter scale register (CAN_FS1R)",
+  "address_offset": "0x20C",
+  "reset_value": "0x00000000",
+  "description": "CAN filter scale register specification",
+  "bit_fields": [
+    {
+      "name": "FINIT",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Filter init mode"
+    },
+    {
+      "name": "CAN2SB[5",
+      "bit_offset": 8,
+      "bit_width": 6,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: CAN2 start bank"
+    }
+  ],
+  "errata_notes": []
+}

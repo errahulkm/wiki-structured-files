@@ -1,0 +1,43 @@
+{
+  "peripheral": "RNG",
+  "register_name": "RNG_SR",
+  "long_name": "RNG status register (RNG_SR)",
+  "address_offset": "0x004",
+  "reset_value": "0x00000000",
+  "description": "RNG status register specification",
+  "bit_fields": [
+    {
+      "name": "RNGEN",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "True random number generator enable"
+    },
+    {
+      "name": "IE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Interrupt enable"
+    },
+    {
+      "name": "CED",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock error detection"
+    },
+    {
+      "name": "SEIS",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Seed error interrupt status"
+    }
+  ],
+  "errata_notes": []
+}

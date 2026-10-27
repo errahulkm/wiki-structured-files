@@ -1,0 +1,107 @@
+{
+  "peripheral": "TIMX",
+  "register_name": "TIMX_CCMR1",
+  "long_name": "TIM1 and TIM8 capture/compa re mode register 1 (TIMX_CCMR1)",
+  "address_offset": "0x18",
+  "reset_value": "0x00000000",
+  "description": "TIM1 and TIM8 capture/compa re mode register 1 specification",
+  "bit_fields": [
+    {
+      "name": "UG",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Update generation"
+    },
+    {
+      "name": "CC1G",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 1 generation"
+    },
+    {
+      "name": "CC2G",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 2 generation"
+    },
+    {
+      "name": "CC3G",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 3 generation"
+    },
+    {
+      "name": "CC4G",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare 4 generation"
+    },
+    {
+      "name": "COMG",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/Compare control update generation"
+    },
+    {
+      "name": "OC1CE",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output compare 1 clear enable"
+    },
+    {
+      "name": "CC2S[1",
+      "bit_offset": 8,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Capture/Compare 2 selection"
+    },
+    {
+      "name": "OC2FE",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output compare 2 fast enable"
+    },
+    {
+      "name": "OC2PE",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output compare 2 preload enable"
+    },
+    {
+      "name": "OC2M[2",
+      "bit_offset": 12,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Output compare 2 mode"
+    },
+    {
+      "name": "OC2CE",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Output compare 2 clear enable"
+    }
+  ],
+  "errata_notes": []
+}

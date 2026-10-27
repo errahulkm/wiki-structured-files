@@ -1,0 +1,51 @@
+{
+  "peripheral": "DP",
+  "register_name": "DP_DLCR",
+  "long_name": "RM0438 2018/2187 RM0438 Rev 8 DP data link control register (DP_DLCR)",
+  "address_offset": "0x4",
+  "reset_value": "0x00000000",
+  "description": "RM0438 2018/2187 RM0438 Rev 8 DP data link control register specification",
+  "bit_fields": [
+    {
+      "name": "ORUNDETECT",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "overrun detection mode enable."
+    },
+    {
+      "name": "STICKYORUN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "overrun (read-only in SW-DP, read/write in JTAG-DP)."
+    },
+    {
+      "name": "STICKYERR",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "transaction error (read-only in SW-DP, read/write in JTAG-DP)"
+    },
+    {
+      "name": "WIREMODE[1",
+      "bit_offset": 6,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: SW-DP mode"
+    },
+    {
+      "name": "TURNROUND[1",
+      "bit_offset": 8,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: tristate period for SWDIO"
+    }
+  ],
+  "errata_notes": []
+}

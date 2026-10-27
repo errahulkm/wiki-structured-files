@@ -1,0 +1,99 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_TAFCR",
+  "long_name": "RTC tamper and alternat e function configuration register (RTC_TAFCR)",
+  "address_offset": "0x40",
+  "reset_value": "0x00000000",
+  "description": "RTC tamper and alternat e function configuration register specification",
+  "bit_fields": [
+    {
+      "name": "TAMPIE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper interrupt enable"
+    },
+    {
+      "name": "TAMP2E",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper 2 detection enable"
+    },
+    {
+      "name": "TAMP2TRG",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Active level for tamper 2"
+    },
+    {
+      "name": "TAMPTS",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Activate timestamp on tamper detection event"
+    },
+    {
+      "name": "TAMPFREQ[2",
+      "bit_offset": 8,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Tamper sampling frequency"
+    },
+    {
+      "name": "TAMPFLT[1",
+      "bit_offset": 11,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Tamper filter count"
+    },
+    {
+      "name": "TAMPPRCH[1",
+      "bit_offset": 13,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Tamper precharge duration"
+    },
+    {
+      "name": "TAMPPUDIS",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMPER pull-up disable"
+    },
+    {
+      "name": "TAMP1INSEL",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMPER1 mapping"
+    },
+    {
+      "name": "TSINSEL",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIMESTAMP mapping"
+    },
+    {
+      "name": "ALARMOUTTYPE",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RTC_ALARM output type"
+    }
+  ],
+  "errata_notes": []
+}

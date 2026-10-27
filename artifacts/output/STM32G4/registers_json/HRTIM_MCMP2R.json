@@ -1,0 +1,19 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_MCMP2R",
+  "long_name": "HRTIM master timer comp are 2 register (HRTIM_MCMP2R)",
+  "address_offset": "0x024",
+  "reset_value": "0x00000000",
+  "description": "HRTIM master timer comp are 2 register specification",
+  "bit_fields": [
+    {
+      "name": "HRTIM_MCMP2R",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "HRTIM master timer comp are 2 register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

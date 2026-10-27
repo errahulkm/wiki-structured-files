@@ -1,0 +1,19 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_HS_DOEPMSK",
+  "long_name": "1531 OTG_HS device OUT endpoint common interrupt mask register (OTG_HS_DOEPMSK)",
+  "address_offset": "0x814",
+  "reset_value": "0x00000000",
+  "description": "1531 OTG_HS device OUT endpoint common interrupt mask register specification",
+  "bit_fields": [
+    {
+      "name": "OTG_HS_DOEPMSK",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "1531 OTG_HS device OUT endpoint common interrupt mask register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_JDR4",
+  "long_name": "Analog-to-Digital Converter (ADC) ADC_JDR4 Register",
+  "address_offset": "0x8C",
+  "reset_value": "0x00000000",
+  "description": "Analog-to-Digital Converter (ADC) ADC_JDR4 hardware register",
+  "bit_fields": [
+    {
+      "name": "ADC_JDR4",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "ADC_JDR4 register value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,67 @@
+{
+  "peripheral": "TAMP",
+  "register_name": "TAMP_SR",
+  "long_name": "TAMP status register (TAMP_SR)",
+  "address_offset": "0x30",
+  "reset_value": "0x00000000",
+  "description": "TAMP status register specification",
+  "bit_fields": [
+    {
+      "name": "TAMP1IE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper 1 interrupt enable"
+    },
+    {
+      "name": "TAMP2IE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper 2 interrupt enable"
+    },
+    {
+      "name": "TAMP3IE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Tamper 3 interrupt enable"
+    },
+    {
+      "name": "ITAMP3IE",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal tamper 3 interrupt enable: LSE monitoring"
+    },
+    {
+      "name": "ITAMP4IE",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal tamper 4 interrupt enable: HSE monitoring"
+    },
+    {
+      "name": "ITAMP5IE",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal tamper 5 interrupt enable: RTC calendar overflow"
+    },
+    {
+      "name": "ITAMP6IE",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Internal tamper 6 interrupt enable: ST manufacturer readout"
+    }
+  ],
+  "errata_notes": []
+}

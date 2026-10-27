@@ -1,0 +1,27 @@
+{
+  "peripheral": "DFSDM",
+  "register_name": "DFSDM_FLTXAWLTR",
+  "long_name": "DFSDM filter x analog watchdog low threshold register (DFSDM_FLTXAWLTR)",
+  "address_offset": "0x124",
+  "reset_value": "0x00000000",
+  "description": "DFSDM filter x analog watchdog low threshold register specification",
+  "bit_fields": [
+    {
+      "name": "BKAWH[3",
+      "bit_offset": 0,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Break signal assignment to analog watchdog high threshold event"
+    },
+    {
+      "name": "AWHT[23",
+      "bit_offset": 8,
+      "bit_width": 24,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Analog watchdog high threshold"
+    }
+  ],
+  "errata_notes": []
+}

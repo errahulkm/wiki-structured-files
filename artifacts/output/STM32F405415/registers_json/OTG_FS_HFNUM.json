@@ -1,0 +1,19 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_HFNUM",
+  "long_name": "1368 OTG_FS Host frame number/frame time remaining register (OTG_FS_HFNUM)",
+  "address_offset": "0x408",
+  "reset_value": "0x00000000",
+  "description": "1368 OTG_FS Host frame number/frame time remaining register specification",
+  "bit_fields": [
+    {
+      "name": "OTG_FS_HFNUM",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "1368 OTG_FS Host frame number/frame time remaining register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

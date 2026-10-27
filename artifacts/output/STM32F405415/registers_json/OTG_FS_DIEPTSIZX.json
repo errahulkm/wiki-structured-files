@@ -1,0 +1,19 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_DIEPTSIZX",
+  "long_name": "on page 1312 OTG_FS_DIEPTSIZx 0x930 0x950 0x970 OTG_FS device endpoint-x transfer size register (OTG_FS_DIEPTSIZX)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "on page 1312 OTG_FS_DIEPTSIZx 0x930 0x950 0x970 OTG_FS device endpoint-x transfer size register specification",
+  "bit_fields": [
+    {
+      "name": "OTG_FS_DIEPTSIZX",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "on page 1312 OTG_FS_DIEPTSIZx 0x930 0x950 0x970 OTG_FS device endpoint-x transfer size register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

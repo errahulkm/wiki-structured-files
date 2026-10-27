@@ -1,0 +1,43 @@
+{
+  "peripheral": "OCTOSPI",
+  "register_name": "OCTOSPI_HLCR",
+  "long_name": "OCTOSPI HyperBus late ncy configuration register (OCTOSPI_HLCR)",
+  "address_offset": "0x0200",
+  "reset_value": "0x00000000",
+  "description": "OCTOSPI HyperBus late ncy configuration register specification",
+  "bit_fields": [
+    {
+      "name": "LM",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Latency mode"
+    },
+    {
+      "name": "WZL",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Write zero latency"
+    },
+    {
+      "name": "TACC[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Access time"
+    },
+    {
+      "name": "TRWR[7",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Read-write minimum recovery time"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,67 @@
+{
+  "peripheral": "TIMX",
+  "register_name": "TIMX_SMCR",
+  "long_name": "TIM1 and TIM8 slave mode control register (TIMX_SMCR)",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "TIM1 and TIM8 slave mode control register specification",
+  "bit_fields": [
+    {
+      "name": "CCPC",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture/compare preloaded control"
+    },
+    {
+      "name": "TS[2",
+      "bit_offset": 4,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Trigger selection"
+    },
+    {
+      "name": "MSM",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master/slave mode"
+    },
+    {
+      "name": "ETF[3",
+      "bit_offset": 8,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External trigger filter"
+    },
+    {
+      "name": "ETPS[1",
+      "bit_offset": 12,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External trigger prescaler"
+    },
+    {
+      "name": "ECE",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External clock enable"
+    },
+    {
+      "name": "ETP",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External trigger polarity"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "UCPD",
+  "register_name": "UCPD_CFGR3",
+  "long_name": "UCPD configuration register 2 (UCPD_CFGR3)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "UCPD configuration register 2 specification",
+  "bit_fields": [
+    {
+      "name": "UCPD_CFGR3",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "UCPD configuration register 2 full-width value"
+    }
+  ],
+  "errata_notes": []
+}

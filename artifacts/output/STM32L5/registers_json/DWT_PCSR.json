@@ -1,0 +1,19 @@
+{
+  "peripheral": "DWT",
+  "register_name": "DWT_PCSR",
+  "long_name": "2149 DWT program counter sample register (DWT_PCSR)",
+  "address_offset": "0x01C",
+  "reset_value": "0x00000000",
+  "description": "2149 DWT program counter sample register specification",
+  "bit_fields": [
+    {
+      "name": "DWT_PCSR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "2149 DWT program counter sample register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

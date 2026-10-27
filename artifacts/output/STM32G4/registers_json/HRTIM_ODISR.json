@@ -1,0 +1,107 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_ODISR",
+  "long_name": "HRTIM output disable register (HRTIM_ODISR)",
+  "address_offset": "0x398",
+  "reset_value": "0x00000000",
+  "description": "HRTIM output disable register specification",
+  "bit_fields": [
+    {
+      "name": "TA1ODIS",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer A output 1 disable"
+    },
+    {
+      "name": "TA2ODIS",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer A output 2 disable"
+    },
+    {
+      "name": "TB1ODIS",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer B output 1 disable"
+    },
+    {
+      "name": "TB2ODIS",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer B output 2 disable"
+    },
+    {
+      "name": "TC1ODIS",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer C output 1 disable"
+    },
+    {
+      "name": "TC2ODIS",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer C output 2 disable"
+    },
+    {
+      "name": "TD1ODIS",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer D output 1 disable"
+    },
+    {
+      "name": "TD2ODIS",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer D output 2 disable"
+    },
+    {
+      "name": "TE1ODIS",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer E output 1 disable"
+    },
+    {
+      "name": "TE2ODIS",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer E output 2 disable"
+    },
+    {
+      "name": "TF1ODIS",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer F output 1 disable"
+    },
+    {
+      "name": "TF2ODIS",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer F output 2 disable"
+    }
+  ],
+  "errata_notes": []
+}

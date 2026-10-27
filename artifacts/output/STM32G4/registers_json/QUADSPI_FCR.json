@@ -1,0 +1,19 @@
+{
+  "peripheral": "QUADSPI",
+  "register_name": "QUADSPI_FCR",
+  "long_name": "QUADSPI flag clear register (QUADSPI_FCR)",
+  "address_offset": "0x00C",
+  "reset_value": "0x00000000",
+  "description": "QUADSPI flag clear register specification",
+  "bit_fields": [
+    {
+      "name": "QUADSPI_FCR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "QUADSPI flag clear register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,43 @@
+{
+  "peripheral": "DMA2D",
+  "register_name": "DMA2D_OCOLR",
+  "long_name": "DMA2D output color register (DMA2D_OCOLR)",
+  "address_offset": "0x0038",
+  "reset_value": "0x00000000",
+  "description": "DMA2D output color register specification",
+  "bit_fields": [
+    {
+      "name": "BLUE[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Blue Value"
+    },
+    {
+      "name": "GREEN[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Green Value"
+    },
+    {
+      "name": "RED[7",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Red Value"
+    },
+    {
+      "name": "ALPHA[7",
+      "bit_offset": 24,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Alpha Channel Value"
+    }
+  ],
+  "errata_notes": []
+}

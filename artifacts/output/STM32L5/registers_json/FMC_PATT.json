@@ -1,0 +1,43 @@
+{
+  "peripheral": "FMC",
+  "register_name": "FMC_PATT",
+  "long_name": "RM0438 622/2187 RM0438 Rev 8 Attribute memory space timing register (FMC_PATT)",
+  "address_offset": "0x8C",
+  "reset_value": "0x00000000",
+  "description": "RM0438 622/2187 RM0438 Rev 8 Attribute memory space timing register specification",
+  "bit_fields": [
+    {
+      "name": "MEMSET[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Common memory x setup time"
+    },
+    {
+      "name": "ATTWAIT[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Attribute memory wait time"
+    },
+    {
+      "name": "ATTHOLD[7",
+      "bit_offset": 16,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Attribute memory hold time"
+    },
+    {
+      "name": "ATTHIZ[7",
+      "bit_offset": 24,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Attribute memory data bus Hi-Z time"
+    }
+  ],
+  "errata_notes": []
+}

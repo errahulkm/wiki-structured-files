@@ -1,0 +1,187 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_SR",
+  "long_name": "ADC status register (ADC_SR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "ADC status register specification",
+  "bit_fields": [
+    {
+      "name": "AWD",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog flag"
+    },
+    {
+      "name": "EOC",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Regular channel end of conversion"
+    },
+    {
+      "name": "JEOC",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Injected channel end of conversion"
+    },
+    {
+      "name": "JSTRT",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Injected channel start flag"
+    },
+    {
+      "name": "STRT",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Regular channel start flag"
+    },
+    {
+      "name": "OVR",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overrun"
+    },
+    {
+      "name": "AWDIE",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog interrupt enable"
+    },
+    {
+      "name": "JEOCIE",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Interrupt enable for injected channels"
+    },
+    {
+      "name": "SCAN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Scan mode"
+    },
+    {
+      "name": "AWDSGL",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Enable the watchdog on a single channel in scan mode"
+    },
+    {
+      "name": "JAUTO",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Automatic injected group conversion"
+    },
+    {
+      "name": "DISCEN",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Discontinuous mode on regular channels"
+    },
+    {
+      "name": "JDISCEN",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Discontinuous mode on injected channels"
+    },
+    {
+      "name": "DISCNUM[2",
+      "bit_offset": 13,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Discontinuous mode channel count"
+    },
+    {
+      "name": "JEXTSEL[3",
+      "bit_offset": 16,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External event select for injected group"
+    },
+    {
+      "name": "JEXTEN",
+      "bit_offset": 20,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External trigger enable for injected channels"
+    },
+    {
+      "name": "JAWDEN",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog enable on injected channels"
+    },
+    {
+      "name": "AWDEN",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog enable on regular channels"
+    },
+    {
+      "name": "RES[1",
+      "bit_offset": 24,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Resolution"
+    },
+    {
+      "name": "OVRIE",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overrun interrupt enable"
+    },
+    {
+      "name": "EXTEN",
+      "bit_offset": 28,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "External trigger enable for regular channels"
+    },
+    {
+      "name": "SWSTART",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Start conversion of regular channels"
+    }
+  ],
+  "errata_notes": []
+}

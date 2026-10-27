@@ -1,0 +1,99 @@
+{
+  "peripheral": "FDCAN",
+  "register_name": "FDCAN_NBTP",
+  "long_name": "FDCAN nominal bit timing a nd prescaler register (FDCAN_NBTP)",
+  "address_offset": "0x001C",
+  "reset_value": "0x00000000",
+  "description": "FDCAN nominal bit timing a nd prescaler register specification",
+  "bit_fields": [
+    {
+      "name": "INIT",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Initialization"
+    },
+    {
+      "name": "CCE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Configuration change enable"
+    },
+    {
+      "name": "ASM",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ASM restricted operation mode"
+    },
+    {
+      "name": "CSA",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock stop acknowledge"
+    },
+    {
+      "name": "CSR",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Clock stop request"
+    },
+    {
+      "name": "MON",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Bus monitoring mode"
+    },
+    {
+      "name": "DAR",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Disable automatic retransmission"
+    },
+    {
+      "name": "TEST",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Test mode enable"
+    },
+    {
+      "name": "NTSEG1[7",
+      "bit_offset": 8,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Nominal time segment before sample point"
+    },
+    {
+      "name": "NBRP[8",
+      "bit_offset": 16,
+      "bit_width": 9,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Bit rate prescaler"
+    },
+    {
+      "name": "NSJW[6",
+      "bit_offset": 25,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Nominal (re)synchronization jump width"
+    }
+  ],
+  "errata_notes": []
+}

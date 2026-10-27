@@ -1,0 +1,51 @@
+{
+  "peripheral": "DCMI",
+  "register_name": "DCMI_ESCR",
+  "long_name": "DCMI embedded synchronizati on code register (DCMI_ESCR)",
+  "address_offset": "0x18",
+  "reset_value": "0x00000000",
+  "description": "DCMI embedded synchronizati on code register specification",
+  "bit_fields": [
+    {
+      "name": "FRAME_ISC",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Capture complete interrupt status clear"
+    },
+    {
+      "name": "OVR_ISC",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Overrun interrupt status clear"
+    },
+    {
+      "name": "ERR_ISC",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Synchronization error interrupt status clear"
+    },
+    {
+      "name": "VSYNC_ISC",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Vertical synch interrupt status clear"
+    },
+    {
+      "name": "LINE_ISC",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "line interrupt status clear"
+    }
+  ],
+  "errata_notes": []
+}

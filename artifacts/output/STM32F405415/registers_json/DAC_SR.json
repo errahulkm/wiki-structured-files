@@ -1,0 +1,27 @@
+{
+  "peripheral": "DAC",
+  "register_name": "DAC_SR",
+  "long_name": "DAC status register (DAC_SR)",
+  "address_offset": "0x34",
+  "reset_value": "0x00000000",
+  "description": "DAC status register specification",
+  "bit_fields": [
+    {
+      "name": "DMAUDR1",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel1 DMA underrun flag"
+    },
+    {
+      "name": "DMAUDR2",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel2 DMA underrun flag"
+    }
+  ],
+  "errata_notes": []
+}

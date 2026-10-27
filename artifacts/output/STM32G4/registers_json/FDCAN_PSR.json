@@ -1,0 +1,99 @@
+{
+  "peripheral": "FDCAN",
+  "register_name": "FDCAN_PSR",
+  "long_name": "FDCAN protocol st atus register (FDCAN_PSR)",
+  "address_offset": "0x0044",
+  "reset_value": "0x00000000",
+  "description": "FDCAN protocol st atus register specification",
+  "bit_fields": [
+    {
+      "name": "LEC[2",
+      "bit_offset": 0,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Last error code"
+    },
+    {
+      "name": "ACT[1",
+      "bit_offset": 3,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Activity"
+    },
+    {
+      "name": "EP",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Error passive"
+    },
+    {
+      "name": "EW",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Warning status"
+    },
+    {
+      "name": "BO",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Bus-off status"
+    },
+    {
+      "name": "DLEC[2",
+      "bit_offset": 8,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Data last error code"
+    },
+    {
+      "name": "RESI",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ESI flag of last received FDCAN message"
+    },
+    {
+      "name": "RBRS",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "BRS flag of last received FDCAN message"
+    },
+    {
+      "name": "REDL",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Received FDCAN message"
+    },
+    {
+      "name": "PXE",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Protocol exception event"
+    },
+    {
+      "name": "TDCV[6",
+      "bit_offset": 16,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Transmitter delay compensation value"
+    }
+  ],
+  "errata_notes": []
+}

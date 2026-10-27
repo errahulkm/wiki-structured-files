@@ -1,0 +1,27 @@
+{
+  "peripheral": "TIM15",
+  "register_name": "TIM15_SMCR",
+  "long_name": "TIM15 slave mode cont rol register (TIM15_SMCR)",
+  "address_offset": "0x08",
+  "reset_value": "0x00000000",
+  "description": "TIM15 slave mode cont rol register specification",
+  "bit_fields": [
+    {
+      "name": "TS[2",
+      "bit_offset": 4,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Trigger selection"
+    },
+    {
+      "name": "MSM",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master/slave mode"
+    }
+  ],
+  "errata_notes": []
+}

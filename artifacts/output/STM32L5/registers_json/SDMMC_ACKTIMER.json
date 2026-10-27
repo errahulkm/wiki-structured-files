@@ -1,0 +1,19 @@
+{
+  "peripheral": "SDMMC",
+  "register_name": "SDMMC_ACKTIMER",
+  "long_name": "SDMMC acknowledgment ti mer register (SDMMC_ACKTIMER)",
+  "address_offset": "0x040",
+  "reset_value": "0x00000000",
+  "description": "SDMMC acknowledgment ti mer register specification",
+  "bit_fields": [
+    {
+      "name": "SDMMC_ACKTIMER",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "SDMMC acknowledgment ti mer register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_BMCMPR",
+  "long_name": "HRTIM burst mode comp are register (HRTIM_BMCMPR)",
+  "address_offset": "0x3A8",
+  "reset_value": "0x00000000",
+  "description": "HRTIM burst mode comp are register specification",
+  "bit_fields": [
+    {
+      "name": "HRTIM_BMCMPR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "HRTIM burst mode comp are register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

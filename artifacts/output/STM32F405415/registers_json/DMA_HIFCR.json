@@ -1,0 +1,163 @@
+{
+  "peripheral": "DMA",
+  "register_name": "DMA_HIFCR",
+  "long_name": "DMA high interrupt flag clear register (DMA_HIFCR)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "DMA high interrupt flag clear register specification",
+  "bit_fields": [
+    {
+      "name": "EN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Stream enable / flag stream ready when read low"
+    },
+    {
+      "name": "DMEIE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Direct mode error interrupt enable"
+    },
+    {
+      "name": "TEIE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer error interrupt enable"
+    },
+    {
+      "name": "HTIE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Half transfer interrupt enable"
+    },
+    {
+      "name": "TCIE",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transfer complete interrupt enable"
+    },
+    {
+      "name": "PFCTRL",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Peripheral flow controller"
+    },
+    {
+      "name": "DIR[1",
+      "bit_offset": 6,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Data transfer direction"
+    },
+    {
+      "name": "CIRC",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Circular mode"
+    },
+    {
+      "name": "PINC",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Peripheral increment mode"
+    },
+    {
+      "name": "MINC",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Memory increment mode"
+    },
+    {
+      "name": "PSIZE[1",
+      "bit_offset": 11,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Peripheral data size"
+    },
+    {
+      "name": "MSIZE[1",
+      "bit_offset": 13,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Memory data size"
+    },
+    {
+      "name": "PINCOS",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Peripheral increment offset size"
+    },
+    {
+      "name": "PL[1",
+      "bit_offset": 16,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Priority level"
+    },
+    {
+      "name": "DBM",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Double buffer mode"
+    },
+    {
+      "name": "CT",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Current target (only in double buffer mode)"
+    },
+    {
+      "name": "PBURST[1",
+      "bit_offset": 21,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Peripheral burst transfer configuration"
+    },
+    {
+      "name": "MBURST",
+      "bit_offset": 23,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Memory burst transfer configuration"
+    },
+    {
+      "name": "CHSEL[2",
+      "bit_offset": 25,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Channel selection"
+    }
+  ],
+  "errata_notes": []
+}

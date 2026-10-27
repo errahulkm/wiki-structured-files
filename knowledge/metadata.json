@@ -1,0 +1,13 @@
+{
+  "topic": "STM32 Orchestration & Multi-View Knowledge Graph Engine",
+  "version": "2.0.0",
+  "last_updated": "2026-08-29T04:25:00Z",
+  "summary": "Curated knowledge item detailing the fine-tuned orchestration pipeline, multi-view layout buttons, memory map interlinking rules, selection repulsion physics clearing, and back/forward history navigation.",
+  "references": [
+    "orchestration/instruction_karpathy.md",
+    "orchestration/karpathy-prompt.md",
+    "orchestration/RM0468_STM32H7_DNA.md",
+    "orchestration/ORCHESTRATION_RESEARCH_NOTE.md",
+    "project/PRD.md"
+  ]
+}

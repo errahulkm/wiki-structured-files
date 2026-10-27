@@ -1,0 +1,67 @@
+{
+  "peripheral": "TAMP",
+  "register_name": "TAMP_SCR",
+  "long_name": "TAMP status clea r register (TAMP_SCR)",
+  "address_offset": "0x3C",
+  "reset_value": "0x00000000",
+  "description": "TAMP status clea r register specification",
+  "bit_fields": [
+    {
+      "name": "TAMP1MF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMP1 interrupt masked flag"
+    },
+    {
+      "name": "TAMP2MF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMP2 interrupt masked flag"
+    },
+    {
+      "name": "TAMP3MF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TAMP3 interrupt masked flag"
+    },
+    {
+      "name": "ITAMP3MF",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LSE monitoring tamper interrupt masked flag"
+    },
+    {
+      "name": "ITAMP4MF",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "HSE monitoring tamper interrupt masked flag"
+    },
+    {
+      "name": "ITAMP5MF",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "RTC calendar overflow tamper interrupt masked flag"
+    },
+    {
+      "name": "ITAMP6MF",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "ST manufacturer readout tamper interrupt masked flag"
+    }
+  ],
+  "errata_notes": []
+}

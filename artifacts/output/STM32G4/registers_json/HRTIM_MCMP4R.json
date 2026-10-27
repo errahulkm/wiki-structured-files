@@ -1,0 +1,115 @@
+{
+  "peripheral": "HRTIM",
+  "register_name": "HRTIM_MCMP4R",
+  "long_name": "HRTIM master timer comp are 4 register (HRTIM_MCMP4R)",
+  "address_offset": "0x02C",
+  "reset_value": "0x00000000",
+  "description": "HRTIM master timer comp are 4 register specification",
+  "bit_fields": [
+    {
+      "name": "MCMP4[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Master timer compare 4 value"
+    },
+    {
+      "name": "TFU",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer F update"
+    },
+    {
+      "name": "TXREPU",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer x repetition update"
+    },
+    {
+      "name": "TXRSTU",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer x reset update"
+    },
+    {
+      "name": "TAU",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer A update"
+    },
+    {
+      "name": "TBU",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer B update"
+    },
+    {
+      "name": "TCU",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer C update"
+    },
+    {
+      "name": "TDU",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer D update"
+    },
+    {
+      "name": "TEU",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timer E update"
+    },
+    {
+      "name": "MSTU",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Master timer update"
+    },
+    {
+      "name": "DACSYNC[1",
+      "bit_offset": 25,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC synchronization"
+    },
+    {
+      "name": "PREEN",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Preload enable"
+    },
+    {
+      "name": "UPDGAT[3",
+      "bit_offset": 28,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Update gating"
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "DCMI",
+  "register_name": "DCMI_ICR",
+  "long_name": "DCMI interrupt clear register (DCMI_ICR)",
+  "address_offset": "0x14",
+  "reset_value": "0x00000000",
+  "description": "DCMI interrupt clear register specification",
+  "bit_fields": [
+    {
+      "name": "DCMI_ICR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "DCMI interrupt clear register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

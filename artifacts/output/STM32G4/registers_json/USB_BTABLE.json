@@ -1,0 +1,35 @@
+{
+  "peripheral": "USB",
+  "register_name": "USB_BTABLE",
+  "long_name": "Universal Serial Bus (USB) USB_BTABLE Register",
+  "address_offset": "0x50",
+  "reset_value": "0x00000000",
+  "description": "Universal Serial Bus (USB) USB_BTABLE hardware register",
+  "bit_fields": [
+    {
+      "name": "ADD[6",
+      "bit_offset": 0,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Device address"
+    },
+    {
+      "name": "PS2DET",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DM pull-up detection status"
+    },
+    {
+      "name": "DPPU",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DP pull-up control"
+    }
+  ],
+  "errata_notes": []
+}

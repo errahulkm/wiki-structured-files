@@ -1,0 +1,75 @@
+{
+  "peripheral": "FMC",
+  "register_name": "FMC_SR2",
+  "long_name": "Flexible Memory Controller (FMC) FMC_SR2 Register",
+  "address_offset": "0x64",
+  "reset_value": "0x00000000",
+  "description": "Flexible Memory Controller (FMC) FMC_SR2 hardware register",
+  "bit_fields": [
+    {
+      "name": "IRS",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Interrupt rising edge status"
+    },
+    {
+      "name": "PWAITEN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wait feature enable bit."
+    },
+    {
+      "name": "PBKEN",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PC Card/NAND Flash memory bank enable bit."
+    },
+    {
+      "name": "PTYP",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Memory type."
+    },
+    {
+      "name": "ILEN",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Interrupt high-level detection enable bit"
+    },
+    {
+      "name": "IFEN",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Interrupt falling edge detection enable bit"
+    },
+    {
+      "name": "FEMPT",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FIFO empty."
+    },
+    {
+      "name": "MEMHIZ[7",
+      "bit_offset": 24,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Common memory x data bus Hi-Z time"
+    }
+  ],
+  "errata_notes": []
+}

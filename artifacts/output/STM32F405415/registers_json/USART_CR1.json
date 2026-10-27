@@ -1,0 +1,67 @@
+{
+  "peripheral": "USART",
+  "register_name": "USART_CR1",
+  "long_name": "Control register 1 (USART_CR1)",
+  "address_offset": "0x0C",
+  "reset_value": "0x00000000",
+  "description": "Control register 1 specification",
+  "bit_fields": [
+    {
+      "name": "DR[8",
+      "bit_offset": 0,
+      "bit_width": 9,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Data value"
+    },
+    {
+      "name": "PS",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Parity selection"
+    },
+    {
+      "name": "PCE",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Parity control enable"
+    },
+    {
+      "name": "WAKE",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wake-up method"
+    },
+    {
+      "name": "M",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Word length"
+    },
+    {
+      "name": "UE",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART enable"
+    },
+    {
+      "name": "OVER8",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Oversampling mode"
+    }
+  ],
+  "errata_notes": []
+}

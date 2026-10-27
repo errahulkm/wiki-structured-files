@@ -1,0 +1,19 @@
+{
+  "peripheral": "FMC",
+  "register_name": "FMC_BCR4",
+  "long_name": "Flexible Memory Controller (FMC) FMC_BCR4 Register",
+  "address_offset": "0x18",
+  "reset_value": "0x00000000",
+  "description": "Flexible Memory Controller (FMC) FMC_BCR4 hardware register",
+  "bit_fields": [
+    {
+      "name": "FMC_BCR4",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "FMC_BCR4 register value"
+    }
+  ],
+  "errata_notes": []
+}

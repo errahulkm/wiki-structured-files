@@ -1,0 +1,131 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_APB2",
+  "long_name": "Reset and Clock Control (RCC) RCC_APB2 Register",
+  "address_offset": "0x080",
+  "reset_value": "0x11",
+  "description": "Reset and Clock Control (RCC) RCC_APB2 hardware register",
+  "bit_fields": [
+    {
+      "name": "LPUART1RST",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Low-power UART 1 reset"
+    },
+    {
+      "name": "I2C4RST",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "I2C4 reset"
+    },
+    {
+      "name": "LPTIM2RST",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LPTIM2 reset"
+    },
+    {
+      "name": "LPTIM3RST",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LPTIM3 reset"
+    },
+    {
+      "name": "FLASHEN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Flash memory interface clock enable"
+    },
+    {
+      "name": "TIM1RST",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM1 timer reset"
+    },
+    {
+      "name": "SPI1RST",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "SPI1 reset"
+    },
+    {
+      "name": "TIM8RST",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM8 timer reset"
+    },
+    {
+      "name": "USART1RST",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "USART1 reset"
+    },
+    {
+      "name": "TIM15RST",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM15 timer reset"
+    },
+    {
+      "name": "TIM16RST",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM16 timer reset"
+    },
+    {
+      "name": "TIM17RST",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "TIM17 timer reset"
+    },
+    {
+      "name": "SAI1RST",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Serial audio interface 1 (SAI1) reset"
+    },
+    {
+      "name": "SAI2RST",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Serial audio interface 2 (SAI2) reset"
+    },
+    {
+      "name": "DFSDM1RST",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Digital filters for sigma-delta modulators (DFSDM1) reset"
+    }
+  ],
+  "errata_notes": []
+}

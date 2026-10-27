@@ -1,0 +1,99 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_CCIPR1",
+  "long_name": "RCC peripherals independent clock configuration register 1 (RCC_CCIPR1)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "RCC peripherals independent clock configuration register 1 specification",
+  "bit_fields": [
+    {
+      "name": "UART5SEL[1",
+      "bit_offset": 8,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: UART5 clock source selection"
+    },
+    {
+      "name": "LPUART1SEL[1",
+      "bit_offset": 10,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Low-power UART1 clock source selection"
+    },
+    {
+      "name": "I2C1SEL[1",
+      "bit_offset": 12,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: I2C1 clock source selection"
+    },
+    {
+      "name": "I2C2SEL[1",
+      "bit_offset": 14,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: I2C2 clock source selection"
+    },
+    {
+      "name": "I2C3SEL[1",
+      "bit_offset": 16,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: I2C3 clock source selection"
+    },
+    {
+      "name": "LPTIM1SEL[1",
+      "bit_offset": 18,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Low-power timer 1 clock source selection"
+    },
+    {
+      "name": "LPTIM2SEL[1",
+      "bit_offset": 20,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Low-power timer 2 clock source selection"
+    },
+    {
+      "name": "LPTIM3SEL[1",
+      "bit_offset": 22,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Low-power timer 3 clock source selection"
+    },
+    {
+      "name": "FDCANSEL[1",
+      "bit_offset": 24,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: FDCAN clock source selection"
+    },
+    {
+      "name": "CLK48MSEL[1",
+      "bit_offset": 26,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: 48 MHz clock source selection"
+    },
+    {
+      "name": "ADCSEL[1",
+      "bit_offset": 28,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ADCs clock source selection"
+    }
+  ],
+  "errata_notes": []
+}

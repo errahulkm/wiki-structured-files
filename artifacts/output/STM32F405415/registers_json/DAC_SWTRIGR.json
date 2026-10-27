@@ -1,0 +1,19 @@
+{
+  "peripheral": "DAC",
+  "register_name": "DAC_SWTRIGR",
+  "long_name": "DAC software trigge r register (DAC_SWTRIGR)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "DAC software trigge r register specification",
+  "bit_fields": [
+    {
+      "name": "DAC_SWTRIGR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "DAC software trigge r register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

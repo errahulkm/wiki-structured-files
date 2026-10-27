@@ -1,0 +1,27 @@
+{
+  "peripheral": "USART",
+  "register_name": "USART_RQR",
+  "long_name": "Universal Synchronous Asynchronous Receiver Transmitter (USART) USART_RQR Register",
+  "address_offset": "0x18",
+  "reset_value": "0x00000000",
+  "description": "Universal Synchronous Asynchronous Receiver Transmitter (USART) USART_RQR hardware register",
+  "bit_fields": [
+    {
+      "name": "RTO[23",
+      "bit_offset": 0,
+      "bit_width": 24,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Receiver timeout value"
+    },
+    {
+      "name": "BLEN[7",
+      "bit_offset": 24,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Block length"
+    }
+  ],
+  "errata_notes": []
+}

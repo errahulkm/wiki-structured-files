@@ -1,0 +1,27 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_PLLSAICFGR",
+  "long_name": "RCC PLL configurati on register (RCC_PLLSAICFGR)",
+  "address_offset": "0x88",
+  "reset_value": "0x00000000",
+  "description": "RCC PLL configurati on register specification",
+  "bit_fields": [
+    {
+      "name": "PLLSAIQ",
+      "bit_offset": 24,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLSAI division factor for SAI1 clock"
+    },
+    {
+      "name": "PLLSAIR",
+      "bit_offset": 28,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "PLLSAI division factor for LCD clock"
+    }
+  ],
+  "errata_notes": []
+}

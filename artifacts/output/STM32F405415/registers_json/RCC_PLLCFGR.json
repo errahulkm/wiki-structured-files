@@ -1,0 +1,51 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_PLLCFGR",
+  "long_name": "RCC PLL configurati on register (RCC_PLLCFGR)",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "RCC PLL configurati on register specification",
+  "bit_fields": [
+    {
+      "name": "PLLM",
+      "bit_offset": 0,
+      "bit_width": 6,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Division factor for the main PLL (PLL) and audio PLL (PLLI2S) input clock"
+    },
+    {
+      "name": "PLLN",
+      "bit_offset": 6,
+      "bit_width": 9,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Main PLL (PLL) multiplication factor for VCO"
+    },
+    {
+      "name": "PLLP",
+      "bit_offset": 16,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Main PLL (PLL) division factor for main system clock"
+    },
+    {
+      "name": "PLLSRC",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Main PLL(PLL) and audio PLL (PLLI2S) entry clock source"
+    },
+    {
+      "name": "PLLQ",
+      "bit_offset": 24,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Main PLL (PLL) division factor for USB OTG FS, SDIO and random number generator"
+    }
+  ],
+  "errata_notes": []
+}

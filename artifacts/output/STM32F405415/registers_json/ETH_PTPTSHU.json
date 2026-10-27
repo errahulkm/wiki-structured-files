@@ -1,0 +1,19 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_PTPTSHU",
+  "long_name": "Ethernet MAC (ETH) ETH_PTPTSHU Register",
+  "address_offset": "0x710",
+  "reset_value": "0x00000000",
+  "description": "Ethernet MAC (ETH) ETH_PTPTSHU hardware register",
+  "bit_fields": [
+    {
+      "name": "STS",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "System time second"
+    }
+  ],
+  "errata_notes": []
+}

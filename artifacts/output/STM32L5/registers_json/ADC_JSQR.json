@@ -1,0 +1,67 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_JSQR",
+  "long_name": "ADC injected seque nce register (ADC_JSQR)",
+  "address_offset": "0x4C",
+  "reset_value": "0x00000000",
+  "description": "ADC injected seque nce register specification",
+  "bit_fields": [
+    {
+      "name": "JL[1",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Injected channel sequence length"
+    },
+    {
+      "name": "JEXTSEL[3",
+      "bit_offset": 2,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External Trigger Selection for injected group"
+    },
+    {
+      "name": "JEXTEN[1",
+      "bit_offset": 6,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: External Trigger Enable and Polarity Selection for injected channels"
+    },
+    {
+      "name": "JSQ1[4",
+      "bit_offset": 8,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: 1st conversion in the injected sequence"
+    },
+    {
+      "name": "JSQ2[4",
+      "bit_offset": 14,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: 2nd conversion in the injected sequence"
+    },
+    {
+      "name": "JSQ3[4",
+      "bit_offset": 20,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: 3rd conversion in the injected sequence"
+    },
+    {
+      "name": "JSQ4[4",
+      "bit_offset": 26,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: 4th conversion in the injected sequence"
+    }
+  ],
+  "errata_notes": []
+}

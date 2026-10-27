@@ -1,0 +1,35 @@
+{
+  "peripheral": "ETH",
+  "register_name": "ETH_MACA2HR",
+  "long_name": "Ethernet MAC address 2 high register (ETH_MACA2HR)",
+  "address_offset": "0x0050",
+  "reset_value": "0x00000000",
+  "description": "Ethernet MAC address 2 high register specification",
+  "bit_fields": [
+    {
+      "name": "MACA1H",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "MAC address1 high [47:32]"
+    },
+    {
+      "name": "MBC",
+      "bit_offset": 24,
+      "bit_width": 6,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Mask byte control"
+    },
+    {
+      "name": "AE",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Address enable"
+    }
+  ],
+  "errata_notes": []
+}

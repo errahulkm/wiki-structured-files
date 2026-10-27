@@ -1,0 +1,27 @@
+{
+  "peripheral": "FLASH",
+  "register_name": "FLASH_NSBOOTA",
+  "long_name": "Embedded Flash Memory FLASH_NSBOOTA Register",
+  "address_offset": "0x44",
+  "reset_value": "0x00000000",
+  "description": "Embedded Flash Memory FLASH_NSBOOTA hardware register",
+  "bit_fields": [
+    {
+      "name": "RDP[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Readout protection level"
+    },
+    {
+      "name": "BOR_LEV[2",
+      "bit_offset": 8,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: BOR reset level"
+    }
+  ],
+  "errata_notes": []
+}

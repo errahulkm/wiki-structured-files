@@ -1,0 +1,27 @@
+{
+  "peripheral": "TIM15",
+  "register_name": "TIM15_ARR",
+  "long_name": "TIM15 auto-reloa d register (TIM15_ARR)",
+  "address_offset": "0x2C",
+  "reset_value": "0x00000000",
+  "description": "TIM15 auto-reloa d register specification",
+  "bit_fields": [
+    {
+      "name": "CNT[15",
+      "bit_offset": 0,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Counter value"
+    },
+    {
+      "name": "UIFCPY",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "UIF Copy"
+    }
+  ],
+  "errata_notes": []
+}

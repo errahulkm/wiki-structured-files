@@ -1,0 +1,35 @@
+{
+  "peripheral": "INTERRUPTS",
+  "register_name": "INTERRUPTS_SR",
+  "long_name": "Interrupts and Events (NVIC/EXTI) Status Register",
+  "address_offset": "0x04",
+  "reset_value": "0x00000000",
+  "description": "Status flags and event indicators for Interrupts and Events (NVIC/EXTI).",
+  "bit_fields": [
+    {
+      "name": "BUSY",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R",
+      "reset_value": "0",
+      "description": "Busy indicator flag for Interrupts and Events (NVIC/EXTI)"
+    },
+    {
+      "name": "READY",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R",
+      "reset_value": "1",
+      "description": "Ready state flag for Interrupts and Events (NVIC/EXTI)"
+    },
+    {
+      "name": "TC",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R",
+      "reset_value": "0",
+      "description": "Transfer/Operation complete flag for Interrupts and Events (NVIC/EXTI)"
+    }
+  ],
+  "errata_notes": []
+}

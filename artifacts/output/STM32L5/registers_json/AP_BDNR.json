@@ -1,0 +1,19 @@
+{
+  "peripheral": "AP",
+  "register_name": "AP_BDNR",
+  "long_name": "RM0438 2026/2187 RM0438 Rev 8 AP banked data n register (AP_BDNR)",
+  "address_offset": "0x10",
+  "reset_value": "0x00000000",
+  "description": "RM0438 2026/2187 RM0438 Rev 8 AP banked data n register specification",
+  "bit_fields": [
+    {
+      "name": "AP_BDNR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "RM0438 2026/2187 RM0438 Rev 8 AP banked data n register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

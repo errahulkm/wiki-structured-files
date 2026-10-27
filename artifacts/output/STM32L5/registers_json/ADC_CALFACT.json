@@ -1,0 +1,59 @@
+{
+  "peripheral": "ADC",
+  "register_name": "ADC_CALFACT",
+  "long_name": "Analog-to-Digital Converter (ADC) ADC_CALFACT Register",
+  "address_offset": "0xB4",
+  "reset_value": "0x00000000",
+  "description": "Analog-to-Digital Converter (ADC) ADC_CALFACT hardware register",
+  "bit_fields": [
+    {
+      "name": "CALFACT_S[6",
+      "bit_offset": 0,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Calibration Factors In single-ended mode"
+    },
+    {
+      "name": "CALFACT_D[6",
+      "bit_offset": 16,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Calibration Factors in differential mode"
+    },
+    {
+      "name": "AWD1_SLV",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog 1 flag of the slave ADC"
+    },
+    {
+      "name": "AWD2_SLV",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog 2 flag of the slave ADC"
+    },
+    {
+      "name": "AWD3_SLV",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Analog watchdog 3 flag of the slave ADC"
+    },
+    {
+      "name": "JQOVF_SLV",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Injected Context Queue Overflow flag of the slave ADC"
+    }
+  ],
+  "errata_notes": []
+}

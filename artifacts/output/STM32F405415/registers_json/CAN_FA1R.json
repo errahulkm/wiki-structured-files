@@ -1,0 +1,19 @@
+{
+  "peripheral": "CAN",
+  "register_name": "CAN_FA1R",
+  "long_name": "CAN filter activation register (CAN_FA1R)",
+  "address_offset": "0x21C",
+  "reset_value": "0x00000000",
+  "description": "CAN filter activation register specification",
+  "bit_fields": [
+    {
+      "name": "FSCX",
+      "bit_offset": 0,
+      "bit_width": 28,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Filter scale configuration"
+    }
+  ],
+  "errata_notes": []
+}

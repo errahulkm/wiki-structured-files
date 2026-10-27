@@ -1,0 +1,267 @@
+{
+  "peripheral": "GTZC",
+  "register_name": "GTZC_TZIC_IER1",
+  "long_name": "GTZC_TZIC interrupt enable register 1 (GTZC_TZIC_IER1)",
+  "address_offset": "0x400",
+  "reset_value": "0x00000000",
+  "description": "GTZC_TZIC interrupt enable register 1 specification",
+  "bit_fields": [
+    {
+      "name": "TIM2IE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for TIM2"
+    },
+    {
+      "name": "TIM3IE",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for TIM3"
+    },
+    {
+      "name": "TIM4IE",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for TIM4"
+    },
+    {
+      "name": "TIM5IE",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for TIM5"
+    },
+    {
+      "name": "TIM6IE",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for TIM6"
+    },
+    {
+      "name": "TIM7IE",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for TIM7"
+    },
+    {
+      "name": "WWDGIE",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for WWDG"
+    },
+    {
+      "name": "IWDGIE",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for IWDG"
+    },
+    {
+      "name": "SPI2IE",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for SPI2"
+    },
+    {
+      "name": "SPI3IE",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for SPI3"
+    },
+    {
+      "name": "USART2IE",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for USART2"
+    },
+    {
+      "name": "USART3IE",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for USART3"
+    },
+    {
+      "name": "UART4IE",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for UART4"
+    },
+    {
+      "name": "UART5IE",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for UART5"
+    },
+    {
+      "name": "I2C1IE",
+      "bit_offset": 14,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for I2C1"
+    },
+    {
+      "name": "I2C2IE",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for I2C2"
+    },
+    {
+      "name": "I2C3IE",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for I2C3"
+    },
+    {
+      "name": "CRSIE",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for CRS"
+    },
+    {
+      "name": "DAC1IE",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for DAC1"
+    },
+    {
+      "name": "OPAMPIE",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for OPAMP"
+    },
+    {
+      "name": "LPTIM1IE",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for LPTIM1"
+    },
+    {
+      "name": "LPUART1IE",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for LPUART1"
+    },
+    {
+      "name": "I2C4IE",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for I2C4"
+    },
+    {
+      "name": "LPTIM2IE",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for LPTIM2"
+    },
+    {
+      "name": "LPTIM3IE",
+      "bit_offset": 24,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for LPTIM3"
+    },
+    {
+      "name": "FDCAN1IE",
+      "bit_offset": 25,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for FDCAN1"
+    },
+    {
+      "name": "USBFSIE",
+      "bit_offset": 26,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for USBFS"
+    },
+    {
+      "name": "UCPD1IE",
+      "bit_offset": 27,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for UCPD1"
+    },
+    {
+      "name": "VREFBUFIE",
+      "bit_offset": 28,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for VREFBUF"
+    },
+    {
+      "name": "COMPIE",
+      "bit_offset": 29,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for COMP"
+    },
+    {
+      "name": "TIM1IE",
+      "bit_offset": 30,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for TIM1"
+    },
+    {
+      "name": "SPI1IE",
+      "bit_offset": 31,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "illegal access interrupt enable for SPI1"
+    }
+  ],
+  "errata_notes": []
+}

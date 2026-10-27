@@ -1,0 +1,27 @@
+{
+  "peripheral": "EXTI",
+  "register_name": "EXTI_SWIER1",
+  "long_name": "Software interrupt even t register 1 (EXTI_SWIER1)",
+  "address_offset": "0x10",
+  "reset_value": "0x00000000",
+  "description": "Software interrupt even t register 1 specification",
+  "bit_fields": [
+    {
+      "name": "FTX",
+      "bit_offset": 0,
+      "bit_width": 18,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Falling trigger event configuration bit of line x (x = 17 to 0)"
+    },
+    {
+      "name": "SWIX",
+      "bit_offset": 29,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Software interrupt on line x (x = 31 o 29)"
+    }
+  ],
+  "errata_notes": []
+}

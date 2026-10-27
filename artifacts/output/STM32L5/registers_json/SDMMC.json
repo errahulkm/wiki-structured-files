@@ -1,0 +1,19 @@
+{
+  "peripheral": "SDMMC",
+  "register_name": "SDMMC",
+  "long_name": "To control unit Odd receive shift register Even CRCEven receive shift register Odd transmit shift register Even transmit shift register Odd CRC Even CRC Mux in RM0438 Rev 8 1807/2187 RM0438 Secure digital input/output MultiMediaCard interface (SDMMC)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "To control unit Odd receive shift register Even CRCEven receive shift register Odd transmit shift register Even transmit shift register Odd CRC Even CRC Mux in RM0438 Rev 8 1807/2187 RM0438 Secure digital input/output MultiMediaCard interface specification",
+  "bit_fields": [
+    {
+      "name": "SDMMC",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "To control unit Odd receive shift register Even CRCEven receive shift register Odd transmit shift register Even transmit shift register Odd CRC Even CRC Mux in RM0438 Rev 8 1807/2187 RM0438 Secure digital input/output MultiMediaCard interface full-width value"
+    }
+  ],
+  "errata_notes": []
+}

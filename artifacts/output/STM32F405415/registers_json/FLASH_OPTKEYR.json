@@ -1,0 +1,19 @@
+{
+  "peripheral": "FLASH",
+  "register_name": "FLASH_OPTKEYR",
+  "long_name": "0x0819 2A3B in the Fl ash option key register (FLASH_OPTKEYR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "0x0819 2A3B in the Fl ash option key register specification",
+  "bit_fields": [
+    {
+      "name": "FLASH_OPTKEYR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "0x0819 2A3B in the Fl ash option key register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

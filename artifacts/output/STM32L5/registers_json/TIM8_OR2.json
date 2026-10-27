@@ -1,0 +1,75 @@
+{
+  "peripheral": "TIMERS",
+  "register_name": "TIM8_OR2",
+  "long_name": "Timers (TIM) TIM8_OR2 Register",
+  "address_offset": "0x60",
+  "reset_value": "0x000",
+  "description": "Timers (TIM) TIM8_OR2 hardware register",
+  "bit_fields": [
+    {
+      "name": "BK2INE",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "BRK2 BKIN input enable"
+    },
+    {
+      "name": "BK2CMP1E",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "BRK2 COMP1 enable"
+    },
+    {
+      "name": "BK2CMP2E",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "BRK2 COMP2 enable"
+    },
+    {
+      "name": "BK2DF1BK1E",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "BRK2 dfsdm1_break[1] enable"
+    },
+    {
+      "name": "BKINP",
+      "bit_offset": 9,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "BRK BKIN input polarity"
+    },
+    {
+      "name": "BKCMP1P",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "BRK COMP1 input polarity"
+    },
+    {
+      "name": "BKCMP2P",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "BRK COMP2 input polarity"
+    },
+    {
+      "name": "ETRSEL[2",
+      "bit_offset": 14,
+      "bit_width": 3,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: ETR source selection"
+    }
+  ],
+  "errata_notes": []
+}

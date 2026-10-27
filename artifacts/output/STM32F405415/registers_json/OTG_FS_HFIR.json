@@ -1,0 +1,27 @@
+{
+  "peripheral": "OTG",
+  "register_name": "OTG_FS_HFIR",
+  "long_name": "OTG_FS Host frame interval register (OTG_FS_HFIR)",
+  "address_offset": "0x404",
+  "reset_value": "0x00000000",
+  "description": "OTG_FS Host frame interval register specification",
+  "bit_fields": [
+    {
+      "name": "FSLSPCS",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FS/LS PHY clock select"
+    },
+    {
+      "name": "FSLSS",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FS- and LS-only support"
+    }
+  ],
+  "errata_notes": []
+}

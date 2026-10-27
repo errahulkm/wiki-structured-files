@@ -1,0 +1,107 @@
+{
+  "peripheral": "FDCAN",
+  "register_name": "FDCAN_IR",
+  "long_name": "FDCAN interrupt register (FDCAN_IR)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "FDCAN interrupt register specification",
+  "bit_fields": [
+    {
+      "name": "TDCF[6",
+      "bit_offset": 0,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Transmitter delay compensation filter window length"
+    },
+    {
+      "name": "TC",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Transmission completed"
+    },
+    {
+      "name": "TDCO[6",
+      "bit_offset": 8,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Transmitter delay compensation offset"
+    },
+    {
+      "name": "TOO",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Timeout occurred"
+    },
+    {
+      "name": "ELO",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Error logging overflow"
+    },
+    {
+      "name": "EP",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Error passive"
+    },
+    {
+      "name": "EW",
+      "bit_offset": 18,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Warning status"
+    },
+    {
+      "name": "BO",
+      "bit_offset": 19,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Bus-off status"
+    },
+    {
+      "name": "WDI",
+      "bit_offset": 20,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Watchdog interrupt"
+    },
+    {
+      "name": "PEA",
+      "bit_offset": 21,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Protocol error in arbitration phase (nominal bit time is used)"
+    },
+    {
+      "name": "PED",
+      "bit_offset": 22,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Protocol error in data phase (data bit time is used)"
+    },
+    {
+      "name": "ARA",
+      "bit_offset": 23,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Access to reserved address"
+    }
+  ],
+  "errata_notes": []
+}

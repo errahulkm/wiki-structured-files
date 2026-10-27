@@ -1,0 +1,51 @@
+{
+  "peripheral": "DAC",
+  "register_name": "DAC_CCR",
+  "long_name": "DAC calibration c ontrol register (DAC_CCR)",
+  "address_offset": "0x38",
+  "reset_value": "0x00000000",
+  "description": "DAC calibration c ontrol register specification",
+  "bit_fields": [
+    {
+      "name": "OTRIM1[4",
+      "bit_offset": 0,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel1 offset trimming value"
+    },
+    {
+      "name": "DAC1RDY",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel1 ready status bit"
+    },
+    {
+      "name": "DORSTAT1",
+      "bit_offset": 12,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel1 output register status bit"
+    },
+    {
+      "name": "DMAUDR1",
+      "bit_offset": 13,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "DAC channel1 DMA underrun flag"
+    },
+    {
+      "name": "OTRIM2[4",
+      "bit_offset": 16,
+      "bit_width": 5,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: DAC channel2 offset trimming value"
+    }
+  ],
+  "errata_notes": []
+}

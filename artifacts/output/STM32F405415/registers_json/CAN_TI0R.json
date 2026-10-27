@@ -1,0 +1,83 @@
+{
+  "peripheral": "CAN",
+  "register_name": "CAN_TI0R",
+  "long_name": "Controller Area Network (bxCAN) CAN_TI0R Register",
+  "address_offset": "0x180",
+  "reset_value": "0x00000000",
+  "description": "Controller Area Network (bxCAN) CAN_TI0R hardware register",
+  "bit_fields": [
+    {
+      "name": "FMP0[1",
+      "bit_offset": 0,
+      "bit_width": 2,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: FIFO 0 message pending"
+    },
+    {
+      "name": "FULL0",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FIFO 0 full"
+    },
+    {
+      "name": "FOVR0",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "FIFO 0 overrun"
+    },
+    {
+      "name": "RFOM0",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Release FIFO 0 output mailbox"
+    },
+    {
+      "name": "BOFIE",
+      "bit_offset": 10,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Bus-off interrupt enable"
+    },
+    {
+      "name": "LECIE",
+      "bit_offset": 11,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Last error code interrupt enable"
+    },
+    {
+      "name": "ERRIE",
+      "bit_offset": 15,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Error interrupt enable"
+    },
+    {
+      "name": "WKUIE",
+      "bit_offset": 16,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wake-up interrupt enable"
+    },
+    {
+      "name": "SLKIE",
+      "bit_offset": 17,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Sleep interrupt enable"
+    }
+  ],
+  "errata_notes": []
+}

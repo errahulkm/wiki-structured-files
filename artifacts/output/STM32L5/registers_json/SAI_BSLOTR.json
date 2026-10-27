@@ -1,0 +1,35 @@
+{
+  "peripheral": "SAI",
+  "register_name": "SAI_BSLOTR",
+  "long_name": "SAI slot register (SAI_BSLOTR)",
+  "address_offset": "0x30",
+  "reset_value": "0x00000000",
+  "description": "SAI slot register specification",
+  "bit_fields": [
+    {
+      "name": "FRL[7",
+      "bit_offset": 0,
+      "bit_width": 8,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Frame length."
+    },
+    {
+      "name": "NBSLOT[3",
+      "bit_offset": 8,
+      "bit_width": 4,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Number of slots in an audio frame."
+    },
+    {
+      "name": "SLOTEN[15",
+      "bit_offset": 16,
+      "bit_width": 16,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Slot enable."
+    }
+  ],
+  "errata_notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "peripheral": "IWDG",
+  "register_name": "IWDG",
+  "long_name": "MS34442V2 IWDG reset LSI VCORE VDD voltage domain Prescaler register IWDG_PR Status register IWDG_SR Reload register IWDG_RLR Key register IWDG_KR 12-bit reload value 12-bit downcounter 8-bit prescaler RM0438 Rev 8 1381/2187 RM0438 Independent watchdog (IWDG)",
+  "address_offset": "0x00",
+  "reset_value": "0x00000000",
+  "description": "MS34442V2 IWDG reset LSI VCORE VDD voltage domain Prescaler register IWDG_PR Status register IWDG_SR Reload register IWDG_RLR Key register IWDG_KR 12-bit reload value 12-bit downcounter 8-bit prescaler RM0438 Rev 8 1381/2187 RM0438 Independent watchdog specification",
+  "bit_fields": [
+    {
+      "name": "IWDG",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "MS34442V2 IWDG reset LSI VCORE VDD voltage domain Prescaler register IWDG_PR Status register IWDG_SR Reload register IWDG_RLR Key register IWDG_KR 12-bit reload value 12-bit downcounter 8-bit prescaler RM0438 Rev 8 1381/2187 RM0438 Independent watchdog full-width value"
+    }
+  ],
+  "errata_notes": []
+}

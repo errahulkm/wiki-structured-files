@@ -1,0 +1,43 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB3ENR",
+  "long_name": "RCC AHB3 peripheral cl ock enable register (RCC_AHB3ENR)",
+  "address_offset": "0x050",
+  "reset_value": "0x00000000",
+  "description": "RCC AHB3 peripheral cl ock enable register specification",
+  "bit_fields": [
+    {
+      "name": "GPIOAEN",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port A clock enable"
+    },
+    {
+      "name": "GPIOBEN",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port B clock enable"
+    },
+    {
+      "name": "GPIOCEN",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "IO port C clock enable"
+    },
+    {
+      "name": "OSPI1EN",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "OCTOSPI1 memory interface clock enable"
+    }
+  ],
+  "errata_notes": []
+}

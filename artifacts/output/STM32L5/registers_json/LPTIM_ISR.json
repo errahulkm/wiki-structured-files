@@ -1,0 +1,35 @@
+{
+  "peripheral": "LPTIM",
+  "register_name": "LPTIM_ISR",
+  "long_name": "LPTIM interrupt and st atus register (LPTIM_ISR)",
+  "address_offset": "0x000",
+  "reset_value": "0x00000000",
+  "description": "LPTIM interrupt and st atus register specification",
+  "bit_fields": [
+    {
+      "name": "DOWN",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Counter direction change up to down"
+    },
+    {
+      "name": "UE",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "LPTIM update event occurred"
+    },
+    {
+      "name": "REPOK",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Repetition register update Ok"
+    }
+  ],
+  "errata_notes": []
+}

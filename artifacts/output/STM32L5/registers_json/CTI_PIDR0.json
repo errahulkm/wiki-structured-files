@@ -1,0 +1,19 @@
+{
+  "peripheral": "CTI",
+  "register_name": "CTI_PIDR0",
+  "long_name": "RM0438 2136/2187 RM0438 Rev 8 CTI CoreSight peripheral identity register 0 (CTI_PIDR0)",
+  "address_offset": "0xFE0",
+  "reset_value": "0x00000000",
+  "description": "RM0438 2136/2187 RM0438 Rev 8 CTI CoreSight peripheral identity register 0 specification",
+  "bit_fields": [
+    {
+      "name": "CTI_PIDR0",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "RM0438 2136/2187 RM0438 Rev 8 CTI CoreSight peripheral identity register 0 full-width value"
+    }
+  ],
+  "errata_notes": []
+}

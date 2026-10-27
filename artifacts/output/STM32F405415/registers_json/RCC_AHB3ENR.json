@@ -1,0 +1,19 @@
+{
+  "peripheral": "RCC",
+  "register_name": "RCC_AHB3ENR",
+  "long_name": "RCC AHB3 peripheral clo ck enable register (RCC_AHB3ENR)",
+  "address_offset": "0x38",
+  "reset_value": "0x00000000",
+  "description": "RCC AHB3 peripheral clo ck enable register specification",
+  "bit_fields": [
+    {
+      "name": "RCC_AHB3ENR",
+      "bit_offset": 0,
+      "bit_width": 32,
+      "access": "R/W",
+      "reset_value": "0x00000000",
+      "description": "RCC AHB3 peripheral clo ck enable register full-width value"
+    }
+  ],
+  "errata_notes": []
+}

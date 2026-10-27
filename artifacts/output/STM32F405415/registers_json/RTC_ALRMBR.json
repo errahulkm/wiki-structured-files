@@ -1,0 +1,91 @@
+{
+  "peripheral": "RTC",
+  "register_name": "RTC_ALRMBR",
+  "long_name": "Real-Time Clock (RTC) RTC_ALRMBR Register",
+  "address_offset": "0x20",
+  "reset_value": "0x00000000",
+  "description": "Real-Time Clock (RTC) RTC_ALRMBR hardware register",
+  "bit_fields": [
+    {
+      "name": "ALRAWF",
+      "bit_offset": 0,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alarm A write flag"
+    },
+    {
+      "name": "ALRBWF",
+      "bit_offset": 1,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alarm B write flag"
+    },
+    {
+      "name": "WUTWF",
+      "bit_offset": 2,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Wake-up timer write flag"
+    },
+    {
+      "name": "SHPF",
+      "bit_offset": 3,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Shift operation pending"
+    },
+    {
+      "name": "INITS",
+      "bit_offset": 4,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Initialization status flag"
+    },
+    {
+      "name": "RSF",
+      "bit_offset": 5,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Registers synchronization flag"
+    },
+    {
+      "name": "INITF",
+      "bit_offset": 6,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Initialization flag"
+    },
+    {
+      "name": "INIT",
+      "bit_offset": 7,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Initialization mode"
+    },
+    {
+      "name": "ALRAF",
+      "bit_offset": 8,
+      "bit_width": 1,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "Alarm A flag"
+    },
+    {
+      "name": "PREDIV_A[6",
+      "bit_offset": 16,
+      "bit_width": 7,
+      "access": "R/W",
+      "reset_value": "0",
+      "description": "0]: Asynchronous prescaler factor"
+    }
+  ],
+  "errata_notes": []
+}
