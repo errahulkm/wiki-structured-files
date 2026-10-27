@@ -16,10 +16,10 @@ from ..core.mcu_dna import extract_mcu_dna, MCUDNA
 from ..parsers.register_parser import RegisterParser
 
 
-class KarpathyWikiGenerator:
+class StructuredWikiGenerator:
     """Generates an exhaustive 7-layer Virtual Directory structure for MCU Reference Manuals."""
 
-    def __init__(self, output_root: str = "artifacts/output/karpathy-wiki",
+    def __init__(self, output_root: str = "artifacts/output/structured-wiki",
                  logger: Optional[WikiLogger] = None,
                  ref_pdf_path: Optional[str] = None) -> None:
         """Initializes generator with target output directory."""
@@ -780,3 +780,6 @@ Welcome to the automated 7-Layer Karpathy-Style Interlinked Documentation Wiki f
                         f_h.write(f"<!DOCTYPE html><html><head><title>{html_name}</title></head><body><h1>{html_name}</h1></body></html>")
 
         self.logger.info("Generated dynamic Master Map of Content (index.md).")
+ 
+# Backward compatibility alias
+KarpathyWikiGenerator = StructuredWikiGenerator

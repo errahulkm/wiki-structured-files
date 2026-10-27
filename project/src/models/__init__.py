@@ -1,5 +1,5 @@
 """
-Models package for STM32 Karpathy-Wiki Generator.
+Models package for STM32 Structured Wiki Generator.
 Defines Pydantic data schemas for registers, memory maps, per-file status, and execution state.
 """
 

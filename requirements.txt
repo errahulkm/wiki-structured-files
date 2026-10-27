@@ -1,4 +1,4 @@
-# Core MCU Reference Manual Parser & Karpathy-Wiki Generator Dependencies
+# Core MCU Reference Manual Parser & Structured Wiki Generator Dependencies
 pypdf>=5.0.0
 pymupdf>=1.24.0
 pdfplumber>=0.11.0

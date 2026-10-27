@@ -60,13 +60,13 @@ def launch_native_window(html_path: str, title: Optional[str] = None) -> None:
     mcu_info = detect_mcu_metadata(wiki_root=os.path.dirname(os.path.abspath(html_path)))
 
     if not title:
-        title = f"{mcu_info['mcu_family']} Karpathy-Wiki Multi-View Knowledge Graph (GPU Accelerated)"
+        title = f"{mcu_info['mcu_family']} Structured Wiki Multi-View Knowledge Graph (GPU Accelerated)"
 
     app = QApplication.instance()
     if not app:
         app = QApplication(sys.argv)
 
-    app.setApplicationName(f"{mcu_info['mcu_family']} Karpathy-Wiki Graph Engine")
+    app.setApplicationName(f"{mcu_info['mcu_family']} Structured Wiki Graph Engine")
 
     # Configure WebEngine Settings for WebGL and offline local assets
     profile = QWebEngineProfile.defaultProfile()
@@ -106,7 +106,7 @@ if __name__ == "__main__":
     if "--diagnose" in sys.argv:
         diag = run_gpu_diagnostics()
         print("=" * 70)
-        print("🛠  STM32 Karpathy-Wiki Universal GPU Diagnostics")
+        print("🛠  STM32 Structured Wiki Universal GPU Diagnostics")
         print("=" * 70)
         for k, v in diag.items():
             if isinstance(v, list):

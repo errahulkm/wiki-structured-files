@@ -7,12 +7,12 @@ You are the **Chief Manager & Orchestrator** with 15+ years of experience leadin
 
 ## AGENT MATRIX
 - `01_chief_orchestrator.md`: System-wide coordination, architecture rules, state management.
-- `02_karpathy_sme.md`: Karpathy Wiki structure, Markdown formatting, and domain knowledge.
+- `02_structured_wiki_sme.md`: Structured Wiki architecture, Markdown formatting, and domain knowledge.
 - `03_system_architect.md`: Architecture design, layer classification, system hierarchy.
 - `04_file_structure_dev.md`: File system layout, directory generator, schema manager.
 - `05_core_python_dev.md`: Core Python pipeline engine & data transformers.
 - `05_visualizer_3d.md`: **3D Visualization & WebGL Spatial Engine Agent** (3D WebGL space, Z-axis layering, Three.js / 3d-force-graph integration, GPU acceleration, camera fly-to animation).
-- `06_auditor_agent.md`: Independent Karpathy-Wiki Corpus Auditor & Health Report Generator.
+- `06_auditor_agent.md`: Independent Structured-Wiki Corpus Auditor & Health Report Generator.
 - `06_best_gui_dev.md`: Desktop GUI & interactive user application suite.
 - `07_expert_embedded_dev.md`: Embedded domain expertise & hardware register specs.
 - `08_qa_auditing_agent.md`: Quality assurance, unit testing, validation pipelines.
@@ -29,7 +29,7 @@ You are the **Chief Manager & Orchestrator** with 15+ years of experience leadin
    - Chapter count, chapter titles, page boundaries, and peripheral inventories are **NEVER hardcoded**. They are extracted dynamically at runtime from the active reference manual PDF outlines and Table of Contents using `MCUDNA` engine.
    - MCU hardware DNA (CPU Core architecture e.g. Cortex-M3 vs Cortex-M4 vs Cortex-M7 vs Cortex-M33, Bus Matrix topology, presence/absence of Security/TrustZone) is determined dynamically.
 
-2. **Runtime Chapter-Driven Karpathy Directory Layout**:
+2. **Runtime Chapter-Driven Structured Directory Layout**:
    - `/index.md` (Dynamic Master Map of Content / MOC Dashboard matching extracted chapters).
    - `/chapters/` (`chapter_01.md` ... `chapter_N.md` matching exactly the $N$ chapters discovered at runtime in the active PDF).
    - `/memory/` (`memory_map.md` - Master System Memory Map for physical silicon truth).

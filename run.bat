@@ -1,6 +1,6 @@
 @echo off
 rem ==============================================================================
-rem Zero-Friction One-Click Windows Launcher for STM32 Karpathy-Wiki Generator
+rem Zero-Friction One-Click Windows Launcher for STM32 Structured Wiki Generator
 rem Compatible with Windows 10, Windows 11, and Windows Server (CMD & PowerShell)
 rem ==============================================================================
 
@@ -8,7 +8,7 @@ setlocal enabledelayedexpansion
 cd /d "%~dp0"
 
 echo ======================================================================
-echo 🚀 Launching STM32 Karpathy-Wiki Generator ^& Multi-View Graph Engine
+echo 🚀 Launching STM32 Structured Wiki Generator ^& Multi-View Graph Engine
 echo ======================================================================
 
 rem 1. Check if Python is installed (check py launcher or python in PATH)

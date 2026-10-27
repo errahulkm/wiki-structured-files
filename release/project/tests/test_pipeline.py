@@ -1,6 +1,6 @@
 """
-Integration and Unit Tests for Karpathy Wiki Generator Pipeline.
-Tests hardware detection, Karpathy virtual directory tree initialization, register model schemas, and clean directory utilities.
+Integration and Unit Tests for Structured Wiki Generator Pipeline.
+Tests hardware detection, Structured virtual directory tree initialization, register model schemas, and clean directory utilities.
 """
 
 import os
@@ -8,7 +8,7 @@ import shutil
 import pytest
 
 from src.core.hardware_detector import detect_hardware_device
-from src.generators.wiki_generator import KarpathyWikiGenerator
+from src.generators.wiki_generator import StructuredWikiGenerator, KarpathyWikiGenerator
 from src.parsers.register_parser import RegisterParser
 from src.models.register_model import RegisterModel, RegisterBitField
 
@@ -22,10 +22,10 @@ def test_hardware_detection():
     assert isinstance(hw["gpu_available"], bool)
 
 
-def test_karpathy_wiki_directory_generation(tmp_path):
-    """Verifies creation of exact 5-layer Karpathy Virtual Directory layout."""
-    out_dir = str(tmp_path / "karpathy_test_wiki")
-    generator = KarpathyWikiGenerator(output_root=out_dir)
+def test_structured_wiki_directory_generation(tmp_path):
+    """Verifies creation of exact 5-layer Structured Virtual Directory layout."""
+    out_dir = str(tmp_path / "structured_test_wiki")
+    generator = StructuredWikiGenerator(output_root=out_dir)
     generator.build_directory_structure()
     generator.create_schema_md()
     generator.populate_initial_markdown_pages()
@@ -59,7 +59,7 @@ def test_karpathy_wiki_directory_generation(tmp_path):
 
 def test_register_parser_json_schema(tmp_path):
     """Verifies register parser output and JSON schema validity."""
-    out_dir = str(tmp_path / "karpathy_test_wiki")
+    out_dir = str(tmp_path / "structured_test_wiki")
     parser = RegisterParser(output_root=out_dir)
     sample_text = """
     ADC Control register (ADC_CR)
@@ -79,8 +79,8 @@ def test_register_parser_json_schema(tmp_path):
 
 def test_clean_output_directory_utility(tmp_path):
     """Verifies clean output directory purges files completely (including raw/) and supports skeleton rebuild."""
-    out_dir = str(tmp_path / "karpathy_test_wiki")
-    generator = KarpathyWikiGenerator(output_root=out_dir)
+    out_dir = str(tmp_path / "structured_test_wiki")
+    generator = StructuredWikiGenerator(output_root=out_dir)
     generator.build_directory_structure()
 
     # Create dummy artifact file and dummy raw file
@@ -112,7 +112,7 @@ def test_clean_output_directory_utility(tmp_path):
 
 def test_descending_bitfield_extraction(tmp_path):
     """Verifies descending bit range syntax (Bits 15:8) yields valid bit_offset and positive bit_width."""
-    out_dir = str(tmp_path / "karpathy_test_wiki")
+    out_dir = str(tmp_path / "structured_test_wiki")
     parser = RegisterParser(output_root=out_dir)
     sample_text = """
     Bits 15:8 SQ1: 1st conversion in regular sequence
@@ -130,9 +130,9 @@ def test_descending_bitfield_extraction(tmp_path):
 
 
 def test_knowledge_graph_visualizer(tmp_path):
-    """Verifies KnowledgeGraphVisualizer extracts nodes and edges from Karpathy Wiki structure."""
-    out_dir = str(tmp_path / "karpathy_test_wiki")
-    generator = KarpathyWikiGenerator(output_root=out_dir)
+    """Verifies KnowledgeGraphVisualizer extracts nodes and edges from Structured Wiki structure."""
+    out_dir = str(tmp_path / "structured_test_wiki")
+    generator = StructuredWikiGenerator(output_root=out_dir)
     generator.clean_output_directory()
     generator.populate_initial_markdown_pages()
 
@@ -149,14 +149,14 @@ def test_knowledge_graph_visualizer(tmp_path):
 
 
 def test_corpus_auditor_quality_score(tmp_path):
-    """Verifies Independent KarpathyWikiAuditor achieves >= 95% health score with zero broken links and valid schemas."""
-    out_dir = str(tmp_path / "karpathy_test_wiki")
-    generator = KarpathyWikiGenerator(output_root=out_dir)
+    """Verifies Independent StructuredWikiAuditor achieves >= 95% health score with zero broken links and valid schemas."""
+    out_dir = str(tmp_path / "structured_test_wiki")
+    generator = StructuredWikiGenerator(output_root=out_dir)
     generator.clean_output_directory()
     generator.populate_initial_markdown_pages()
 
-    from src.parsers.wiki_auditor import KarpathyWikiAuditor
-    auditor = KarpathyWikiAuditor(wiki_root=out_dir)
+    from src.parsers.wiki_auditor import StructuredWikiAuditor
+    auditor = StructuredWikiAuditor(wiki_root=out_dir)
     audit_res = auditor.run_full_audit()
 
     assert audit_res["overall_health_score"] >= 95.0

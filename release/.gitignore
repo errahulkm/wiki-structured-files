@@ -1,5 +1,5 @@
 # ==============================================================================
-# Git Ignore Configuration for STM32 Karpathy-Wiki Generator
+# Git Ignore Configuration for STM32 Structured Wiki Generator
 # ==============================================================================
 
 # Python Bytecode & Compilation Artifacts

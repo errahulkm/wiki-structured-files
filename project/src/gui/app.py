@@ -1,4 +1,4 @@
-from ..parsers.wiki_auditor import KarpathyWikiAuditor
+from ..parsers.wiki_auditor import StructuredWikiAuditor, KarpathyWikiAuditor
 
 import subprocess
 
@@ -19,8 +19,8 @@ def get_gpu_telemetry_str(default_device_name: str) -> str:
     except Exception:
         return f"🟢 GPU Accelerated: {default_device_name}"
 """
-CustomTkinter Desktop GUI for STM32 Karpathy-Wiki Generator.
-Focused exclusively on Reference Manual (RM0468) conversion into the Karpathy virtual directory tree.
+CustomTkinter Desktop GUI for STM32 Structured Wiki Generator.
+Focused exclusively on Reference Manual conversion into the Structured virtual directory tree.
 """
 
 import json
@@ -41,11 +41,11 @@ from ..core.mcu_detector import detect_mcu_metadata, validate_reference_manual
 from ..models.state_model import ProcessingStatus
 from ..parsers.docling_extractor import DoclingPDFExtractor
 from ..parsers.register_parser import RegisterParser
-from ..generators.wiki_generator import KarpathyWikiGenerator
+from ..generators.wiki_generator import StructuredWikiGenerator, KarpathyWikiGenerator
 from ..generators.cross_linker import CrossLinkerEngine
 
 
-class KarpathyWikiApp(ctk.CTk):
+class StructuredWikiApp(ctk.CTk):
     """Main CustomTkinter GUI Application Window."""
 
     def __init__(self) -> None:
@@ -53,7 +53,7 @@ class KarpathyWikiApp(ctk.CTk):
 
         self._settings_file = os.path.abspath("artifacts/gui_settings.json")
 
-        self.title("⚡ STM32 Karpathy-Wiki Generator & Corpus Builder")
+        self.title("⚡ STM32 Structured Wiki Generator & Corpus Builder")
         self.geometry(f"{THEME_CONFIG['window_width']}x{THEME_CONFIG['window_height']}")
         self.minsize(1080, 720)
 
@@ -69,7 +69,7 @@ class KarpathyWikiApp(ctk.CTk):
 
         # StringVars for dynamic label updates
         self.ref_manual_path = ctk.StringVar()
-        self.output_dir_path = ctk.StringVar(value=os.path.abspath("artifacts/output/karpathy-wiki"))
+        self.output_dir_path = ctk.StringVar(value=os.path.abspath("artifacts/output/structured-wiki"))
         self.engine_mode = ctk.StringVar(value="Docling (ML/OCR)")
         self.browser_mode = ctk.StringVar(value="🖥 Native Desktop Window (Local Qt6 GPU)")
         self.status_ref = ctk.StringVar(value="[Pending ⏳]")
@@ -169,7 +169,7 @@ class KarpathyWikiApp(ctk.CTk):
         self.mcu_info = mcu_info
 
         if hasattr(self, 'title_label') and self.title_label:
-            self.title_label.configure(text=f"⚡ {mcu_info['mcu_family']} Karpathy-Wiki Generator ({mcu_info['rm_number']} Engine)")
+            self.title_label.configure(text=f"⚡ {mcu_info['mcu_family']} Structured Wiki Generator ({mcu_info['rm_number']} Engine)")
         if hasattr(self, 'lbl_rm') and self.lbl_rm:
             self.lbl_rm.configure(text=f"Reference Manual ({mcu_info['rm_number']}):")
 
@@ -194,7 +194,7 @@ class KarpathyWikiApp(ctk.CTk):
 
         self.title_label = ctk.CTkLabel(
             header_frame,
-            text=f"⚡ {self.mcu_info['mcu_family']} Karpathy-Wiki Generator ({self.mcu_info['rm_number']} Engine)",
+            text=f"⚡ {self.mcu_info['mcu_family']} Structured Wiki Generator ({self.mcu_info['rm_number']} Engine)",
             font=ctk.CTkFont(size=20, weight="bold")
         )
         self.title_label.grid(row=0, column=0, padx=15, pady=(8, 2), sticky="w")
@@ -505,13 +505,13 @@ class KarpathyWikiApp(ctk.CTk):
         gpu_status = "CUDA Active" if self.hw_info["gpu_available"] else "CPU Fallback"
         
         details = f"""================================================================================
-            LIVE KARPATHY-WIKI DETAILED TELEMETRY VIEW (RM0468 ENGINE)
+            LIVE STRUCTURED WIKI DETAILED TELEMETRY VIEW ({self.mcu_info.get('rm_number', 'RM')})
 ================================================================================
 [HARDWARE ENGINE]
 - Device Acceleration: {gpu_name} ({gpu_status})
 - VRAM Allocated     : {self.hw_info['vram_gb']} GB
 
-[KARPATHY VIRTUAL DIRECTORY TREE]
+[STRUCTURED WIKI VIRTUAL DIRECTORY TREE]
 - Master Dashboard   : index.md (Map of Content)
 - Raw PDF Storage    : raw/RM0468_Reference_Manual.pdf
 - Memory Architecture: memory/memory_map.md
@@ -654,7 +654,7 @@ class KarpathyWikiApp(ctk.CTk):
             def _clean_worker():
                 t0 = time.time()
                 try:
-                    gen = KarpathyWikiGenerator(output_root=out_root)
+                    gen = StructuredWikiGenerator(output_root=out_root)
                     gen.clean_output_directory(purge_raw=True, recreate_skeleton=recreate_skeleton)
                     elapsed = time.time() - t0
                     remaining = os.listdir(out_root) if os.path.exists(out_root) else []
@@ -820,7 +820,7 @@ class KarpathyWikiApp(ctk.CTk):
         self.pause_btn.configure(state="normal")
         self.progress_bar.set(0.01)
         self.pct_str.set("1.0%")
-        self.status_label.configure(text=f"Status: Starting {mcu_info['display_title']} Karpathy-Wiki conversion...")
+        self.status_label.configure(text=f"Status: Starting {mcu_info['display_title']} Structured Wiki conversion...")
 
         self.worker_thread = threading.Thread(target=self._run_ingestion_worker, daemon=True)
         self.worker_thread.start()
@@ -837,7 +837,7 @@ class KarpathyWikiApp(ctk.CTk):
         self._start_pipeline()
 
     def _run_ingestion_worker(self) -> None:
-        """Background worker executing document ingestion into Karpathy Wiki layout with instant telemetry."""
+        """Background worker executing document ingestion into Structured Wiki layout with instant telemetry."""
         out_root = self.output_dir_path.get()
         ref_pdf = self.ref_manual_path.get()
         mcu_info = detect_mcu_metadata(source_hint=ref_pdf, wiki_root=out_root)
@@ -845,7 +845,7 @@ class KarpathyWikiApp(ctk.CTk):
         try:
             logger = WikiLogger(os.path.join(out_root, "log.md"))
             chk_mgr = CheckpointManager(output_root=out_root, logger=logger)
-            wiki_gen = KarpathyWikiGenerator(output_root=out_root, logger=logger)
+            wiki_gen = StructuredWikiGenerator(output_root=out_root, logger=logger)
             linker = CrossLinkerEngine(output_root=out_root, logger=logger)
             parser = RegisterParser(output_root=out_root, logger=logger)
 
@@ -867,12 +867,12 @@ class KarpathyWikiApp(ctk.CTk):
                 self.log_msg(stage_msg)
 
             # Immediate startup telemetry signal
-            step_progress_callback(1.0, f"🚀 Initializing {mcu_info['display_title']} Karpathy-Wiki Ingestion Engine...")
+            step_progress_callback(1.0, f"🚀 Initializing {mcu_info['display_title']} Structured Wiki Ingestion Engine...")
 
-            # 1. Build exact Karpathy virtual directory layout
+            # 1. Build exact Structured Wiki virtual directory layout
             wiki_gen.build_directory_structure()
             wiki_gen.create_schema_md()
-            step_progress_callback(2.0, "📂 Created Karpathy virtual directory structure...")
+            step_progress_callback(2.0, "📂 Created Structured Wiki virtual directory structure...")
 
             # 2. Copy source Reference Manual PDF into raw/
             file_map = {"ref_manual": ref_pdf}
@@ -949,11 +949,11 @@ class KarpathyWikiApp(ctk.CTk):
             self.eta_str.set("ETA: 00:00:00")
             self.speed_str.set("Speed: Finished")
             
-            self.status_label.configure(text=f"Status: {mcu_info['display_title']} Karpathy-Wiki Generation Complete! (Finished in {chk_mgr.format_elapsed_str()})")
-            self.log_msg(f"🎉 {mcu_info['display_title']} Karpathy-Wiki Built Successfully!")
+            self.status_label.configure(text=f"Status: {mcu_info['display_title']} Structured Wiki Generation Complete! (Finished in {chk_mgr.format_elapsed_str()})")
+            self.log_msg(f"🎉 {mcu_info['display_title']} Structured Wiki Built Successfully!")
             self.update_detailed_view("ALL PIPELINE STAGES PASSED 100% SUCCESS.")
 
-            messagebox.showinfo("Success", f"{mcu_info['display_title']} Karpathy-Wiki generated successfully in {chk_mgr.format_elapsed_str()} at:\n{out_root}")
+            messagebox.showinfo("Success", f"{mcu_info['display_title']} Structured Wiki generated successfully in {chk_mgr.format_elapsed_str()} at:\n{out_root}")
 
         except Exception as err:
             self.log_msg(f"ERROR: Processing failed: {err}")
@@ -1016,16 +1016,16 @@ class KarpathyWikiApp(ctk.CTk):
         t.start()
 
     def _on_run_audit_clicked(self) -> None:
-        """Runs independent KarpathyWikiAuditor in background thread and launches HTML report."""
+        """Runs independent StructuredWikiAuditor in background thread and launches HTML report."""
         if self.is_processing:
             self._show_modal_message("Audit Notice", "Please pause or complete ingestion before running the independent Auditor.")
             return
 
         def _worker():
             self.is_processing = True
-            self.log_msg("🔍 Starting Independent Karpathy-Wiki Corpus Audit...")
+            self.log_msg("🔍 Starting Independent Structured Wiki Corpus Audit...")
             try:
-                auditor = KarpathyWikiAuditor(
+                auditor = StructuredWikiAuditor(
                     wiki_root=self.output_dir_path.get(),
                     logger=self.logger
                 )
@@ -1051,7 +1051,7 @@ class KarpathyWikiApp(ctk.CTk):
                 r_path = report_path
                 self.after(0, lambda s=s_val, p=r_path: messagebox.showinfo(
                     "Audit Complete 🔍",
-                    f"Karpathy-Wiki Corpus Audit Complete!\n\n"
+                    f"Structured Wiki Corpus Audit Complete!\n\n"
                     f"Overall Health Score: {s}%\n"
                     f"Report File: {p}\n\n"
                     f"HTML report opened in default web browser."
@@ -1067,9 +1067,12 @@ class KarpathyWikiApp(ctk.CTk):
 
 
 def main() -> None:
-    app = KarpathyWikiApp()
+    app = StructuredWikiApp()
     app.mainloop()
 
+
+# Backward compatibility alias
+KarpathyWikiApp = StructuredWikiApp
 
 if __name__ == "__main__":
     main()

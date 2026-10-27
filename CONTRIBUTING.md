@@ -1,6 +1,6 @@
-# 🤝 Contributing to Karpathy-Wiki Silicon Engine
+# 🤝 Contributing to Wiki File Structured Silicon Engine
 
-First off, thank you for considering contributing to the **Karpathy-Wiki Silicon Engine**! It's people like you that make open source such an incredible tool for embedded engineers worldwide.
+First off, thank you for considering contributing to the **Wiki File Structured Silicon Engine**! It's people like you that make open source such an incredible tool for embedded engineers worldwide.
 
 ---
 
@@ -22,8 +22,8 @@ First off, thank you for considering contributing to the **Karpathy-Wiki Silicon
 
 1. Fork the repository and clone your fork locally:
    ```bash
-   git clone https://github.com/<your-username>/karpathy-wiki-file-ref-man.git
-   cd karpathy-wiki-file-ref-man
+   git clone https://github.com/<your-username>/wiki-file-structured-ref-man.git
+   cd wiki-file-structured-ref-man
    ```
 2. Launch via the zero-friction launcher:
    - **Windows**: `run.bat` or `.\run.ps1`

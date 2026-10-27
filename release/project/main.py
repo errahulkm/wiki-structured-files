@@ -10,10 +10,10 @@ import argparse
 # Ensure project root is in sys.path
 sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 
-from src.gui.app import KarpathyWikiApp
+from src.gui.app import StructuredWikiApp, KarpathyWikiApp
 from src.core.checkpoint_manager import CheckpointManager
 from src.core.logger import WikiLogger
-from src.generators.wiki_generator import KarpathyWikiGenerator
+from src.generators.wiki_generator import StructuredWikiGenerator, KarpathyWikiGenerator
 from src.generators.cross_linker import CrossLinkerEngine
 from src.parsers.docling_extractor import DoclingPDFExtractor
 from src.parsers.register_parser import RegisterParser
@@ -22,7 +22,7 @@ from src.parsers.register_parser import RegisterParser
 def run_headless_cli(ref_pdf: str, output_dir: str, clean_first: bool = False) -> None:
     """Executes ingestion pipeline in headless CLI mode."""
     logger = WikiLogger(os.path.join(output_dir, "wiki", "log.md"))
-    wiki_gen = KarpathyWikiGenerator(output_root=output_dir, logger=logger)
+    wiki_gen = StructuredWikiGenerator(output_root=output_dir, logger=logger)
 
     if clean_first:
         logger.info(f"Cleaning output directory: {output_dir}")
@@ -55,10 +55,10 @@ def run_headless_cli(ref_pdf: str, output_dir: str, clean_first: bool = False) -
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="STM32 Karpathy-Wiki Generator")
+    parser = argparse.ArgumentParser(description="STM32 Structured Wiki Generator")
     parser.add_argument("--cli", action="store_true", help="Run in headless CLI mode")
     parser.add_argument("--ref-manual", type=str, help="Path to Reference Manual PDF")
-    parser.add_argument("--output-dir", type=str, default="artifacts/output/karpathy-wiki", help="Output directory path")
+    parser.add_argument("--output-dir", type=str, default="artifacts/output/structured-wiki", help="Output directory path")
     parser.add_argument("--clean", action="store_true", help="Purge output directory before starting")
 
     args = parser.parse_args()
@@ -69,7 +69,7 @@ def main() -> None:
             sys.exit(1)
         run_headless_cli(args.ref_manual, args.output_dir, clean_first=args.clean)
     else:
-        app = KarpathyWikiApp()
+        app = StructuredWikiApp()
         app.mainloop()
 
 

@@ -18,7 +18,7 @@ from ..core.logger import WikiLogger
 from ..core.mcu_detector import detect_mcu_metadata
 
 
-class KarpathyWikiAuditor:
+class StructuredWikiAuditor:
     """
     Autonomous Auditor Engine that evaluates:
     1. Chapter Ground-Truth & Word-for-Word Text Coverage
@@ -29,7 +29,7 @@ class KarpathyWikiAuditor:
     6. Firmware Developer Reliability Index (FDRI)
     """
 
-    def __init__(self, wiki_root: str = "artifacts/output/karpathy-wiki",
+    def __init__(self, wiki_root: str = "artifacts/output/structured-wiki",
                  pdf_catalog_path: Optional[str] = None,
                  logger: Optional[WikiLogger] = None) -> None:
         self.wiki_root = os.path.abspath(wiki_root)
@@ -964,3 +964,6 @@ class KarpathyWikiAuditor:
                 pass
 
         return report_file
+ 
+# Backward compatibility alias
+KarpathyWikiAuditor = StructuredWikiAuditor

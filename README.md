@@ -15,7 +15,7 @@ Every year, millions of embedded firmware engineers, driver developers, and hard
 
 A single manual copy-paste error in a 32-bit register bitfield mask or an overlooked errata note causes catastrophic hardware lockups, burned silicon, and board re-spins costing anywhere from **$250,000 to $10,000,000+**.
 
-The **Karpathy-Wiki Silicon Engine** is an autonomous, GPU-accelerated ingestion pipeline that takes **any STMicroelectronics Reference Manual PDF** (e.g. STM32G4, STM32F4, STM32H7, STM32F1, STM32L4, STM32U3, STM32WL, etc.) and transforms it into an exhaustive, interconnected **12-Layer Digital Silicon Twin**, complete with:
+The **Wiki File Structured Silicon Engine** is an autonomous, GPU-accelerated ingestion pipeline that takes **any STMicroelectronics Reference Manual PDF** (e.g. STM32G4, STM32F4, STM32H7, STM32F1, STM32L4, STM32U3, STM32WL, etc.) and transforms it into an exhaustive, interconnected **12-Layer Digital Silicon Twin**, complete with:
 - **600+ Machine-Readable 32-Bit Register JSON Schemas** with verified MMIO offsets, reset values, and bitfield masks.
 - **Infinite-Resolution Native Vector SVGs** for clock trees and bus matrices that can be zoomed to 5,000% without blur.
 - **Interactive 3D WebGL Spatial Graph & 2D Radial Dendrograms** to fly through the chip architecture in real-time.
@@ -83,9 +83,9 @@ chmod +x run.sh
 
 ---
 
-## 📊 Comparison Matrix: Official ST Reference Manual vs Karpathy-Wiki
+## 📊 Comparison Matrix: Official ST Reference Manual vs Structured Silicon Wiki
 
-| Capability & Dimension | Official ST Reference Manual (PDF / Markdown) | Karpathy-Wiki Generated Engine | Commercial Impact & Value |
+| Capability & Dimension | Official ST Reference Manual (PDF / Markdown) | Structured Silicon Wiki Engine | Commercial Impact & Value |
 | :--- | :--- | :--- | :--- |
 | **Licensing** | Proprietary STMicroelectronics Copyright | **MIT License (Permissive & Open Source)** | Zero legal barriers for custom tooling & corporate adoption. |
 | **Register Data Structure** | Flat text tables embedded in 3,500-page PDF | **600+ Machine-Readable JSON Schemas** | Automated C/C++/Rust driver code generation in CI/CD. |
@@ -133,7 +133,7 @@ artifacts/output/<MCU_NAME>/
 ├── graph_view.html          # Interactive 3D WebGL / 2D Knowledge Graph Visualizer
 ├── audit_report.html        # Silicon Quality Health & Link Integrity Report
 ├── svg_validation_report.html # Vector SVG Verification Report
-└── benchmark_report.html    # Executive Benchmark Analysis (Karpathy vs ST Official MD)
+└── benchmark_report.html    # Executive Benchmark Analysis (Structured Wiki vs ST Official MD)
 ```
 
 ---

@@ -1,6 +1,6 @@
 #!/bin/bash
 # ==============================================================================
-# Zero-Friction One-Click Launcher for STM32 Karpathy-Wiki Generator & Graph Engine
+# Zero-Friction One-Click Launcher for STM32 Structured Wiki Generator & Graph Engine
 # ==============================================================================
 
 set -e
@@ -8,7 +8,7 @@ ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$ROOT_DIR"
 
 echo "======================================================================"
-echo "🚀 Launching STM32 Karpathy-Wiki Generator & Multi-View Graph Engine"
+echo "🚀 Launching STM32 Structured Wiki Generator & Multi-View Graph Engine"
 echo "======================================================================"
 
 # 1. Automatically setup Python virtual environment if missing

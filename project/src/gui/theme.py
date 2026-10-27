@@ -6,7 +6,7 @@ Defines color palettes, typography, and dark/light tokens for CustomTkinter.
 from typing import Dict, Any
 
 THEME_CONFIG: Dict[str, Any] = {
-    "app_name": "STM32 Karpathy-Wiki Generator",
+    "app_name": "STM32 Structured Wiki Generator",
     "window_width": 1200,
     "window_height": 820,
     "min_width": 1050,

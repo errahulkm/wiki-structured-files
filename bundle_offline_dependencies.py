@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Offline Wheelhouse Packager for STM32 Karpathy-Wiki Generator.
+Offline Wheelhouse Packager for STM32 Structured Wiki Generator.
 Downloads all required Python wheels into a local 'wheels/' directory
 for 100% offline, air-gapped, zero-internet deployment.
 """
