@@ -29,7 +29,8 @@ if %ERRORLEVEL% equ 0 (
     )
 )
 
-rem 2. Automatically setup Python virtual environment if missing
+rem 2. Automatically setup Python virtual environment and dependencies
+set "NEED_DEPS=0"
 if not exist "venv\Scripts\python.exe" (
     echo [INFO] Python virtual environment not found. Creating 'venv'...
     %PY_CMD% -m venv venv
@@ -38,7 +39,16 @@ if not exist "venv\Scripts\python.exe" (
         pause
         exit /b 1
     )
-    
+    set "NEED_DEPS=1"
+) else (
+    .\venv\Scripts\python.exe -c "import PyQt6, customtkinter, pydantic" >nul 2>&1
+    if !ERRORLEVEL! neq 0 (
+        echo [INFO] Detected incomplete or missing dependencies. Running automatic self-heal...
+        set "NEED_DEPS=1"
+    )
+)
+
+if "!NEED_DEPS!"=="1" (
     set "REQ_FILE=requirements.txt"
     if not exist "!REQ_FILE!" (
         set "REQ_FILE=project\requirements.txt"

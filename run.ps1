@@ -28,6 +28,7 @@ if ($IsWindows) {
 }
 
 # 2. Check if virtual environment exists; if not, create it
+$NeedDeps = $false
 if (-not (Test-Path $VenvPython)) {
     Write-Host "[INFO] Creating isolated Python virtual environment..." -ForegroundColor Yellow
     
@@ -52,7 +53,16 @@ if (-not (Test-Path $VenvPython)) {
     }
 
     Invoke-Expression "$SystemPython -m venv venv"
-    
+    $NeedDeps = $true
+} else {
+    & $VenvPython -c "import PyQt6, customtkinter, pydantic" 2>$null
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host "[INFO] Detected incomplete or missing dependencies. Running automatic self-heal..." -ForegroundColor Yellow
+        $NeedDeps = $true
+    }
+}
+
+if ($NeedDeps) {
     $ReqFile = Join-Path $ScriptDir "requirements.txt"
     if (-not (Test-Path $ReqFile)) {
         $ReqFile = Join-Path $ScriptDir "project\requirements.txt"
